@@ -8,6 +8,7 @@ description: Página del equipo de Ciencia de Datos de Conservación de Islas
 
 - [Página oficial de Conservación de Islas](https://islas.org.mx)
 - [Facebook](https://www.facebook.com/IslasGECI)
+- [Instagram](https://www.instagram.com/gecibc/)
 - [Twitter](https://twitter.com/IslasGECI)
 - [YouTube](https://www.youtube.com/channel/UChCwUNW27D50Bwh27U0lpfg)
 
