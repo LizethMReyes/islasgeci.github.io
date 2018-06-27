@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Conservación de Islas
+title: "@IslasGECI"
 description: Página del equipo de Ciencia de Datos de Conservación de Islas
 ---
 
