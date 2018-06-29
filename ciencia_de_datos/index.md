@@ -9,7 +9,7 @@ description: Página del equipo de Ciencia de Datos de Conservación de Islas
 
 - [Conservación de Islas en Bitbucket](https://bitbucket.org/IslasGECI/)
 - [Conservación de Islas en GitHub](https://github.com/IslasGECI)
-- [Guía de estilo](guia_de_estilo.html)
+- [Guía de estilo de Ciencia de Datos](guia_de_estilo.html)
 - [Protocolo para guardar datos en Excel](https://islasgeci.github.io/datos_en_excel)
 - [Sistema Integral de Administración de Proyectos](https://islasgeci.herokuapp.com)
 - [Slack](https://islas.slack.com)
