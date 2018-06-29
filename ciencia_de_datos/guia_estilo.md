@@ -7,9 +7,9 @@ description: Este documento extiende las guías de estilo adoptadas por el equip
 
 ## Contenido
 
-- [Introducción](#introduccion)
+- [Introducción](#introducción)
 - [Carpetas de trabajo](#estructura-de-las-carpetas-de-trabajo)
-- [Documentación](#documentacion)
+- [Documentación](#documentación)
 - [Nomenclatura](#nomenclatura)
 - [Control de versiones](#control-de-versiones)
 - [Formato de los archivos](#formato-de-los-archivos)
