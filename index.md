@@ -10,6 +10,7 @@ description: Página del equipo de Ciencia de Datos de Conservación de Islas
 - [Facebook](https://www.facebook.com/IslasGECI)
 - [Instagram](https://www.instagram.com/gecibc/)
 - [Slack](https://islas.slack.com)
+- [Trello](https://trello.com/islasgeci)
 - [Twitter](https://twitter.com/IslasGECI)
 - [YouTube](https://www.youtube.com/channel/UChCwUNW27D50Bwh27U0lpfg)
 
