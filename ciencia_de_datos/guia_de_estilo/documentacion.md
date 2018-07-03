@@ -288,6 +288,6 @@ c <- add(2,3)
 
 ---
 
-&#8811; Siguiente: [Nomenclatura](nomenclatura.html) &#8811;
+&#8811; Siguiente: [Nomenclatura](nomenclatura.html)
 
-&#8810; Anterior: [Estructura de los directorios](estructura.html) &#8810;
+&#8810; Anterior: [Estructura de los directorios](estructura.html)

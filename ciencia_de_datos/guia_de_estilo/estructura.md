@@ -80,6 +80,6 @@ La carpeta `referencias/` contiene artículos, libros y notas que son relevantes
 
 ---
 
-&#8811; Siguiente: [Documentación](documentacion.html) &#8811;
+&#8811; Siguiente: [Documentación](documentacion.html)
 
-&#8810; Anterior: [Introducción](introduccion.html) &#8810;
+&#8810; Anterior: [Introducción](introduccion.html)

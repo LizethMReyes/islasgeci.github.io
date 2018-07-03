@@ -15,6 +15,6 @@ Los datos se prefieren en texto simple (csv, json, etc.) sobre los archivos bina
 
 ---
 
-&#8811; Siguiente: [Contenido](index.html) &#8811;
+&#8811; Siguiente: [Contenido](index.html)
 
-&#8810; Anterior: [Control de versiones](control_de_versiones.html) &#8810;
+&#8810; Anterior: [Control de versiones](control_de_versiones.html)

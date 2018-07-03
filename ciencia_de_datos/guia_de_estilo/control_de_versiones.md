@@ -37,6 +37,6 @@ Hay dos ramas principales: _default_ y _stable_. La rama _default_ es la rama no
 
 ---
 
-&#8811; Siguiente: [Formato de los archivos](formato_de_archivos.html) &#8811;
+&#8811; Siguiente: [Formato de los archivos](formato_de_archivos.html)
 
-&#8810; Anterior: [Nomenclatura](nomenclatura.html) &#8810;
+&#8810; Anterior: [Nomenclatura](nomenclatura.html)

@@ -16,6 +16,6 @@ description: Este documento extiende las guías de estilo adoptadas por el equip
 
 ---
 
-&#8811; Siguiente: [Introducción](introduccion.html) &#8811;
+&#8811; Siguiente: [Introducción](introduccion.html)
 
-&#8810; Anterior: [Ciencia de Datos en GECI](../) &#8810;
+&#8810; Anterior: [Ciencia de Datos en GECI](../)

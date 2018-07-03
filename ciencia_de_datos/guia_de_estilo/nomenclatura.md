@@ -95,6 +95,6 @@ nombre de la variable por un guión bajo. Ejemplos: `distancia_m`,
 
 ---
 
-&#8811; Siguiente: [Control de versiones](control_de_versiones.html) &#8811;
+&#8811; Siguiente: [Control de versiones](control_de_versiones.html)
 
-&#8810; Anterior: [Documentación](documentacion.html) &#8810;
+&#8810; Anterior: [Documentación](documentacion.html)

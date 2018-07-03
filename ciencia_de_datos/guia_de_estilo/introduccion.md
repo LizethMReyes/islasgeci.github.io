@@ -16,6 +16,6 @@ Las guías de estilo anteriores no son exhaustivas y este documento las extiende
 
 ---
 
-&#8811; Siguiente: [Estructura de los directorios](estructura.html) &#8811;
+&#8811; Siguiente: [Estructura de los directorios](estructura.html)
 
-&#8810; Anterior: [Contenido](index.html) &#8810;
+&#8810; Anterior: [Contenido](index.html)
