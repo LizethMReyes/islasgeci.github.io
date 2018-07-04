@@ -42,7 +42,7 @@ El archivo `Makefile` tiene las siguientes secciones:
 
 #### Variables
 
-Los nombres de las variables que dentro del `Makefile` definen un conjunto de archivos están formado por cinco elementos, son en español y _lowerCamelCase_.
+Los nombres de las variables que dentro del `Makefile` definen un conjunto de archivos están formado por cinco elementos, son en español y [_lowerCamelCase_](https://en.wikipedia.org/wiki/Camel_case).
 
 Para **datos** se nombran como:
 
@@ -70,7 +70,7 @@ El nombre de un programa que genera resultados debe coincidir con el nombre de l
 
 #### Objetivos _phonies_
 
-
+Los nombres de los objetivos _phonies_ son sustantivos o adjetivos en inglés. Si el sustantivo se omite, se entiende que el adjetivo se refiere al repositorio. Los nombres son en [_snake_case_](https://en.wikipedia.org/wiki/Snake_case).
 
 ### Ejemplo
 
