@@ -77,28 +77,28 @@ Los nombres de los objetivos _phonies_ son sustantivos o adjetivos en inglés. S
 Revisa [este ejemplo](https://bitbucket.org/analislas/analisis/src/default/referencias/ejemplo-makefile).
 
 ## `README.md`
-Ver la sección [`README.md`](https://bitbucket.org/analislas/analisis#readmemd) anterior.
+Ver la sección [`README.md`](https://bitbucket.org/IslasGECI/analisis/src/default/README.md#markdown-header-readmemd) anterior.
 
 ## Datos
-Ver la sección [Obtención de Datos](https://bitbucket.org/analislas/analisis#obtencion-de-datos).
+Ver la sección [Obtención de Datos](https://bitbucket.org/IslasGECI/analisis/src/default/README.md#markdown-header-obtencion-de-datos).
 
 ## Programas
 Los programas de R se guardan en `R/`, mientras que los programas de MATLAB se guardan en `MATLAB/programas/`.
 
-Los programas usan las [funciones](https://bitbucket.org/analislas/analisis#funciones) para generar los [resultados](https://bitbucket.org/analislas/analisis#resultados) que se guardan en la carpeta `resultados/`.
+Los programas usan las [funciones](https://bitbucket.org/IslasGECI/analisis/src/default/README.md#markdown-header-funciones) para generar los [resultados](https://bitbucket.org/IslasGECI/analisis/src/default/README.md#markdown-header-resultados) que se guardan en la carpeta `resultados/`.
 
 ## Resultados
-Ver la sección [Producción de resultados](https://bitbucket.org/analislas/analisis#produccion-de-resultados).
+Ver la sección [Producción de resultados](https://bitbucket.org/IslasGECI/analisis/src/default/README.md#markdown-header-produccion-de-resultados).
 
 ## Entrega
-Ver la sección [Redacción de reporte](https://bitbucket.org/analislas/analisis#redaccion-de-reporte).
+Ver la sección [Redacción de reporte](https://bitbucket.org/IslasGECI/analisis/src/default/README.md#markdown-header-redaccion-de-reporte).
 
 ## Funciones
-Cada una de las funciones creadas para generar los resultados se guarda en un archivo aparte. El nombre del archivo y el nombre de la función debe ser el mismo. Los nombres de las funciones y de las variables dentro de las funciones deben seguir la [guía para nomenclatura](https://bitbucket.org/analislas/analisis#nomenclatura).
+Cada una de las funciones creadas para generar los resultados se guarda en un archivo aparte. El nombre del archivo y el nombre de la función debe ser el mismo. Los nombres de las funciones y de las variables dentro de las funciones deben seguir la [guía para nomenclatura](https://bitbucket.org/IslasGECI/analisis/src/default/README.md#markdown-header-nomenclatura).
 
 Las funciones de R se guardan en `R/`, mientras que las funciones de MATLAB se guardan en `MATLAB/funciones/`.
 
-Todas las funciones deben ser documentadas siguiendo la [guía para documentación](https://bitbucket.org/analislas/analisis#documentacion). La documentación de las funciones de R se escribe en formato Roxygen.
+Todas las funciones deben ser documentadas siguiendo la [guía para documentación](https://bitbucket.org/IslasGECI/analisis/src/default/README.md#markdown-header-documentacion). La documentación de las funciones de R se escribe en formato Roxygen.
 
 Cada función, cuando es posible, recibe como primer argumento entrada y devuelve como primer argumento de salida una tabla que pasa la prueba `checkTable`.
 
@@ -106,10 +106,10 @@ Cada función, cuando es posible, recibe como primer argumento entrada y devuelv
 Las clases de MATLAB se guardan en `MATLAB/clases/`.
 
 ## Demostraciones
-Ver la sección [Creación de Pruebas y Demostraciones](https://bitbucket.org/analislas/analisis#creacion-de-pruebas-y-demostraciones).
+Ver la sección [Creación de Pruebas y Demostraciones](https://bitbucket.org/IslasGECI/analisis/src/default/README.md#markdown-header-creacion-de-pruebas-y-demostraciones).
 
 ## Pruebas
-Ver la sección [Creación de Pruebas y Demostraciones](https://bitbucket.org/analislas/analisis#creacion-de-pruebas-y-demostraciones).
+Ver la sección [Creación de Pruebas y Demostraciones](https://bitbucket.org/IslasGECI/analisis/src/default/README.md#markdown-header-creacion-de-pruebas-y-demostraciones).
 
 ## Referencias
 La carpeta `referencias/` contiene artículos, libros y notas que son relevantes para el proyecto en general y, en particular, para los resultados que estamos produciendo. Aquí se encuentran los artículos que se citan en los reportes y presentaciones que se encuentran en `entrega/`.
