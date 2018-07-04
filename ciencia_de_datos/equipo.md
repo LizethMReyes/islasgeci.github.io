@@ -16,3 +16,7 @@ Los miebros del equipo de Ciencia de Datos en GECI somos:
 [<img src="https://avatars0.githubusercontent.com/u/35377740?s=48&v=4" alt="Nepo Rojas" width="48px"/> **Nepo Rojas**](https://github.com/nepito)
 
 [![Efren Cabrera](https://avatars1.githubusercontent.com/u/13933998?s=48&v=4 "efren-cabrera") **Efren Cabrera**](https://github.com/efren-cabrera)
+
+---
+
+[&#8810; Ciencia de Datos en GECI](index.html)
