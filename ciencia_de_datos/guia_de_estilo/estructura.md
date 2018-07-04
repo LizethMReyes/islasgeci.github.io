@@ -42,12 +42,31 @@ El archivo `Makefile` tiene las siguientes secciones:
 
 #### Variables
 
-Los nombres de las variables que dentro del `Makefile` definen un conjunto de archivos están formado por cinco elementos, son en español y _lowerCamelCase_:
+Los nombres de las variables que dentro del `Makefile` definen un conjunto de archivos están formado por cinco elementos, son en español y _lowerCamelCase_.
 
-    - Para datos se nombran como: formato, tipo de monitoreo (o simplemente la palabra `Datos`), variable(s), especie (o grupo) y región geográfica. E.g. `xlsxCensoNidosAlbatrosGuadalupe`, `xlsxBusquedaMadriguerasMerguloGuadalupe`
-    - Para resultados se nombran como: formato, tipo de resultado, variable(s), especie (o grupo) y región geográfica. E.g. `pngMapasDensidadAlbatrosGuadalupe`.
-    - Se pueden omitir las palabras reduntantes que se incluyan en el nombre del repositorio
-- El nombre de un programa que genera resultados debe coincidir con el nombre de la variable en el `Makefile` que define el conjunto de resultados que el programa genera (excepto tal vez por algunas omisiones para evitar redundancias). E.g. el programa que genera `pngMapasDensidadAlbatrosGuadalupe` se debe llamar `generaMapasDensidadAlbatrosGuadalupe`; en este ejemplo se omite el formato `PNG` del nombre porque el mismo programa también genera los resultados en formato `SHP` definidos por `shpMapasDensidadAlbatrosGuadalupe`.
+Para **datos** se nombran como:
+
+- formato
+- variable(s)
+- tipo de monitoreo (o simplemente la palabra `Datos`)
+- especie (o grupo)
+- región geográfica
+
+Ejemplos: `xlsxNidosCensoAlbatrosGuadalupe`, `xlsxMadriguerasBusquedaMerguloGuadalupe`
+
+Para **resultados** se nombran como:
+
+- formato
+- variable(s)
+- tipo de resultado
+- especie (o grupo)
+- región geográfica
+
+Ejemplo: `pngDensidadMapasAlbatrosGuadalupe`.
+
+En ambos casos se pueden omitir las palabras reduntantes que se incluyan en el nombre del repositorio
+
+El nombre de un programa que genera resultados debe coincidir con el nombre de la variable en el `Makefile` que define el conjunto de resultados que el programa genera (excepto tal vez por algunas omisiones para evitar redundancias). E.g. el programa que genera `pngMapasDensidadAlbatrosGuadalupe` se debe llamar `generaMapasDensidadAlbatrosGuadalupe`; en este ejemplo se omite el formato `PNG` del nombre porque el mismo programa también genera los resultados en formato `SHP` definidos por `shpMapasDensidadAlbatrosGuadalupe`.
 
 #### Objetivos _phonies_
 
