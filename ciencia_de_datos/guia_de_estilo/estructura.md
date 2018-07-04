@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Estructura de los directorios
-tagline: [Guía de estilo](..)
+tagline: Guía de estilo
 description: Este documento extiende las guías de estilo adoptadas por el equipo de Ciencia de Datos de GECI
 ---
 
