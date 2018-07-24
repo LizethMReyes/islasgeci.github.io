@@ -28,15 +28,51 @@ Los nombres de los archivos que contienen pruebas deben seguir las reglas de nom
 - Nombres en _lowerCamelCase_ (sin espacios)
 - Nombres pueden incluir únicamente letras (excepto eñe y vocales con acento) y números
 
-## Otros programas
+## Makefile
+
+### Variables dentro del Makefile
+
+Los nombres de las variables que dentro del `Makefile` definen un conjunto de archivos están formado por cinco elementos, son en español y [_lowerCamelCase_](https://en.wikipedia.org/wiki/Camel_case).
+
+Las variables que definen conjuntos de archivos de **datos** se nombran como:
+
+- formato
+- variable(s)
+- tipo de monitoreo (o simplemente la palabra `Datos`)
+- especie (o grupo)
+- región geográfica
+
+Ejemplos: `xlsxNidosCensoAlbatrosGuadalupe`, `xlsxMadriguerasBusquedaMerguloGuadalupe`
+
+Las variables que definen conjuntos de archivos de **resultados** se nombran como:
+
+- formato
+- variable(s)
+- tipo de resultado
+- especie (o grupo)
+- región geográfica
+
+Ejemplo: `pngDensidadMapasAlbatrosGuadalupe`.
+
+En ambos casos se pueden omitir las palabras reduntantes que se incluyan en el nombre del repositorio
+
+### Objetivos _phonies_
+
+Los nombres de los objetivos _phonies_ son sustantivos o adjetivos en inglés. Si el sustantivo se omite, se entiende que el adjetivo se refiere al repositorio. Los nombres son en [_snake_case_](https://en.wikipedia.org/wiki/Snake_case).
+
+## Programas
+
 - Empiezan con un verbo
 - Nombres en español
 - Nombres en _lowerCamelCase_ (sin espacios)
 - Nombres pueden incluir únicamente letras (excepto eñe y vocales con acento) y números
 
+El nombre de un programa que genera resultados debe coincidir con el nombre de la variable en el `Makefile` que define el conjunto de resultados que el programa genera (excepto tal vez por algunas omisiones para evitar redundancias). E.g. el programa que genera los resultados definidos por la variable `pngDensidadMapasAlbatrosGuadalupe` se debe llamar `graficaDensidadMapasAlbatrosGuadalupe`; en este ejemplo se omite el formato `PNG` del nombre porque el mismo programa también genera los resultados en formato `SHP` definidos por la variable `shpDensidadMapasAlbatrosGuadalupe`.
+
 ## Otros archivos y directorios
+
 - Los nombres no incluyen espacios
-- Se pueden usar guiones bajos (`_`) para separar palabras
+- Sólo puedes usar guiones bajos (`_`) para separar palabras ([_snake_case_](https://en.wikipedia.org/wiki/Snake_case))
 - Todo el nombre está escrito en minúsculas solamente (excepto cuando sea requiera lo contrario de forma explícita)
 - Los nombres pueden incluir únicamente letras minúsculas (excepto eñe y vocales con acento), números o guiones bajos (`_`)
 - Si el nombre del archivo incluye una fecha, usa el formato `YYYY-MM-DD` (año-mes-día) o `YYYYMMDD` (añomesdía)

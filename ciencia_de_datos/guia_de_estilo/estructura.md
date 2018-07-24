@@ -38,43 +38,10 @@ El archivo `Makefile` tiene las siguientes secciones:
 1. Reglas para construir las dependencias de los objetivos principales (en orden de aparición en la sección anterior)
 1. Reglas del resto de los _phonies_
 
-### Nomenclatura
+**Referencias:**
 
-#### Variables
-
-Los nombres de las variables que dentro del `Makefile` definen un conjunto de archivos están formado por cinco elementos, son en español y [_lowerCamelCase_](https://en.wikipedia.org/wiki/Camel_case).
-
-Para **datos** se nombran como:
-
-- formato
-- variable(s)
-- tipo de monitoreo (o simplemente la palabra `Datos`)
-- especie (o grupo)
-- región geográfica
-
-Ejemplos: `xlsxNidosCensoAlbatrosGuadalupe`, `xlsxMadriguerasBusquedaMerguloGuadalupe`
-
-Para **resultados** se nombran como:
-
-- formato
-- variable(s)
-- tipo de resultado
-- especie (o grupo)
-- región geográfica
-
-Ejemplo: `pngDensidadMapasAlbatrosGuadalupe`.
-
-En ambos casos se pueden omitir las palabras reduntantes que se incluyan en el nombre del repositorio
-
-El nombre de un programa que genera resultados debe coincidir con el nombre de la variable en el `Makefile` que define el conjunto de resultados que el programa genera (excepto tal vez por algunas omisiones para evitar redundancias). E.g. el programa que genera `pngMapasDensidadAlbatrosGuadalupe` se debe llamar `generaMapasDensidadAlbatrosGuadalupe`; en este ejemplo se omite el formato `PNG` del nombre porque el mismo programa también genera los resultados en formato `SHP` definidos por `shpMapasDensidadAlbatrosGuadalupe`.
-
-#### Objetivos _phonies_
-
-Los nombres de los objetivos _phonies_ son sustantivos o adjetivos en inglés. Si el sustantivo se omite, se entiende que el adjetivo se refiere al repositorio. Los nombres son en [_snake_case_](https://en.wikipedia.org/wiki/Snake_case).
-
-### Ejemplo
-
-Revisa [este ejemplo](https://bitbucket.org/analislas/analisis/src/default/referencias/ejemplo-makefile).
+- [Nomenclatura](nomenclatura.html)
+- [Ejemplo de Makefile](https://bitbucket.org/IslasGECI/analisis/src/default/referencias/ejemplo-makefile).
 
 ## `README.md`
 Ver la sección [`README.md`](https://bitbucket.org/IslasGECI/analisis/src/default/README.md#markdown-header-readmemd) anterior.
