@@ -4,8 +4,21 @@ title: Nomenclatura
 tagline: Guía de estilo
 description: Este documento extiende las guías de estilo adoptadas por el equipo de Ciencia de Datos de GECI
 ---
+## Archivos de datos
+
+Consulta nuestro protocolo para [nombrar un archivo de datos](https://islasgeci.github.io/datos_en_excel/protocolo/nomenclatura.html).
+
+## Programas
+
+- Empiezan con un verbo
+- Nombres en español
+- Nombres en _lowerCamelCase_ (sin espacios)
+- Nombres pueden incluir únicamente letras (excepto eñe y vocales con acento) y números
+
+El nombre de un programa que genera resultados debe coincidir con el nombre de la variable en el `Makefile` que define el conjunto de resultados que el programa genera (excepto tal vez por algunas omisiones para evitar redundancias). E.g. el programa que genera los resultados definidos por la variable `pngDensidadMapasAlbatrosGuadalupe` se debe llamar `graficaDensidadMapasAlbatrosGuadalupe`; en este ejemplo se omite el formato `PNG` del nombre porque el mismo programa también genera los resultados en formato `SHP` definidos por la variable `shpDensidadMapasAlbatrosGuadalupe`.
 
 ## Funciones
+
 - Los nombres de las funciones se escriben en inglés
 - El nombre debe estar compuesto por un verbo seguido de un objeto.
 Ejemplos: `processData()`, `petDog()`. Si la función realiza tantas
@@ -21,11 +34,12 @@ square(numero)`
 Ejemplos: `esPerro = isDog(perroGris)`
 
 ## Pruebas
+
 Los nombres de los archivos que contienen pruebas deben seguir las reglas de nomenclatura del _testing framework_ que se use. Si el _testing framework_ lo permite, se seguirán las siguiente reglas:
 
-- Se usa el prefijo `test`, por ejemplo, `testIslas`
+- Se usa el prefijo `test_`, por ejemplo, `test_plotIsland`
 - Nombres en inglés
-- Nombres en _lowerCamelCase_ (sin espacios)
+- Nombres en _lowerCamelCase_ (excepto por el guión bajo del prefijo `test_`)
 - Nombres pueden incluir únicamente letras (excepto eñe y vocales con acento) y números
 
 ## Makefile
@@ -60,15 +74,6 @@ En ambos casos se pueden omitir las palabras reduntantes que se incluyan en el n
 
 Los nombres de los objetivos _phonies_ son sustantivos o adjetivos en inglés. Si el sustantivo se omite, se entiende que el adjetivo se refiere al repositorio. Los nombres son en [_snake_case_](https://en.wikipedia.org/wiki/Snake_case).
 
-## Programas
-
-- Empiezan con un verbo
-- Nombres en español
-- Nombres en _lowerCamelCase_ (sin espacios)
-- Nombres pueden incluir únicamente letras (excepto eñe y vocales con acento) y números
-
-El nombre de un programa que genera resultados debe coincidir con el nombre de la variable en el `Makefile` que define el conjunto de resultados que el programa genera (excepto tal vez por algunas omisiones para evitar redundancias). E.g. el programa que genera los resultados definidos por la variable `pngDensidadMapasAlbatrosGuadalupe` se debe llamar `graficaDensidadMapasAlbatrosGuadalupe`; en este ejemplo se omite el formato `PNG` del nombre porque el mismo programa también genera los resultados en formato `SHP` definidos por la variable `shpDensidadMapasAlbatrosGuadalupe`.
-
 ## Otros archivos y directorios
 
 - Los nombres no incluyen espacios
@@ -78,7 +83,8 @@ El nombre de un programa que genera resultados debe coincidir con el nombre de l
 - Si el nombre del archivo incluye una fecha, usa el formato `YYYY-MM-DD` (año-mes-día) o `YYYYMMDD` (añomesdía)
 
 ## Variables
-- Los nombres de las variables se escriben en español.
+
+- Los nombres de las variables se escriben en español
 - Deben ser nombres descriptivos y, en general, sin abreviaturas. Las excepciones serán consensuadas. Actualmente, las únicas abreviaturas aceptadas son:
     - `LEO`: Local Environmental Observer
     - `TSM`: Temperatura Superficial del Mar
@@ -95,11 +101,10 @@ El nombre de un programa que genera resultados debe coincidir con el nombre de l
     - `Lat`: Vector de coordenadas geográficas meridionales (usualmete equiespeciadas) que definen el dominio o eje. Salida del método `getAxisLat`
     - `LON`: Malla de coordenadas geográficas zonales. Salida del método `getGridLON`
     - `LAT`: Malla de coordenadas geográficas meridionales. Salida del método `getGridLAT`
-
 - La primer letra de cada palabra en mayúsculas, excepto en la primer
 palabra ([lowerCamelCase](http://es.wikipedia.org/wiki/CamelCase)).
 Ejemplos: `tiempo`, `distanciaHorizontal`, `perroGris`
-- En MATLAB, si la variable es una estructura (clase `struct`) o una tabla (clase `table`) también la primer letra de la primer
+- En MATLAB, si la variable es una estructura (clase `struct`), una tabla (clase `table`) o una de las clases creadas por el equipo de Ciencia de Datos, entonces también la primer letra de la primer
 palabra es mayúscula ([UpperCamelCase](http://es.wikipedia.org/wiki/CamelCase)). Ejemplos: `PerroGris.estatura`,
 `PerroGris.nombreCompleto`, `PerroGris.ComidaFavorita.desayuno`
 - Si la variable representa el número total de elementos de un conjunto
@@ -113,17 +118,18 @@ Ejemplo: `indPerro = find(esPerro)`
 - Se indican la unidades de las variables con un sufijo separado del
 nombre de la variable por un guión bajo. Ejemplos: `distancia_m`,
 `peso_kg`, `tiempo_s`
-- Para nombrar variables dentro del `Makefile` sigue [esta guía](estructura.html#makefile)
 
 ## Programación Orientada a Objetos
+
 - Los nombres de las clases son sustantivos en inglés y en UpperCamelCase;
 - los nombres de los objetos en español y en UpperCamelCase;
 - los nombres de los métodos inician con verbos, son en inglés y en lowerCameslCase;
 - los nombres de los atributos son en español y en lowerCamelCase.
 
 ## Archivos que contengan un conjunto de funciones
-* Se debe llamar igual que el repositorio a donde pertenecen
-* En el caso de Python, se debe evitar importar todas las funciones al namespace global (`from datos-netcdf import *`), se prefiere importar cada una de forma individual. Ejemplo `from datos-netcdf import makeAnualDirs`
+
+- Se debe llamar igual que el repositorio a donde pertenecen
+- En el caso de Python, se debe evitar importar todas las funciones al namespace global (`from datos-netcdf import *`), se prefiere importar cada una de forma individual. Ejemplo `from datos-netcdf import makeAnualDirs`
 
 ---
 
