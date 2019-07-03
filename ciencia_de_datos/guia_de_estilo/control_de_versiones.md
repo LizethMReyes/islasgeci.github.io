@@ -54,8 +54,8 @@ Hay tres ramas con nombre: _features_, _develop_ y _default_. La rama _features_
 
 ```bash
 hg update develop
-hg merge feature/tareaXXX
-hg commit -m "Agrega tarea XXX aprobada en columna YYY"
+hg merge feature/nombre_de_la_tarea
+hg commit -m "Agrega [nombre de la tarea] aprobada en columna [nombre de la columna]"
 ```
 
 Además, también deberás fusionar la tarea aprobada en cada cabeza de la rama _features_ (si acaso existe más de una cabeza). Pide permiso al equipo antes de fusionar cualquier cambio en las cabezas de _features_ ya que más de una cabeza significa que alguien está trabajando en el mismo repositorio. En caso de conflicto en los cambios introducidos, trabajaran juntos quienes trabajan en cada cabeza para incorporar los cambios. Los cambios introducidos por la cabeza con la tarea aprobada tienen prioridad sobre el resto de los cambios, es decir, la cabeza recién aprobada tiene prioridad. Cada vez que se abruebe una tarea quedará una cabeza menos en _features_ (hasta que quede una única cabeza).
