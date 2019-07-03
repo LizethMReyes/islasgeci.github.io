@@ -32,17 +32,11 @@ Las etiquetas (_tags_) se usan para indicar el número de versión siguiendo [ve
 
 ### Ramas en repos clase 1
 
-Hay dos ramas principales: _development_ y _default_. La rama _development_ es la rama de desarrollo normal; mientras que la rama _default_ sólo contiene revisiones donde se verificó que las pruebas pasan.
+En los repos clase 1 usamos GitFlow como lo muestra el diagrama de abajo.
 
-**Siempre** debes trabajar en la rama _development_. **Nunca** debes trabajar en la rama _default_. Cuando termines un _issue_, debes pedir a otro analista que revise y apruebe tu revisión. El proceso de revisión sucede en la rama _development_. Te recominedo que uses _bookmarks_ en la rama _development_ para comunicar a tu revisor cuál _issue_ te están revisando. Una vez que tu tarea haya sido aprobada, debes llevarte hacia la rama _default_ la revisión aprobada. La rama _default_ sólo avanza mediante _merge_.
+![GitFlow](https://wpdevkvk.files.wordpress.com/2017/03/diagram.png?resize=900%2C506)
 
-```bash
-hg update default
-hg merge development
-hg commit -m "Resuelve issue #XXX"
-```
-
-Además, también deberás fusionar la revisión aprobada en cada cabeza de la rama _default_ (si acaso existe más de una cabeza en la rama _default_). Pide permiso al equipo antes de fusionar cualquier cambio en las cabezas de _default_ ya que más de una cabeza significa que alguien está trabajando en el mismo repositorio. En caso de conflicto en los cambios introducidos, trabajaran juntos quienes trabajan en cada cabeza para incorporar los cambios. Los cambios introducidos por la cabeza con la revisión aprobada tienen prioridad sobre el resto de los cambios, es decir, la cabeza recién aprobada tiene prioridad. Cada vez que se abruebe una revisión quedará una cabeza menos en _development_ (hasta que quede una única cabeza).
+Para pasar (_merge_) los cambios de una _feature_ a la rama _develop_, los cambios deben ser aprobados en revisión por pares mediante un _pull request_.
 
 ### Ramas en repos clase 2 y 3
 
