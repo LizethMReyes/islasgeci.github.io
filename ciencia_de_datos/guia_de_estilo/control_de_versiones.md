@@ -50,11 +50,11 @@ En los repos clase 3 usamos Mercurial con una adaptación de GitFlow
 
 Hay tres ramas con nombre: _features_, _develop_ y _default_. La rama _features_ es la rama de desarrollo normal; mientras que la rama _develop_ sólo contiene revisiones que fueron aprobadas en revisión por pares mediante _pull request_, es decir, cumplen con el _checklist_ de una columna (nomenclatura, `testMake` corre remoto, etcétera).
 
-**Siempre** debes trabajar en la rama _features_. **Nunca** debes trabajar en la rama _develop_. Cuando termines el _checklist_ de una columna, debes pedir a otro analista que revise y apruebe tu tarea. El proceso de revisión sucede en la rama _features_. Te recominedo que uses _bookmarks_ en la rama _features_ con el prefijo `feature/` para comunicar a tu revisor cuál tarea te están revisando. Una vez que tu tarea haya sido aprobada, debes llevarte hacia la rama _develop_ la revisión aprobada. La rama _develop_ sólo avanza mediante _merge_.
+**Siempre** debes trabajar en la rama _features_. **Nunca** debes trabajar en la rama _develop_. Cuando termines el _checklist_ de una columna, debes pedir a otro analista que revise y apruebe tu tarea. El proceso de revisión sucede en la rama _features_. Te recominedo que uses _bookmarks_ en la rama _features_ con el prefijo `feature/tarea_NUMERO` (donde `NUMERO` representa el número de la tarea en el KanbanTool) para comunicar a tu revisor cuál tarea te están revisando. Una vez que tu tarea haya sido aprobada, debes llevarte hacia la rama _develop_ la revisión aprobada. La rama _develop_ sólo avanza mediante _merge_.
 
 ```bash
 hg update develop
-hg merge feature/nombre_de_la_tarea
+hg merge feature/tarea_NUMERO
 hg commit -m "Agrega [nombre de la tarea] aprobada en columna [nombre de la columna]"
 ```
 
