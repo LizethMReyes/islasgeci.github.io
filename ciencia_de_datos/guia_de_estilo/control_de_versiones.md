@@ -44,7 +44,7 @@ hg commit -m "Resuelve issue #XXX"
 
 Además, también deberás fusionar la revisión aprobada en cada cabeza de la rama _default_ (si acaso existe más de una cabeza en la rama _default_). Pide permiso al equipo antes de fusionar cualquier cambio en las cabezas de _default_ ya que más de una cabeza significa que alguien está trabajando en el mismo repositorio. En caso de conflicto en los cambios introducidos, trabajaran juntos quienes trabajan en cada cabeza para incorporar los cambios. Los cambios introducidos por la cabeza con la revisión aprobada tienen prioridad sobre el resto de los cambios, es decir, la cabeza recién aprobada tiene prioridad. Cada vez que se abruebe una revisión quedará una cabeza menos en _development_ (hasta que quede una única cabeza).
 
-### Ramas en repos 3
+### Ramas en repos clase 3
 
 En los repos clase 3 usamos Mercurial con una adaptación de GitFlow
 
