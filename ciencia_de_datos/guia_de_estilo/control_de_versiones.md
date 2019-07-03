@@ -20,10 +20,20 @@ consignación útiles.
 - El mensaje puede ser tan extenso como sea necesario para describir la consignación de forma detallada.
 - Es más fácil redactar los mensajes cuando se hacen muchas consignaciones con pocos cambios en lugar de pocas consignaciones con muchos cambios.
 
-## Marcadores
-Si el repositorio es complejo, se pueden usar marcadores (_bookmarks_) para indicar la tarea, proyecto o componente en la que se está trabajando actualmente. Ver [`hg help bookmarks`](https://selenic.com/hg/help/bookmarks).
+## Sistemas de Control de Versiones
 
-## Etiquetas
+Usamos dos sistemas de control de versiones:
+
+- Mercurial: para repos clase 3
+- Git: para repos clase 1
+
+### Mercurial
+
+#### Marcadores
+
+Si el repositorio es complejo, se pueden usar marcadores (_bookmarks_) para indicar la tarea, proyecto o componente en la que se está trabajando actualmente, por ejemplo: `feature/tarea_NUMERO`, donde `NUMERO` representa el número de la tarea en el KanbanTool. Ver [`hg help bookmarks`](https://selenic.com/hg/help/bookmarks).
+
+### Etiquetas
 Las etiquetas (_tags_) se usan para indicar el número de versión siguiendo [versionamiento semántico](http://semver.org/). Ver [`hg help tags`](https://selenic.com/hg/help/tags).
 
 ## Ramas
