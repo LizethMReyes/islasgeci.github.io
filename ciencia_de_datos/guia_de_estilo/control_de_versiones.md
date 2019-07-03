@@ -44,19 +44,21 @@ hg commit -m "Resuelve issue #XXX"
 
 Además, también deberás fusionar la revisión aprobada en cada cabeza de la rama _default_ (si acaso existe más de una cabeza en la rama _default_). Pide permiso al equipo antes de fusionar cualquier cambio en las cabezas de _default_ ya que más de una cabeza significa que alguien está trabajando en el mismo repositorio. En caso de conflicto en los cambios introducidos, trabajaran juntos quienes trabajan en cada cabeza para incorporar los cambios. Los cambios introducidos por la cabeza con la revisión aprobada tienen prioridad sobre el resto de los cambios, es decir, la cabeza recién aprobada tiene prioridad. Cada vez que se abruebe una revisión quedará una cabeza menos en _development_ (hasta que quede una única cabeza).
 
-### Ramas en repos clase 2 y 3
+### Ramas en repos 3
 
-Hay dos ramas principales: _development_ y _default_. La rama _development_ es la rama de desarrollo normal; mientras que la rama _default_ sólo contiene revisiones que fueron aprobadas mediante revisión por pares, es decir, cumplen con el _checklist_ de una columna (nomenclatura, `testMake` corre remoto, etcétera).
+En los repos clase 3 usamos Mercurial con una adaptación de GitFlow
 
-**Siempre** debes trabajar en la rama _development_. **Nunca** debes trabajar en la rama _default_. Cuando termines el _checklist_ de una columna, debes pedir a otro analista que revise y apruebe tu tarea. El proceso de revisión sucede en la rama _development_. Te recominedo que uses _bookmarks_ en la rama _development_ para comunicar a tu revisor cuál tarea te están revisando. Una vez que tu tarea haya sido aprobada, debes llevarte hacia la rama _default_ la revisión aprobada. La rama _default_ sólo avanza mediante _merge_.
+Hay tres ramas con nombre: _features_, _develop_ y _default_. La rama _features_ es la rama de desarrollo normal; mientras que la rama _develop_ sólo contiene revisiones que fueron aprobadas en revisión por pares mediante _pull request_, es decir, cumplen con el _checklist_ de una columna (nomenclatura, `testMake` corre remoto, etcétera).
+
+**Siempre** debes trabajar en la rama _features_. **Nunca** debes trabajar en la rama _develop_. Cuando termines el _checklist_ de una columna, debes pedir a otro analista que revise y apruebe tu tarea. El proceso de revisión sucede en la rama _features_. Te recominedo que uses _bookmarks_ en la rama _features_ con el prefijo `feature/` para comunicar a tu revisor cuál tarea te están revisando. Una vez que tu tarea haya sido aprobada, debes llevarte hacia la rama _develop_ la revisión aprobada. La rama _develop_ sólo avanza mediante _merge_.
 
 ```bash
-hg update default
-hg merge development
+hg update develop
+hg merge feature/tareaXXX
 hg commit -m "Agrega tarea XXX aprobada en columna YYY"
 ```
 
-Además, también deberás fusionar la tarea aprobada en cada cabeza de la rama _default_ (si acaso existe más de una cabeza en la rama _default_). Pide permiso al equipo antes de fusionar cualquier cambio en las cabezas de _default_ ya que más de una cabeza significa que alguien está trabajando en el mismo repositorio. En caso de conflicto en los cambios introducidos, trabajaran juntos quienes trabajan en cada cabeza para incorporar los cambios. Los cambios introducidos por la cabeza con la tarea aprobada tienen prioridad sobre el resto de los cambios, es decir, la cabeza recién aprobada tiene prioridad. Cada vez que se abruebe una tarea quedará una cabeza menos en _development_ (hasta que quede una única cabeza).
+Además, también deberás fusionar la tarea aprobada en cada cabeza de la rama _features_ (si acaso existe más de una cabeza). Pide permiso al equipo antes de fusionar cualquier cambio en las cabezas de _features_ ya que más de una cabeza significa que alguien está trabajando en el mismo repositorio. En caso de conflicto en los cambios introducidos, trabajaran juntos quienes trabajan en cada cabeza para incorporar los cambios. Los cambios introducidos por la cabeza con la tarea aprobada tienen prioridad sobre el resto de los cambios, es decir, la cabeza recién aprobada tiene prioridad. Cada vez que se abruebe una tarea quedará una cabeza menos en _features_ (hasta que quede una única cabeza).
 
 ## Contenido
 - Sólo se consignaran archivos de texto sin formato (csv, json, svg, tex, txt, etc.), nunca binarios.
