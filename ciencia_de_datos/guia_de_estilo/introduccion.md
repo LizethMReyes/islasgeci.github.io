@@ -7,6 +7,7 @@ description: Este documento extiende las guías de estilo adoptadas por el equip
 
 El equipo de Ciencia de datos en GECI adopta las siguientes guías de estilo:
 
+- [Estructura de directorios](https://drivendata.github.io/cookiecutter-data-science)
 - [HTML y CSS](https://google.github.io/styleguide/htmlcssguide.html)
 - [MATLAB](http://www.datatool.com/downloads/MatlabStyle2%20book.pdf)
 - [Python](https://www.python.org/dev/peps/pep-0008)
