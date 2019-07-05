@@ -31,6 +31,9 @@ La estructura que aquí se describe está inspirada en [Cookiecutter Data Scienc
 │   ├── references.bib <- Archivo de referecias para LaTeX en formato BibTeX
 |   └── references.md  <- Lista de referencias con una descripción e hipervínculos en Markdown
 │
+├── renv.lock          <- Registro de los paquetes instalados en R y sus versiones. Este
+│                         archivo es generado con el paquete `renv` y es equivalente al
+│                         archivo `requirements.txt` generado con `pip freeze`
 ├── reports/           <- Reportes y presentaciones dirigidos al director de proyecto
 │   │                     correspondiente. Los formatos preferidos para el código fuente de
 │   │                     los reportes son LaTeX y Markdown. Se prefieren formatos de texto
