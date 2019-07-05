@@ -17,8 +17,10 @@ La estructura que aquí se describe está inspirada en [Cookiecutter Data Scienc
 │                         del proyecto y es la única fuente que indica el trabajo requerido
 ├── data/
 │   ├── external/      <- Datos de terceros
-│   ├── processed/     <- El conjunto de datos intermedios y finales en la forma requerida por
-│   │                     los módulos y paquetes para análisis estadísticos y modelación
+│   ├── processed/     <- Datos procesados para que tengan la forma requerida por los módulos
+│   │                     y paquetes para análisis estadísticos y modelación. También
+│   │                     resultados parciales que no se incluyen directamente en el reporte
+│   │                     como archivos KML y SHP.
 │   └── raw/           <- Los datos crudos originales e inmutables de GECI
 │
 ├── docs/              <- Documentación para los analistas
