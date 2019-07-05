@@ -26,8 +26,10 @@ La estructura que aquí se describe está inspirada en [Cookiecutter Data Scienc
 ├── docs/              <- Documentación para los analistas
 ├── notebooks/         <- Notebooks de Jupyter
 ├── references/        <- Artículos, libros y notas que son relevantes para el proyecto y para
-│                         los resultados que estamos produciendo. Aquí se encuentran los
-│                         artículos que se citan en los reportes que producimos
+│   │                     los resultados que estamos produciendo. Aquí se encuentran los
+│   │                     artículos que se citan en los reportes que producimos
+│   ├── references.bib <- Archivo de referecias para LaTeX en formato BibTeX
+|   └── references.md  <- Lista de referencias con una descripción e hipervínculos en Markdown
 │
 ├── reports/           <- Reportes y presentaciones dirigidos al director de proyecto
 │   │                     correspondiente. Los formatos preferidos para el código fuente de
