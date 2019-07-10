@@ -5,9 +5,9 @@ tagline: Guía de estilo
 description: Guía de estilo para la estructura de los directorios del equipo de Ciencia de Datos de GECI
 ---
 
-Aquí se define la estructura requerida en los repositorios clase 3. Todavía no tenemos una guía para los repositorios clase 1 o de otra clase.
+En esta página definimos la estructura requerida en los repositorios clase 3. Todavía no tenemos una guía para los repositorios clase 1 o de otra clase.
 
-La estructura que aquí se describe está inspirada en [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/#directory-structure). Antes de modificar nuestra guía primero debemos consultar aquella para intentar no contradecirla.
+La estructura que aquí describimos está inspirada en [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/#directory-structure). Antes de modificar nuestra guía primero debemos consultar aquella para intentar no contradecirla.
 
 ```
 ├── Dockerfile         <- Por lo general nuestros Dockerfiles son de una única línea con el
