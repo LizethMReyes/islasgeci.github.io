@@ -10,8 +10,8 @@ En esta página definimos la estructura requerida en los repositorios clase 3. T
 La estructura que aquí describimos está inspirada en [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/#directory-structure). Antes de modificar nuestra guía primero debemos consultar aquella para intentar no contradecirla.
 
 ```
-├── Dockerfile         <- Por lo general nuestros Dockerfiles son de una única línea con el
-│                         comando `FROM`
+├── Dockerfile         <- Especifica la imagen padre del repo, por ejemplo:
+│                         `FROM islasgeci/base:2d95`
 ├── Makefile           <- Makefile para ejecutar cosas como `make reporte` o `make resultados`
 ├── README.md          <- Contiene una lista ordenada de los resultados esperados (_backlog_)
 │                         del proyecto y es la única fuente que indica el trabajo requerido
