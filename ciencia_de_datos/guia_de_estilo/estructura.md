@@ -15,6 +15,8 @@ La estructura que aquí describimos está inspirada en [Cookiecutter Data Scienc
 ├── Makefile           <- Makefile para ejecutar cosas como `make reporte` o `make resultados`
 ├── README.md          <- Contiene una lista ordenada de los resultados esperados (_backlog_)
 │                         del proyecto y es la única fuente que indica el trabajo requerido
+├── analyses.json      <- Describe las relaciones entre los archivos (datos, reportes,
+│                         resultados, scripts, etc.) de cada análisis
 ├── data/
 │   ├── external/      <- Datos de terceros
 │   ├── processed/     <- Datos procesados para que tengan la forma requerida por los módulos
