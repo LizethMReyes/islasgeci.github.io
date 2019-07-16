@@ -5,16 +5,18 @@ tagline: Guía de estilo
 description: Guía de estilo para la estructura de los directorios del equipo de Ciencia de Datos de GECI
 ---
 
-Aquí se define la estructura requerida en los repositorios clase 3. Todavía no tenemos una guía para los repositorios clase 1 o de otra clase.
+En esta página definimos la estructura requerida en los repositorios clase 3. Todavía no tenemos una guía para los repositorios clase 1 o de otra clase.
 
-La estructura que aquí se describe está inspirada en [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/#directory-structure). Antes de modificar nuestra guía primero debemos consultar aquella para intentar no contradecirla.
+La estructura que aquí describimos está inspirada en [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/#directory-structure). Antes de modificar nuestra guía primero debemos consultar aquella para intentar no contradecirla.
 
 ```
-├── Dockerfile         <- Por lo general nuestros Dockerfiles son de una única línea con el
-│                         comando `FROM`
+├── Dockerfile         <- Especifica la imagen padre del repo, por ejemplo:
+│                         `FROM islasgeci/base:2d95`
 ├── Makefile           <- Makefile para ejecutar cosas como `make reporte` o `make resultados`
 ├── README.md          <- Contiene una lista ordenada de los resultados esperados (_backlog_)
 │                         del proyecto y es la única fuente que indica el trabajo requerido
+├── analyses.json      <- Describe las relaciones entre los archivos (datos, reportes,
+│                         resultados, scripts, etc.) de cada análisis
 ├── data/
 │   ├── external/      <- Datos de terceros
 │   ├── processed/     <- Datos procesados para que tengan la forma requerida por los módulos
@@ -41,6 +43,7 @@ La estructura que aquí se describe está inspirada en [Cookiecutter Data Scienc
 │   │                     entrega en formato PDF o, si el Director lo requiere, se usa Pandoc
 │   │                     para transformar a Word.
 │   ├── figures/       <- Figuras incluidas en los reportes de los análisis realizados
+│   ├── non-tabular/   <- Resultados incluidos en los reportes de los análisis realizados
 |   └── tables/        <- Tablas incluidas en los reportes de los análisis realizados
 │
 ├── requirements.txt   <- Enlista los requerimientos para obtener el entorno para realizar el
