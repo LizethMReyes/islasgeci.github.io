@@ -43,7 +43,7 @@ La estructura que aquí describimos está inspirada en [Cookiecutter Data Scienc
 │   │                     entrega en formato PDF o, si el Director lo requiere, se usa Pandoc
 │   │                     para transformar a Word.
 │   ├── figures/       <- Figuras incluidas en los reportes de los análisis realizados
-│   ├── results/       <- Resultados incluidos en los reportes de los análisis realizados
+│   ├── non-tabular/   <- Resultados incluidos en los reportes de los análisis realizados
 |   └── tables/        <- Tablas incluidas en los reportes de los análisis realizados
 │
 ├── requirements.txt   <- Enlista los requerimientos para obtener el entorno para realizar el
