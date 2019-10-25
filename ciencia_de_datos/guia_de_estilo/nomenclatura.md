@@ -8,10 +8,10 @@ description: Este documento extiende las guías de estilo adoptadas por el equip
 
 Consulta nuestro protocolo para [nombrar un archivo de datos](https://islasgeci.github.io/datos_en_excel/protocolo/nomenclatura.html).
 
-## Programas
+## Programas (scripts)
 
 - Empiezan con un verbo
-- Nombres en español
+- Nombres en inglés
 - Nombres en _lowerCamelCase_ (sin espacios)
 - Nombres pueden incluir únicamente letras (excepto eñe y vocales con acento) y números
 
@@ -46,7 +46,7 @@ Los nombres de los archivos que contienen pruebas deben seguir las reglas de nom
 
 ### Variables dentro del Makefile
 
-Los nombres de las variables que dentro del `Makefile` definen un conjunto de archivos están formado por cinco elementos, son en español y [_lowerCamelCase_](https://en.wikipedia.org/wiki/Camel_case).
+Los nombres de las variables que dentro del `Makefile` definen un conjunto de archivos están formado por cinco elementos, son en inglés y [_lowerCamelCase_](https://en.wikipedia.org/wiki/Camel_case).
 
 Las variables que definen conjuntos de archivos de **datos** se nombran como:
 
@@ -84,7 +84,7 @@ Los nombres de los objetivos _phonies_ son sustantivos o adjetivos en inglés. S
 
 ## Variables
 
-- Los nombres de las variables se escriben en español
+- Los nombres de las variables se escriben en inglés
 - Deben ser nombres descriptivos y, en general, sin abreviaturas. Las excepciones serán consensuadas. Actualmente, las únicas abreviaturas aceptadas son:
     - `LEO`: Local Environmental Observer
     - `TSM`: Temperatura Superficial del Mar
@@ -122,9 +122,9 @@ nombre de la variable por un guión bajo. Ejemplos: `distancia_m`,
 ## Programación Orientada a Objetos
 
 - Los nombres de las clases son sustantivos en inglés y en UpperCamelCase;
-- los nombres de los objetos en español y en UpperCamelCase;
+- los nombres de los objetos en inglés y en UpperCamelCase;
 - los nombres de los métodos inician con verbos, son en inglés y en lowerCameslCase;
-- los nombres de los atributos son en español y en lowerCamelCase.
+- los nombres de los atributos son en inglés y en lowerCamelCase.
 
 ## Archivos que contengan un conjunto de funciones
 
