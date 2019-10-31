@@ -8,14 +8,14 @@ description: Este documento extiende las guías de estilo adoptadas por el equip
 
 Consulta nuestro protocolo para [nombrar un archivo de datos](https://islasgeci.github.io/datos_en_excel/protocolo/nomenclatura.html).
 
-## Programas
+## Programas (scripts)
 
 - Empiezan con un verbo
-- Nombres en español
+- Nombres en inglés
 - Nombres en _lowerCamelCase_ (sin espacios)
 - Nombres pueden incluir únicamente letras (excepto eñe y vocales con acento) y números
 
-El nombre de un programa que genera resultados debe coincidir con el nombre de la variable en el `Makefile` que define el conjunto de resultados que el programa genera (excepto tal vez por algunas omisiones para evitar redundancias). E.g. el programa que genera los resultados definidos por la variable `pngDensidadMapasAlbatrosGuadalupe` se debe llamar `graficaDensidadMapasAlbatrosGuadalupe`; en este ejemplo se omite el formato `PNG` del nombre porque el mismo programa también genera los resultados en formato `SHP` definidos por la variable `shpDensidadMapasAlbatrosGuadalupe`.
+El nombre de un programa que genera resultados debe coincidir con el nombre de la variable en el `Makefile` que define el conjunto de resultados que el programa genera (excepto tal vez por algunas omisiones para evitar redundancias). Por ejemplo, el programa que genera los resultados definidos por la variable `pngDensityMapsAlbatrossGuadalupe` se debe llamar `plotDensityMapsAlbatrossGuadalupe`; en este ejemplo se omite el formato `PNG` del nombre porque el mismo programa también genera los resultados en formato `SHP` definidos por la variable `shpDensityMapsAlbatrossGuadalupe`.
 
 ## Funciones
 
@@ -26,12 +26,9 @@ tareas que no sabes cual verbo escoger entonces tu función es incorrecta;
 cada función debe realizar una única acción y la debe hacer bien.
 - Si la función cambia el formato del argumento de entrada se usa la
 notación `input2output`. Ejemplos: `jpg2bmp()`, `txt2pdf()`, `lbs2kg()`
-- Las funciones que calculan un sólo dato de salida se pueden nombrar
-como ese dato (para evitar tener demasiadas funciones con el prefijo
-`compute`). Ejemplos: `promedio = mean(datos)`, `cuadrado =
-square(numero)`
+- En algunos casos es aceptable nombrar a una función con un sustantivo que describe una operación, por ejemplo: `mean()`, `square()`
 - Si la función devuelve valores lógicos se usa el prefijo `is`.
-Ejemplos: `esPerro = isDog(perroGris)`
+Ejemplo: `isDog()`
 
 ## Pruebas
 
@@ -46,17 +43,17 @@ Los nombres de los archivos que contienen pruebas deben seguir las reglas de nom
 
 ### Variables dentro del Makefile
 
-Los nombres de las variables que dentro del `Makefile` definen un conjunto de archivos están formado por cinco elementos, son en español y [_lowerCamelCase_](https://en.wikipedia.org/wiki/Camel_case).
+Los nombres de las variables que dentro del `Makefile` definen un conjunto de archivos están formado por cinco elementos, son en inglés y [_lowerCamelCase_](https://en.wikipedia.org/wiki/Camel_case).
 
 Las variables que definen conjuntos de archivos de **datos** se nombran como:
 
 - formato
 - variable(s)
-- tipo de monitoreo (o simplemente la palabra `Datos`)
+- tipo de monitoreo (o simplemente la palabra `Data`)
 - especie (o grupo)
 - región geográfica
 
-Ejemplos: `xlsxNidosCensoAlbatrosGuadalupe`, `xlsxMadriguerasBusquedaMerguloGuadalupe`
+Ejemplos: `xlsxNestsCensusAlbatrossGuadalupe`, `xlsxBurrowsSamplingGuadalupeMurrelet`
 
 Las variables que definen conjuntos de archivos de **resultados** se nombran como:
 
@@ -66,7 +63,7 @@ Las variables que definen conjuntos de archivos de **resultados** se nombran com
 - especie (o grupo)
 - región geográfica
 
-Ejemplo: `pngDensidadMapasAlbatrosGuadalupe`.
+Ejemplo: `pngDensityMapsAlbatrossGuadalupe`.
 
 En ambos casos se pueden omitir las palabras reduntantes que se incluyan en el nombre del repositorio
 
@@ -84,7 +81,7 @@ Los nombres de los objetivos _phonies_ son sustantivos o adjetivos en inglés. S
 
 ## Variables
 
-- Los nombres de las variables se escriben en español
+- Los nombres de las variables se escriben en inglés
 - Deben ser nombres descriptivos y, en general, sin abreviaturas. Las excepciones serán consensuadas. Actualmente, las únicas abreviaturas aceptadas son:
     - `LEO`: Local Environmental Observer
     - `TSM`: Temperatura Superficial del Mar
@@ -103,28 +100,24 @@ Los nombres de los objetivos _phonies_ son sustantivos o adjetivos en inglés. S
     - `LAT`: Malla de coordenadas geográficas meridionales. Salida del método `getGridLAT`
 - La primer letra de cada palabra en mayúsculas, excepto en la primer
 palabra ([lowerCamelCase](http://es.wikipedia.org/wiki/CamelCase)).
-Ejemplos: `tiempo`, `distanciaHorizontal`, `perroGris`
-- En MATLAB, si la variable es una estructura (clase `struct`), una tabla (clase `table`) o una de las clases creadas por el equipo de Ciencia de Datos, entonces también la primer letra de la primer
-palabra es mayúscula ([UpperCamelCase](http://es.wikipedia.org/wiki/CamelCase)). Ejemplos: `PerroGris.estatura`,
-`PerroGris.nombreCompleto`, `PerroGris.ComidaFavorita.desayuno`
+Ejemplos: `time`, `horizontalDistance`.
 - Si la variable representa el número total de elementos de un conjunto
-se usa el prefijo `n`. Ejemplos: `nArchivos`, `nPerros`
+se usa el prefijo `n`. Ejemplos: `nFiles`, `nDogs`
 - Si la variable se usa para iterar se utiliza el prefijo `i`. Ejemplo:
-`for iPerro = 1:nPerros, ... , end`
-- Para variables lógicas se usa el prefijo `es`. Ejemplos: `esPerro`,
-`esGato`
+`for iDog = 1:nDogs, ... , end`
+- Para variables lógicas se usa el prefijo `is`. Ejemplos: `isDog`,
+`isCat`
 - Si la variable es el índice de un arreglo se usa el prefijo `ind`.
-Ejemplo: `indPerro = find(esPerro)`
+Ejemplo: `indDog = find(isDog)`
 - Se indican la unidades de las variables con un sufijo separado del
-nombre de la variable por un guión bajo. Ejemplos: `distancia_m`,
-`peso_kg`, `tiempo_s`
+nombre de la variable por un guión bajo. Ejemplos: `distance_m`,
+`weight_kg`, `time_s`
 
 ## Programación Orientada a Objetos
 
-- Los nombres de las clases son sustantivos en inglés y en UpperCamelCase;
-- los nombres de los objetos en español y en UpperCamelCase;
-- los nombres de los métodos inician con verbos, son en inglés y en lowerCameslCase;
-- los nombres de los atributos son en español y en lowerCamelCase.
+- Los nombres de las clases son sustantivos en inglés y en UpperCamelCase
+- los nombres de los métodos inician con un verbo
+- los nombres de los objetos, métodos y atributos son en inglés y en lowerCamelCase
 
 ## Archivos que contengan un conjunto de funciones
 
