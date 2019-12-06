@@ -55,13 +55,15 @@ La estructura que aquí describimos está inspirada en [Cookiecutter Data Scienc
 
 ## `Makefile`
 
-El archivo `Makefile` tiene las siguientes secciones:
+El archivo `Makefile` consta de 3 secciones: 
 
-1. Definición del _phony_ **all** que enlista todos los objetivos (_targets_) principales (README, reportes, presentaciones, etc.)
-1. Declaración de las variables
-1. Reglas para construir los objetivos principales (enlistados en **all**)
-1. Reglas para construir las dependencias de los objetivos principales (en orden de aparición en la sección anterior)
-1. Reglas del resto de los _phonies_
+1. Definición del _phony_ **all**: enlista todos los objetivos (_targets_) principales (reportes, presentaciones, etc.) que se encuentran en el `analyses.json`.
+1. Variables y reglas por resultado: Las siguientes subsecciones se agregan y agrupan en bloques para cada resultado.
+    1. Declaración de las variables.
+    1. Reglas para construir los objetivos principales (enlistados en **all**).
+    1. Reglas para construir las dependencias de los objetivos principales.
+    1. Reglas _phonies_ para construir dependencias de los objetivos principales.
+1. Reglas del resto de los _phonies_ para uso general.
 
 **Referencias:**
 
