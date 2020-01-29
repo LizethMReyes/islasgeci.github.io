@@ -77,7 +77,7 @@ Ver la sección [`README.md`](https://bitbucket.org/IslasGECI/analisis/src/defau
 Ver la sección [Obtención de Datos](https://bitbucket.org/IslasGECI/analisis/src/default/README.md#markdown-header-obtencion-de-datos).
 
 ## Programas
-Los programas de R se guardan en `R/`, mientras que los programas de MATLAB se guardan en `MATLAB/programas/`.
+Todos los scripts van en el directorio de `src/`. Opcionalmente puedes guardar en `src/R` el código de R.
 
 Los programas usan las [funciones](https://bitbucket.org/IslasGECI/analisis/src/default/README.md#markdown-header-funciones) para generar los [resultados](https://bitbucket.org/IslasGECI/analisis/src/default/README.md#markdown-header-resultados) que se guardan en la carpeta `resultados/`.
 
