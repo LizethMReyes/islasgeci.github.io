@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Introducción
+title: Lista de guías de estilo
 tagline: Guía de estilo
 description: Este documento extiende las guías de estilo adoptadas por el equipo de Ciencia de Datos de GECI
 ---
