@@ -7,7 +7,7 @@ description: Este documento extiende las guías de estilo adoptadas por el equip
 
 ## Contenido
 
-- [Introducción](introduccion.html)
+- [Lista de guías de estilo](introduccion.html)
 - [Estructura de los directorios](estructura.html)
 - [Documentación](documentacion.html)
 - [Nomenclatura](nomenclatura.html)
@@ -16,6 +16,6 @@ description: Este documento extiende las guías de estilo adoptadas por el equip
 
 ---
 
-&#8811; Siguiente: [Introducción](introduccion.html)
+&#8811; Siguiente: [Lista de guías de estilo](introduccion.html)
 
 &#8810; Anterior: [Ciencia de Datos en GECI](../)
