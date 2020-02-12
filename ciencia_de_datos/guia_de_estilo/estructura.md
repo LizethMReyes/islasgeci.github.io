@@ -10,29 +10,30 @@ En esta página definimos la estructura requerida en los repositorios clase 3. T
 La estructura que aquí describimos está inspirada en [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/#directory-structure). Antes de modificar nuestra guía primero debemos consultar aquella para intentar no contradecirla.
 
 ```
-├── Dockerfile              <- Especifica la imagen padre del repo, por ejemplo:
-│                              `FROM islasgeci/base:2d95`
-├── Makefile                <- Makefile para ejecutar cosas como `make reporte` o `make resultados`
-├── README.md               <- Contiene una lista ordenada de los resultados esperados (_backlog_)
-│                              del proyecto y es la única fuente que indica el trabajo requerido
+├── Dockerfile              <- Requerido para construir la imagen del repo mediante
+│                              `docker build`
+├── Makefile                <- Instrucciones para crear reportes o resultados mediante Make
+├── README.md               <- Contiene una lista ordenada de los resultados esperados del
+│                              proyecto y es la única fuente que indica el trabajo requerido
 ├── analyses.json           <- Describe las relaciones entre los archivos (datos, reportes,
 │                              resultados, scripts, etc.) de cada análisis
 ├── bitbucket-pipelines.yml <- Archivo de configuración del Pipeline en Bitbucket
 ├── data/
 │   ├── external/           <- Datos de terceros
-│   ├── processed/          <- Datos procesados para que tengan la forma requerida por los módulos
-│   │                          y paquetes para análisis estadísticos y modelación. También
-│   │                          resultados parciales que no se incluyen directamente en el reporte
-│   │                          como archivos KML y SHP.
+│   ├── processed/          <- Datos procesados para que tengan la forma requerida por los
+│   │                          módulo y paquetes para análisis estadísticos y modelación.
+│   │                          También resultados parciales que no se incluyen directamente en
+│   │                          el reporte como archivos KML y SHP.
 │   └── raw/                <- Los datos crudos originales e inmutables de GECI
 │     
 ├── docs/                   <- Documentación para los analistas
 ├── notebooks/              <- Notebooks de Jupyter
-├── references/             <- Artículos, libros y notas que son relevantes para el proyecto y para
-│   │                          los resultados que estamos produciendo. Aquí se encuentran los
-│   │                          artículos que se citan en los reportes que producimos
+├── references/             <- Artículos, libros y notas que son relevantes para el proyecto y
+│   │                          para los resultados que estamos produciendo. Aquí se encuentran
+│   │                          los artículos que se citan en los reportes que producimos
 │   ├── references.bib      <- Archivo de referecias para LaTeX en formato BibTeX
-|   └── references.md       <- Lista de referencias con una descripción e hipervínculos en Markdown
+|   └── references.md       <- Lista de referencias con una descripción e hipervínculos en
+│                              Markdown
 │
 ├── renv.lock               <- Registro de los paquetes instalados en R y sus versiones. Este
 │                              archivo es generado con el paquete `renv` y es equivalente al
@@ -41,14 +42,14 @@ La estructura que aquí describimos está inspirada en [Cookiecutter Data Scienc
 │   │                          correspondiente. Los formatos preferidos para el código fuente de
 │   │                          los reportes son LaTeX y Markdown. Se prefieren formatos de texto
 │   │                          plano para poder implementar control de versiones. El reporte se
-│   │                          entrega en formato PDF o, si el Director lo requiere, se usa Pandoc
-│   │                          para transformar a Word.
+│   │                          entrega en formato PDF o, si el Director lo requiere, se usa
+│   │                          Pandoc para transformar a Word.
 │   ├── figures/            <- Figuras incluidas en los reportes de los análisis realizados
 │   ├── non-tabular/        <- Resultados incluidos en los reportes de los análisis realizados
 |   └── tables/             <- Tablas incluidas en los reportes de los análisis realizados
 │
-├── requirements.txt        <- Enlista los requerimientos para obtener el entorno para realizar el
-│                              análisis, por ejemplo puede ser generado con:
+├── requirements.txt        <- Enlista los requerimientos para obtener el entorno para realizar
+│                              el análisis, por ejemplo puede ser generado con:
 │                              `pip freeze > requirements.txt`
 ├── src/                    <- Scripts que se usarán en este proyecto
 └── tests/                  <- Pruebas que verifican la repoducibilidad de los resultados
