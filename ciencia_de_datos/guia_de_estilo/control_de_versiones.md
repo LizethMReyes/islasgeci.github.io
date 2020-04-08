@@ -22,47 +22,20 @@ consignación útiles.
 
 ## Sistemas de Control de Versiones
 
-Usamos dos sistemas de control de versiones:
+Git es el único sistema de control de versiones que usamos. Usamos dos hospederos web de nuestros repositorios:
 
-- Mercurial: para repos clase 3
-- Git: para repos clase 1
+- Bitbucket: para repos clase 3
+- GitHub: para repos clase 1
 
-### Mercurial
+## GitFlow
 
-#### Marcadores
-
-Si el repositorio es complejo, se pueden usar marcadores (_bookmarks_) para indicar la tarea, proyecto o componente en la que se está trabajando actualmente, por ejemplo: `feature/tarea_NUMERO`, donde `NUMERO` representa el número de la tarea en el KanbanTool. Ver [`hg help bookmarks`](https://selenic.com/hg/help/bookmarks).
-
-### Etiquetas
-Las etiquetas (_tags_) se usan para indicar el número de versión siguiendo [versionamiento semántico](http://semver.org/). Ver [`hg help tags`](https://selenic.com/hg/help/tags).
-
-## Ramas
-
-- [`hg help branches`](https://selenic.com/hg/help/branches).
-
-### Ramas en repos clase 1
-
-En los repos clase 1 usamos GitFlow como lo muestra el diagrama de abajo.
+Usamos GitFlow como lo muestra el diagrama de abajo.
 
 ![GitFlow](https://wpdevkvk.files.wordpress.com/2017/03/diagram.png?resize=900%2C506)
 
-Para pasar (_merge_) los cambios de una _feature_ a la rama _develop_, los cambios deben ser aprobados en revisión por pares mediante un _pull request_.
+Para pasar (_merge_) los cambios de una _feature_ a la rama _develop_, o de un _release_ a la ramas _master_ y _develop_, los cambios deben ser aprobados en revisión por pares mediante un _pull request_. Es preferible que el _merge_ lo haga el revisor quien aprobó el _pull request_ pero también lo puede hacer el autor.
 
-### Ramas en repos clase 3
-
-En los repos clase 3 usamos Mercurial con una adaptación de GitFlow
-
-Hay tres ramas con nombre: _features_, _develop_ y _default_. La rama _features_ es la rama de desarrollo normal; mientras que la rama _develop_ sólo contiene revisiones que fueron aprobadas en revisión por pares mediante _pull request_, es decir, cumplen con el _checklist_ de una columna (nomenclatura, `testMake` corre remoto, etcétera).
-
-**Siempre** debes trabajar en la rama _features_. **Nunca** debes trabajar en la rama _develop_. Cuando termines el _checklist_ de una columna, debes pedir a otro analista que revise y apruebe tu tarea. El proceso de revisión sucede en la rama _features_. Te recominedo que uses _bookmarks_ en la rama _features_ con el prefijo `feature/tarea_NUMERO` (donde `NUMERO` representa el número de la tarea en el KanbanTool) para comunicar a tu revisor cuál tarea te están revisando. Una vez que tu tarea haya sido aprobada, debes llevarte hacia la rama _develop_ la revisión aprobada. La rama _develop_ sólo avanza mediante _merge_.
-
-```bash
-hg update develop
-hg merge feature/tarea_NUMERO
-hg commit -m "Agrega [nombre de la tarea] aprobada en columna [nombre de la columna]"
-```
-
-Además, también deberás fusionar la tarea aprobada en cada cabeza de la rama _features_ (si acaso existe más de una cabeza). Pide permiso al equipo antes de fusionar cualquier cambio en las cabezas de _features_ ya que más de una cabeza significa que alguien está trabajando en el mismo repositorio. En caso de conflicto en los cambios introducidos, trabajaran juntos quienes trabajan en cada cabeza para incorporar los cambios. Los cambios introducidos por la cabeza con la tarea aprobada tienen prioridad sobre el resto de los cambios, es decir, la cabeza recién aprobada tiene prioridad. Cada vez que se abruebe una tarea quedará una cabeza menos en _features_ (hasta que quede una única cabeza).
+Consideramos _feature_ los cambios que introducen nuevos productos (resultados, contentenido, etc.) y que generalmente incrementan la [deuda técnica](https://en.wikipedia.org/wiki/Technical_debt). Consideramos _release_ los cambios que [refactorizan](https://en.wikipedia.org/wiki/Code_refactoring) código existente (5 archivos, reporte, postentrega, documentacion, pruebas, etc.) y que disminuyen la [deuda técnica](https://en.wikipedia.org/wiki/Technical_debt).
 
 ## Contenido
 - Sólo se consignaran archivos de texto sin formato (csv, json, svg, tex, txt, etc.), nunca binarios.
