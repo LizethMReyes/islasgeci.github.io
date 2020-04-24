@@ -10,7 +10,7 @@ tagline: para analistas de datos
     - Convertimos el segundo renglón de la segunda hoja de Excel en el [descriptor de la tabla de datos](http://frictionlessdata.io/specs/tabular-data-resource/)
     - Convertimos el resto de la segunda hoja en el [esquema de la tabla](http://frictionlessdata.io/specs/table-schema/)
 - Importamos el TDP anterior como un objeto `DataPackage` (**datatools**)
-- Procesamos los datos de forma [reproducible](http://kbroman.org/steps2rr/) siguiendo nuestro [manual de procedimientos](https://bitbucket.org/IslasGECI/analisis/src/default/README.md) y nuestra [guía de estilo](https://islasgeci.github.io/ciencia_de_datos/guia_de_estilo.html)
+- Procesamos los datos de forma [reproducible](http://kbroman.org/steps2rr/) siguiendo nuestro [manual de procedimientos](https://bitbucket.org/IslasGECI/analisis/src/default/README.md) y nuestra [guía de estilo](https://islasgeci.github.io/guia_de_estilo/)
 - Entregamos los resultados mediante Trello (evitando enviar archivos adjuntos por correo)
 
 ---

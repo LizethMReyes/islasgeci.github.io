@@ -4,7 +4,7 @@ title: Información adicional
 tagline: para analistas de datos
 ---
 
-En esta sección se encuentra información adicional para los analistas del [equipo](https://islasgeci.github.io/ciencia_de_datos/equipo.html) de [Ciencia de Datos en GECI](https://islasgeci.github.io/ciencia_de_datos).
+En esta sección se encuentra información adicional para los analistas del [equipo](https://github.com/orgs/IslasGECI/people) de [Ciencia de Datos en GECI](https://github.com/orgs/IslasGECI).
 
 ### Contenido
 
