@@ -12,7 +12,7 @@ Consulta nuestro protocolo para [nombrar un archivo de datos](https://islasgeci.
 
 - Empiezan con un verbo
 - Nombres en inglés
-- Nombres en _lowerCamelCase_ (sin espacios)
+- Nombres en _snake_case_ (sin espacios)
 - Nombres pueden incluir únicamente letras (excepto eñe y vocales con acento) y números
 
 El nombre de un programa que genera resultados debe coincidir con el nombre de la variable en el `Makefile` que define el conjunto de resultados que el programa genera (excepto tal vez por algunas omisiones para evitar redundancias). Por ejemplo, el programa que genera los resultados definidos por la variable `pngDensityMapsAlbatrossGuadalupe` se debe llamar `plotDensityMapsAlbatrossGuadalupe`; en este ejemplo se omite el formato `PNG` del nombre porque el mismo programa también genera los resultados en formato `SHP` definidos por la variable `shpDensityMapsAlbatrossGuadalupe`.
@@ -73,7 +73,7 @@ Los nombres de los objetivos _phonies_ son sustantivos o adjetivos en inglés. S
 
 ## Otros archivos y directorios
 
-- Los nombres no incluyen espacios
+- Los nombres no incluyen espacios y serán en inglés
 - Sólo puedes usar guiones bajos (`_`) para separar palabras ([_snake_case_](https://en.wikipedia.org/wiki/Snake_case))
 - Todo el nombre está escrito en minúsculas solamente (excepto cuando sea requiera lo contrario de forma explícita)
 - Los nombres pueden incluir únicamente letras minúsculas (excepto eñe y vocales con acento), números o guiones bajos (`_`)
