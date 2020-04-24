@@ -21,4 +21,4 @@ Los objetivos de Ciencia de Datos en GECI son la optimización de recursos para 
 - [GECI en Bitbucket](https://bitbucket.org/IslasGECI/)
 - [GECI en GitHub](https://github.com/IslasGECI)
 - [Guía de estilo de Ciencia de Datos](guia_de_estilo/)
-- [Protocolo para guardar datos en Excel](https://islasgeci.github.io/datos_en_excel)
+- [Protocolo para guardar datos en Excel](https://islasgeci.github.io/protocolo_basico)
