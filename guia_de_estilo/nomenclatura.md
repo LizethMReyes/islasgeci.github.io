@@ -6,7 +6,7 @@ description: Este documento extiende las guías de estilo adoptadas por el equip
 ---
 ## Archivos de datos
 
-Consulta nuestro protocolo para [nombrar un archivo de datos](https://islasgeci.github.io/datos_en_excel/protocolo/nomenclatura.html).
+Consulta nuestro protocolo para [nombrar un archivo de datos](../protocolo_basico/nomenclatura.html).
 
 ## Programas (scripts)
 
