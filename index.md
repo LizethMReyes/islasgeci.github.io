@@ -9,7 +9,7 @@ El **Grupo de Ecología y Conservación de Islas** (GECI) tiene como misión la 
 
 - [Página oficial de GECI](https://islas.org.mx)
 - [Facebook](https://www.facebook.com/IslasGECI)
-- [Instagram](https://www.instagram.com/gecibc/)
+- [Instagram](https://www.instagram.com/IslasGECI/)
 - [Twitter](https://twitter.com/IslasGECI)
 - [YouTube](https://www.youtube.com/channel/UChCwUNW27D50Bwh27U0lpfg)
 
