@@ -17,6 +17,9 @@ El equipo de Ciencia de datos en GECI adopta las siguientes guías de estilo:
 
 Las guías de estilo anteriores no son exhaustivas y este documento las extiende. Esta guía de estilo es válida sólo en los casos no contemplados en las guías de estilo anteriores. En caso de conflicto, las guías de estilo anteriores tienen preferencia sobre ésta.
 
+Los archivos nuevos seguirán la guía de estilo actual. El resto de los archivos que sigan una guía 
+de estilo obsoleta serán uniformizados en el renglón de refactorización.
+
 ---
 
 &#8811; Siguiente: [Estructura de los directorios](estructura.html)
