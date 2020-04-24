@@ -13,7 +13,7 @@ En esta sección se encuentra información adicional para los analistas del [equ
 1. [Validar un archivo de Excel](validacion.html)
 1. [Referencias](referencias.html)
 
-- [Código fuente de este sitio](https://github.com/IslasGECI/datos_en_excel)
+- [Código fuente de este sitio](https://github.com/IslasGECI/islasgeci.github.io)
 
 ---
 
