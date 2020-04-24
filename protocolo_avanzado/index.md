@@ -19,4 +19,4 @@ En esta sección se encuentra información adicional para los analistas del [equ
 
 &rarr; Siguiente: [Resumen](resumen.html)
 
-&larr; Anterior: [Protocolo para guardar datos en Excel](../)
+&larr; Anterior: [Protocolo para guardar datos en Excel](../protocolo_basico/)
