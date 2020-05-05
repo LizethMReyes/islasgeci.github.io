@@ -10,6 +10,9 @@ En Ciencia de Datos seguimos las siguientes prioridades en la prosa de los escri
 1. Claridad o legibilidad
 1. Precisión
 
+En la siguiente [liga](https://drive.google.com/drive/folders/17bwKt7yED4cSamLZ9WrGlnlHvrSOK7_9) 
+encontrarás las referencias en las que nos inspiramos para escribir esta guía.
+
 # Inclusión
 La exclusión de las mujeres del lenguaje es el correlato de su exclusión de espacios relevanres de
 la vida.
