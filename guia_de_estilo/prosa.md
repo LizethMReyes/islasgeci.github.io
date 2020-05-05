@@ -10,6 +10,7 @@ En Ciencia de Datos seguimos las siguientes prioridades en la prosa de los escri
 1. Claridad o legibilidad
 1. Precisión
 
+# Inclusión
 La exclusión de las mujeres del lenguaje es el correlato de su exclusión de espacios relevanres de
 la vida.
 
@@ -26,3 +27,26 @@ Con las propuestas de lenguaje incluyente buscamos referirnos solo a aquellas co
 impiden el reconocimiento de las mujeres como personas al no ser nombradas o bien en la forma en 
 que se les nombra. 
 
+# Claridad
+1. El resumen: lo escribimos en pasado
+1. La introducción: la escribimos en presente
+1. La metodología: la escribimos en pasado
+1. Los resultados: la escribimos en pasado
+1. La discusión la escribimos en tiempo presente
+
+## Sugerencia de la anatomía del reporte
+1. Escribe cada conclusión en un enunciado breve
+1. Escribe solo los resultados necesarios para tus conclusiones
+1. Escribe solo los métodos con los que generaste tus resultados
+1. Escribe discusiones que aporten a tus conclusiones
+1. Escribe la introducción la información necesaria para presentar las preguntas que reposponden 
+las conclusiones
+
+## Sugerencias en la redacción
+1. Preferimos la voz actica sobre la voz pasiva
+1. Escoge el sujeto relevante y escríbelo en el inicio de la oración
+1. Pon el sujeto antes del verbo
+1. Manten el sujeto y el verbo lo más cerca posibles el uno del otro
+1. No separes el verbo de su objeto directo
+1. Pon el objeto directo antes del objeto indirecto
+1. Prefiere enunciados cortos para ganar legibilidad (20-25 palabras)
