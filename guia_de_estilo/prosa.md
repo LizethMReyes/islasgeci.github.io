@@ -53,3 +53,9 @@ las conclusiones
 1. No separes el verbo de su objeto directo
 1. Pon el objeto directo antes del objeto indirecto
 1. Prefiere enunciados cortos para ganar legibilidad (20-25 palabras)
+
+# Precisión 
+Entendemos por preciso aquel escrito que sea conciso y riguroso. 
+El objetivo es que nuestros compañeros de dentro y fuera de la dirección tengan la información 
+necesaria para verificar la pertinencia de los métodos utilizados para responder nuestra pregunta 
+de investigación.
