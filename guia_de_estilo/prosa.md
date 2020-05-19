@@ -30,6 +30,11 @@ Con las propuestas de lenguaje incluyente buscamos referirnos solo a aquellas co
 impiden el reconocimiento de las mujeres como personas al no ser nombradas o bien en la forma en 
 que se les nombra. 
 
+No excluimos ni invisibilizamos. Por tal motivo cuidamos seguir lo siguiente:
+1. Uso de terminaciones diferentes para cada uno de los sexos (profesor/profesora, conde/condesa,
+etc.)
+1. Palabras distintas según el sexo del referente ()
+
 # Claridad
 1. El resumen: lo escribimos en pasado
 1. La introducción: la escribimos en presente
