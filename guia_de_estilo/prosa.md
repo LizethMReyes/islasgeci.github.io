@@ -53,6 +53,6 @@ las conclusiones
 
 # Precisión 
 Entendemos por preciso aquel escrito que sea conciso y riguroso. 
-El objetivo es que nuestros compañeros de dentro y fuera de la dirección tengan la información 
-necesaria para verificar la pertinencia de los métodos utilizados para responder nuestra pregunta 
-de investigación.
+El objetivo es que nuestras compañeras y compañeros de dentro y fuera de la dirección tengan la 
+información necesaria para verificar la pertinencia de los métodos que utilizamos para responder 
+sus preguntas de investigación.
