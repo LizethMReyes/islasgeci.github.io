@@ -5,7 +5,7 @@ tagline: Guía de estilo
 description: Guía de estilo para la escritura de la prosa
 ---
 
-En Ciencia de Datos seguimos las siguientes prioridades en la prosa de los escritos:
+En Ciencia de Datos seguimos las siguientes prioridades en la prosa que escribimos:
 1. Inclusión
 1. Claridad o legibilidad
 1. Precisión
@@ -14,26 +14,18 @@ En la siguiente [liga](https://drive.google.com/drive/folders/17bwKt7yED4cSamLZ9
 encontrarás las referencias en las que nos inspiramos para escribir esta guía.
 
 # Inclusión
-La exclusión de las mujeres del lenguaje es el correlato de su exclusión de espacios relevanres de
-la vida.
-
-La lenguan es un oroducto social, surge en ek ninebti eb qye es necesarui cinybucarse con la otra 
-persona, y asientta su existencia solo allí, en el seno se una soviedad, en el intercambio entre 
-las personas. Es allí donde se transforma, construye y reconstruye cada vez que emitimos un nuevo
-mensaje. Condición que le da a la lengua otra característica, el ser una lengua viva, y que sean
-las usuarias y los usuarios de esa lengua quienes puedan modificarla a partir de sus necesidades
-de comunicación, razón ésta que nos perminte negar la asepsia de nuestros usos del lenguaje en 
-relación con las creencias, ideas, prejucios y pautas de comportamientos de nuestras sociedades.
-Así que socialización, ideología y comunicación han debido crecer juntas.
-
-Con las propuestas de lenguaje incluyente buscamos referirnos solo a aquellas construcciones que
-impiden el reconocimiento de las mujeres como personas al no ser nombradas o bien en la forma en 
-que se les nombra. 
+Rosa Cobo Bedia, doctora en ciencias políticas y sociología, considera que "la exclusión de las 
+mujeres del lenguaje es el correlato de su exclusión de espacios relevantes de la vida." Es por
+eso que seguimos las propuestas de lenguaje incluyente buscando referirnos solo a aquellas 
+construcciones que impiden el reconocimiento de las mujeres como personas al no ser nombradas o 
+bien en la forma en que las nombramos. 
 
 No excluimos ni invisibilizamos. Por tal motivo cuidamos seguir lo siguiente:
 1. Uso de terminaciones diferentes para cada uno de los sexos (profesor/profesora, conde/condesa,
 etc.)
-1. Palabras distintas según el sexo del referente ()
+1. Palabras distintas según el sexo del referente (madre/padre)
+1. Cuando el sustantivo es común (en el género) utilizaremos artículos y adjetivos para especificar
+el género (El/la pianista, un buen/una buena profesional)
 
 # Claridad
 1. El resumen: lo escribimos en pasado
