@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Análisis Científico"
-author: evaristo
+author: Evaristo
 ---
 
 Por el título de esta entrada se pueden imaginar que no sé cuál es el objetivo de ella. Lo que sí sé es que traigo unas ideas desvalagadas que necesito compartir para poder ordenarlas, clarificarlas y, de ser necesarios, descartarlas. Abajo pongo una colección de ideas no ordenada.

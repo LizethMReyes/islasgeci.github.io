@@ -107,6 +107,5 @@ JB :
   # where [HELPER] is the name of the helper you are overriding.
 
 collections:
-  authors:
   protocolo_avanzado:
     output: true

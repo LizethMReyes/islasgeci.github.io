@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Alias y funciones compartidas"
-author: evaristo
+author: Evaristo
 ---
 
 Ayer Efren propuso (secundado por David) que saquemos las funciones del archivo de alias `.bash_aliases` que tenemos en `$REPOS/misctools/bin/`. A mi no me gustó mucho la propuesta porque eso implica que tendría que modificar mi `~/.bashrc`. Como el `~/.bashrc` de Ubuntu carga `~/.bash_aliases` por defecto, lo que yo había hecho fue crear una liga `~/.bash_aliases` que apuntara hacia `$REPOS/misctools/bin/.bash_aliases` evitando así modificar mi `~/.bashrc` original. Sin embargo, para cargar el nuevo archivo `$REPOS/misctools/bin/.bash_functions` parecía que tendría que modificar `~/bashrc`.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Entornos virtuales en MATLAB"
-author: evaristo
+author: Evaristo
 ---
 
 Agregué algunas funciones al módulo *toolboxes* de MATLAB que nos permite trabajar con entornos virtuales como en Python.
