@@ -3,6 +3,7 @@ layout: page
 title: Metadatos
 tagline: para analistas de datos
 description: Cómo agregar metadatos a un archivo de datos en Excel
+order: 20
 ---
 
 Los metadatos proporcionan información adicional sobre los datos. Existen diversas convenciones para estandarizar metadatos. La presente guía fue inspirada en [_NetCDF Climate and Forecast Metadata Conventions_ (CF Conventions)](http://cfconventions.org) y [Frictionless Data Specifications](http://specs.frictionlessdata.io/).
