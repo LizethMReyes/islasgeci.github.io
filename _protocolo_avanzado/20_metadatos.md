@@ -56,8 +56,3 @@ Metadato           | Uso      | Descripción
 `standard_name`    | Columna | [A standard name that references a description of a variable's content in the standard name table](http://cfconventions.org/standard-names.html)
 `units`            | Columna | [Units of a variable's content](http://www.unidata.ucar.edu/software/udunits/udunits.txt)
 
----
-
-&rarr; Siguiente: [Validar un archivo de Excel](validacion.html)
-
-&larr; Anterior: [Resumen](resumen.html)
