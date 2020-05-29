@@ -10,5 +10,5 @@ En esta sección se encuentra información adicional para los analistas del [equ
 
 {% assign sorted = (site.protocolo_avanzado | sort: 'order') %}
 {% for item in sorted %}
-- [**{{ item.title }}**]({{ item.url }}). _{{ item.description }}_
+1. [**{{ item.title }}**]({{ item.url }}). _{{ item.description }}_
 {% endfor %}
