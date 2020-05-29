@@ -1,6 +1,7 @@
 ---
 layout: page
-title: 4. Referencias
+title: Referencias
+tagline: para analistas de datos
 description: Lista de referencias en las que se inspiró este protocolo
 ---
 

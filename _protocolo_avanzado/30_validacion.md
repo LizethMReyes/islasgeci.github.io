@@ -1,9 +1,8 @@
 ---
 layout: page
-title: 3. Validar un archivo de Excel
+title: Validar un archivo de Excel
 tagline: para analistas de datos
 description: Cómo verificar si un archivo de Excel cumple con este protocolo
-
 ---
 
 Usamos [jsonschema](https://github.com/Julian/jsonschema) para validar que:

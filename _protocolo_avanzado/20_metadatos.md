@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2. Metadatos
+title: Metadatos
 tagline: para analistas de datos
 description: Cómo agregar metadatos a un archivo de datos en Excel
 ---
