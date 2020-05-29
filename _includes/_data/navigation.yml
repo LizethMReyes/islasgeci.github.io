@@ -1,0 +1,12 @@
+- name: Inicio
+  link: /
+- name: Blog
+  link: /blog.html
+- name: GECI en Bitbucket
+  link: https://bitbucket.org/IslasGECI/
+- name: GECI en GitHub
+  link: https://github.com/IslasGECI
+- name: Guía de estilo de Ciencia de Datos
+  link: /guia_de_estilo/index.html
+- name: Protocolo para guardar datos en Excel
+  link: protocolo_basico/index.html
