@@ -1,22 +1,18 @@
 ---
 layout: page
-title: Información adicional
-tagline: para analistas de datos
+title: Protocolo avanzado para guardar datos en Excel
+tagline: Ciencia de Datos • GECI
 ---
 
 En esta sección se encuentra información adicional para los analistas del [equipo](https://github.com/orgs/IslasGECI/people) de [Ciencia de Datos en GECI](https://github.com/orgs/IslasGECI).
 
-### Contenido
+<h2>Contenido</h2>
 
-1. [Resumen](resumen.html)
-1. [Metadatos](metadatos.html)
-1. [Validar un archivo de Excel](validacion.html)
-1. [Referencias](referencias.html)
-
-- [Código fuente de este sitio](https://github.com/IslasGECI/islasgeci.github.io)
-
----
-
-&rarr; Siguiente: [Resumen](resumen.html)
-
-&larr; Anterior: [Protocolo para guardar datos en Excel](../protocolo_basico/)
+<ol>
+  {% for page in site.protocolo_avanzado %}
+    <li>
+      <b><a href="{{ page.url }}">{{ page.title }}</a></b>
+      <i>{{ page.description }}</i>
+    </li>
+  {% endfor %}
+</ol>

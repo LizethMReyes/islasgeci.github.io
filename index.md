@@ -18,7 +18,10 @@ El **Grupo de Ecología y Conservación de Islas** (GECI) tiene como misión la 
 GECI cuenta con un [equipo](https://github.com/orgs/IslasGECI/people) interdisciplinario de _Ciencia de Datos_ que desarrolla diversos estudios y aplicaciones de soporte para las actividades del grupo.
 Los objetivos de Ciencia de Datos en GECI son la optimización de recursos para la conservación, y la evaluación de los impactos de nuestros proyectos de restauración sobre la biodiversidad de las islas de México.
 
-- [GECI en Bitbucket](https://bitbucket.org/IslasGECI/)
-- [GECI en GitHub](https://github.com/IslasGECI)
-- [Guía de estilo de Ciencia de Datos](guia_de_estilo/)
-- [Protocolo para guardar datos en Excel](https://islasgeci.github.io/protocolo_basico)
+<ul>
+  {% for item in site.data.navigation %}
+    <li><a href="{{ item.link }}">
+      {{ item.name }}
+    </a></li>
+  {% endfor %}
+</ul>

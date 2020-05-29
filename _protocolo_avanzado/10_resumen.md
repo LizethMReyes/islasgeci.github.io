@@ -2,6 +2,7 @@
 layout: page
 title: Resumen
 tagline: para analistas de datos
+description: Síntesis del flujo de trabajo
 ---
 
 - Recibimos cada tabla de datos en un archivo de Excel que cumple [este protocolo](../index.html)
@@ -12,9 +13,3 @@ tagline: para analistas de datos
 - Importamos el TDP anterior como un objeto `DataPackage` (**datatools**)
 - Procesamos los datos de forma [reproducible](http://kbroman.org/steps2rr/) siguiendo nuestro [manual de procedimientos](https://bitbucket.org/IslasGECI/analisis/src/default/README.md) y nuestra [guía de estilo](https://islasgeci.github.io/guia_de_estilo/)
 - Entregamos los resultados mediante Trello (evitando enviar archivos adjuntos por correo)
-
----
-
-&rarr; Siguiente: [Metadatos](metadatos.html)
-
-&larr; Anterior: [Información adicional para analistas de datos](index.html)
