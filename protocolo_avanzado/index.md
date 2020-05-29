@@ -10,11 +10,9 @@ En esta sección se encuentra información adicional para los analistas del [equ
 
 <ul>
   {% for page in site.protocolo_avanzado %}
-    <li>
-      <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-      <h3>{{ page.description }}</h3>
-    </li>
+    <ol>
+      <b><a href="{{ page.url }}">{{ page.title }}</a></b>
+      <i>{{ page.description }}</i>
+    </ol>
   {% endfor %}
 </ul>
-
-- [Código fuente de este sitio](https://github.com/IslasGECI/islasgeci.github.io)
