@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Equipo de Ciencia de Datos en Conservación de Islas
-tagline: para analistas de datos
+title: Equipo
+tagline: Ciencia de Datos • GECI
 ---
-
-<h1>Equipo</h1>
 
 <ul>
   {% for author in site.authors %}

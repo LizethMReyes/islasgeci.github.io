@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Blog de Ciencia de Datos • GECI
-tagline: para analistas de datos
+title: Blog
+tagline: Ciencia de Datos • GECI
 ---
 
 <ul>
