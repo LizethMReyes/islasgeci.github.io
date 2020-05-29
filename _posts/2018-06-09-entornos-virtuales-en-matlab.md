@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Entornos virtuales en MATLAB"
 author: evaristo
 ---
 
@@ -135,7 +136,3 @@ ans =
 ```
 
 Cuando necesite trabajar con la versión más nueva (_tip_) del módulo _islas_ me puedo cambiar al entorno **evaringaderas** y cuando necesite la versión _0.2.0_ me puedo cambiar al entorno **estable**.
-
----
-
-[← Índice del Blog](README.md)

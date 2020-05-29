@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Análisis Científico"
 author: evaristo
 ---
 
@@ -14,7 +15,3 @@ Nuestro desarrollo profesional lo debemos que tomar en nuestras propias manos, y
 Este equipo pretende liberar a los científicos expertos de la lata de procesar los datos. Le ofrecemos a nuestros clientes la posibilidad de _outsorce_ el procesamiento de datos. Nosotros somos los expertos en el procesamiento y análisis de datos, nuestro cliente no; nuestro cliente es experto en su área del conocimiento. Nuestros clientes son investigadores que trabajan en centros de investigación, universidades u organizaciones de la sociedad civil. Actualmente se reduce a los directores de proyecto de GECI.
 
 La útima vez que estuve en La Paz resumía nuestro trabajo diciendo que nosotros hacíamos para GECI todo lo que tuviera que ver con _procesamiento de datos y análisis cuantitativos_.
-
----
-
-[← Índice del Blog](README.md)
