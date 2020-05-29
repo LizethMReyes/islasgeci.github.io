@@ -3,6 +3,7 @@ layout: page
 title: Validar un archivo de Excel
 tagline: para analistas de datos
 description: Cómo verificar si un archivo de Excel cumple con este protocolo
+order: 30
 ---
 
 Usamos [jsonschema](https://github.com/Julian/jsonschema) para validar que:

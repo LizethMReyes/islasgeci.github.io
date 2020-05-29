@@ -3,6 +3,7 @@ layout: page
 title: Referencias
 tagline: para analistas de datos
 description: Lista de referencias en las que se inspiró este protocolo
+order: 40
 ---
 
 El autor de este protocolo se inspiró en las referencias siguientes:
