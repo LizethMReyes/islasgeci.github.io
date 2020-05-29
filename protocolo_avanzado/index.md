@@ -8,11 +8,11 @@ En esta sección se encuentra información adicional para los analistas del [equ
 
 <h2>Contenido</h2>
 
-<ul>
+<ol>
   {% for page in site.protocolo_avanzado %}
-    <ol>
+    <li>
       <b><a href="{{ page.url }}">{{ page.title }}</a></b>
       <i>{{ page.description }}</i>
-    </ol>
+    </li>
   {% endfor %}
-</ul>
+</ol>
