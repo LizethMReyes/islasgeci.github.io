@@ -3,6 +3,7 @@ layout: page
 title: Resumen
 tagline: para analistas de datos
 description: Síntesis del flujo de trabajo
+order: 10
 ---
 
 - Recibimos cada tabla de datos en un archivo de Excel que cumple [este protocolo](../index.html)
