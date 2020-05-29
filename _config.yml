@@ -109,3 +109,4 @@ JB :
 collections:
   authors:
   protocolo_avanzado:
+    output: true
