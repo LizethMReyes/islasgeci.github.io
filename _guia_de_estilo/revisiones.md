@@ -5,7 +5,7 @@ tagline: Guía de estilo
 description: Guía de estilo para lograr una revisiones amables y efectivas
 ---
 
-Cómo escribir un comentario en una revisión
+## Cómo escribir un comentario en una revisión
 
 - Se amable. Siempre pide las cosas por favor.
 - Usa lenguaje simple y claro.
