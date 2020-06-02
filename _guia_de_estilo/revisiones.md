@@ -16,7 +16,7 @@ dónde está lo raro y por qué te parece raro.
 - Explica qué es lo que entendiste. Para verificar que estás interpretando correctamente la intención de tu par.
 - Provee alternativas de solución. Ayuda a tu par a solucionar el problema ofreciendo una
 alternativa; si es posible, ofrece más de una opción.
-- Provee referencias. El autor te agradecerá si señalas con vínculos (ligas) las referencias en 
+- Provee referencias. Tu par te agradecerá si señalas con vínculos (ligas) las referencias en
 las que basaste tu revisión. Trata de usar las mismas referencias que ya hemos usado en el pasado. 
 Idealmente muestra ejemplos de nuestro propio código
 - Se respetuoso. Actúa como si estuvieras corrigiendo a Alfonso Aguirre
