@@ -31,15 +31,15 @@ el género (El/la pianista, un buen/una buena profesional)
 1. El resumen: lo escribimos en pasado
 1. La introducción: la escribimos en presente
 1. La metodología: la escribimos en pasado
-1. Los resultados: la escribimos en pasado
-1. La discusión la escribimos en tiempo presente
+1. Los resultados: los escribimos en pasado
+1. La discusión: la escribimos en presente
 
 ## Sugerencia de la anatomía del reporte
 1. Escribe cada conclusión en un enunciado breve
 1. Escribe solo los resultados necesarios para tus conclusiones
 1. Escribe solo los métodos con los que generaste tus resultados
 1. Escribe discusiones que aporten a tus conclusiones
-1. Escribe la introducción la información necesaria para presentar las preguntas que reposponden 
+1. Escribe en la introducción la información necesaria para presentar las preguntas que reposponden 
 las conclusiones
 
 ## Sugerencias en la redacción
