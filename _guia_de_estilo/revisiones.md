@@ -19,4 +19,4 @@ alternativa; si es posible, ofrece más de una opción.
 - Provee referencias. Tu par te agradecerá si señalas con vínculos (ligas) las referencias en
 las que basaste tu revisión. Trata de usar las mismas referencias que ya hemos usado en el pasado. 
 Idealmente muestra ejemplos de nuestro propio código
-- Se respetuoso. Actúa como si estuvieras corrigiendo a Alfonso Aguirre
+- Se respetuosa o respetuoso. Actúa como si estuvieras corrigiendo a alguien venerable
