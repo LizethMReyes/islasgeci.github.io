@@ -13,7 +13,7 @@ description: Guía de estilo para lograr una revisiones amables y efectivas
 está el asunto que quieres señalar. No digas cosas como: "por ahí hay algo raro". Di exactamente 
 dónde está lo raro y por qué te parece raro.
 - Explica por qué. El por qué siempre es más importante que el qué. ¿Por qué lo estás señalando?
-- Explica qué es lo que entendiste. Para verificar que estás interpretando correctamente la intención del autor.
+- Explica qué es lo que entendiste. Para verificar que estás interpretando correctamente la intención de tu par.
 - Provee alternativas de solución. Ayuda a tu compañero a solucionar el problema ofreciendo una 
 alternativa; si es posible, ofrece más de una opción.
 - Provee referencias. El autor te agradecerá si señalas con vínculos (ligas) las referencias en 
