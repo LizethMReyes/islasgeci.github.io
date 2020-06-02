@@ -9,7 +9,7 @@ description: Guía de estilo para lograr una revisiones amables y efectivas
 
 - Se amable. Siempre pide las cosas por favor.
 - Usa lenguaje simple y claro.
-- Se específico. Sólo señala las palabras que requieren atención. No "subrayes" de más o donde no 
+- Se específica o específico. Sólo señala las palabras que requieren atención. No "subrayes" de más o donde no
 está el asunto que quieres señalar. No digas cosas como: "por ahí hay algo raro". Di exactamente 
 dónde está lo raro y por qué te parece raro.
 - Explica por qué. El por qué siempre es más importante que el qué. ¿Por qué lo estás señalando?
