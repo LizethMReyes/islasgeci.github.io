@@ -25,7 +25,7 @@ No excluimos ni invisibilizamos. Por tal motivo cuidamos seguir lo siguiente:
 etc.)
 1. Palabras distintas según el sexo del referente (madre/padre)
 1. Cuando el sustantivo es común (en el género) utilizaremos artículos y adjetivos para especificar
-el género (El/la pianista, un buen/una buena profesional)
+el género (el/la pianista, un buen/una buena profesional)
 
 # Claridad
 1. El resumen: lo escribimos en pasado
@@ -34,16 +34,16 @@ el género (El/la pianista, un buen/una buena profesional)
 1. Los resultados: los escribimos en pasado
 1. La discusión: la escribimos en presente
 
-## Sugerencia de la anatomía del reporte
+## Sugerencia sobre la estructura del reporte
 1. Escribe cada conclusión en un enunciado breve
 1. Escribe solo los resultados necesarios para tus conclusiones
 1. Escribe solo los métodos con los que generaste tus resultados
 1. Escribe discusiones que aporten a tus conclusiones
-1. Escribe en la introducción la información necesaria para presentar las preguntas que reposponden 
+1. Escribe en la introducción la información necesaria para presentar las preguntas que responden
 las conclusiones
 
 ## Sugerencias en la redacción
-1. Preferimos la voz actica sobre la voz pasiva
+1. Preferimos la voz activa sobre la voz pasiva
 1. Escoge el sujeto relevante y escríbelo en el inicio de la oración
 1. Pon el sujeto antes del verbo
 1. Manten el sujeto y el verbo lo más cerca posibles el uno del otro
@@ -53,6 +53,6 @@ las conclusiones
 
 # Precisión 
 Entendemos por preciso aquel escrito que sea conciso y riguroso. 
-El objetivo es que nuestras compañeras y compañeros de dentro y fuera de la dirección tengan la 
+El objetivo es que nuestras compañeras y compañeros dentro y fuera de la dirección tengan la 
 información necesaria para verificar la pertinencia de los métodos que utilizamos para responder 
 sus preguntas de investigación.
