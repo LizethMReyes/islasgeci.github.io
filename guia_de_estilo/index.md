@@ -10,8 +10,8 @@ description: Este documento extiende las guías de estilo adoptadas por el equip
 <ol>
   {% for page in site.guia_de_estilo %}
     <li>
-      <b><a href="{{ page.url }}">{{ page.title }}</a></b>
-      <i>{{ page.description }}</i>
+      <b><a href="{{ page.url }}">{{ page.title }}</a></b>:
+      {{ page.description }}
     </li>
   {% endfor %}
 </ol>
