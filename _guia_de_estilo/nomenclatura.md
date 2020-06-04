@@ -2,7 +2,7 @@
 layout: page
 title: Nomenclatura
 tagline: Guía de estilo
-description: Este documento extiende las guías de estilo adoptadas por el equipo de Ciencia de Datos de GECI
+description: Cómo nombramos las cosas
 ---
 ## Archivos de datos
 

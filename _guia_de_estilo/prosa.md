@@ -2,7 +2,7 @@
 layout: page
 title: Estilo en la prosa
 tagline: Guía de estilo
-description: Guía de estilo para la escritura de la prosa
+description: Cómo escribimos el texto que no es código
 ---
 
 En Ciencia de Datos seguimos las siguientes prioridades en la prosa que escribimos:
