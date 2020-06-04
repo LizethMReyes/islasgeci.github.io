@@ -5,12 +5,12 @@ tagline: Ciencia de Datos • GECI
 description: Este documento extiende las guías de estilo adoptadas por el equipo de Ciencia de Datos de GECI
 ---
 
-## Contenido
+**Contenido**
 
 <ol>
   {% for page in site.guia_de_estilo %}
     <li>
-      <b><a href="{{ page.url }}">{{ page.title }}</a></b>:
+      <b><a href="{{ page.url }}">{{ page.title }}</a>:</b>
       {{ page.description }}
     </li>
   {% endfor %}
