@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Nuestras Herramientas"
+title: "Nuestras herramientas"
+
 author: Evaristo
 tags: equipo
 ---

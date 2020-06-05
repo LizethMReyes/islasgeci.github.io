@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Trabajo a Distancia"
+title: "Trabajo a distancia"
 author: Nepo
 tags: equipo
 ---

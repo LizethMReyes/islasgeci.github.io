@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Code of Conduct"
+title: "Code of conduct"
 author: Evaristo
 tags: equipo
 ---
