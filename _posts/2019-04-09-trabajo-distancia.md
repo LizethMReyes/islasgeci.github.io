@@ -2,6 +2,7 @@
 layout: post
 title: "Trabajo a Distancia"
 author: Nepo
+tags: equipo
 ---
 
 La dirección de Ciencia de Datos trabaja a distancia, en dos ciudades distintas. Estos dos

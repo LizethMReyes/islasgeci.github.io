@@ -2,6 +2,7 @@
 layout: post
 title: "Líneas de trabajo de Ciencia de Datos"
 author: Evaristo
+tags: equipo
 ---
 
 En GECI contamos con una Dirección de Análisis Científico donde evaluamos cuantitativamente nuestras intervenciones de conservación sobre las aves marinas y las islas.

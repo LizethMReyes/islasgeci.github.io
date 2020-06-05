@@ -2,6 +2,7 @@
 layout: post
 title: "Modelando el control de especies invasoras"
 author: Nepo
+tags: analisis
 ---
 
 En esta entrada mostramos el avance que tenemos en la Dirección de Ciencie de Datos para 

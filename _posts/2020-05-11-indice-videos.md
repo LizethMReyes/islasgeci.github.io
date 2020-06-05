@@ -2,6 +2,7 @@
 layout: post
 title: "Índice de videos"
 author: Evaristo
+tags: capacitacion
 ---
 
 - [¿Me echas una mano?](https://www.youtube.com/playlist?list=PLj7Ainnd4Lf4c3oClB3vU_hX0V5ZHWcMY)

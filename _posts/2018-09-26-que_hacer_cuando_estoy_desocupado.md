@@ -2,6 +2,7 @@
 layout: post
 title: "Qué hacer cuando estoy desocupado"
 author: Evaristo
+tags: equipo capacitacion
 ---
 
 La siguiente lista de referencias constituye el canon de las actividades a realizar por equipo de Ciencia de Datos durante períodos libres de tareas.

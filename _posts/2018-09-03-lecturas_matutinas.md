@@ -2,6 +2,7 @@
 layout: post
 title: "Lecturas matutinas"
 author: Evaristo
+tags: capacitacion
 ---
 
 La siguiente lista de referencias constituye el canon de las buenas prácticas del equipo de Ciencia de Datos.

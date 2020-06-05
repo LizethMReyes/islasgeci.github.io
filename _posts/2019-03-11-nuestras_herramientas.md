@@ -2,6 +2,7 @@
 layout: post
 title: "Nuestras Herramientas"
 author: Evaristo
+tags: equipo
 ---
 
 Cada oficio tiene sus herramientas características. Las herramientas del científico de datos son programas de computadora y lenguajes de programación que nos permiten realizar análisis cuantitativos de forma colaborativa y reproducible.
