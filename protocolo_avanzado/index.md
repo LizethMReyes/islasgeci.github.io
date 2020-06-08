@@ -6,9 +6,14 @@ tagline: Ciencia de Datos • GECI
 
 En esta sección se encuentra información adicional para los analistas del [equipo](https://github.com/orgs/IslasGECI/people) de [Ciencia de Datos en GECI](https://islasgeci.github.io).
 
-### Contenido
+#### Contenido
 
 {% assign sorted = (site.protocolo_avanzado | sort: 'order') %}
-{% for item in sorted %}
-1. [**{{ item.title }}**]({{ item.url }}). _{{ item.description }}_
-{% endfor %}
+<ol>
+  {% for item in sorted %}
+    <li>
+      <b><a href="{{ item.url }}">{{ item.title }}</a>:</b>
+      {{ item.description }}
+    </li>
+  {% endfor %}
+</ol>

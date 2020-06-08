@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Formato de los archivos
+title: Usa texto simple
 tagline: Guía de estilo
-description: Este documento extiende las guías de estilo adoptadas por el equipo de Ciencia de Datos de GECI
+description: Por qué preferimos los archivos de texto simple
 ---
 
 Los datos se prefieren en texto simple (csv, json, etc.) sobre los archivos binarios (xls, mat, etc.) porque:
