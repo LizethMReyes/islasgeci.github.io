@@ -2,7 +2,7 @@
 layout: post
 title: Flujo de trabajo
 author: Maritza y Fernando
-tags: analisis
+tags: equipo
 ---
 
 Vamos a platicarles sobre el flujo de trabajo de la dirección, como utilizamos los datos que se colectan en campo para realizar análisis e intentar resolver preguntas de interés, de caracter científico y ecológico.
