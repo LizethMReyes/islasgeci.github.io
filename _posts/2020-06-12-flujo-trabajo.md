@@ -26,7 +26,7 @@ Acceder a todos estos datos y la integración de estos es una tarea importante, 
 
 DIAPOSITIVA 3
 
-Para esto la Ciencia de Datos ofrece herramientas de almacenamiento y manejo de grandes bases de datos y técnicas de analisis de datos.
+Para esto la Ciencia de Datos ofrece herramientas de almacenamiento y manejo de grandes bases de datos y técnicas de análisis de datos.
 Una de estas herramientas es la curación de datos y la automatización de este proceso.
 
 DIAPOSITIVA 4
