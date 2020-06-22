@@ -58,7 +58,7 @@ Finalmente el reporte tiene como objetivo comunicar de la forma más clara y pre
 
 Mencionar:
 revisión por pares.
-cuando llegan datos se agregan de manera automatica al los rsultados del reporte.
+cuando llegan datos se agregan de manera automática al los resultados del reporte.
 
 Todo este proceso, lo hacemos de manera reproducible. En principio cualquier compañero de GECI solo necesita tener instaladas dos herramientas en su computadora, git y docker. Esto es muy útil, por ejemplo en estos días durante situación actual con la pandemia. Yo por ejemplo he estado trabajando en mi computadora personal. Y no tuve que copiar NADA de la computadora de oficina a la mia. Todo está en plataformas en linea (nube) y con instalar estas dos herramientas en mi computadora, puedo reproducir todos los análisis que hemos hecho en el último año.
 
