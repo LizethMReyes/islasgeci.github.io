@@ -25,7 +25,6 @@ Estas bases de datos contienen información significativa y son el recurso funda
 
 Acceder a todos estos datos y la integración de estos es una tarea importante, especialmente si lo que queremos es poder tomar decisiones basadas en los análisis de los datos generados.
 
-DIAPOSITIVA 3
 
 En Ciencia de Datos hemos adoptado metodológias que se utilizan en el desarrollo de software para automatizar los procesos de curación de datos y análisis.
 Una de estas herramientas es la curación de datos y la automatización de este proceso.
