@@ -42,7 +42,7 @@ Estadística descriptiva:
 
 La estadística descriptiva aplicada a un conjunto de datos, es lo que conocemos como análisis exploratorio de datos. En resumen, en este paso utilizamos números, tablas y gráficas para describir la información y sacar conclusiones de la muestra de datos. 
 
-Esto también nos ayuda a saber que tipos de análisis cuantitativos podemos usar en el siguiente paso,  cuales metodologías son viables para el conjuto de datos dada la incognita que se pretende resolver. Por ejemplo, no puedes usar métodos de machine learning con pocos datos, simplemente no funcionaría.
+Esto también nos ayuda a saber que tipos de análisis cuantitativos podemos usar en el siguiente paso,  cuales metodologías son viables para el conjuto de datos dada la incógnita que se pretende resolver. Por ejemplo, no puedes usar métodos de machine learning con pocos datos, simplemente no funcionaría.
 
 Estadística inferencial:
 
