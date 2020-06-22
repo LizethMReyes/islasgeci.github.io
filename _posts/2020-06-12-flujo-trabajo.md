@@ -29,7 +29,6 @@ DIAPOSITIVA 3
 Para esto la Ciencia de Datos ofrece herramientas de almacenamiento y manejo de grandes bases de datos y técnicas de análisis de datos.
 Una de estas herramientas es la curación de datos y la automatización de este proceso.
 
-DIAPOSITIVA 4
 
 Si las fuentes de datos son internas o de terceros externos, los datos eventualmente contendrán errores. Los errores de datos pueden (obstruir/bloquear) el flujo de datos. Los errores también pueden ser sutiles, como registros duplicados o campos individuales que contienen datos erróneos.
 Los errores de datos pueden ser difíciles de rastrear y resolver rápidamente.
