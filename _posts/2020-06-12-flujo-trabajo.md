@@ -9,7 +9,6 @@ Vamos a platicarles sobre el flujo de trabajo de la dirección, como utilizamos 
 
 Podemos resumir nuestro flujo de trabajo en 5 pasos: Los primeros dos pasos son el procesamiento de los datos que consiste en la obtención, curación y limpieza de datos, después en la parte de análisis está el paso 3 y 4, que son la estadística descriptiva e inferencial respectivamente y finalmente el reporte. A continuación mi compañera Maritza les hablará de los primeros dos puntos.
 
-DIAPOSITIVA 1
 
 Cada organización, institución o empresa genera una gran cantidad de datos independientemente del giro que esta desarrolle. 
 Particularmente, nuestra organización GECI, es una asociación civil que ha participado en diferentes proyectos con la finalidad de la recuperación de sistemas insulares, realizando diversas actividades y monitoreos de los cuales se van tomando registros.
