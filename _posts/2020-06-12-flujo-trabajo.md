@@ -12,7 +12,7 @@ Podemos resumir nuestro flujo de trabajo en 5 pasos: Los primeros dos pasos son 
 DIAPOSITIVA 1
 
 Cada organización, institución o empresa genera una gran cantidad de datos independientemente del giro que esta desarrolle. 
-Particularmente, nuestra organización GECI, ES una asociación civil que ha participado en diferentes proyectos con la finalidad de la recuperación de sistemas insulares, realizando diversas actividades y monitoreos de los cuales se van tomando registros.
+Particularmente, nuestra organización GECI, es una asociación civil que ha participado en diferentes proyectos con la finalidad de la recuperación de sistemas insulares, realizando diversas actividades y monitoreos de los cuales se van tomando registros.
 
 Algunos de estos proyectos han sido por ejemplo la erradicación de especies invasoras o la respuesta rápida ante éstas. Mientras que algunos monitoreos que se han realizado han sido por ejemplo la morfometría y anillamiento de aves, monitoreo de madrigueras ya sean naturales o artificiales, o esfuerzos de trampeo solo por mencionar algunos ejemplos.
 
