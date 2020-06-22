@@ -50,7 +50,7 @@ En este paso hacemos análisis y ajuste de modelos estadísticos. Aquí pretende
 
 En este caso es crucial contar con una muestra representativa y sin sesgos de la población para obtener mayor confiabilidad. En la mayoría de los casos, no se obtendrá seguridad completa de una afirmación u hipótesis. Lo único que podemos hacer es decir con cierta significancia estadística, rechazar la hipótesis nula.
 
-Por ejemplo, queremos probar que la población de albatros de laysan en Isla guadalupe está en crecimiento. Para esto, hacemos monitoreos de conteo de nidos para obtener una muestra de la población de albatros en IG anualmente. Como todos sabemos, por las características de esta colonia las muestras son altamente representativas de la población. Incluso si en por algúna  razón no contases algunos individuo el nivel de significancia sería muy alto. Pero, ahora por ejemplo, esta misma muestra de datos, es representativa para decir que la población de albatos de laysan del mundo está en aumento? 
+Por ejemplo, queremos probar que la población de albatros de laysan en Isla guadalupe está en crecimiento. Para esto, hacemos monitoreos de conteo de nidos para obtener una muestra de la población de albatros en IG anualmente. Como todos sabemos, por las características de esta colonia las muestras son altamente representativas de la población. Incluso si en por algúna razón no contases algunos individuo el nivel de significancia sería muy alto. Pero, ahora por ejemplo, esta misma muestra de datos, ¿es representativa para decir que la población de albatros de laysan del mundo está en aumento? 
 
 Reporte:
 
