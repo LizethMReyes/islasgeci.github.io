@@ -38,7 +38,7 @@ La integración de datos, la limpieza, la transformación, el aseguramiento de l
 
 Pueden haberse automatizado una parte de estas tareas, pero en muchas ocasiones se realizan numerosos procesos manuales de forma regular. Estos procedimientos de memoria son propensos a errores, requieren mucho tiempo y son tediosos.
 
-Estadística descritiva:
+Estadística descriptiva:
 
 La estadística descriptiva aplicada a un conjunto de datos, es lo que conocemos como análisis exploratorio de datos. En resumen, en este paso utilizamos números, tablas y gráficas para describir la información y sacar conclusiones de la muestra de datos. 
 
