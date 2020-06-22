@@ -22,7 +22,7 @@ Cada tabla que obtenemos de cada monitoreo, ya sea de meses o años o mas, tiene
 
 Estas bases de datos contienen información significativa y son el recurso fundamental para los análisis. Todos estos datos se recopilan en tablas o archivos de excel separadas, que generalmente no se comunican entre sí.
 
-Acceder a todos estos datos y la integración de estos es una tarea importante, especialmente si lo que queremos es poder tomar decisiones basadas en los analisis de los datos generados.
+Acceder a todos estos datos y la integración de estos es una tarea importante, especialmente si lo que queremos es poder tomar decisiones basadas en los análisis de los datos generados.
 
 DIAPOSITIVA 3
 
