@@ -26,7 +26,7 @@ Acceder a todos estos datos y la integración de estos es una tarea importante, 
 
 DIAPOSITIVA 3
 
-Para esto la Ciencia de Datos ofrece herramientas de almacenamiento y manejo de grandes bases de datos y técnicas de análisis de datos.
+En Ciencia de Datos hemos adoptado metodológias que se utilizan en el desarrollo de software para automatizar los procesos de curación de datos y análisis.
 Una de estas herramientas es la curación de datos y la automatización de este proceso.
 
 
