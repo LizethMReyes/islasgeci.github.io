@@ -16,7 +16,7 @@ Particularmente, nuestra organización GECI, es una asociación civil que ha par
 Algunos de estos proyectos han sido por ejemplo la erradicación de especies invasoras o la respuesta rápida ante éstas. Mientras que algunos monitoreos que se han realizado han sido por ejemplo la morfometría y anillamiento de aves, monitoreo de madrigueras ya sean naturales o artificiales, o esfuerzos de trampeo solo por mencionar algunos ejemplos.
 
 
-Cada tabla que obtenemos de cada monitoreo, ya sea de meses o años o más, tiene el potencial de convertirse en valiosa información. Y de cada uno de estos proyectos obtenemos al menos una base de datos. Todo esto conlleva a un almacenamiento masivo de datos. 
+Cada tabla que obtenemos de cada monitoreo, ya sea de meses o años o más, tiene el potencial de convertirse en valiosa información.
 ¿Cuál es la problemática con las bases de datos?
 La primera es qué con cada uno de los proyectos obtenemos al menos una base de datos, que de no tener un manejo adecuando nos llevará a un almacenamiento masivo de datos, sin tener la oportunidad de explotar la información contenida en estas.
 Estas bases de datos contienen información significativa y son el recurso fundamental para los análisis. Todos estos datos se recopilan en tablas o archivos de excel separadas, que generalmente no se comunican entre sí.
