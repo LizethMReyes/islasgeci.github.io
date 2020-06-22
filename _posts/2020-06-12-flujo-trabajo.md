@@ -19,7 +19,8 @@ Algunos de estos proyectos han sido por ejemplo la erradicación de especies inv
 DIAPOSITIVA 2
 
 Cada tabla que obtenemos de cada monitoreo, ya sea de meses o años o más, tiene el potencial de convertirse en valiosa información. Y de cada uno de estos proyectos obtenemos al menos una base de datos. Todo esto conlleva a un almacenamiento masivo de datos. 
-
+¿Cuál es la problemática con las bases de datos?
+La primera es qué con cada uno de los proyectos obtenemos al menos una base de datos, que de no tener un manejo adecuando nos llevará a un almacenamiento masivo de datos, sin tener la oportunidad de explotar la información contenida en estas.
 Estas bases de datos contienen información significativa y son el recurso fundamental para los análisis. Todos estos datos se recopilan en tablas o archivos de excel separadas, que generalmente no se comunican entre sí.
 
 Acceder a todos estos datos y la integración de estos es una tarea importante, especialmente si lo que queremos es poder tomar decisiones basadas en los análisis de los datos generados.
