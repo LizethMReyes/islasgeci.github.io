@@ -54,7 +54,7 @@ Por ejemplo, queremos probar que la población de albatros de laysan en Isla gua
 
 Reporte:
 
-Finalmente el reporte tiene como objetivo comunicar de la forma más clara y precisa posible,  los resultados obtenidos del análisis cuantitativo.  Con todas sus partes, un resumen, introducción, la metodología, resultados y algunas concluciones, apoyandonos de herramientas visuales como gráficas y tablas.
+Finalmente el reporte tiene como objetivo comunicar de la forma más clara y precisa posible, los resultados obtenidos del análisis cuantitativo. Con todas sus partes, un resumen, introducción, la metodología, resultados y algunas concluciones, apoyandonos de herramientas visuales como gráficas y tablas.
 
 Mencionar:
 revisión por pares.
