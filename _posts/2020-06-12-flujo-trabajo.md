@@ -6,7 +6,7 @@ tags: equipo
 ---
 
 Vamos a platicarles sobre el flujo de trabajo de la dirección de Ciencia de Datos, cómo utilizamos
-los datos que se colectan en campo para producir información de calidad y realizar análisis para
+los datos que se colectan en campo para producir información de calidad y para realizar análisis que
 intentar resolver preguntas de interés, de caracter científico y ecológico.
 
 Podemos resumir nuestro flujo de trabajo en 5 pasos: Los primeros dos pasos son el procesamiento de
