@@ -65,7 +65,7 @@ paso,  cuales metodologías son viables para el conjuto de datos dada la incógn
 resolver. Por ejemplo, no puedes usar métodos de machine learning con pocos datos, simplemente no
 funcionaría.
 
-Estadística inferencial:
+### Estadística inferencial
 
 En este paso hacemos análisis y ajuste de modelos estadísticos. Aquí pretendemos extraer
 concluciones globales para toda la población, a partir de un una muestra de datos.
