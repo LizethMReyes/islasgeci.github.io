@@ -83,7 +83,7 @@ contases algunos individuo el nivel de significancia sería muy alto. Pero, ahor
 misma muestra de datos, ¿es representativa para decir que la población de albatros de laysan del
 mundo está en aumento? 
 
-Reporte:
+### Reporte
 
 Finalmente el reporte tiene como objetivo comunicar de la forma más clara y precisa posible, los
 resultados obtenidos del análisis cuantitativo. Con todas sus partes, un resumen, introducción, la
