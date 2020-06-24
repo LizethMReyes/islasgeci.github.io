@@ -13,6 +13,8 @@ Podemos resumir nuestro flujo de trabajo en 5 pasos: Los primeros dos pasos son 
 los datos que consiste en la obtención, curación y limpieza de datos, después en la parte de
 análisis está el paso 3 y 4, que son la estadística descriptiva e inferencial respectivamente y
 finalmente el reporte.
+### Obtención de datos
+
 Cada organización, institución o empresa genera una gran cantidad de datos independientemente del
 giro que esta desarrolle. Particularmente, nuestra organización GECI, es una asociación civil que ha
 participado en diferentes proyectos con la finalidad de la recuperación de sistemas insulares,
@@ -28,7 +30,8 @@ convertirse en valiosa información. ¿Cuál es la problemática con las bases d
 qué con cada uno de los proyectos obtenemos al menos una base de datos, que de no tener un manejo
 adecuando nos llevará a un almacenamiento masivo de datos, sin tener la oportunidad de explotar la
 información contenida en estas. Estas bases de datos contienen información significativa y son el
-recurso fundamental para los análisis. Ahora, si todos estos datos se recopilan en tablas o archivos
+recurso fundamental para los análisis. 
+Ahora, si todos estos datos se recopilan en tablas o archivos
 separados, que generalmente no se comunican entre sí, tenemos otro problema. Ya que no existe un
 medio en al cual todas las personas tengan acceso y puedan consultar estas bases de datos. 
 
@@ -37,7 +40,9 @@ de estos problemas, son la información no documentada. Esto quiere decir que so
 recopiló la información conoce la tabla. Un ejemplo podría ser una base de datos con registros de
 morfometría de aves, donde no están documentadas las unidades (cm o in) en las que se tomaron las
 medidas. Por lo que alguien que consulte esta tabla podría verse en problemas a la hora de procesar
-la información. Acceder a todos estos datos y la integración de estos es una tarea importante,
+la información. 
+
+Acceder a todos estos datos y la integración de estos es una tarea importante,
 especialmente si lo que queremos es poder tomar decisiones basadas en los análisis de los datos
 generados.
 ### Curación de datos
@@ -45,7 +50,6 @@ generados.
 En Ciencia de Datos hemos adoptado metodológias que se utilizan en el desarrollo de software para
 automatizar los procesos de curación de datos y análisis. Una de estas herramientas es la curación
 de datos y la automatización de este proceso.
-
 
 Si las fuentes de datos son internas o de terceros externos, los datos eventualmente contendrán
 errores. Los errores de datos pueden (obstruir/bloquear) el flujo de datos. Los errores también
