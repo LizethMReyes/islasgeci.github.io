@@ -5,7 +5,7 @@ author: Maritza y Fernando
 tags: equipo
 ---
 
-Vamos a platicarles sobre el flujo de trabajo de la dirección de Ciencia de Datos, como utilizamos
+Vamos a platicarles sobre el flujo de trabajo de la dirección de Ciencia de Datos, cómo utilizamos
 los datos que se colectan en campo para producir información de calidad y realizar análisis para
 intentar resolver preguntas de interés, de caracter científico y ecológico.
 
