@@ -54,7 +54,7 @@ Pueden haberse automatizado una parte de estas tareas, pero en muchas ocasiones 
 numerosos procesos manuales de forma regular. Estos procedimientos de memoria son propensos a
 errores, requieren mucho tiempo y son tediosos.
 
-Estadística descriptiva:
+### Estadística descriptiva
 
 La estadística descriptiva aplicada a un conjunto de datos, es lo que conocemos como análisis
 exploratorio de datos. En resumen, en este paso utilizamos números, tablas y gráficas para describir
