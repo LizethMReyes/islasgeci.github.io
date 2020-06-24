@@ -22,6 +22,7 @@ Algunos de estos proyectos han sido por ejemplo la erradicación de especies inv
 rápida ante éstas. Mientras que algunos monitoreos que se han realizado han sido por ejemplo la
 morfometría y anillamiento de aves, monitoreo de madrigueras ya sean naturales o artificiales, o
 esfuerzos de trampeo solo por mencionar algunos ejemplos.
+
 Cada tabla que obtenemos de cada monitoreo, ya sea de meses o años o más, tiene el potencial de
 convertirse en valiosa información. ¿Cuál es la problemática con las bases de datos? La primera es
 qué con cada uno de los proyectos obtenemos al menos una base de datos, que de no tener un manejo
