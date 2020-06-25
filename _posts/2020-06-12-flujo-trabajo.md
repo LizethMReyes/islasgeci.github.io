@@ -64,56 +64,61 @@ errores, requieren mucho tiempo y son tediosos.
 
 ### Estadística descriptiva
 
-La estadística descriptiva aplicada a un conjunto de datos, es lo que conocemos como análisis
-exploratorio de datos. En resumen, en este paso utilizamos números, tablas y gráficas para describir
-la información y sacar conclusiones de la muestra de datos. 
+La estadística descriptiva aplicada a un conjunto de datos, es lo que comunmente conocemos como análisis
+exploratorio de datos. En resumen, en este análisis utilizamos números, tablas y gráficas para describir
+la información y sacar conclusiones sobre la muestra de datos. 
 
-Esto también nos ayuda a saber que tipos de análisis cuantitativos podemos usar en el siguiente
+Esto también nos ayuda a saber que tipos de análisis cuantitativos son viables para implementar en el siguiente
 paso,  cuales metodologías son viables para el conjuto de datos dada la incógnita que se pretende
 resolver. Por ejemplo, no puedes usar métodos de machine learning con pocos datos, simplemente no
 funcionaría.
 
 ### Estadística inferencial
 
-En este paso hacemos análisis y ajuste de modelos estadísticos. Aquí pretendemos extraer
+En este escenario realizamos análisis y ajuste de modelos estadísticos. Aquí pretendemos extraer
 concluciones globales para toda la población, a partir de un una muestra de datos.
 
-En este caso es crucial contar con una muestra representativa y sin sesgos de la población para
-obtener mayor confiabilidad. En la mayoría de los casos, no se obtendrá seguridad completa de una
-afirmación u hipótesis. Lo único que podemos hacer es decir con cierta significancia estadística,
-rechazar la hipótesis nula.
+Es crucial contar con una muestra representativa y sin sesgos de la población para
+obtener mayor confiabilidad. Por definición, podemos rechazar una hipótesis, pero nunca
+podemos probarla. Lo único que podemos hacer es rechazar la hipótesis nula con cierta
+significancia estadística, o como se acostumbra, con cierto p-valor .
 
-Por ejemplo, queremos probar que la población de albatros de laysan en Isla guadalupe está en
-crecimiento. Para esto, hacemos monitoreos de conteo de nidos para obtener una muestra de la
+El nivel de significación de una prueba estadística es un concepto estadístico asociado a
+la verificación de una hipótesis. El p-valor es una probabilidad condicional, la probabilidad de obtener 
+las observaciones si la hipótesis nula es verdadera.
+
+Por ejemplo, digamos que queremos probar que la población de albatros de laysan en Isla Guadalupe (IG) está en
+crecimiento. Para esto, hacemos monitoreos de conteo de nidos y así obtener una muestra de la
 población de albatros en IG anualmente. Como todos sabemos, por las características de esta colonia
-las muestras son altamente representativas de la población. Incluso si en por algúna razón no
-contases algunos individuo el nivel de significancia sería muy alto. Pero, ahora por ejemplo, esta
-misma muestra de datos, ¿es representativa para decir que la población de albatros de laysan del
-mundo está en aumento? 
+las muestras son altamente representativas de la población, los conteos son prácticamente exactos. 
+Incluso si en por algúna razón no contases algunos individuo el nivel de significancia 
+sería muy alto. Pero, ahora por ejemplo, esta misma muestra de datos, ¿es representativa para 
+decir que la población de albatros de laysan del mundo entero está en aumento?. Habiendo en IG solo cerca
+del 1% de la población mundial de albatros, no es posible obtener resultados significativos
+con la muestra nidos de albatros en IG.
 
 ### Reporte
 
 Finalmente el reporte tiene como objetivo comunicar de la forma más clara y precisa posible, los
 resultados obtenidos del análisis cuantitativo. Con todas sus partes, un resumen, introducción, la
-metodología, resultados y algunas concluciones, apoyandonos de herramientas visuales como gráficas y
-tablas.
+metodología, resultados y algunas concluciones, apoyándonos de herramientas visuales como gráficas y
+tablas. Estos reportes siempre son revisados por pares. 
 
-Mencionar: revisión por pares. cuando llegan datos se agregan de manera automática al los resultados
-del reporte.
+Para reproducir o generar un reporte, repetimos de manera automátizada cada uno de los análisis y desplegamos
+los resultados en el archivo final de salida. Esto nos ayuda a que cuando haya actualización de datos, 
+los resultados se incorporen al reporte de manera automatizada.
 
-Todo este proceso, lo hacemos de manera reproducible. En principio cualquier compañero de GECI solo
-necesita tener instaladas dos herramientas en su computadora, git y docker. Esto es muy útil, por
+Todo este flujo de trabajo, lo hacemos de manera reproducible. En principio cualquier compañero de GECI solo
+necesita tener instaladas dos herramientas en su computadora, __git__ y __docker__. Esto es muy útil, por
 ejemplo en estos días durante situación actual con la pandemia. Yo por ejemplo he estado trabajando
 en mi computadora personal. Y no tuve que copiar NADA de la computadora de oficina a la mia. Todo
-está en plataformas en linea (nube) y con instalar estas dos herramientas en mi computadora, puedo
+está en plataformas en línea (nube) y con instalar estas dos herramientas en mi computadora, puedo
 reproducir todos los análisis que hemos hecho en el último año.
 
 El proceso de la automatización en la ciencia de datos es algo novedoso. No es posible automatizar
 por completo el proceso, la intervención humana es necesario como en la mayoría de las ciencias. Sin
-embargo es diferente automatizar todo el proceso y automatizar las herramientas utilizadas en el
+embargo es diferente automatizar todo el proces, a automatizar las herramientas utilizadas en el
 proceso. A largo plazo esta metodología nos proporciona mayor velocidad de respuesta en la
 generación de nuevos resultados.
 
-P-valor: El nivel de significación de una prueba estadística es un concepto estadístico asociado a
-la verificación de una hipótesis. La probabilidad de obtener las observaciones si la hipótesis nula
-es verdadera. Es una probabilidad condicional.
+
