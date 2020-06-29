@@ -23,7 +23,8 @@ giro que esta desarrolle. Particularmente, nuestra organización GECI, es una as
 participado en diferentes proyectos con la finalidad de la recuperación de sistemas insulares,
 realizando diversas actividades y monitoreos de los cuales se van tomando registros.
 
-Algunos de estos proyectos han sido por ejemplo la erradicación de especies invasoras o la respuesta
+Algunos ejemplos de estos proyectos son: las erradicaciones de especies invasoras o la respuesta
+rápida ante éstas, monitoreos como: morfometría y anillamiento de aves, madrigueras naturales o artificiales, esfuerzos de trampeo.
 rápida ante éstas. Mientras que algunos monitoreos que se han realizado han sido por ejemplo la
 morfometría y anillamiento de aves, monitoreo de madrigueras ya sean naturales o artificiales, o
 esfuerzos de trampeo solo por mencionar algunos ejemplos.
