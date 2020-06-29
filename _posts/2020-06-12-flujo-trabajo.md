@@ -10,11 +10,13 @@ los datos que se colectan en campo para producir información de calidad y para 
 responden preguntas de interés, de caracter científico y ecológico.
 
 Podemos resumir nuestro flujo de trabajo en 5 pasos: Los primeros dos pasos son el procesamiento de
-los datos que consiste en la obtención, curación y limpieza de datos, después en la parte de
+los datos que consiste en la obtención y curación de los datos, después en la parte de
 análisis está el paso 3 y 4, que son la estadística descriptiva e inferencial respectivamente y
-finalmente el reporte.
+finalmente la elaboración del reporte técnico es el paso 5.
 
-### Obtención de datos
+## Procesamiento de datos
+
+### 1. Obtención de datos
 
 Cada organización, institución o empresa genera una gran cantidad de datos independientemente del
 giro que esta desarrolle. Particularmente, nuestra organización GECI, es una asociación civil que ha
@@ -44,7 +46,7 @@ la información.
 Acceder a todos estos datos y la integración de estos es una tarea importante, especialmente si lo
 que queremos es poder tomar decisiones basadas en los análisis de los datos generados.
 
-### Curación de datos
+### 2. Curación de datos
 
 En Ciencia de Datos hemos adoptado metodológias que se utilizan en el desarrollo de software para
 automatizar los procesos de curación de datos y análisis. Una de estas herramientas es la curación
@@ -62,7 +64,9 @@ Pueden haberse automatizado una parte de estas tareas, pero en muchas ocasiones 
 numerosos procesos manuales de forma regular. Estos procedimientos de memoria son propensos a
 errores, requieren mucho tiempo y son tediosos.
 
-### Estadística descriptiva
+## Análisis de datos
+
+### 3. Estadística descriptiva
 
 La estadística descriptiva aplicada a un conjunto de datos, es lo que comunmente conocemos como
 análisis exploratorio de datos. En resumen, en este análisis utilizamos números, tablas y gráficas
@@ -73,7 +77,7 @@ el siguiente paso,  cuales metodologías son viables para el conjuto de datos da
 se pretende resolver. Por ejemplo, no puedes usar métodos de machine learning con pocos datos,
 simplemente no funcionaría.
 
-### Estadística inferencial
+### 4. Estadística inferencial
 
 En este escenario realizamos análisis y ajuste de modelos estadísticos. Aquí pretendemos extraer
 concluciones globales para toda la población, a partir de un una muestra de datos.
@@ -97,7 +101,9 @@ que la población de albatros de laysan del mundo entero está en aumento?. Habi
 del 1% de la población mundial de albatros, no es posible obtener resultados significativos con la
 muestra nidos de albatros en IG.
 
-### Reporte
+## Entrega
+
+### 5. Reporte técnico
 
 Finalmente el reporte tiene como objetivo comunicar de la forma más clara y precisa posible, los
 resultados obtenidos del análisis cuantitativo. Con todas sus partes, un resumen, introducción, la
@@ -108,8 +114,10 @@ Para reproducir o generar un reporte, repetimos de manera automátizada cada uno
 desplegamos los resultados en el archivo final de salida. Esto nos ayuda a que cuando haya
 actualización de datos, los resultados se incorporen al reporte de manera automatizada.
 
+## Conclusión
+
 Todo este flujo de trabajo, lo hacemos de manera reproducible. En principio cualquier compañero de
-GECI solo necesita tener instaladas dos herramientas en su computadora, __git__ y __docker__. Esto
+GECI solo necesita tener instaladas dos herramientas en su computadora, **git** y **docker**. Esto
 es muy útil, por ejemplo en estos días durante situación actual con la pandemia. Yo por ejemplo he
 estado trabajando en mi computadora personal. Y no tuve que copiar NADA de la computadora de oficina
 a la mia. Todo está en plataformas en línea (nube) y con instalar estas dos herramientas en mi
@@ -117,8 +125,6 @@ computadora, puedo reproducir todos los análisis que hemos hecho en el último 
 
 El proceso de la automatización en la ciencia de datos es algo novedoso. No es posible automatizar
 por completo el proceso, la intervención humana es necesario como en la mayoría de las ciencias. Sin
-embargo es diferente automatizar todo el proces, a automatizar las herramientas utilizadas en el
+embargo es diferente automatizar todo el proceso, a automatizar las herramientas utilizadas en el
 proceso. A largo plazo esta metodología nos proporciona mayor velocidad de respuesta en la
 generación de nuevos resultados.
-
-
