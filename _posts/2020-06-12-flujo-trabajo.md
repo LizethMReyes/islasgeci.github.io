@@ -124,7 +124,7 @@ a la mia. Todo está en plataformas en línea (nube) y con instalar estas dos he
 computadora, puedo reproducir todos los análisis que hemos hecho en el último año.
 
 El proceso de la automatización en la ciencia de datos es algo novedoso. No es posible automatizar
-por completo el proceso, la intervención humana es necesario como en la mayoría de las ciencias. Sin
+por completo el proceso, la intervención humana es necesaria como en la mayoría de las ciencias. Sin
 embargo es diferente automatizar todo el proceso, a automatizar las herramientas utilizadas en el
 proceso. A largo plazo esta metodología nos proporciona mayor velocidad de respuesta en la
 generación de nuevos resultados.
