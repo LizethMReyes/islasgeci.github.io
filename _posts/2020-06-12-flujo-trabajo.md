@@ -29,7 +29,7 @@ rápida ante éstas. Mientras que algunos monitoreos que se han realizado han si
 morfometría y anillamiento de aves, monitoreo de madrigueras ya sean naturales o artificiales, o
 esfuerzos de trampeo solo por mencionar algunos ejemplos.
 
-Cada tabla que obtenemos de cada monitoreo, ya sea de meses o años o más, tiene el potencial de
+Cada tabla que obtenemos de cada monitoreo, ya sea de meses o años, tiene el potencial de
 convertirse en valiosa información. ¿Cuál es la problemática con las bases de datos? La primera es
 qué con cada uno de los proyectos obtenemos al menos una base de datos, que de no tener un manejo
 adecuando nos llevará a un almacenamiento masivo de datos, sin tener la oportunidad de explotar la
