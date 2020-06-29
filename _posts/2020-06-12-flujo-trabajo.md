@@ -85,7 +85,7 @@ concluciones globales para toda la población, a partir de un una muestra de dat
 Es crucial contar con una muestra representativa y sin sesgos de la población para obtener mayor
 confiabilidad. Por definición, podemos rechazar una hipótesis, pero nunca podemos probarla. Lo único
 que podemos hacer es rechazar la hipótesis nula con cierta significancia estadística, o como se
-acostumbra, con cierto p-valor .
+acostumbra, con cierto p-valor.
 
 El nivel de significación de una prueba estadística es un concepto estadístico asociado a la
 verificación de una hipótesis. El p-valor es una probabilidad condicional, la probabilidad de
