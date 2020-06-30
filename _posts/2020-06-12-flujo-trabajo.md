@@ -10,9 +10,9 @@ los datos que se colectan en campo para producir información de calidad y para 
 responden preguntas de interés, de caracter científico y ecológico.
 
 Podemos resumir nuestro flujo de trabajo en 5 pasos: Los primeros dos pasos son el procesamiento de
-los datos que consiste en la obtención y curación de los datos, después en la parte de
-análisis está el paso 3 y 4, que son la estadística descriptiva e inferencial respectivamente y
-finalmente la elaboración del reporte técnico es el paso 5.
+los datos que consiste en la obtención y curación de los datos, después en la parte de análisis está
+el paso 3 y 4, que son la estadística descriptiva e inferencial respectivamente y finalmente la
+elaboración del reporte técnico es el paso 5.
 
 ## Procesamiento de datos
 
@@ -24,10 +24,10 @@ participado en diferentes proyectos con la finalidad de la recuperación de sist
 realizando diversas actividades y monitoreos de los cuales se van tomando registros.
 
 Algunos ejemplos de estos proyectos son: las erradicaciones de especies invasoras o la respuesta
-rápida ante éstas, monitoreos como: morfometría y anillamiento de aves, madrigueras naturales o artificiales, esfuerzos de trampeo.
-rápida ante éstas. Mientras que algunos monitoreos que se han realizado han sido por ejemplo la
-morfometría y anillamiento de aves, monitoreo de madrigueras ya sean naturales o artificiales, o
-esfuerzos de trampeo solo por mencionar algunos ejemplos.
+rápida ante éstas, monitoreos como: morfometría y anillamiento de aves, madrigueras naturales o
+artificiales, esfuerzos de trampeo. rápida ante éstas. Mientras que algunos monitoreos que se han
+realizado han sido por ejemplo la morfometría y anillamiento de aves, monitoreo de madrigueras ya
+sean naturales o artificiales, o esfuerzos de trampeo solo por mencionar algunos ejemplos.
 
 Cada tabla que obtenemos de cada monitoreo, ya sea de meses o años, tiene el potencial de
 convertirse en valiosa información. ¿Cuál es la problemática con las bases de datos? La primera es
