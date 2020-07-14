@@ -74,7 +74,7 @@ análisis exploratorio de datos. En resumen, en este análisis utilizamos númer
 para describir la información y sacar conclusiones sobre la muestra de datos. 
 
 Esto también nos ayuda a saber qué tipos de análisis cuantitativos son viables para implementar en
-el siguiente paso,  cuales metodologías son viables para el conjuto de datos dada la incógnita que
+el siguiente paso, cuáles metodologías son viables para el conjuto de datos dada la incógnita que
 se pretende resolver. Por ejemplo, no puedes usar métodos de machine learning con pocos datos,
 simplemente no funcionaría.
 
