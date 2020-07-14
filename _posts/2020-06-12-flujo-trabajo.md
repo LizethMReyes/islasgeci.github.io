@@ -81,7 +81,7 @@ simplemente no funcionaría.
 ### 4. Estadística inferencial
 
 En este escenario realizamos análisis y ajuste de modelos estadísticos. Aquí pretendemos extraer
-concluciones globales para toda la población, a partir de un una muestra de datos.
+conclusiones globales para toda la población, a partir de una muestra de datos.
 
 Es crucial contar con una muestra representativa y sin sesgos de la población para obtener mayor
 confiabilidad. Por definición, podemos rechazar una hipótesis, pero nunca podemos probarla. Lo único
