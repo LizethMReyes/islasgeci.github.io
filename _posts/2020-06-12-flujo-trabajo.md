@@ -108,7 +108,7 @@ muestra nidos de albatros en IG.
 
 Finalmente el reporte tiene como objetivo comunicar de la forma más clara y precisa posible, los
 resultados obtenidos del análisis cuantitativo. Con todas sus partes, un resumen, introducción, la
-metodología, resultados y algunas concluciones, apoyándonos de herramientas visuales como gráficas y
+metodología, resultados y algunas conclusiones, apoyándonos de herramientas visuales como gráficas y
 tablas. Estos reportes siempre son revisados por pares. 
 
 Para reproducir o generar un reporte, repetimos de manera automátizada cada uno de los análisis y
