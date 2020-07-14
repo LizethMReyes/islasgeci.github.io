@@ -21,7 +21,7 @@ elaboración del reporte técnico es el paso 5.
 Cada organización, institución o empresa genera una gran cantidad de datos independientemente del
 giro que esta desarrolle. Particularmente, nuestra organización GECI, es una asociación civil que ha
 participado en diferentes proyectos con la finalidad de la recuperación de sistemas insulares,
-realizando diversas actividades y monitoreos de los cuales se van tomando registros.
+realizando diversas actividades y monitoreos de los cuales vamos tomando registros.
 
 Algunos ejemplos de estos proyectos son: las erradicaciones de especies invasoras o la respuesta
 rápida ante éstas, monitoreos como: morfometría y anillamiento de aves, madrigueras naturales o
