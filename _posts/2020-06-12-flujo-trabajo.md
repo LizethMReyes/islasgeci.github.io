@@ -73,7 +73,7 @@ La estadística descriptiva aplicada a un conjunto de datos, es lo que comunment
 análisis exploratorio de datos. En resumen, en este análisis utilizamos números, tablas y gráficas
 para describir la información y sacar conclusiones sobre la muestra de datos. 
 
-Esto también nos ayuda a saber que tipos de análisis cuantitativos son viables para implementar en
+Esto también nos ayuda a saber qué tipos de análisis cuantitativos son viables para implementar en
 el siguiente paso,  cuales metodologías son viables para el conjuto de datos dada la incógnita que
 se pretende resolver. Por ejemplo, no puedes usar métodos de machine learning con pocos datos,
 simplemente no funcionaría.
