@@ -8,6 +8,6 @@ Islas](https://islas.org.mx).
 
 Únete a nuestra comunidad de código abierto en Slack:
 
-- [Comunidad de código abierto de GECI](https://islasgeci.slack.com)
+- [Comunidad de código abierto de GECI en Slack](https://islasgeci.slack.com)
     - [Crear
       cuenta](https://join.slack.com/t/islasgeci/shared_invite/zt-f8kqlr2t-C8dO0JthMxaT81ShJiNk0w)
