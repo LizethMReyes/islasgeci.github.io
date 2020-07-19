@@ -12,6 +12,8 @@ Islas](https://islas.org.mx).
     - [Crear
       cuenta](https://join.slack.com/t/islasgeci/shared_invite/zt-f8kqlr2t-C8dO0JthMxaT81ShJiNk0w)
 
+---
+
 Para servir esta página localmente con Docker ejecuta:
 
 ```
