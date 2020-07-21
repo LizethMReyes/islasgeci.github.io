@@ -36,7 +36,7 @@ recurso fundamental para los análisis. Ahora, si recopilamos todos estos datos 
 separados, que generalmente no se comunican entre sí, tenemos otro problema. Ya que no existe un
 medio en el cual todas las personas tengan acceso y puedan consultar estas bases de datos. 
 
-Uno más de estos problemas, son la información no documentada. Esto quiere decir que solo la persona
+Uno más de estos problemas, es la información no documentada. Esto quiere decir que solo la persona
 que recopiló la información conoce la tabla. Un ejemplo podría ser una base de datos con registros
 de morfometría de aves, donde no están documentadas las unidades (cm o in) en las que se tomaron las
 medidas. Por lo que alguien que consulte esta tabla podría verse en problemas a la hora de procesar
