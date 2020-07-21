@@ -34,7 +34,7 @@ adecuando nos llevará a un almacenamiento masivo de datos, sin tener la oportun
 información contenida en estas. Estas bases de datos contienen información significativa y son el
 recurso fundamental para los análisis. Ahora, si recopilamos todos estos datos en tablas o archivos
 separados, que generalmente no se comunican entre sí, tenemos otro problema. Ya que no existe un
-medio en al cual todas las personas tengan acceso y puedan consultar estas bases de datos. 
+medio en el cual todas las personas tengan acceso y puedan consultar estas bases de datos. 
 
 Uno más de estos problemas, son la información no documentada. Esto quiere decir que solo la persona
 que recopiló la información conoce la tabla. Un ejemplo podría ser una base de datos con registros
