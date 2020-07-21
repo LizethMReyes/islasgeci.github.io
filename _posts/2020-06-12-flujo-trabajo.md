@@ -54,7 +54,7 @@ de datos y la automatización de este proceso.
 Si las fuentes de datos son internas o de terceros externos, los datos eventualmente contendrán
 errores. Los errores de datos pueden (obstruir/bloquear) el flujo de datos. Los errores también
 pueden ser sutiles, como registros duplicados o campos individuales que contienen datos erróneos.
-Los errores de datos pueden ser difíciles de rastrear y resolver rápidamente.
+Los errores de datos pueden ser difíciles de rastrear y de resolver rápidamente.
 
 La integración de datos, la limpieza, la transformación, el aseguramiento de la calidad y la
 implementación de nuevos análisis deben realizarse sin problemas día tras día.
