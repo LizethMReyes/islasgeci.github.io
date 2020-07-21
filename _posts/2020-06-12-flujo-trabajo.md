@@ -25,9 +25,7 @@ realizando diversas actividades y monitoreos de los cuales vamos tomando registr
 
 Algunos ejemplos de estos proyectos son: las erradicaciones de especies invasoras o la respuesta
 rápida ante éstas, monitoreos como: morfometría y anillamiento de aves, madrigueras naturales o
-artificiales, esfuerzos de trampeo. Mientras que algunos monitoreos que se han
-realizado han sido por ejemplo la morfometría y anillamiento de aves, monitoreo de madrigueras ya
-sean naturales o artificiales, o esfuerzos de trampeo solo por mencionar algunos ejemplos.
+artificiales, esfuerzos de trampeo.
 
 Cada tabla que obtenemos de cada monitoreo, ya sea de meses o años, tiene el potencial de
 convertirse en valiosa información. ¿Cuáles son las problemáticas con las bases de datos? La primera es
