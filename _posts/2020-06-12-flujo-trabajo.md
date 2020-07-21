@@ -25,7 +25,7 @@ realizando diversas actividades y monitoreos de los cuales vamos tomando registr
 
 Algunos ejemplos de estos proyectos son: las erradicaciones de especies invasoras o la respuesta
 rápida ante éstas, monitoreos como: morfometría y anillamiento de aves, madrigueras naturales o
-artificiales, esfuerzos de trampeo. rápida ante éstas. Mientras que algunos monitoreos que se han
+artificiales, esfuerzos de trampeo. Mientras que algunos monitoreos que se han
 realizado han sido por ejemplo la morfometría y anillamiento de aves, monitoreo de madrigueras ya
 sean naturales o artificiales, o esfuerzos de trampeo solo por mencionar algunos ejemplos.
 
