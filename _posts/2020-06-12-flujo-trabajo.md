@@ -32,7 +32,7 @@ convertirse en valiosa información. ¿Cuáles son las problemáticas con las ba
 qué con cada uno de los proyectos obtenemos al menos una base de datos, que de no tener un manejo
 adecuando nos llevará a un almacenamiento masivo de datos, sin tener la oportunidad de explotar la
 información contenida en estas. Estas bases de datos contienen información significativa y son el
-recurso fundamental para los análisis. Ahora, si todos estos datos se recopilan en tablas o archivos
+recurso fundamental para los análisis. Ahora, si recopilamos todos estos datos en tablas o archivos
 separados, que generalmente no se comunican entre sí, tenemos otro problema. Ya que no existe un
 medio en al cual todas las personas tengan acceso y puedan consultar estas bases de datos. 
 
