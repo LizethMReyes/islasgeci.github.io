@@ -96,7 +96,7 @@ de la población de albatros en IG anualmente. Como todos sabemos, por las carac
 colonia las muestras son altamente representativas de la población, los conteos son prácticamente
 exactos. Incluso si por algúna razón no contases algunos individuo el nivel de significancia
 sería muy alto. Pero, ahora por ejemplo, esta misma muestra de datos, ¿es representativa para decir
-que la población de albatros de laysan del mundo entero está en aumento?. Habiendo en IG solo cerca
+que la población de albatros de Laysan del mundo entero está en aumento?. Habiendo en IG solo cerca
 del 1% de la población mundial de albatros, no es posible obtener resultados significativos con la
 muestra nidos de albatros en IG.
 
