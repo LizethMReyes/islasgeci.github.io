@@ -9,7 +9,7 @@ Vamos a platicarles sobre el flujo de trabajo de la dirección de Ciencia de Dat
 los datos que nuestos compañeros de otras direcciones recolectan en campo para producir información de calidad y para realizar análisis que
 responden preguntas de interés, de caracter científico y ecológico.
 
-Podemos resumir nuestro flujo de trabajo en 5 pasos: Los primeros dos pasos son el procesamiento de
+Podemos resumir nuestro flujo de trabajo en 5 pasos: los primeros dos pasos son el procesamiento de
 los datos que consiste en la obtención y curación de los datos, después en la parte de análisis está
 el paso 3 y 4, que son la estadística descriptiva e inferencial respectivamente y finalmente la
 elaboración del reporte técnico es el paso 5.
