@@ -29,7 +29,7 @@ artificiales, esfuerzos de trampeo.
 
 Cada tabla que obtenemos de cada monitoreo, ya sea de meses o años, tiene el potencial de
 convertirse en valiosa información. ¿Cuáles son las problemáticas con las bases de datos? La primera es
-qué con cada uno de los proyectos obtenemos al menos una base de datos, que de no tener un manejo
+que con cada uno de los proyectos obtenemos al menos una base de datos, que de no tener un manejo
 adecuando nos llevará a un almacenamiento masivo de datos, sin tener la oportunidad de explotar la
 información contenida en estas. Estas bases de datos contienen información significativa y son el
 recurso fundamental para los análisis. Ahora, si recopilamos todos estos datos en tablas o archivos
