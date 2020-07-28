@@ -24,7 +24,7 @@ participado en diferentes proyectos con la finalidad de la recuperación de sist
 realizando diversas actividades y monitoreos de los cuales vamos tomando registros.
 
 Algunos ejemplos de estos proyectos son: las erradicaciones de especies invasoras o la respuesta
-rápida ante éstas, monitoreos como: morfometría y anillamiento de aves, madrigueras naturales o
+rápida ante estas, monitoreos como: morfometría y anillamiento de aves, madrigueras naturales o
 artificiales, esfuerzos de trampeo.
 
 Cada tabla que obtenemos de cada monitoreo, ya sea de meses o años, tiene el potencial de
