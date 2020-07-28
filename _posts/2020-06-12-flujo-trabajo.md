@@ -5,14 +5,14 @@ author: Maritza y Fernando
 tags: equipo
 ---
 
-Vamos a platicarles sobre el flujo de trabajo de la dirección de Ciencia de Datos, cómo utilizamos
-los datos que nuestos compañeros de otras direcciones recolectan en campo para producir información de calidad y para realizar análisis que
-responden preguntas de interés, de caracter científico y ecológico.
+En este post platicaremos sobre nuestro flujo de trabajo en la dirección de Ciencia de Datos.
+El uso de los datos que nuestos compañeros de otras direcciones recolectan en campo para producir información de calidad.
+La realizacion del análisis que responden preguntas de interés, de caracter científico y ecológico.
 
-Podemos resumir nuestro flujo de trabajo en 5 pasos: los primeros dos pasos son el procesamiento de
-los datos que consiste en la obtención y curación de los datos, después en la parte de análisis está
-el paso 3 y 4, que son la estadística descriptiva e inferencial respectivamente y finalmente la
-elaboración del reporte técnico es el paso 5.
+Podemos resumir nuestro flujo de trabajo en 5 pasos: dos pasos en el procesamiento de los datos,
+dos en el análisis y el último en la elaboración del reporte técnico.
+Los dos pasos del procesamiento de datos consisten en la obtención y curación de los datos.
+Para el análisis hacemos estadística descriptiva e inferencial.
 
 ## Procesamiento de datos
 
@@ -34,13 +34,13 @@ adecuando nos llevará a un almacenamiento masivo de datos, sin tener la oportun
 información contenida en estas. Estas bases de datos contienen información significativa y son el
 recurso fundamental para los análisis. Ahora, si recopilamos todos estos datos en tablas o archivos
 separados, que generalmente no se comunican entre sí, tenemos otro problema. Ya que no existe un
-medio en el cual todas las personas tengan acceso y puedan consultar estas bases de datos. 
+medio en el cual todas las personas tengan acceso y puedan consultar estas bases de datos.
 
 Uno más de estos problemas, es la información no documentada. Esto quiere decir que solo la persona
 que recopiló la información conoce la tabla. Un ejemplo podría ser una base de datos con registros
 de morfometría de aves, donde no están documentadas las unidades (cm o in) en las que se tomaron las
 medidas. Por lo que alguien que consulte esta tabla podría verse en problemas a la hora de procesar
-la información. 
+la información.
 
 Acceder a todos estos datos y la integración de estos es una tarea importante, especialmente si lo
 que queremos es poder tomar decisiones basadas en los análisis de los datos generados.
@@ -69,7 +69,7 @@ errores, requieren mucho tiempo y son tediosos.
 
 La estadística descriptiva aplicada a un conjunto de datos, es lo que comúnmente conocemos como
 análisis exploratorio de datos. En resumen, en este análisis utilizamos números, tablas y gráficas
-para describir la información y sacar conclusiones sobre la muestra de datos. 
+para describir la información y sacar conclusiones sobre la muestra de datos.
 
 Esto también nos ayuda a saber qué tipos de análisis cuantitativos son viables para implementar en
 el siguiente paso, cuáles metodologías son viables para el conjuto de datos dada la incógnita que
@@ -107,7 +107,7 @@ muestra nidos de albatros en IG.
 Finalmente el reporte tiene como objetivo comunicar de la forma más clara y precisa posible, los
 resultados obtenidos del análisis cuantitativo. Con todas sus partes, un resumen, introducción, la
 metodología, resultados y algunas conclusiones, apoyándonos de herramientas visuales como gráficas y
-tablas. Estos reportes siempre son revisados por pares. 
+tablas. Estos reportes siempre son revisados por pares.
 
 Para reproducir o generar un reporte, repetimos de manera automátizada cada uno de los análisis y
 desplegamos los resultados en el archivo final de salida. Esto nos ayuda a que cuando haya
