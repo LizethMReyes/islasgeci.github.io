@@ -90,7 +90,7 @@ El nivel de significación de una prueba estadística es un concepto estadístic
 verificación de una hipótesis. El p-valor es una probabilidad condicional, la probabilidad de
 obtener las observaciones si la hipótesis nula es verdadera.
 
-Por ejemplo, digamos que queremos probar que la población de albatros de laysan en Isla Guadalupe
+Por ejemplo, digamos que queremos probar que la población de albatros de Laysan en Isla Guadalupe
 (IG) está en crecimiento. Para esto, hacemos monitoreos de conteo de nidos y así obtener una muestra
 de la población de albatros en IG anualmente. Como todos sabemos, por las características de esta
 colonia las muestras son altamente representativas de la población, los conteos son prácticamente
