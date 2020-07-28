@@ -67,7 +67,7 @@ errores, requieren mucho tiempo y son tediosos.
 
 ### 3. Estadística descriptiva
 
-La estadística descriptiva aplicada a un conjunto de datos, es lo que comunmente conocemos como
+La estadística descriptiva aplicada a un conjunto de datos, es lo que comúnmente conocemos como
 análisis exploratorio de datos. En resumen, en este análisis utilizamos números, tablas y gráficas
 para describir la información y sacar conclusiones sobre la muestra de datos. 
 
