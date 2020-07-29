@@ -21,7 +21,7 @@ modificar nuestra guía primero debemos consultar aquella para intentar no contr
 ├── analyses.json      <- Describe las relaciones entre los archivos (datos, reportes,
 │                         resultados, scripts, etc.) de cada análisis
 ├── bitbucket-pipelines.yml <-
-|                         Archivo de configuración del Pipeline en Bitbucket
+│                         Archivo de configuración del Pipeline en Bitbucket
 ├── data/
 │   ├── external/      <- Datos de terceros
 │   ├── processed/     <- Datos procesados para que tengan la forma requerida por los
@@ -36,7 +36,7 @@ modificar nuestra guía primero debemos consultar aquella para intentar no contr
 │   │                     para los resultados que estamos produciendo. Aquí se encuentran
 │   │                     los artículos que se citan en los reportes que producimos
 │   ├── references.bib <- Archivo de referecias para LaTeX en formato BibTeX
-|   └── references.md  <- Lista de referencias con una descripción e hipervínculos en
+│   └── references.md  <- Lista de referencias con una descripción e hipervínculos en
 │                         Markdown
 │
 ├── renv.lock          <- Registro de los paquetes instalados en R y sus versiones. Este
@@ -50,7 +50,7 @@ modificar nuestra guía primero debemos consultar aquella para intentar no contr
 │   │                     Pandoc para transformar a Word.
 │   ├── figures/       <- Figuras incluidas en los reportes de los análisis realizados
 │   ├── non-tabular/   <- Resultados incluidos en los reportes de los análisis realizados
-|   └── tables/        <- Tablas incluidas en los reportes de los análisis realizados
+│   └── tables/        <- Tablas incluidas en los reportes de los análisis realizados
 │
 ├── requirements.txt   <- Enlista los requerimientos para obtener el entorno para realizar
 │                         el análisis, por ejemplo puede ser generado con:
