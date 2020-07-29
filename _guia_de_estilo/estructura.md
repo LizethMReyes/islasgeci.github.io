@@ -20,8 +20,7 @@ modificar nuestra guía primero debemos consultar aquella para intentar no contr
 │                         proyecto y es la única fuente que indica el trabajo requerido
 ├── analyses.json      <- Describe las relaciones entre los archivos (datos, reportes,
 │                         resultados, scripts, etc.) de cada análisis
-├── bitbucket-pipelines.yml <-
-│                         Archivo de configuración del Pipeline en Bitbucket
+├── bitbucket-pipelines.yml  <- Archivo de configuración del Pipeline en Bitbucket
 ├── data/
 │   ├── external/      <- Datos de terceros
 │   ├── processed/     <- Datos procesados para que tengan la forma requerida por los
