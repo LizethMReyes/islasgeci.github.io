@@ -6,13 +6,8 @@ tags: equipo
 ---
 
 En este post platicaremos sobre nuestro flujo de trabajo en la dirección de Ciencia de Datos.
-El uso de los datos que nuestos compañeros de otras direcciones recolectan en campo para producir información de calidad.
-La realización del análisis que responden preguntas de interés, de caracter científico y ecológico.
 
-Podemos resumir nuestro flujo de trabajo en 5 pasos: dos pasos en el procesamiento de los datos,
-dos en el análisis y el último en la elaboración del reporte técnico.
-Los dos pasos del procesamiento de datos consisten en la obtención y curación de los datos.
-Para el análisis hacemos estadística descriptiva e inferencial.
+Nuestro flujo de trabajo comienza en la curación de los datos, seguido del análisis correspondiente y concluye con la elaboracion del reporte técnico.
 
 ## Procesamiento de datos
 
@@ -94,8 +89,8 @@ Por ejemplo, digamos que queremos probar que la población de albatros de Laysan
 (IG) está en crecimiento. Para esto, hacemos monitoreos de conteo de nidos y así obtener una muestra
 de la población de albatros en IG anualmente. Como todos sabemos, por las características de esta
 colonia las muestras son altamente representativas de la población, los conteos son prácticamente
-exactos. Incluso si por algúna razón no contases algunos individuos el nivel de significancia
-sería muy alto. Pero, ahora por ejemplo, esta misma muestra de datos, ¿es representativa para decir
+exactos. Incluso si por algúna razón no contase algunos individuos el nivel de significancia
+sería muy alto. Sin embargo, esta misma muestra de datos, ¿es representativa para decir
 que la población de albatros de Laysan del mundo entero está en aumento?. Habiendo en IG solo cerca
 del 1% de la población mundial de albatros, no es posible obtener resultados significativos con la
 muestra nidos de albatros en IG.
