@@ -21,9 +21,9 @@ construcciones que impiden el reconocimiento de las mujeres como personas al no 
 bien en la forma en que las nombramos. 
 
 No excluimos ni invisibilizamos. Por tal motivo cuidamos seguir lo siguiente:
-1. Uso de terminaciones diferentes para cada uno de los sexos (profesor/profesora, conde/condesa,
+1. Uso de terminaciones diferentes para cada uno de los géneros (profesor/profesora, conde/condesa,
 etc.)
-1. Palabras distintas según el sexo del referente (madre/padre)
+1. Palabras distintas según el género del referente (madre/padre)
 1. Cuando el sustantivo es común (en el género) utilizaremos artículos y adjetivos para especificar
 el género (el/la pianista, un buen/una buena profesional)
 
