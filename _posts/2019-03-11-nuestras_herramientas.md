@@ -101,3 +101,22 @@ Esas son las principales herramientas que usamos en el equipo de Ciencia de Dato
 Islas. GoodTables, MySQL, SQLite, Python, R, LaTeX, Markdown, Make, Visual Studio Code, Mercurial,
 Git y Docker nos facilitan el trabajo colaborativo a la vez que nos garantizan la reproducibilidad
 de nuestros resultados.
+
+- **[Automatización](https://en.wikipedia.org/wiki/Build_automation)**. Automatizar la producción de
+  resultados asegura su reproducibilidad. La herramienta que usamos principalmente es
+  [Make](https://www.gnu.org/software/make/manual/make.html). Checa [Minimal
+  make](http://kbroman.org/minimal_make) y [este
+  ejemplo](https://islas.slack.com/files/evaristor/F0SBE91E3).
+- **[Control de versiones](https://en.wikipedia.org/wiki/Version_control)**. Se refiere a la gestión
+  de los cambios que se realizan sobre los archivos de un repositorio, permitiendo la recuperación
+  de versiones anteriores. Además, esta misma herramienta facilita el _trabajo colaborativo_. La
+  herramienta que usamos es [Git](https://git-scm.com/).
+- **[Documentos dinámicos](https://en.wikipedia.org/wiki/Living_document)**. Son documentos que se
+  encuentran en constante actualización para reflejar los cambios en el concepto al que se refiere.
+  Las herramientas que usamos principalmente son [LaTeX](https://latex-project.org/) y [R
+  Markdown](http://rmarkdown.rstudio.com/).
+- **[Contenedores](https://en.wikipedia.org/wiki/OS-level_virtualization)**. Los contenedores son
+  unidades de software que empaquetan el código y todas sus dependencias para lograr reproducir y
+  compartir el entorno computacional en el que se realiza el análisis de manera independiente del
+  sistema operativo. La herramienta que usamos para la gestión de contenedores es
+  [Docker](https://www.docker.com/).
