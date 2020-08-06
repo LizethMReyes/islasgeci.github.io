@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Qué hacer cuando sin trabajo"
-
 author: Evaristo
 tags: equipo capacitacion
 ---
