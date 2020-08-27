@@ -8,7 +8,7 @@ tags: equipo
 En este post platicaremos sobre nuestro flujo de trabajo en la dirección de Ciencia de Datos.
 
 Nuestro flujo de trabajo comienza en la curación de los datos, seguido del análisis correspondiente y 
-concluye con la elaboracion del reporte técnico.
+concluye con la elaboración del reporte técnico.
 
 ## Procesamiento de datos
 
@@ -25,12 +25,12 @@ artificiales, esfuerzos de trampeo.
 
 Cada tabla que obtenemos de cada monitoreo, ya sea de meses o años, tiene el potencial de
 convertirse en valiosa información. ¿Cuáles son las problemáticas con las bases de datos? La primera es
-que con cada uno de los proyectos obtenemos al menos una base de datos, que de no tener un manejo
-adecuando nos llevará a un almacenamiento masivo de datos, sin tener la oportunidad de explotar la
+que con cada uno de los proyectos obtenemos al menos una base de datos. No tener un manejo
+adecuado nos llevará a un almacenamiento masivo de datos, sin tener la oportunidad de explotar la
 información contenida en estas. Estas bases de datos contienen información significativa y son el
-recurso fundamental para los análisis. Ahora, si recopilamos todos estos datos en tablas o archivos
-separados, que generalmente no se comunican entre sí, tenemos otro problema. Ya que no existe un
-medio en el cual todas las personas tengan acceso y puedan consultar estas bases de datos.
+recurso fundamental para los análisis. 
+
+Ahora, si recopilamos todos estos datos en tablas o archivos separados, que generalmente no se comunican entre sí, tenemos otro problema. La fuente del problema es que no existe un medio en el cual todas las personas tengan acceso y puedan consultar estas bases de datos.
 
 Uno más de estos problemas, es la información no documentada. Esto quiere decir que solo la persona
 que recopiló la información conoce la tabla. Un ejemplo podría ser una base de datos con registros
@@ -43,9 +43,8 @@ que queremos es poder tomar decisiones basadas en los análisis de los datos gen
 
 ### 2. Curación de datos
 
-En Ciencia de Datos hemos adoptado metodológias que se utilizan en el desarrollo de software para
-automatizar los procesos de curación de datos y análisis. Una de estas herramientas es la curación
-de datos y la automatización de este proceso.
+En Ciencia de Datos hemos adoptado metodologías que se utilizan en el desarrollo de software para
+automatizar los procesos de curación de datos y análisis.
 
 Si las fuentes de datos son internas o de terceros externos, los datos eventualmente contendrán
 errores. Los errores de datos pueden (obstruir/bloquear) el flujo de datos. Los errores también
@@ -55,7 +54,7 @@ Los errores de datos pueden ser difíciles de rastrear y de resolver rápidament
 La integración de datos, la limpieza, la transformación, el aseguramiento de la calidad y la
 implementación de nuevos análisis deben realizarse sin problemas día tras día.
 
-Pueden haberse automatizado una parte de estas tareas, pero en muchas ocasiones se realizan
+Hemos automatizado una parte de estas tareas, pero en muchas ocasiones realizamos
 numerosos procesos manuales de forma regular. Estos procedimientos de memoria son propensos a
 errores, requieren mucho tiempo y son tediosos.
 
@@ -69,7 +68,7 @@ para describir la información y sacar conclusiones sobre la muestra de datos.
 
 Esto también nos ayuda a saber qué tipos de análisis cuantitativos son viables para implementar en
 el siguiente paso, cuáles metodologías son viables para el conjuto de datos dada la incógnita que
-pretendemos resolver. Por ejemplo, no puedes usar métodos de machine learning con pocos datos,
+pretendemos resolver. Por ejemplo, no puedes usar métodos de _machine learning_ con pocos datos,
 simplemente no funcionaría.
 
 ### 4. Estadística inferencial
