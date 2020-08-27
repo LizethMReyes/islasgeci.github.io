@@ -8,7 +8,7 @@ tags: equipo
 En este post platicaremos sobre nuestro flujo de trabajo en la dirección de Ciencia de Datos.
 
 Nuestro flujo de trabajo comienza en la curación de los datos, seguido del análisis correspondiente y 
-concluye con la elaboracion del reporte técnico.
+concluye con la elaboración del reporte técnico.
 
 ## Procesamiento de datos
 
