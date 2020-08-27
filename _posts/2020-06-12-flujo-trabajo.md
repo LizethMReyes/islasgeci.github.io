@@ -26,11 +26,11 @@ artificiales, esfuerzos de trampeo.
 Cada tabla que obtenemos de cada monitoreo, ya sea de meses o años, tiene el potencial de
 convertirse en valiosa información. ¿Cuáles son las problemáticas con las bases de datos? La primera es
 que con cada uno de los proyectos obtenemos al menos una base de datos. No tener un manejo
-adecuado, nos llevará a un almacenamiento masivo de datos, sin tener la oportunidad de explotar la
+adecuado nos llevará a un almacenamiento masivo de datos, sin tener la oportunidad de explotar la
 información contenida en estas. Estas bases de datos contienen información significativa y son el
-recurso fundamental para los análisis. Ahora, si recopilamos todos estos datos en tablas o archivos
-separados, que generalmente no se comunican entre sí, tenemos otro problema. La fuente del problema es que no existe un
-medio en el cual todas las personas tengan acceso y puedan consultar estas bases de datos.
+recurso fundamental para los análisis. 
+
+Ahora, si recopilamos todos estos datos en tablas o archivos separados, que generalmente no se comunican entre sí, tenemos otro problema. La fuente del problema es que no existe un medio en el cual todas las personas tengan acceso y puedan consultar estas bases de datos.
 
 Uno más de estos problemas, es la información no documentada. Esto quiere decir que solo la persona
 que recopiló la información conoce la tabla. Un ejemplo podría ser una base de datos con registros
