@@ -55,7 +55,7 @@ Los errores de datos pueden ser difíciles de rastrear y de resolver rápidament
 La integración de datos, la limpieza, la transformación, el aseguramiento de la calidad y la
 implementación de nuevos análisis deben realizarse sin problemas día tras día.
 
-Pueden haberse automatizado una parte de estas tareas, pero en muchas ocasiones se realizan
+Hemos automatizado una parte de estas tareas, pero en muchas ocasiones realizamos
 numerosos procesos manuales de forma regular. Estos procedimientos de memoria son propensos a
 errores, requieren mucho tiempo y son tediosos.
 
