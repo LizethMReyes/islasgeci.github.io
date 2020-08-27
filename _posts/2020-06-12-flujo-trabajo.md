@@ -25,8 +25,8 @@ artificiales, esfuerzos de trampeo.
 
 Cada tabla que obtenemos de cada monitoreo, ya sea de meses o años, tiene el potencial de
 convertirse en valiosa información. ¿Cuáles son las problemáticas con las bases de datos? La primera es
-que con cada uno de los proyectos obtenemos al menos una base de datos, que de no tener un manejo
-adecuando nos llevará a un almacenamiento masivo de datos, sin tener la oportunidad de explotar la
+que con cada uno de los proyectos obtenemos al menos una base de datos. No tener un manejo
+adecuado, nos llevará a un almacenamiento masivo de datos, sin tener la oportunidad de explotar la
 información contenida en estas. Estas bases de datos contienen información significativa y son el
 recurso fundamental para los análisis. Ahora, si recopilamos todos estos datos en tablas o archivos
 separados, que generalmente no se comunican entre sí, tenemos otro problema. La fuente del problema es que no existe un
@@ -43,9 +43,8 @@ que queremos es poder tomar decisiones basadas en los análisis de los datos gen
 
 ### 2. Curación de datos
 
-En Ciencia de Datos hemos adoptado metodológias que se utilizan en el desarrollo de software para
-automatizar los procesos de curación de datos y análisis. Una de estas herramientas es la curación
-de datos y la automatización de este proceso.
+En Ciencia de Datos hemos adoptado metodologías que se utilizan en el desarrollo de software para
+automatizar los procesos de curación de datos y análisis.
 
 Si las fuentes de datos son internas o de terceros externos, los datos eventualmente contendrán
 errores. Los errores de datos pueden (obstruir/bloquear) el flujo de datos. Los errores también
