@@ -25,11 +25,11 @@ Aquí hay un ejemplo de una tabla de metadatos.
 
 _Tabla: Ejemplo de la hoja de metadatos de columnas_
 
-**name**   | **type** | **ejemplo** | **description**                    | **nombre_largo** | **long_name** | **standard_name** | **axis** | **units**     |
------------|----------|-------------|------------------------------------|------------------|---------------|-------------------|----------|---------------|
-**lat**    | number   |   32        | Latitud del punto de conteo        | Latitud          | Latitude      | latitude          | Y        | degree_north  |
-**lon**    | number   | -116        | Longitud del punto de conteo       | Longitud         | Longitude     | longitude         | X        | degree_west   |
-**conteo** | integer  |    5        | Cantidad de madrigueras observadas | Madrigueras      | Burrows       | NA                | NA       | NA            |
+**name**     | **type** | **ejemplo** | **description**                    | **nombre_largo** | **long_name** | **standard_name** | **axis** | **units**     |
+-------------|----------|-------------|------------------------------------|------------------|---------------|-------------------|----------|---------------|
+**latitud**  | number   |   32        | Latitud del punto de conteo        | Latitud          | Latitude      | latitude          | Y        | degree_north  |
+**longitud** | number   | -116        | Longitud del punto de conteo       | Longitud         | Longitude     | longitude         | X        | degree_west   |
+**conteo**   | integer  |    5        | Cantidad de madrigueras observadas | Madrigueras      | Burrows       | NA                | NA       | NA            |
 
 En el ejemplo anterior, la tabla de datos tiene tres columnas **lat**, **lon** y **conteo**.
 ([Aquí](resumen.html) puedes ver la tabla de datos correspondiente.) También se aprecia en el
@@ -56,7 +56,7 @@ Metadato           | Descripción
 `axis`             | [Identifica coordenadas o tiempo con las letras `X`, `Y`, `Z` o `T`](axis.html)
 `description`      | [Descripción de la columna de datos](http://specs.frictionlessdata.io/table-schema/#description)
 `long_name`        | [Nombre descriptivo de la columna en inglés para ser usado como rótulo en los ejes de las gráficas](http://cfconventions.org/cf-conventions/cf-conventions.html#long-name)
-`nombre_largo`     | Traducción al espanol de `long_name`
+`nombre_largo`     | Traducción al español de `long_name`
 `standard_name`    | [Nombre estándar de la variable](standard_name.html)
 `units`            | [Unidades de los valores de la columna de datos](units.html)
 
