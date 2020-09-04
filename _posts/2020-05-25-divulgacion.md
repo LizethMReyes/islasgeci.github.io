@@ -26,10 +26,10 @@ En GECI contamos con un equipo de Ciencia de Datos cuyos objetivos son optimizar
 la conservación y evaluar el impacto de nuestras intervenciones de restauración. El equipo de
 Ciencia de Datos desarrolla diversos estudios y aplicaciones de apoyo para la toma de decisiones y
 ejecución de proyectos de conservación de las islas de México. Nuestro equipo está conformado por
-mujeres y hombres profesionistas en las áreas de oceanología, ingeniería en computación, física y
-matemáticas. Cada una de estas profesiones aporta conocimientos y habilidades distintas, de tal
-forma que sólo al considerar al equipo en su conjunto resulta una unidad completa con todas las
-habilidades requeridas.
+mujeres y hombres profesionistas en las áreas de oceanología, ingeniería en computación, ingeniería
+geofísica, física y matemáticas. Cada una de estas profesiones aporta conocimientos y habilidades
+distintas, de tal forma que sólo al considerar al equipo en su conjunto resulta una unidad completa
+con todas las habilidades requeridas.
 
 En la Ciencia de Datos aplicada a la conservación de las islas de México, nos basamos principalmente
 de tres áreas de conocimiento: la ambiental, computacional y matemática. 
@@ -49,9 +49,10 @@ reproducibilidad de resultados nos referimos a la capacidad de replicar, por eje
 un mapa o un estadístico a partir de los datos originales. La automatización de procesos nos permite
 escalar la producción de resultados que inicialmente generamos para una especie particular en una
 isla específica, generalizando nuestras metodologías para otras especies, otras islas y otras
-temporadas. El trabajo colaborativo nos permite a las científicas y científicos de datos participar
-en cada uno de los análisis realizados por el equipo. Al conjunto de prácticas enfocadas en la
-reproducibilidad, automatización y colaboración en el análisis de datos lo llamamos DataOps.
+temporadas. El trabajo colaborativo nos permite a todas y todos los integrantes del equipo de
+Ciencia de Datos participar en cada uno de los análisis realizados por el equipo. Al conjunto de
+prácticas enfocadas en la reproducibilidad, automatización y colaboración en el análisis de datos lo
+llamamos DataOps.
 
 La tercera categoría incluye conocimiento matemático. Para elaborar un plan de restauración es
 necesario conocer el estado actual de la población que se desea restaurar. Sin embargo, determinar
