@@ -8,7 +8,7 @@ tags: equipo
 ## Introducción
 
 La Ciencia de Datos es un campo académico interdisciplinario, basado en evidencias, que tiene como
-objeto de estudio las diferentes técnicas de análisis de datos [1]. En años recientes, la
+objeto de estudio las diferentes técnicas de análisis de datos [^1]. En años recientes, la
 popularidad de este campo ha aumentado gracias a las empresas privadas que pretenden maximizar sus
 ganancias agregando valor al gran volumen de datos  que generamos mediante las tecnologías de la
 información. Sin embargo, hasta ahora las organizaciones que se dedican a la conservación de la
@@ -370,7 +370,7 @@ Berg y Gil Benghiat fundadores de DataKitchen consideran que para “cocinar” 
 los ingredientes y las recetas correctas. Ellos  descubrieron que el tiempo y la calidad en el ciclo
 del procesamiento de datos puede ser optimizado con una combinación de herramientas y metodologías
 que ellos llamaron DataOps. DataOps está inspirada en la ingeniería de software y enfatiza la
-automatización de procesos [5]. La automatización de procesos nos permite implementar algoritmos de
+automatización de procesos [^5]. La automatización de procesos nos permite implementar algoritmos de
 aprendizaje automatizado con gran rapidez. Es gracias a la automatización que, los resultados
 producidos mediante DataOps siempre son reproducibles. La reproducibilidad de los resultados
 facilita la colaboración de todas las y los miembros del equipo en cada etapa del análisis de los
@@ -531,9 +531,9 @@ experiencia que GECI ha generado por más de 20 años.
 
 ## Referencias
 
-- [1] https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf
-- [2] http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram
-- [3] https://doc.arcgis.com/es/arcgis-online/reference/shapefiles.htm
-- [4] Montoya, Julio, Daniela Munguía and Yutzil Lora Cabrera. 2014. Laysan albatross chick
+- [^1] https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf
+- [^2] http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram
+- [^3] https://doc.arcgis.com/es/arcgis-online/reference/shapefiles.htm
+- [^4] Montoya, Julio, Daniela Munguía and Yutzil Lora Cabrera. 2014. Laysan albatross chick
   mortality related to Santa Ana winds. LEO Network (leonetwork.org). Accessed 16 May 2019.
-- [5] Christopher Berg, Gil Benghiat, and Eran Strod. 2019. The DataOps Cookbook
+- [^5] Christopher Berg, Gil Benghiat, and Eran Strod. 2019. The DataOps Cookbook
