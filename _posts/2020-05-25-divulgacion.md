@@ -185,8 +185,9 @@ norte, esta masa de agua está ligada a cambios en el ambiente y en los ecosiste
 
 El Blob es causado por un incremento en la temperatura del aire, cambios en los patrones del viento,
 y la masa de agua caliente persistente a lo largo del ecuador inducida por el ENSO. Según el
-National Park Service[^10] (NPS), nunca antes se había registrado un evento como el Blob. El Blob es un
-evento sin precedentes, debido a su magnitud (muy cálido y extendido) y su duración de varios años.
+National Park Service[^10] (NPS), nunca antes se había registrado un evento como el Blob. El Blob es
+un evento sin precedentes, debido a su magnitud (muy cálido y extendido) y su duración de varios
+años.
 
 Nick Bond, un científico del clima en la Universidad de Washington en Seattle, en su artículo del
 2015 Causes and impacts of the 2014 warm anomaly in the NE Pacific, muestra patrones inusuales de
