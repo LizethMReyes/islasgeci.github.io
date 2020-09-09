@@ -533,9 +533,9 @@ experiencia que GECI ha generado por más de 20 años.
 
 ## Referencias
 
-- [^1] https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf
-- [^2] http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram
-- [^3] https://doc.arcgis.com/es/arcgis-online/reference/shapefiles.htm
-- [^4] Montoya, Julio, Daniela Munguía and Yutzil Lora Cabrera. 2014. Laysan albatross chick
-  mortality related to Santa Ana winds. LEO Network (leonetwork.org). Accessed 16 May 2019.
-- [^5] Christopher Berg, Gil Benghiat, and Eran Strod. 2019. The DataOps Cookbook
+[^1]: https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf
+[^2]: http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram
+[^3]: https://doc.arcgis.com/es/arcgis-online/reference/shapefiles.htm
+[^4]: Montoya, Julio, Daniela Munguía and Yutzil Lora Cabrera. 2014. Laysan albatross chick
+mortality related to Santa Ana winds. LEO Network (leonetwork.org). Accessed 16 May 2019.
+[^5]: Christopher Berg, Gil Benghiat, and Eran Strod. 2019. The DataOps Cookbook
