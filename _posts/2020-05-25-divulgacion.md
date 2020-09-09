@@ -97,18 +97,18 @@ el análisis de variables ambientales.
 
 ### ENSO
 
-En el 2016, Chunzai Wang describió a El Niño-Oscilación del Sur (ENSO, por sus siglas en inglés)
+En el 2016, Chunzai Wang[^2] describió a El Niño-Oscilación del Sur (ENSO, por sus siglas en inglés)
 como una condición ambiental cíclica que ocurre a través del Océano Pacífico Ecuatorial. El Niño es
 un evento de calentamiento oceánico a gran escala en el Pacífico tropical que ocurre con una
 periodicidad de pocos años. La Oscilación del Sur está caracterizada por una fluctuación interanual
 en la presión del nivel del mar tropical entre el Pacífico occidental y el Pacífico oriental. Dicha
 fluctuación consiste en un debilitamiento y fortalecimiento de los vientos alisios sobre el Pacífico
-tropical. Desde hace medio siglo, Bjerknes reconoció que existe una conexión muy estrecha entre El
-Niño y la Oscilación del Sur, y que ambos son dos aspectos diferentes del mismo fenómeno.
+tropical. Desde hace medio siglo, Bjerknes[^2] reconoció que existe una conexión muy estrecha entre
+El Niño y la Oscilación del Sur, y que ambos son dos aspectos diferentes del mismo fenómeno.
 
-En el capítulo de El Niño and Southern Oscillation (ENSO): A Review, Chunzai Wang hace notar varios
-puntos relacionados con el ENSO: 1) las anomalías de la temperatura superficial del mar (TSS) y el
-viento zonal están altamente correlacionadas, indicando que el ENSO es un fenómeno acoplado de
+En el capítulo de El Niño and Southern Oscillation (ENSO): A Review, Chunzai Wang[^2] hace notar
+varios puntos relacionados con el ENSO: 1) las anomalías de la temperatura superficial del mar (TSS)
+y el viento zonal están altamente correlacionadas, indicando que el ENSO es un fenómeno acoplado de
 océano-atmósfera. 2) Muestra un comportamiento oscilatorio con una escala de tiempo preferida de
 entre 3 y 5 años, a pesar de una considerable irregularidad en la oscilación. 3) Los eventos ENSO
 muestran asimetría entre los eventos cálidos de El Niño y los eventos fríos de La Niña, con
@@ -117,25 +117,25 @@ los de El Niño, dentro del mismo fenómeno ENSO. En La Niña los vientos alisio
 cálida superficial hacia el oeste a través del Pacífico, conduciendo a las aguas más frías hacia el
 este y a las más cálidas hacia el oeste.
 
-Arne Mooers, en un artículo del 2007 titulado El Niño and Biodiversity, menciona que ambas
+Arne Mooers, en un artículo del 2007 titulado El Niño and Biodiversity[^3], menciona que ambas
 condiciones (El Niño y La Niña) producen efectos marcadamente importantes en los ecosistemas a lo
 largo del planeta, sobre todo a latitudes bajas. La presencia de El Niño y La Niña puede influir
 sobre los patrones meteorológicos, las condiciones oceánicas y las pesquerías marinas a través de
 grandes porciones del planeta por un periodo largo de tiempo. 
 
-Arne Marcus England, en su artículo del 2000 “A review of bird responses to El Niño-Southern
-Oscillation conditions in the Neotropics”, dice que las aves marinas son uno de los grupos
-biológicos más afectados por el El Niño, ya que su comportamiento está relacionado directamente con
-el ambiente marino. Por una parte, un aumento de la temperatura del aire puede ocasionar un estrés
-térmico en las aves. Por otro lado, un aumento en la temperatura superficial del mar ocasiona
-cambios en la distribución de ciertos organismos marinos, como las sardinas, que son alimento de
-muchas aves marinas. Ambos escenarios ocasionan un incremento en el abandono de los sitios de
-anidación y de la mortandad de las crías de las aves, que en este caso mueren por inanición. Un caso
-registrado es el de la pardela mexicana en Isla Natividad en el evento de El Niño del 2015. Durante
-la temporada de anidación de la pardela en este año (primavera - verano), las aves comenzaron a
-abandonar sus nidos debido al intenso calor registrado y a la poca disponibilidad de alimento por la
-alta temperatura del mar. La baja productividad (cantidad de volantones por nido activo) es un
-reflejo del abandono de los nidos de la pardela mexicana para ese año.
+Marcus England, en su artículo del 2000 "A review of bird responses to El Niño-Southern Oscillation
+conditions in the Neotropics"[^4], dice que las aves marinas son uno de los grupos biológicos más
+afectados por el El Niño, ya que su comportamiento está relacionado directamente con el ambiente
+marino. Por una parte, un aumento de la temperatura del aire puede ocasionar un estrés térmico en
+las aves. Por otro lado, un aumento en la temperatura superficial del mar ocasiona cambios en la
+distribución de ciertos organismos marinos, como las sardinas, que son alimento de muchas aves
+marinas. Ambos escenarios ocasionan un incremento en el abandono de los sitios de anidación y de la
+mortandad de las crías de las aves, que en este caso mueren por inanición. Un caso registrado es el
+de la pardela mexicana en Isla Natividad en el evento de El Niño del 2015. Durante la temporada de
+anidación de la pardela en este año (primavera - verano), las aves comenzaron a abandonar sus nidos
+debido al intenso calor registrado y a la poca disponibilidad de alimento por la alta temperatura
+del mar. La baja productividad (cantidad de volantones por nido activo) es un reflejo del abandono
+de los nidos de la pardela mexicana para ese año.
 
 ### Vientos de Santa Ana
 
@@ -372,8 +372,8 @@ Berg y Gil Benghiat fundadores de DataKitchen consideran que para “cocinar” 
 los ingredientes y las recetas correctas. Ellos  descubrieron que el tiempo y la calidad en el ciclo
 del procesamiento de datos puede ser optimizado con una combinación de herramientas y metodologías
 que ellos llamaron DataOps. DataOps está inspirada en la ingeniería de software y enfatiza la
-automatización de procesos [^5]. La automatización de procesos nos permite implementar algoritmos de
-aprendizaje automatizado con gran rapidez. Es gracias a la automatización que, los resultados
+automatización de procesos [^XX]. La automatización de procesos nos permite implementar algoritmos
+de aprendizaje automatizado con gran rapidez. Es gracias a la automatización que, los resultados
 producidos mediante DataOps siempre son reproducibles. La reproducibilidad de los resultados
 facilita la colaboración de todas las y los miembros del equipo en cada etapa del análisis de los
 datos: desde la curación inicial de los datos hasta la redacción del reporte técnico final. Además,
@@ -533,9 +533,12 @@ experiencia que GECI ha generado por más de 20 años.
 
 ## Referencias
 
-[^1]: https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf
-[^2]: http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram
-[^3]: https://doc.arcgis.com/es/arcgis-online/reference/shapefiles.htm
-[^4]: Montoya, Julio, Daniela Munguía and Yutzil Lora Cabrera. 2014. Laysan albatross chick
-mortality related to Santa Ana winds. LEO Network (leonetwork.org). Accessed 16 May 2019.
-[^5]: Christopher Berg, Gil Benghiat, and Eran Strod. 2019. The DataOps Cookbook
+[^1]: [50 years of Data
+Science](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
+[^2]: [El Niño and Southern Oscillation (ENSO): A
+Review](http://www.cgd.ucar.edu/staff/cdeser/docs/wang.enso_review.springer_sci_pub16.pdf)
+[^3]: [El Niño and
+Biodiversity](https://www.researchgate.net/publication/216791434_El_Nino_and_Biodiversity)
+[^4]: [A review of bird responses to El Niño-Southern Oscillation conditions in the
+Neotropics](http://www.neotropicalbirdclub.org/wp-content/uploads/2016/02/Cotinga-13-2000-83-88.pdf)
+[^XX]: Christopher Berg, Gil Benghiat, and Eran Strod. 2019. The DataOps Cookbook
