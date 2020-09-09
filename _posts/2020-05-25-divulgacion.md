@@ -537,12 +537,11 @@ experiencia que GECI ha generado por más de 20 años.
 [^1]: [50 years of Data Science](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
 [^2]: [El Niño and Southern Oscillation (ENSO): A Review](http://www.cgd.ucar.edu/staff/cdeser/docs/wang.enso_review.springer_sci_pub16.pdf)
 [^3]: [El Niño and Biodiversity](https://www.researchgate.net/publication/216791434_El_Nino_and_Biodiversity)
-[^4]: [A review of bird responses to El Niño-Southern Oscillation conditions in the
-Neotropics](http://www.neotropicalbirdclub.org/wp-content/uploads/2016/02/Cotinga-13-2000-83-88.pdf)
+[^4]: [A review of bird responses to El Niño-Southern Oscillation conditions in the Neotropics](http://www.neotropicalbirdclub.org/wp-content/uploads/2016/02/Cotinga-13-2000-83-88.pdf)
 [^5]: [Etymology of the name "Santa Ana winds", as revealed in the archives of the Los Angeles Times newspaper.](http://people.atmos.ucla.edu/fovell/LATimes_SantaAna.html)
 [^6]: [The Santa Ana Winds of California](https://journals.ametsoc.org/ei/article/7/8/1/676/The-Santa-Ana-Winds-of-California)
 [^7]: [What Are the Santa Ana Winds?](https://www.mentalfloss.com/article/56873/what-are-santa-ana-winds)
 [^8]: [Santa Ana Winds: A Descriptive Climatology](https://journals.ametsoc.org/waf/article/34/2/257/107119/Santa-Ana-Winds-A-Descriptive-Climatology)
 [^9]: [Mortandad de pollos de albatros de Laysan relacionada con vientos Santa Ana](https://www.leonetwork.org/en/posts/show/4932A444-6104-4894-AC7A-078C8909E4C9)
 [^10]: [The Blob](https://www.nps.gov/articles/theblob.htm)
-[^11]: Christopher Berg, Gil Benghiat, and Eran Strod. 2019. The DataOps Cookbook
+[^11]: [Christopher Berg, Gil Benghiat, and Eran Strod. 2019. The DataOps Cookbook](https://datakitchen.io/content/DataKitchen_dataops_cookbook.pdf)
