@@ -141,13 +141,13 @@ de los nidos de la pardela mexicana para ese año.
 
 Los eventos atmosféricos conocidos como vientos de Santa Ana se caracterizan por ser vientos secos y
 regularmente cálidos que afectan el sur de California y el norte de Baja California. Según la
-Universidad de California en Los Ángeles (UCLA, por sus siglas en inglés), los vientos de Santa Ana
-son siempre secos, como resultado de su descenso desde su lugar de origen en la Gran Cuenca de
-Nevada y Utah, que son regiones altas. En su artículo The Santa Ana Winds of California, Raphael
-Marilyn dice que los vientos de Santa Ana suceden regularmente entre el otoño y el inicio de la
+Universidad de California en Los Ángeles (UCLA, por sus siglas en inglés)[^5], los vientos de Santa
+Ana son siempre secos, como resultado de su descenso desde su lugar de origen en la Gran Cuenca de
+Nevada y Utah, que son regiones altas. En su artículo _The Santa Ana Winds of California_, Raphael
+Marilyn[^6] dice que los vientos de Santa Ana suceden regularmente entre el otoño y el inicio de la
 primavera, entre septiembre y abril, pero tienen mayor ocurrencia en diciembre.
 
-En la nota What Are the Santa Ana Winds?, de la página mentalfloss, podemos encontrar una
+En la nota What Are the Santa Ana Winds?, de la página mentalfloss[^7], podemos encontrar una
 descripción del origen de los vientos de Santa Ana. La nota dice que los vientos se originan cuando
 se forman sistemas de alta presión entre la Sierra Nevada y las Montañas Rocosas. El aire dentro del
 sistema de alta presión fluye en dirección de las manecillas del reloj, por lo tanto, los vientos en
@@ -157,7 +157,7 @@ va fluyendo hacia la costa, el aire se comprime y su temperatura aumenta. Al mis
 humedad baja a menos de 20% e incluso a veces hasta por debajo de 10%. Los vientos también aumentan
 su velocidad, al verse forzados a pasar entre estrechos pasos de montaña y cañones.
 
-Tom Rolinski, en su artículo publicado en el 2019 “Santa Ana Winds: A Descriptive Climatology”,
+Tom Rolinski, en su artículo publicado en el 2019 "Santa Ana Winds: A Descriptive Climatology"[^8],
 menciona que las condiciones extremadamente secas y ventosas durante los eventos Santa Ana crean
 condiciones favorables para producir incendios catastróficos. Estos incendios ocurren regularmente
 en el otoño y a inicios del invierno cuando la vegetación nativa es más susceptible a igniciones.
@@ -168,12 +168,12 @@ Como ya mencionamos en la sección anterior, las aves marinas son susceptibles a
 ambientales abruptos, como un aumento en la temperatura del aire debido a los vientos de Santa Ana.
 Aunque las aves poseen mecanismos para regular su temperatura, un evento intenso de Santa Ana puede
 llegar a ocasionarles serios problemas. Un ejemplo de esto ocurrió en el 2014 en Isla Guadalupe.
-Julio Montoya reportó en la Red LEO que varios eventos de vientos de Santa estuvieron presentes en
-la isla durante el mes de mayo. La intensidad de este fenómeno afectó fuertemente la sobrevivencia
-de las aves marinas anidantes, ya que este fenómeno coincidió con la etapa de crecimiento y
-maduración de las crías de aves marinas, particularmente de albatros de Laysan. El resultado de este
-fenómeno fue la mortandad de muchas crías de albatros, debido a la alta temperatura y a la baja
-humedad del ambiente.
+Julio Montoya reportó en la Red LEO[^9] que varios eventos de vientos de Santa estuvieron presentes
+en la isla durante el mes de mayo. La intensidad de este fenómeno afectó fuertemente la
+sobrevivencia de las aves marinas anidantes, ya que este fenómeno coincidió con la etapa de
+crecimiento y maduración de las crías de aves marinas, particularmente de albatros de Laysan. El
+resultado de este fenómeno fue la mortandad de muchas crías de albatros, debido a la alta
+temperatura y a la baja humedad del ambiente.
 
 ### El Blob
 
@@ -533,12 +533,14 @@ experiencia que GECI ha generado por más de 20 años.
 
 ## Referencias
 
-[^1]: [50 years of Data
-Science](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
-[^2]: [El Niño and Southern Oscillation (ENSO): A
-Review](http://www.cgd.ucar.edu/staff/cdeser/docs/wang.enso_review.springer_sci_pub16.pdf)
-[^3]: [El Niño and
-Biodiversity](https://www.researchgate.net/publication/216791434_El_Nino_and_Biodiversity)
+[^1]: [50 years of Data Science](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
+[^2]: [El Niño and Southern Oscillation (ENSO): A Review](http://www.cgd.ucar.edu/staff/cdeser/docs/wang.enso_review.springer_sci_pub16.pdf)
+[^3]: [El Niño and Biodiversity](https://www.researchgate.net/publication/216791434_El_Nino_and_Biodiversity)
 [^4]: [A review of bird responses to El Niño-Southern Oscillation conditions in the
 Neotropics](http://www.neotropicalbirdclub.org/wp-content/uploads/2016/02/Cotinga-13-2000-83-88.pdf)
+[^5]: [Etymology of the name "Santa Ana winds", as revealed in the archives of the Los Angeles Times newspaper.](http://people.atmos.ucla.edu/fovell/LATimes_SantaAna.html)
+[^6]: [The Santa Ana Winds of California](https://journals.ametsoc.org/ei/article/7/8/1/676/The-Santa-Ana-Winds-of-California)
+[^7]: [What Are the Santa Ana Winds?](https://www.mentalfloss.com/article/56873/what-are-santa-ana-winds)
+[^8]: [Santa Ana Winds: A Descriptive Climatology](https://journals.ametsoc.org/waf/article/34/2/257/107119/Santa-Ana-Winds-A-Descriptive-Climatology)
+[^9]: [Mortandad de pollos de albatros de Laysan relacionada con vientos Santa Ana](https://www.leonetwork.org/en/posts/show/4932A444-6104-4894-AC7A-078C8909E4C9)
 [^XX]: Christopher Berg, Gil Benghiat, and Eran Strod. 2019. The DataOps Cookbook
