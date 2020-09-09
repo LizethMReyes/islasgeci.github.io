@@ -238,7 +238,7 @@ ayudan a manejar datos geográficos, como puntos georeferenciados, trayectorias 
 nos permiten personalizar gráficas, mapas y realizar análisis estadísticos, entre muchas otras
 cosas. Gracias a esto, cada vez podemos generar una mayor cantidad de resultados en menor tiempo.
 Para generar dichos paquetes, actualmente usamos una metodología llamada DataOps. DataOps también
-nos permite implementar algoritmos de aprendizaje automatizado (machine learning) y desarrollar
+nos permite implementar algoritmos de aprendizaje automatizado (_machine learning_) y desarrollar
 nuestras propias aplicaciones para el análisis de datos para la conservación.
 
 ### Aprendizaje automatizado
@@ -272,7 +272,8 @@ científicas y científicos de datos de GECI nos propusimos desarrollar una meto
 que el esfuerzo requerido para monitorear las aves de madrigueras fuera menor. El primer paso que
 seguimos fue agrupar en parches los datos históricos, con los que ya contábamos en la organización,
 sobre la ubicación de las madrigueras donde las aves habitualmente anidan. Para ello, utilizamos el
-algoritmo k-means, el cual permite agrupar datos en diferentes categorías. Este es un algoritmo de
+algoritmo _k-means_, el cual permite agrupar datos en diferentes categorías. Este es un algoritmo de
+
 aprendizaje no supervisado, lo cual significa que el programa puede encontrar la mejor forma de
 hacer la clasificación sin ayuda. Una vez que obtuvimos un modelo de parches para agrupar
 visualmente las madrigueras de las aves, diseñamos muestreos con los datos anuales históricos. Estos
@@ -346,7 +347,8 @@ Decidimos que el sistema fuera una aplicación web porque queremos usarla en cua
 problema con esto es que en la isla no hay internet. Para solucionar este problema la aplicación
 tiene integrado un pequeño servidor que utiliza para servir los archivos de forma local.
 
-Una aplicación web está constituida por dos partes: el back-end y el front-end. La primera se
+Una aplicación web está constituida por dos partes: el _back-end_ y el _front-end_. La primera se
+
 refiere a la parte que está en el servidor, esta se encarga de comunicarse con la base de datos y
 atender las peticiones hechas por el cliente. La segunda es la interfaz que utiliza el cliente para
 comunicarse con el servidor.
