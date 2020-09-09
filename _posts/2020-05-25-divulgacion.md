@@ -185,7 +185,7 @@ norte, esta masa de agua está ligada a cambios en el ambiente y en los ecosiste
 
 El Blob es causado por un incremento en la temperatura del aire, cambios en los patrones del viento,
 y la masa de agua caliente persistente a lo largo del ecuador inducida por el ENSO. Según el
-National Park Service (NPS), nunca antes se había registrado un evento como el Blob. El Blob es un
+National Park Service[^10] (NPS), nunca antes se había registrado un evento como el Blob. El Blob es un
 evento sin precedentes, debido a su magnitud (muy cálido y extendido) y su duración de varios años.
 
 Nick Bond, un científico del clima en la Universidad de Washington en Seattle, en su artículo del
@@ -372,7 +372,7 @@ Berg y Gil Benghiat fundadores de DataKitchen consideran que para “cocinar” 
 los ingredientes y las recetas correctas. Ellos  descubrieron que el tiempo y la calidad en el ciclo
 del procesamiento de datos puede ser optimizado con una combinación de herramientas y metodologías
 que ellos llamaron DataOps. DataOps está inspirada en la ingeniería de software y enfatiza la
-automatización de procesos [^XX]. La automatización de procesos nos permite implementar algoritmos
+automatización de procesos [^11]. La automatización de procesos nos permite implementar algoritmos
 de aprendizaje automatizado con gran rapidez. Es gracias a la automatización que, los resultados
 producidos mediante DataOps siempre son reproducibles. La reproducibilidad de los resultados
 facilita la colaboración de todas las y los miembros del equipo en cada etapa del análisis de los
@@ -543,4 +543,5 @@ Neotropics](http://www.neotropicalbirdclub.org/wp-content/uploads/2016/02/Coting
 [^7]: [What Are the Santa Ana Winds?](https://www.mentalfloss.com/article/56873/what-are-santa-ana-winds)
 [^8]: [Santa Ana Winds: A Descriptive Climatology](https://journals.ametsoc.org/waf/article/34/2/257/107119/Santa-Ana-Winds-A-Descriptive-Climatology)
 [^9]: [Mortandad de pollos de albatros de Laysan relacionada con vientos Santa Ana](https://www.leonetwork.org/en/posts/show/4932A444-6104-4894-AC7A-078C8909E4C9)
-[^XX]: Christopher Berg, Gil Benghiat, and Eran Strod. 2019. The DataOps Cookbook
+[^10]: [The Blob](https://www.nps.gov/articles/theblob.htm)
+[^11]: Christopher Berg, Gil Benghiat, and Eran Strod. 2019. The DataOps Cookbook
