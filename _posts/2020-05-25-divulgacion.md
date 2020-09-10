@@ -143,11 +143,13 @@ Los eventos atmosféricos conocidos como vientos de Santa Ana se caracterizan po
 regularmente cálidos que afectan el sur de California y el norte de Baja California. Según la
 Universidad de California en Los Ángeles (UCLA, por sus siglas en inglés)[^5], los vientos de Santa
 Ana son siempre secos, como resultado de su descenso desde su lugar de origen en la Gran Cuenca de
-Nevada y Utah, que son regiones altas. En su artículo _The Santa Ana Winds of California_, Raphael
+Nevada y Utah, que son regiones altas. En su artículo _"The Santa Ana Winds of California"_, Raphael
+
 Marilyn[^6] dice que los vientos de Santa Ana suceden regularmente entre el otoño y el inicio de la
 primavera, entre septiembre y abril, pero tienen mayor ocurrencia en diciembre.
 
-En la nota What Are the Santa Ana Winds?, de la página mentalfloss[^7], podemos encontrar una
+En la nota _"What Are the Santa Ana Winds?"_, de la página mentalfloss[^7], podemos encontrar una
+
 descripción del origen de los vientos de Santa Ana. La nota dice que los vientos se originan cuando
 se forman sistemas de alta presión entre la Sierra Nevada y las Montañas Rocosas. El aire dentro del
 sistema de alta presión fluye en dirección de las manecillas del reloj, por lo tanto, los vientos en
@@ -157,7 +159,8 @@ va fluyendo hacia la costa, el aire se comprime y su temperatura aumenta. Al mis
 humedad baja a menos de 20% e incluso a veces hasta por debajo de 10%. Los vientos también aumentan
 su velocidad, al verse forzados a pasar entre estrechos pasos de montaña y cañones.
 
-Tom Rolinski, en su artículo publicado en el 2019 "Santa Ana Winds: A Descriptive Climatology"[^8],
+Tom Rolinski, en su artículo publicado en el 2019 _"Santa Ana Winds: A Descriptive Climatology"_[^8],
+
 menciona que las condiciones extremadamente secas y ventosas durante los eventos Santa Ana crean
 condiciones favorables para producir incendios catastróficos. Estos incendios ocurren regularmente
 en el otoño y a inicios del invierno cuando la vegetación nativa es más susceptible a igniciones.
@@ -190,7 +193,8 @@ un evento sin precedentes, debido a su magnitud (muy cálido y extendido) y su d
 años.
 
 Nick Bond, un científico del clima en la Universidad de Washington en Seattle, en su artículo del
-2015 Causes and impacts of the 2014 warm anomaly in the NE Pacific, muestra patrones inusuales de
+2015 _"Causes and impacts of the 2014 warm anomaly in the NE Pacific"_, muestra patrones inusuales de
+
 las variables ambientales. Desde septiembre del 2013 hasta febrero del 2014, las velocidades mínimas
 del viento y la profundidad de la capa de mezcla fueron menores que los años anteriores. El
 enfriamiento local, desde octubre del 2013 hasta febrero del 2014 fue 30% menor que el promedio. En
@@ -245,7 +249,8 @@ nuestras propias aplicaciones para el análisis de datos para la conservación.
 ### Aprendizaje automatizado
 
 En los últimos años, aumentó la utilización de una diversidad de algoritmos que los conocemos como
-de “aprendizaje automatizado” (o machine learning en inglés). Usualmente, estos algoritmos se
+de “aprendizaje automatizado” (o _machine learning_ en inglés). Usualmente, estos algoritmos se
+
 dividen en tres categorías: clasificación, regresión y agrupamiento. Una vez que contamos con
 análisis estadísticos, utilizamos los resultados para entrenar a estos algoritmos que nos ayudarán a
 predecir cosas nuevas. Aunque una limitante que tenemos para aprovecharlos al máximo es que
@@ -297,7 +302,8 @@ hemos trabajado con albatros de Laysan en Isla Guadalupe. Los últimos cinco añ
 muestras de sangre y medidas morfológicas a cerca de cien individuos. Con estas medidas, construimos
 un modelo logístico para determinar el sexo a partir de la morfometría. Para ajustar dicho modelo,
 utilizamos un algoritmo de regresión y de aprendizaje supervisado. Esto quiere decir que para
-utilizarlo necesitamos tener ejemplos de entrada y una salida asociada. Para construirlo, utilizamos
+emplearlo necesitamos tener ejemplos de entrada y una salida asociada. Para construirlo, usamos
+
 el 80% de los datos morfométricos para el proceso de entrenamiento y 20% para validar el modelo. El
 modelo construido dio buenos resultados, por lo que se decidió crear una aplicación móvil que
 permitiera utilizarlo en campo y así determinar el sexo de los individuos sin la necesidad de
@@ -341,7 +347,8 @@ podemos cargar los datos diarios y así verificar que el estado de las trampas s
 las bitácoras. Con este sistema es más fácil ver las capturas diarias y la cantidad de trampas
 activas. En próximas versiones, esperamos ir agregando herramientas que les permitan planificar más
 fácilmente el trabajo en campo. Por ejemplo, que sobre el mapa se puedan trazar trayectorias que
-seguirán con los perros y descargarlas a los GPS, esto les ayudaría para hacer transectos con base a
+seguirán con los perros y descargarlas a los GPS, esto les ayudaría para hacer transectos con base en
+
 los datos de capturas diarias.
 
 Decidimos que el sistema fuera una aplicación web porque queremos usarla en cualquier lugar, el
@@ -354,10 +361,12 @@ refiere a la parte que está en el servidor, esta se encarga de comunicarse con 
 atender las peticiones hechas por el cliente. La segunda es la interfaz que utiliza el cliente para
 comunicarse con el servidor.
 
-El back-end de la aplicación se desarrolló en Go (Golang). Este lenguaje tiene la ventaja de que una
+El _back-end_ de la aplicación se desarrolló en Go (Golang). Este lenguaje tiene la ventaja de que una
+
 vez que se compila los programas no necesitan dependencias externas. Para guardar los datos
 escogimos utilizar SQLite. Esta base de datos tiene la ventaja de que no ocupa que se instale ningún
-gestor de bases de datos. Y para el front-end se utilizó D3.js y jQuery.
+gestor de bases de datos. Y para el _front-end_ se utilizó D3.js y jQuery.
+
 
 En el equipo esperamos que nuestros esfuerzos por desarrollar aplicaciones sirvan para poder tener
 una retroalimentación rápida y los datos que recolectamos nos ayuden a tomar decisiones mientras aún
@@ -466,7 +475,8 @@ las dos partes de este modelo jerárquico consideramos una distribución normal.
 ## El caso de las AICA marinas
 
 El programa de Áreas de Importancia para la Conservación de las Aves (AICA) fue propuesto por
-BirdLife International con el propósito de identificar y documentar las regiones geográficas que son
+_BirdLife International_ con el propósito de identificar y documentar las regiones geográficas que son
+
 críticas para la conservación de las aves y así facilitar la gestión de políticas para su
 protección. Las AICA son sitios clave lo suficientemente pequeños para ser conservados que albergan
 especies amenazadas globalmente, de distribución restringida o con cantidades excepcionales de
