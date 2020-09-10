@@ -32,7 +32,7 @@ distintas, de tal forma que sólo al considerar al equipo en su conjunto resulta
 con todas las habilidades requeridas.
 
 En la Ciencia de Datos aplicada a la conservación de las islas de México, nos basamos principalmente
-de tres áreas de conocimiento: la ambiental, computacional y matemática. 
+de tres áreas de conocimiento: la ambiental, computacional y matemática.
 
 La primera área del conocimiento está relacionada con el ambiente. En las islas, los fenómenos
 oceanográficos y meteorológicos de escala regional y global afectan la distribución y abundancia de
@@ -121,10 +121,10 @@ Arne Mooers, en un artículo del 2007 titulado El Niño and Biodiversity[^3], me
 condiciones (El Niño y La Niña) producen efectos marcadamente importantes en los ecosistemas a lo
 largo del planeta, sobre todo a latitudes bajas. La presencia de El Niño y La Niña puede influir
 sobre los patrones meteorológicos, las condiciones oceánicas y las pesquerías marinas a través de
-grandes porciones del planeta por un periodo largo de tiempo. 
+grandes porciones del planeta por un periodo largo de tiempo.
 
-Marcus England, en su artículo del 2000 "A review of bird responses to El Niño-Southern Oscillation
-conditions in the Neotropics"[^4], dice que las aves marinas son uno de los grupos biológicos más
+Marcus England, en su artículo del 2000 _"A review of bird responses to El Niño-Southern Oscillation
+conditions in the Neotropics"_[^4], dice que las aves marinas son uno de los grupos biológicos más
 afectados por el El Niño, ya que su comportamiento está relacionado directamente con el ambiente
 marino. Por una parte, un aumento de la temperatura del aire puede ocasionar un estrés térmico en
 las aves. Por otro lado, un aumento en la temperatura superficial del mar ocasiona cambios en la
@@ -144,12 +144,10 @@ regularmente cálidos que afectan el sur de California y el norte de Baja Califo
 Universidad de California en Los Ángeles (UCLA, por sus siglas en inglés)[^5], los vientos de Santa
 Ana son siempre secos, como resultado de su descenso desde su lugar de origen en la Gran Cuenca de
 Nevada y Utah, que son regiones altas. En su artículo _"The Santa Ana Winds of California"_, Raphael
-
 Marilyn[^6] dice que los vientos de Santa Ana suceden regularmente entre el otoño y el inicio de la
 primavera, entre septiembre y abril, pero tienen mayor ocurrencia en diciembre.
 
 En la nota _"What Are the Santa Ana Winds?"_, de la página mentalfloss[^7], podemos encontrar una
-
 descripción del origen de los vientos de Santa Ana. La nota dice que los vientos se originan cuando
 se forman sistemas de alta presión entre la Sierra Nevada y las Montañas Rocosas. El aire dentro del
 sistema de alta presión fluye en dirección de las manecillas del reloj, por lo tanto, los vientos en
@@ -159,13 +157,13 @@ va fluyendo hacia la costa, el aire se comprime y su temperatura aumenta. Al mis
 humedad baja a menos de 20% e incluso a veces hasta por debajo de 10%. Los vientos también aumentan
 su velocidad, al verse forzados a pasar entre estrechos pasos de montaña y cañones.
 
-Tom Rolinski, en su artículo publicado en el 2019 _"Santa Ana Winds: A Descriptive Climatology"_[^8],
-
-menciona que las condiciones extremadamente secas y ventosas durante los eventos Santa Ana crean
-condiciones favorables para producir incendios catastróficos. Estos incendios ocurren regularmente
-en el otoño y a inicios del invierno cuando la vegetación nativa es más susceptible a igniciones.
-Rolinski menciona que, durante dichos eventos, el fuego se puede propagar rápidamente a través de la
-vegetación que existe entre las manchas urbanas, poniendo en riesgo vidas humanas y propiedades.
+Tom Rolinski, en su artículo publicado en el 2019 _"Santa Ana Winds: A Descriptive
+Climatology"_[^8], menciona que las condiciones extremadamente secas y ventosas durante los eventos
+Santa Ana crean condiciones favorables para producir incendios catastróficos. Estos incendios
+ocurren regularmente en el otoño y a inicios del invierno cuando la vegetación nativa es más
+susceptible a igniciones. Rolinski menciona que, durante dichos eventos, el fuego se puede propagar
+rápidamente a través de la vegetación que existe entre las manchas urbanas, poniendo en riesgo vidas
+humanas y propiedades.
 
 Como ya mencionamos en la sección anterior, las aves marinas son susceptibles a los cambios
 ambientales abruptos, como un aumento en la temperatura del aire debido a los vientos de Santa Ana.
@@ -193,10 +191,9 @@ un evento sin precedentes, debido a su magnitud (muy cálido y extendido) y su d
 años.
 
 Nick Bond, un científico del clima en la Universidad de Washington en Seattle, en su artículo del
-2015 _"Causes and impacts of the 2014 warm anomaly in the NE Pacific"_, muestra patrones inusuales de
-
-las variables ambientales. Desde septiembre del 2013 hasta febrero del 2014, las velocidades mínimas
-del viento y la profundidad de la capa de mezcla fueron menores que los años anteriores. El
+2015 _"Causes and impacts of the 2014 warm anomaly in the NE Pacific"_, muestra patrones inusuales
+de las variables ambientales. Desde septiembre del 2013 hasta febrero del 2014, las velocidades
+mínimas del viento y la profundidad de la capa de mezcla fueron menores que los años anteriores. El
 enfriamiento local, desde octubre del 2013 hasta febrero del 2014 fue 30% menor que el promedio. En
 años anteriores, el flujo de calor en la capa superficial produjo un efecto de enfriamiento de 3°C
 en el curso de 4 meses; sin embargo, el efecto de enfriamiento observado entre el 2013 y el 2014 fue
@@ -250,7 +247,6 @@ nuestras propias aplicaciones para el análisis de datos para la conservación.
 
 En los últimos años, aumentó la utilización de una diversidad de algoritmos que los conocemos como
 de “aprendizaje automatizado” (o _machine learning_ en inglés). Usualmente, estos algoritmos se
-
 dividen en tres categorías: clasificación, regresión y agrupamiento. Una vez que contamos con
 análisis estadísticos, utilizamos los resultados para entrenar a estos algoritmos que nos ayudarán a
 predecir cosas nuevas. Aunque una limitante que tenemos para aprovecharlos al máximo es que
@@ -279,7 +275,6 @@ que el esfuerzo requerido para monitorear las aves de madrigueras fuera menor. E
 seguimos fue agrupar en parches los datos históricos, con los que ya contábamos en la organización,
 sobre la ubicación de las madrigueras donde las aves habitualmente anidan. Para ello, utilizamos el
 algoritmo _k-means_, el cual permite agrupar datos en diferentes categorías. Este es un algoritmo de
-
 aprendizaje no supervisado, lo cual significa que el programa puede encontrar la mejor forma de
 hacer la clasificación sin ayuda. Una vez que obtuvimos un modelo de parches para agrupar
 visualmente las madrigueras de las aves, diseñamos muestreos con los datos anuales históricos. Estos
@@ -302,9 +297,8 @@ hemos trabajado con albatros de Laysan en Isla Guadalupe. Los últimos cinco añ
 muestras de sangre y medidas morfológicas a cerca de cien individuos. Con estas medidas, construimos
 un modelo logístico para determinar el sexo a partir de la morfometría. Para ajustar dicho modelo,
 utilizamos un algoritmo de regresión y de aprendizaje supervisado. Esto quiere decir que para
-emplearlo necesitamos tener ejemplos de entrada y una salida asociada. Para construirlo, usamos
-
-el 80% de los datos morfométricos para el proceso de entrenamiento y 20% para validar el modelo. El
+emplearlo necesitamos tener ejemplos de entrada y una salida asociada. Para construirlo, usamos el
+80% de los datos morfométricos para el proceso de entrenamiento y 20% para validar el modelo. El
 modelo construido dio buenos resultados, por lo que se decidió crear una aplicación móvil que
 permitiera utilizarlo en campo y así determinar el sexo de los individuos sin la necesidad de
 pruebas genéticas. En la sección "El caso de las AICA marinas" hablaremos de otro ejemplo donde
@@ -347,33 +341,26 @@ podemos cargar los datos diarios y así verificar que el estado de las trampas s
 las bitácoras. Con este sistema es más fácil ver las capturas diarias y la cantidad de trampas
 activas. En próximas versiones, esperamos ir agregando herramientas que les permitan planificar más
 fácilmente el trabajo en campo. Por ejemplo, que sobre el mapa se puedan trazar trayectorias que
-seguirán con los perros y descargarlas a los GPS, esto les ayudaría para hacer transectos con base en
-
-los datos de capturas diarias.
+seguirán con los perros y descargarlas a los GPS, esto les ayudaría para hacer transectos con base
+en los datos de capturas diarias.
 
 Decidimos que el sistema fuera una aplicación web porque queremos usarla en cualquier lugar, el
 problema con esto es que en la isla no hay internet. Para solucionar este problema la aplicación
 tiene integrado un pequeño servidor que utiliza para servir los archivos de forma local.
 
 Una aplicación web está constituida por dos partes: el _back-end_ y el _front-end_. La primera se
-
 refiere a la parte que está en el servidor, esta se encarga de comunicarse con la base de datos y
 atender las peticiones hechas por el cliente. La segunda es la interfaz que utiliza el cliente para
 comunicarse con el servidor.
 
-El _back-end_ de la aplicación se desarrolló en Go (Golang). Este lenguaje tiene la ventaja de que una
-
-vez que se compila los programas no necesitan dependencias externas. Para guardar los datos
+El _back-end_ de la aplicación se desarrolló en Go (Golang). Este lenguaje tiene la ventaja de que
+una vez que se compila los programas no necesitan dependencias externas. Para guardar los datos
 escogimos utilizar SQLite. Esta base de datos tiene la ventaja de que no ocupa que se instale ningún
 gestor de bases de datos. Y para el _front-end_ se utilizó D3.js y jQuery.
-
 
 En el equipo esperamos que nuestros esfuerzos por desarrollar aplicaciones sirvan para poder tener
 una retroalimentación rápida y los datos que recolectamos nos ayuden a tomar decisiones mientras aún
 seguimos en el campo.
-
-Aún nos falta mucho camino por recorrer y dado que esta no es la responsabilidad principal del
-equipo, la creación de estas herramientas será lenta.
 
 ### DataOps
 
@@ -434,7 +421,7 @@ el número de trampas colocadas y los gatos retirados. El modelo que utilizamos 
 el investigador David Ramsey perteneciente al Instituto Arthur Rylah de investigaciones ambientales
 en Australia. Nuestra información a priori es que cualquier tamaño inicial de la población es
 igualmente probable. Mientras el proyecto avanza, actualizamos los parámetros de nuestro modelo a
-partir de los datos recolectados, obteniendo el tamaño más probable de la población (posterior). 
+partir de los datos recolectados, obteniendo el tamaño más probable de la población (posterior).
 
 Otro de los parámetros del modelo relaciona la probabilidad de detectar un gato con el esfuerzo
 hecho para encontrarlo. Así podremos saber cuántas trampas necesitamos para hallar algún individuo
@@ -453,7 +440,7 @@ conocimiento de nuestros compañeros y compañeras expertas en conservación. Co
 arriba, en varios de los proyectos de GECI estamos interesados en evaluar la población de especies
 en las islas. La cuestión es que el tamaño de la población de algunas especies de aves es difícil de
 estimar mediante conteo directo. Este es el caso de la pardela de Revillagigedo, el ave marina más
-rara y en mayor peligro de extinción de México. 
+rara y en mayor peligro de extinción de México.
 
 Para monitorear el tamaño de la población de pardela en las islas del Archipiélago de Revillagigedo,
 utilizamos la tasa de vocalización o número de cantos de aves durante un tiempo determinado. Sin
@@ -461,7 +448,7 @@ embargo, la tasa de vocalización es un ejemplo de datos que no sigue una distri
 número de cantos es una variable discreta (podemos tener una vocalización, dos vocalizaciones o tres
 vocalizaciones, pero no 2.6 vocalizaciones), así que utilizar un modelo continuo (como la
 distribución normal) no es lo más adecuado. Ante esta situación, los modelos jerárquicos nos
-proporcionan una alternativa puesto que analizan por partes a un sistema. 
+proporcionan una alternativa puesto que analizan por partes a un sistema.
 
 Los modelos jerárquicos son muy adecuados para describir procesos con escalas múltiples. Por
 ejemplo, en el caso de la pardela de Revillagigedo, consideramos que el número de pardelas no es el
@@ -475,9 +462,8 @@ las dos partes de este modelo jerárquico consideramos una distribución normal.
 ## El caso de las AICA marinas
 
 El programa de Áreas de Importancia para la Conservación de las Aves (AICA) fue propuesto por
-_BirdLife International_ con el propósito de identificar y documentar las regiones geográficas que son
-
-críticas para la conservación de las aves y así facilitar la gestión de políticas para su
+_BirdLife International_ con el propósito de identificar y documentar las regiones geográficas que
+son críticas para la conservación de las aves y así facilitar la gestión de políticas para su
 protección. Las AICA son sitios clave lo suficientemente pequeños para ser conservados que albergan
 especies amenazadas globalmente, de distribución restringida o con cantidades excepcionales de
 especies migratorias o congregatorias. El primer paso para definir un AICA es identificar las áreas
