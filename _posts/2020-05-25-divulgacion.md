@@ -513,7 +513,7 @@ Los avances en la ingeniería en computación y la disminución de costos asocia
 nos permiten resolver problemas que antes eran prohibitivos. Inspirados en el desarrollo de
 software, usamos DataOps para maximizar la reproducibilidad, automatización y colaboración en el
 análisis de datos y producción de resultados. Utilizamos algoritmos de aprendizaje automatizado
-(machine learning) para resolver problemas que no tienen una solución analítica sencilla. Hacemos
+(_machine learning_) para resolver problemas que no tienen una solución analítica sencilla. Hacemos
 simulaciones computacionales para predecir estados futuros de una población o de un ecosistema.
 Ejemplos de estas predicciones son las que hemos realizado para albatros y pardela mediante la
 implementación de modelos de hábitat que desarrollamos considerando una gran cantidad de variables.
