@@ -8,8 +8,8 @@ tags: equipo
 En ocasiones, los términos _Ciencia de Datos_ y _Análisis de Datos_ se usan de manera
 intercambiable. Ciencia de Datos es un concepto que recientemente ha ganado popularidad por lo que
 actualmente coexisten muchas definiciones. En esta nota no proveeré más definiciones sino que
-diferenciaré los conceptos de Ciencia de Datos y Análisis de Datos contrastando algunas de sus
-características.
+diferenciaré los conceptos de Ciencia de Datos y Análisis de Datos basándome la historia del equipo
+de Ciencia de Datos en GECI.
 
 1\. La Ciencia de Datos usa algoritmos predictivos de _machine learning_ (aprendizaje automatizado),
 mientras que el Análisis de Datos usa algoritmos descriptivos.
@@ -24,9 +24,9 @@ mientras que el Análisis de Datos usa algoritmos descriptivos.
             - Prescriptivo: ¿Cómo podemos hacer que algo pase?
 
 2\. La Ciencia de Datos es una actividad que se realiza en equipo, mientras que el Análisis de Datos
-puede ser una actividad individual. La Ciencia de Datos requiere de un equipo interdiciplinario con
-conocimientos en programación, matemáticas y, en nuestro caso, ecología. Encontrar a una persona con
-dominio de las tres diciplinas es más difícil que encontrar a un unicornio. No es suficiente
+puede ser una actividad individual. En Ciencia de Datos requerimos de un equipo interdiciplinario
+con conocimientos en programación, matemáticas y, en nuestro caso, ecología. Es más fácil encontrar
+un unicornio que encontrar una persona con dominio de las tres diciplinas. No es suficiente
 encontrar a una persona que sepa más programación que una matemática, más matemáticas que una
 ecóloga y más ecología que una programadora. Sólo con un equipo de especialistas trabajando de
 manera colaborativa podemos realizar Ciencia de Datos.
@@ -34,7 +34,8 @@ manera colaborativa podemos realizar Ciencia de Datos.
 3\. La Ciencia de Datos valora el código que produce el resultado igual que el resultado producido,
 mientras que el Anális de Datos valora el resultado por encima que el código. Abusando de la
 espresión de moda [_"como código"_](https://hackernoon.com/everything-as-code-explained-0ibg32a3),
-podríamos decir que en Ciencia de Datos hacemos "análisis como código".
+podríamos decir que en Ciencia de Datos hacemos "análisis como código". Esta en una de las prácticas
+de DataOps que ...
 
 4\. Otra perspectiva que también permite diferenciar entre la Ciencia de Datos y el Análisis de
 Datos es la de David Donoho. Donoho considera que el Análisis de Datos es el objeto de estudio de la
