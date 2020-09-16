@@ -32,7 +32,7 @@ distintas, de tal forma que sólo al considerar al equipo en su conjunto resulta
 con todas las habilidades requeridas.
 
 En la Ciencia de Datos aplicada a la conservación de las islas de México, nos basamos principalmente
-de tres áreas de conocimiento: la ambiental, computacional y matemática.
+en tres áreas de conocimiento: la ambiental, computacional y matemática.
 
 La primera área del conocimiento está relacionada con el ambiente. En las islas, los fenómenos
 oceanográficos y meteorológicos de escala regional y global afectan la distribución y abundancia de
@@ -59,9 +59,9 @@ necesario conocer el estado actual de la población que se desea restaurar. Sin 
 el estado actual de nuestro objeto de conservación mediante observaciones directas es por lo general
 prohibitivo dados los costos de las mediciones. Mediante la abstracción de procesos ecológicos
 complejos y su representación en modelos matemáticos simplificados, podemos inferir el estado actual
-de nuestro objeto de conservación sin necesidad de medirlo directamente. También así podemos
-predecir el impacto de nuestras acciones lo que nos ayuda a optimizar los recursos disponibles para
-la conservación de las islas de México maximizando los beneficios de nuestras intervenciones de
+de nuestro objeto de conservación sin necesidad de medirlo directamente. También así, podemos
+predecir el impacto de nuestras acciones, lo que nos ayuda a optimizar los recursos disponibles para
+la conservación de las islas de México, maximizando los beneficios de nuestras intervenciones de
 restauración.
 
 Las siguientes secciones tratan sobre el papel que juegan el análisis de variables ambientales, la
@@ -211,7 +211,7 @@ región. Durante el verano e invierno de 2014 se registraron concentraciones ext
 clorofila, así como avistamientos inusuales de algunas especies de peces.
 
 Las muertes de aves marinas han sido más cuantiosas desde la aparición del Blob. Aunque las muertes
-de aves marinas no son inusuales, el NPS menciona que la cantidad de muertes en el 2015-2016 del
+de aves marinas no son inusuales, el NPS menciona que la cantidad de muertes durante el 2015 y 2016 del
 Uria aalge (Arao común) fue la más grande registrada en el Golfo de Alaska. En el 2017 y 2018,
 continuaron las muertes masivas de aves marinas, incluyendo más especies y cambiando geográficamente
 al Mar de Bering y el Mar de Chukchi. Ya a finales del 2014 las consecuencias en la alcuela oscura
