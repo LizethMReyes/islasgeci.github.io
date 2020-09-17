@@ -285,7 +285,7 @@ monitoreo del 2018, comparamos las dos metodologías: las biólogas y biólogos 
 tanto censos como muestreos con cuadrantes. Al finalizar, analizamos los datos obtenidos a partir de
 ambas metodologías y pudimos validar los resultados provenientes del muestreo con cuadrantes. Como
 resultado, ahora contamos con una metodología que nos permite minimizar el esfuerzo realizado en
-campo con márgenes de error muy pequeños.
+campo con márgenes de error mínimos.
 
 #### ¿Cómo determinar el sexo de albatros de Laysan a partir de su morfometría?
 
