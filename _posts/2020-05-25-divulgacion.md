@@ -212,7 +212,7 @@ clorofila, así como avistamientos inusuales de algunas especies de peces.
 
 Las muertes de aves marinas han sido más cuantiosas desde la aparición del Blob. Aunque las muertes
 de aves marinas no son inusuales, el NPS menciona que la cantidad de muertes durante el 2015 y 2016 del
-Uria aalge (Arao común) fue la más grande registrada en el Golfo de Alaska. En el 2017 y 2018,
+_Uria aalge_ (Arao común) fue la más grande registrada en el Golfo de Alaska. En el 2017 y 2018,
 continuaron las muertes masivas de aves marinas, incluyendo más especies y cambiando geográficamente
 al Mar de Bering y el Mar de Chukchi. Ya a finales del 2014 las consecuencias en la alcuela oscura
 eran evidentes, podías ver miles de ellas famélicas en las costas de Oregón y Washington. La alcuela
