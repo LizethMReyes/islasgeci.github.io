@@ -52,7 +52,7 @@ isla específica, generalizando nuestras metodologías para otras especies, otra
 temporadas. El trabajo colaborativo nos permite a todas y todos los integrantes del equipo de
 Ciencia de Datos participar en cada uno de los análisis realizados por el equipo. Al conjunto de
 prácticas enfocadas en la reproducibilidad, automatización y colaboración en el análisis de datos lo
-llamamos DataOps.
+llamamos _DataOps_.
 
 La tercera categoría incluye conocimiento matemático. Para elaborar un plan de restauración es
 necesario conocer el estado actual de la población que se desea restaurar. Sin embargo, determinar
@@ -239,7 +239,7 @@ paquetes de uso interno para facilitar el trabajo que realizamos. Algunos de est
 ayudan a manejar datos geográficos, como puntos georeferenciados, trayectorias y polígonos. También
 nos permiten personalizar gráficas, mapas y realizar análisis estadísticos, entre muchas otras
 cosas. Gracias a esto, cada vez podemos generar una mayor cantidad de resultados en menor tiempo.
-Para generar dichos paquetes, actualmente usamos una metodología llamada DataOps. DataOps también
+Para generar dichos paquetes, actualmente usamos una metodología llamada _DataOps_. _DataOps_ también
 nos permite implementar algoritmos de aprendizaje automatizado (_machine learning_) y desarrollar
 nuestras propias aplicaciones para el análisis de datos para la conservación.
 
@@ -353,7 +353,7 @@ refiere a la parte que está en el servidor, esta se encarga de comunicarse con 
 atender las peticiones hechas por el cliente. La segunda es la interfaz que utiliza el cliente para
 comunicarse con el servidor.
 
-El _back-end_ de la aplicación se desarrolló en Go (Golang). Este lenguaje tiene la ventaja de que
+El _back-end_ de la aplicación se desarrolló en Go (_Golang_). Este lenguaje tiene la ventaja de que
 una vez que se compila los programas no necesitan dependencias externas. Para guardar los datos
 escogimos utilizar SQLite. Esta base de datos tiene la ventaja de que no ocupa que se instale ningún
 gestor de bases de datos. Y para el _front-end_ se utilizó D3.js y jQuery.
@@ -364,14 +364,14 @@ seguimos en el campo.
 
 ### DataOps
 
-La metodología que seguimos en el equipo de Ciencia de Datos de GECI se llama DataOps. Christopher
-Berg y Gil Benghiat fundadores de DataKitchen consideran que para “cocinar” una gráfica necesitas
+La metodología que seguimos en el equipo de Ciencia de Datos de GECI se llama _DataOps_. Christopher
+Berg y Gil Benghiat fundadores de _DataKitchen_ consideran que para “cocinar” una gráfica necesitas
 los ingredientes y las recetas correctas. Ellos  descubrieron que el tiempo y la calidad en el ciclo
 del procesamiento de datos puede ser optimizado con una combinación de herramientas y metodologías
-que ellos llamaron DataOps. DataOps está inspirada en la ingeniería de software y enfatiza la
+que ellos llamaron _DataOps_. _DataOps_ está inspirada en la ingeniería de software y enfatiza la
 automatización de procesos [^11]. La automatización de procesos nos permite implementar algoritmos
 de aprendizaje automatizado con gran rapidez. Es gracias a la automatización que, los resultados
-producidos mediante DataOps siempre son reproducibles. La reproducibilidad de los resultados
+producidos mediante _DataOps_ siempre son reproducibles. La reproducibilidad de los resultados
 facilita la colaboración de todas las y los miembros del equipo en cada etapa del análisis de los
 datos: desde la curación inicial de los datos hasta la redacción del reporte técnico final. Además,
 la reproducibilidad de los resultados también facilita a terceras personas auditar nuestros
@@ -496,7 +496,7 @@ albatros y pardelas.
 
 En la fase final para identificar las AICA, expertos en aves marinas usan estos insumos y otra
 información adicional (tamaño de las colonias, radios de forrajeo) para delimitar y describir las
-AICA que serán propuestas a BirdLife International para su validación.
+AICA que serán propuestas a _BirdLife International_ para su validación.
 
 ## Conclusión
 
@@ -511,7 +511,7 @@ ambientales determinan una disminución abrupta en la tasa de reproducción de a
 
 Los avances en la ingeniería en computación y la disminución de costos asociados al poder de cómputo
 nos permiten resolver problemas que antes eran prohibitivos. Inspirados en el desarrollo de
-software, usamos DataOps para maximizar la reproducibilidad, automatización y colaboración en el
+software, usamos _DataOps_ para maximizar la reproducibilidad, automatización y colaboración en el
 análisis de datos y producción de resultados. Utilizamos algoritmos de aprendizaje automatizado
 (_machine learning_) para resolver problemas que no tienen una solución analítica sencilla. Hacemos
 simulaciones computacionales para predecir estados futuros de una población o de un ecosistema.
