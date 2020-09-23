@@ -12,17 +12,13 @@ diferenciaré los conceptos de Ciencia de Datos y Análisis de Datos basándome 
 equipo en GECI. Estas son cuatro diferencias entre la Ciencia de Datos que practicamos actualmente y
 el Análisis de Datos que solíamos practicar.
 
-1\. La Ciencia de Datos usa algoritmos predictivos de _machine learning_ (aprendizaje automatizado),
-mientras que el Análisis de Datos usa algoritmos descriptivos.
+1\. En Ciencia de Datos usamos algoritmos predictivos de _machine learning_ (aprendizaje
+automatizado), mientras que en Análisis de Datos usabamos únicamente estadística descriptiva.
+Seguimos utilizando la estadística descriptiva en el análisis exploratorio de datos (AED) para
+determinar las propiedades de los datos y así elegir la técnica de análisis más apropiada. En
+ocasiones, el AED es suficiente para contestar la pregunta planteada.
 
-- Machine Learning
-    - Gartner's analytic value escalator
-        - Analisis de Datos
-            - Descriptivo: ¿Qué pasó?
-            - Diagnostico: ¿Por qué pasó?
-        - Ciencia de Datos
-            - Predictivo: ¿Qué pasará?
-            - Prescriptivo: ¿Cómo podemos hacer que algo pase?
+bootstraping, estadística bayesiana, regresión logística, k-medias,
 
 2\. La Ciencia de Datos es una actividad que se realiza en equipo, mientras que el Análisis de Datos
 puede ser una actividad individual. En Ciencia de Datos requerimos de un equipo interdiciplinario
