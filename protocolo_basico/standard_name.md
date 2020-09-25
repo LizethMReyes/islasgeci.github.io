@@ -6,7 +6,9 @@ description: Metadato `standard_name`
 
 Los posibles valores para el metadato `standard_name` se encuentran en [CF standard name
 table](http://cfconventions.org/Data/cf-standard-names/current/build/cf-standard-name-table.html).
-En la siguiente tabla se muestran algunos de los nombres estándares más usados.
+La convención CF está enfocada a variables climáticas. Para variables biológicas todavía hace falta
+implementar algunos nombres estándar. En la siguiente tabla se muestran algunos de los nombres
+estándares más usados.
 
 _Tabla: Ejemplo de nombres estándares reconocidos por este protocolo._
 
@@ -24,7 +26,7 @@ _Tabla: Ejemplo de nombres estándares reconocidos por este protocolo._
 Para incluir nuevos nombres estándares que no sean parte de la convención CF se debe utilizar la
 [_guía de construccción de nombres
 estándares_](http://cfconventions.org/Data/cf-standard-names/docs/guidelines.html) de la convención
-CF.
+CF y agregarlos a `misctools/schemas/protocolo-geci.json`.
 
 ---
 
