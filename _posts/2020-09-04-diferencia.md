@@ -26,13 +26,16 @@ ocasiones, el AED es suficiente para contestar la pregunta planteada.
 
 Ejemplos: bootstraping, estadística bayesiana, regresión logística, k-medias,
 
-2\. La Ciencia de Datos es una actividad que se realiza en equipo, mientras que el Análisis de Datos
-puede ser una actividad individual. En Ciencia de Datos requerimos de un equipo interdiciplinario
-con conocimientos en programación, matemáticas y, en nuestro caso, ecología. Es más fácil encontrar
-un unicornio que encontrar una persona con dominio de las tres diciplinas. No es suficiente
-encontrar a una persona que tenga domine programación más que una matemática, matemáticas más que
-una ecóloga y ecología más que una programadora. Sólo con un equipo de especialistas trabajando de
-manera colaborativa podemos realizar Ciencia de Datos.
+2\. La Ciencia de Datos es una actividad que realizamos en equipo, mientras que el Análisis de Datos
+podía ser una actividad individual. Antes, todos los miembros del equipo éramos oceanólogas y
+oceanólogos. La oceanología es una profesión generalistas que requiere con conocimientos sobre
+muchas disciplinas. Cada miembro del equipo ... domine programación más que una matemática,
+matemáticas más que una ecóloga y ecología más que una programadora.
+
+En Ciencia de Datos requerimos de un equipo interdiciplinario con conocimientos en programación,
+matemáticas y, en nuestro caso, ecología. Es más fácil encontrar un unicornio que encontrar una
+persona con dominio de las tres diciplinas. Sólo con un equipo de especialistas trabajando de manera
+colaborativa podemos realizar Ciencia de Datos.
 
 - Cambiar orden empezando por análisis de datos (cronólogico)
 - El análisis se hace primero y la ciencia de datos complementa
