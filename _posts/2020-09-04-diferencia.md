@@ -12,10 +12,11 @@ conceptos de Ciencia de Datos y Análisis de Datos basándome en la historia de 
 GECI. En 2014, en GECI creamos el equipo de Análisis de Datos. En este equipo usábamos las técnicas
 de procesamiento de datos y análisis comúnmente practicadas en las ciencias naturales por los
 investigadores o técnicos que trabajan en universidades o centros de investigación. En 2018,
-cambiamos el nombre del equipo a Ciencia de Datos. Este cambio ...
+cambiamos el nombre del equipo a Ciencia de Datos. Renombramos al equipo para significar el cambio
+en nuestra cultura y prácticas, las cuales adoptamos de las ciencias computacionales.
 
-Estas son cuatro diferencias entre la Ciencia de Datos que practicamos actualmente y
-el Análisis de Datos que solíamos practicar.
+Aquí describo cuatro diferencias entre la Ciencia de Datos que practicamos actualmente y el Análisis
+de Datos que solíamos practicar.
 
 1\. En Ciencia de Datos usamos algoritmos predictivos de _machine learning_ (aprendizaje
 automatizado), mientras que en Análisis de Datos usábamos únicamente estadística descriptiva.
