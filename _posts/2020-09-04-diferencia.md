@@ -6,14 +6,14 @@ tags: equipo
 ---
 
 En ocasiones, usamos los términos Ciencia de Datos y Análisis de Datos de manera intercambiable.
-Ciencia de Datos es un concepto que ha ganado popularidad por lo que actualmente
-coexisten muchas definiciones. En esta nota no proveeré más definiciones sino que diferenciaré los
-conceptos de Ciencia de Datos y Análisis de Datos basándome en la historia de nuestro equipo en
-GECI. En 2014, en GECI creamos el equipo de Análisis de Datos. En este equipo usábamos las técnicas
-de procesamiento de datos y análisis comúnmente practicadas en las ciencias naturales por los
-investigadores o técnicos que trabajan en universidades o centros de investigación. En 2018,
-cambiamos el nombre del equipo a Ciencia de Datos. Renombramos al equipo para significar el cambio
-en nuestra cultura y prácticas, las cuales adoptamos de las ciencias computacionales.
+Ciencia de Datos es un concepto que ha ganado popularidad por lo que actualmente coexisten muchas
+definiciones. En esta nota no proveeré más definiciones sino que diferenciaré los conceptos de
+Ciencia de Datos y Análisis de Datos basándome en la historia de nuestro equipo en GECI. En 2014, en
+GECI creamos el equipo de Análisis de Datos. En este equipo usábamos las técnicas de procesamiento
+de datos y análisis comúnmente practicadas en las ciencias naturales por los investigadores o
+técnicos que trabajan en universidades o centros de investigación. En 2018, cambiamos el nombre del
+equipo a Ciencia de Datos. Renombramos al equipo para significar el cambio en nuestra cultura y
+prácticas, las cuales adoptamos de las ciencias computacionales.
 
 Aquí describo cuatro diferencias entre la Ciencia de Datos que practicamos actualmente y el Análisis
 de Datos que solíamos practicar.
@@ -21,16 +21,16 @@ de Datos que solíamos practicar.
 1\. En Ciencia de Datos usamos algoritmos predictivos de _machine learning_ (aprendizaje
 automatizado), mientras que en Análisis de Datos usábamos únicamente estadística descriptiva.
 Seguimos utilizando la estadística descriptiva en el análisis exploratorio de datos (AED) para
-determinar sus propiedades y así elegir la técnica de análisis más apropiada. En
-ocasiones, el AED es suficiente para contestar la pregunta planteada.
+determinar sus propiedades y así elegir la técnica de análisis más apropiada. En ocasiones, el AED
+es suficiente para contestar la pregunta planteada.
 
 Ejemplos: bootstraping, estadística bayesiana, regresión logística, k-medias,
 
 2\. La Ciencia de Datos es una actividad que realizamos en equipo, mientras que el Análisis de Datos
 podía ser una actividad individual. Antes, todos los miembros del equipo éramos oceanólogas y
-oceanólogos. La oceanología es una profesión generalista que requiere conocimientos sobre
-muchas disciplinas. Cada miembro del equipo ... domine programación más que una matemática,
-matemáticas más que una ecóloga y ecología más que una programadora.
+oceanólogos. La oceanología es una profesión generalista que requiere conocimientos sobre muchas
+disciplinas. Cada miembro del equipo ... domine programación más que una matemática, matemáticas más
+que una ecóloga y ecología más que una programadora.
 
 En Ciencia de Datos requerimos de un equipo interdiciplinario con conocimientos en programación,
 matemáticas y, en nuestro caso, ecología. Es más fácil encontrar un unicornio que encontrar una
