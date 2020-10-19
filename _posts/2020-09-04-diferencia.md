@@ -41,7 +41,7 @@ colaborativa podemos realizar Ciencia de Datos.
 
 3\. La Ciencia de Datos valora el código que produce el resultado igual que el resultado producido,
 mientras que el Análisis de Datos valora el resultado por encima que el código. Abusando de la
-espresión de moda [_"lo que sea como
+expresión de moda [_"lo que sea como
 código"_](https://hackernoon.com/everything-as-code-explained-0ibg32a3), podríamos decir que en
 Ciencia de Datos hacemos "análisis como código". Esta en una de las prácticas de DataOps que ...
 
