@@ -50,8 +50,7 @@ Datos es la de David Donoho. Donoho considera que el Análisis de Datos es el ob
 Ciencia de Datos. La Ciencia de Datos es un campo académico interdisciplinario, basado en
 evidencias, que tiene como objeto de estudio las diferentes técnicas de análisis de datos.
 
-El propósito de esta nota es documentar la historia de nuestro equipo de Análisis de Datos que
-evolucionó para convertirse en el equipo de Ciencia de Datos. No pretendo descalificar a las y los
+El propósito de esta nota es documentar la historia de cómo nuestro equipo de Análisis de Datos evolucionó para convertirse en el equipo de Ciencia de Datos. No pretendo descalificar a las y los
 practicantes de Ciencia de Datos que no hayan vivido la misma historia que nosotros. Finalmente,
 Ciencia de Datos es la actividad que realiza cualquier persona que se considere a sí misma un o una
 Científica de Datos.
