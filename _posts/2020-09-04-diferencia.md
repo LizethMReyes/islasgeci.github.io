@@ -31,7 +31,7 @@ oceanólogos. La oceanología es una profesión generalista que requiere conocim
 disciplinas. Cada miembro del equipo ... domine programación más que una matemática, matemáticas más
 que una ecóloga y ecología más que una programadora.
 
-En Ciencia de Datos requerimos de un equipo interdiciplinario con conocimientos en programación,
+En Ciencia de Datos requerimos de un equipo interdisciplinario con conocimientos en programación,
 matemáticas y, en nuestro caso, ecología. Es más fácil encontrar un unicornio que encontrar una
 persona con dominio de las tres diciplinas. Sólo con un equipo de especialistas trabajando de manera
 colaborativa podemos realizar Ciencia de Datos.
