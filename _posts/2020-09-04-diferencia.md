@@ -7,12 +7,13 @@ tags: equipo
 
 En ocasiones, usamos los términos Ciencia de Datos y Análisis de Datos de manera intercambiable.
 Ciencia de Datos es un concepto que ha ganado popularidad por lo que actualmente coexisten muchas
-definiciones. En esta nota no proveeré definiciones sino que diferenciaré los conceptos de
-Ciencia de Datos y Análisis de Datos basándome en la historia de nuestro equipo en GECI. En 2014, en
-GECI creamos el equipo de Análisis de Datos. En este equipo usábamos las técnicas de procesamiento y análisis de datos comúnmente practicadas en las ciencias naturales por los investigadores o
-técnicos que trabajan en universidades o centros de investigación. En 2018, cambiamos el nombre del
-equipo a Ciencia de Datos. Renombramos al equipo para significar el cambio en nuestra cultura y
-prácticas, las cuales adoptamos de las ciencias computacionales.
+definiciones. En esta nota no proveeré definiciones sino que diferenciaré los conceptos de Ciencia
+de Datos y Análisis de Datos basándome en la historia de nuestro equipo en GECI. En 2014, en GECI
+creamos el equipo de Análisis de Datos. En este equipo usábamos las técnicas de procesamiento y
+análisis de datos comúnmente practicadas en las ciencias naturales por los investigadores o técnicos
+que trabajan en universidades o centros de investigación. En 2018, cambiamos el nombre del equipo a
+Ciencia de Datos. Renombramos al equipo para significar el cambio en nuestra cultura y prácticas,
+las cuales adoptamos de las ciencias computacionales.
 
 Aquí describo cuatro diferencias entre la Ciencia de Datos que practicamos actualmente y el Análisis
 de Datos que solíamos practicar.
@@ -50,7 +51,8 @@ Datos es la de David Donoho. Donoho considera que el Análisis de Datos es el ob
 Ciencia de Datos. La Ciencia de Datos es un campo académico interdisciplinario, basado en
 evidencias, que tiene como objeto de estudio las diferentes técnicas de análisis de datos.
 
-El propósito de esta nota es documentar la historia de cómo nuestro equipo de Análisis de Datos evolucionó para convertirse en el equipo de Ciencia de Datos. No pretendo descalificar a las y los
+El propósito de esta nota es documentar la historia de cómo nuestro equipo de Análisis de Datos
+evolucionó para convertirse en el equipo de Ciencia de Datos. No pretendo descalificar a las y los
 practicantes de Ciencia de Datos que no hayan vivido la misma historia que nosotros. Finalmente,
 Ciencia de Datos es la actividad que realiza cualquier persona que se considere a sí misma un o una
 Científica de Datos.
