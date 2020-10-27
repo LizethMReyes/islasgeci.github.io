@@ -29,10 +29,10 @@ regresión logística y k-medias.
 2\. La Ciencia de Datos es una actividad que realizamos en equipo, mientras que el Análisis de Datos
 podía ser una actividad individual. Antes, todas y todos los integrantes del equipo éramos
 generalistas. Cada integrante del equipo tenía conocimientos básicos sobre programación, matemáticas
-y ecología. Ahora, cada integrante del equipo es experta o experto en un area de especilidad.
+y ecología. Ahora, cada integrante del equipo es experta o experto en su area de especilidad.
 Actualmente contamos con 5 roles diferenciados: Curadora de datos, Analista de datos, Programador,
 Revisor de calidad (_QA_ por sus siglas en inglés) y Gestor del flujo de trabajo. Esta
-especialicación implica que todo el equipo es interdependiente y que cada tarea requiere la
+especialización implica que todo el equipo es interdependiente y que cada tarea requiere la
 intervención de más de una persona.
 
 3\. En Ciencia de Datos valoramos el código que produce el resultado por encima que el resultado
@@ -43,13 +43,15 @@ Ciencia de Datos hacemos "análisis como código". Esta en una de las prácticas
 permite tratar los análisis con la misma mentalidad y herramientas que se acostrumbra usar para
 tratar el código en el desarrollo de software.
 
-4\. Otra perspectiva que también permite diferenciar entre la Ciencia de Datos y el Análisis de
-Datos es la de David Donoho. Donoho considera que el Análisis de Datos es el objeto de estudio de la
-Ciencia de Datos. La Ciencia de Datos es un campo académico interdisciplinario, basado en
-evidencias, que tiene como objeto de estudio las diferentes técnicas de análisis de datos.
+4\. En Ciencia de Datos consideramos que nuestros objetos de estudio son las diferentes técnicas de
+análisis de datos, mientras que en Análisis de Datos considerábamos que nuestros objetos de estudio
+eran los ecosistemas que en GECI restauramos y conservamos. Según [David
+Donoho](https://doi.org/10.1080/10618600.2017.1384734), la Ciencia de Datos es un campo académico
+interdisciplinario, basado en evidencias, que tiene como objeto de estudio las diferentes técnicas
+de análisis de datos.
 
-El propósito de esta nota es documentar la historia de cómo nuestro equipo de Análisis de Datos
-evolucionó para convertirse en el equipo de Ciencia de Datos. No pretendo descalificar a las ni los
-practicantes de Ciencia de Datos que no hayan vivido la misma historia que nosotros. Reconocemos que
-hay muchos estilos diferentes de hacer Ciencia de Datos todos igual de válidos. Este es el estilo
-que pregonamos en GECI.
+El propósito de esta nota es contrastar la Ciencia de Datos y el Análisis de Datos basándome en la
+historia de nuestro equipo. No pretendo descalificar a las ni los practicantes de Ciencia de Datos
+que no hayan vivido la misma historia que nosotros y que, por lo tanto, su práctica luzca distinta a
+la nuestra. Reconozco que hay muchos estilos de practicar Ciencia de Datos, todos igual de válidos.
+Aquí bosquejé el estilo que pregonamos en GECI.
