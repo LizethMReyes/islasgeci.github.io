@@ -27,7 +27,7 @@ _machine learning_ (aprendizaje automatizado), estadística bayesiana, bootstrap
 logística y k-medias.
 
 2\. La Ciencia de Datos es una actividad interdisciplinaria que realizamos en equipo, mientras que
-el Análisis de Datos podía ser una actividad individual. Antes, todas y todos los integrantes del
+el Análisis de Datos podía ser una actividad individual. Antes, todas las y los integrantes del
 equipo éramos generalistas. Cada integrante del equipo tenía conocimientos básicos sobre
 programación, matemáticas y ecología. Ahora, cada integrante del equipo es experta o experto en su
 area de especilidad. Actualmente contamos con 5 roles diferenciados: Curadora de datos, Analista de
