@@ -40,8 +40,8 @@ producido, mientras que en Análisis de Datos valorábamos el resultado por enci
 Abusando de la expresión de moda [_"lo que sea como
 código"_](https://hackernoon.com/everything-as-code-explained-0ibg32a3), podríamos decir que en
 Ciencia de Datos hacemos "análisis como código". Esta en una de las prácticas de DataOps que nos
-permite tratar los análisis y las herramientas con la misma mentalidad que se acostrumbra usar para
-tratar el código en el desarrollo de software.
+permite tratar los análisis y las herramientas con la misma mentalidad que se acostumbra tratar el
+código en el desarrollo de software.
 
 4\. En Ciencia de Datos consideramos que nuestros objetos de estudio son las diferentes técnicas de
 análisis de datos, mientras que en Análisis de Datos considerábamos que nuestros objetos de estudio
