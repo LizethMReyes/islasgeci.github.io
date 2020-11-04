@@ -18,22 +18,22 @@ prácticas, las cuales adoptamos de las ciencias computacionales.
 Aquí describo cuatro diferencias entre la Ciencia de Datos que practicamos actualmente y el Análisis
 de Datos que solíamos practicar.
 
-1\. En Ciencia de Datos usamos modelos matemáticos predictivos, mientras que en Análisis de Datos usábamos únicamente estadística descriptiva.
-Seguimos utilizando la estadística descriptiva en el análisis exploratorio de datos (AED) para
-determinar las propiedades de los datos y así elegir la técnica de análisis más apropiada. En
-ocasiones, el AED es suficiente para contestar la pregunta planteada. Pero actualmente también
-usamos técnicas analíticas con mayor costo computacional como de _machine learning_ (aprendizaje
-automatizado), estadística bayesiana, bootstraping,
-regresión logística y k-medias.
+1\. En Ciencia de Datos usamos modelos matemáticos predictivos, mientras que en Análisis de Datos
+usábamos únicamente estadística descriptiva. Seguimos utilizando la estadística descriptiva en el
+análisis exploratorio de datos (AED) para determinar las propiedades de los datos y así elegir la
+técnica de análisis más apropiada. En ocasiones, el AED es suficiente para contestar la pregunta
+planteada. Pero actualmente también usamos técnicas analíticas con mayor costo computacional como de
+_machine learning_ (aprendizaje automatizado), estadística bayesiana, bootstraping, regresión
+logística y k-medias.
 
-2\. La Ciencia de Datos es una actividad interdisciplinaria que realizamos en equipo, mientras que el Análisis de Datos
-podía ser una actividad individual. Antes, todas y todos los integrantes del equipo éramos
-generalistas. Cada integrante del equipo tenía conocimientos básicos sobre programación, matemáticas
-y ecología. Ahora, cada integrante del equipo es experta o experto en su area de especilidad.
-Actualmente contamos con 5 roles diferenciados: Curadora de datos, Analista de datos, Programador,
-Revisor de calidad (_QA_ por sus siglas en inglés) y Gestor del flujo de trabajo. Esta
-especialización implica que todo el equipo es interdependiente y que cada tarea requiere la
-intervención de más de una persona.
+2\. La Ciencia de Datos es una actividad interdisciplinaria que realizamos en equipo, mientras que
+el Análisis de Datos podía ser una actividad individual. Antes, todas y todos los integrantes del
+equipo éramos generalistas. Cada integrante del equipo tenía conocimientos básicos sobre
+programación, matemáticas y ecología. Ahora, cada integrante del equipo es experta o experto en su
+area de especilidad. Actualmente contamos con 5 roles diferenciados: Curadora de datos, Analista de
+datos, Programador, Revisor de calidad (_QA_ por sus siglas en inglés) y Gestor del flujo de
+trabajo. Esta especialización implica que todo el equipo es interdependiente y que cada tarea
+requiere la intervención de más de una persona.
 
 3\. En Ciencia de Datos valoramos el código que produce el resultado por encima que el resultado
 producido, mientras que en Análisis de Datos valorábamos el resultado por encima que el código.
