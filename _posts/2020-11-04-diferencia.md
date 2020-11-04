@@ -48,7 +48,10 @@ análisis de datos, mientras que en Análisis de Datos considerábamos que nuest
 eran los ecosistemas que en GECI restauramos y conservamos. Según [David
 Donoho](https://doi.org/10.1080/10618600.2017.1384734), la Ciencia de Datos es un campo académico
 interdisciplinario, basado en evidencias, que tiene como objeto de estudio las diferentes técnicas
-de análisis de datos.
+de análisis de datos. Este cambio de enfoque nos permite aprovechas las fortalezas del equipo y las
+fortalezas del resto de la organización. El resto de la organización nos asesora como expertos en
+ecología mientras que el equipo de Ciencia de Datos nos especializamos en dominio de las técnicas
+analíticas.
 
 El propósito de esta nota es contrastar la Ciencia de Datos y el Análisis de Datos basándome en la
 historia de nuestro equipo. No pretendo descalificar a las ni los practicantes de Ciencia de Datos
