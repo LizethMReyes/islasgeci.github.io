@@ -26,16 +26,16 @@ los fenómenos observados, evaluar los supuestos en los que se basará la infere
 apoyar la selección de herramientas y técnicas estadísticas adecuadas. Sin embargo, cuando
 necesitamos contestar preguntas más allá de lo que estamos observando en los datos, utilizamos
 técnicas analíticas con mayor costo computacional como _machine learning_ (aprendizaje
-automatizado), estadística bayesiana, bootstraping, regresión logística y k-medias.
+automatizado), estadística bayesiana y bootstraping.
 
 2\. La Ciencia de Datos es una actividad interdisciplinaria que realizamos en equipo, mientras que
 el Análisis de Datos podía ser una actividad individual. Antes, todas las y los integrantes del
 equipo éramos generalistas. Cada integrante del equipo tenía conocimientos básicos sobre
 programación, matemáticas y ecología. Ahora, cada integrante del equipo es experta o experto en su
 area de especilidad. Actualmente contamos con 5 roles diferenciados: Curadora de datos, Analista de
-datos, Programador, Revisor de calidad (_QA_ por sus siglas en inglés) y Gestor del flujo de
-trabajo. Esta especialización implica que todo el equipo es interdependiente y que cada tarea
-requiere la intervención de más de una persona.
+datos, Programador, Gestor de calidad (_QA_ por sus siglas en inglés) y Gestor del flujo de trabajo.
+Esta especialización implica que todo el equipo es interdependiente y que cada tarea requiere la
+intervención de más de una persona.
 
 3\. En Ciencia de Datos valoramos el código que produce el resultado por encima que el resultado
 producido, mientras que en Análisis de Datos valorábamos el resultado por encima que el código.
@@ -52,8 +52,8 @@ Donoho](https://doi.org/10.1080/10618600.2017.1384734), la Ciencia de Datos es u
 interdisciplinario, basado en evidencias, que tiene como objeto de estudio las diferentes técnicas
 de análisis de datos. Este cambio de enfoque nos permite aprovechar tanto las fortalezas del equipo
 cómo las del resto de la organización. Mientras el resto de la organización nos asesora como
-expertos en ecología, en el equipo de Ciencia de Datos nos especializamos en dominio de las técnicas
-analíticas.
+expertos en ecología, en el equipo de Ciencia de Datos nos especializamos en el estudio de las
+técnicas analíticas.
 
 El propósito de esta nota es contrastar la Ciencia de Datos y el Análisis de Datos basándome en la
 historia de nuestro equipo. No pretendo descalificar a las ni los practicantes de Ciencia de Datos
