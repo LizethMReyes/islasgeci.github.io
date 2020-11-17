@@ -5,15 +5,7 @@ author: Evaristo
 tags: equipo
 ---
 
-En ocasiones, usamos los términos Ciencia de Datos y Análisis de Datos de manera intercambiable.
-Ciencia de Datos es un concepto que ha ganado popularidad por lo que actualmente coexisten muchas
-definiciones. En esta nota no proveeré definiciones sino que diferenciaré los conceptos de Ciencia
-de Datos y Análisis de Datos basándome en la historia de nuestro equipo en GECI. En 2014, creamos el
-equipo de Análisis de Datos en GECI. En este equipo usábamos las técnicas de procesamiento de datos
-y producción de resultados comúnmente practicadas en las ciencias naturales por los investigadores o
-técnicos que trabajan en universidades o centros de investigación. En 2018, cambiamos el nombre del
-equipo a Ciencia de Datos. Renombramos al equipo para significar el cambio en nuestra cultura y
-prácticas, las cuales adoptamos de las ciencias computacionales.
+Ciencia de Datos es un concepto que recientemente ha ganado popularidad por lo que actualmente coexisten muchas definiciones. Incluso, en ocasiones es común encontrar equipos que utilizan los términos Ciencia de Datos y Análisis de Datos de manera intercambiable. En esta nota diferenciaré los conceptos de Ciencia de Datos y Análisis de Datos basándome en la historia de nuestro equipo. En GECI, creamos el equipo de Análisis de Datos en 2014. En este equipo usábamos las técnicas de procesamiento de datos y producción de resultados comúnmente practicadas en las ciencias naturales por los investigadores o técnicos que trabajan en universidades o centros de investigación. En 2018, cambiamos el nombre del equipo a Ciencia de Datos con el fin de significar el cambio en nuestra cultura y prácticas, las cuales adoptamos de las ciencias computacionales.
 
 Aquí describo cuatro diferencias entre la Ciencia de Datos que practicamos actualmente y el Análisis
 de Datos que solíamos practicar.
@@ -21,8 +13,7 @@ de Datos que solíamos practicar.
 1\. En Ciencia de Datos usamos modelos matemáticos predictivos, mientras que en Análisis de Datos
 usábamos únicamente estadística descriptiva. Seguimos utilizando la estadística descriptiva en el
 análisis exploratorio de datos (AED) para determinar las propiedades de los datos y así elegir la
-técnica de análisis más apropiada. En ocasiones, el AED es suficiente para contestar la pregunta
-planteada. Pero actualmente también usamos técnicas analíticas con mayor costo computacional como de
+técnica de análisis más apropiada. El AED es suficiente para sugerir hipótesis sobre las causas de los fenómenos observados, evaluar los supuestos en los que se basará la inferencia estadística o apoyar la selección de herramientas y técnicas estadísticas adecuadas. Sin embargo, cuando necesitamos contestar preguntas más allá de lo que estamos observando en los datos, utilizamos técnicas analíticas con mayor costo computacional como
 _machine learning_ (aprendizaje automatizado), estadística bayesiana, bootstraping, regresión
 logística y k-medias.
 
@@ -48,9 +39,9 @@ análisis de datos, mientras que en Análisis de Datos considerábamos que nuest
 eran los ecosistemas que en GECI restauramos y conservamos. Según [David
 Donoho](https://doi.org/10.1080/10618600.2017.1384734), la Ciencia de Datos es un campo académico
 interdisciplinario, basado en evidencias, que tiene como objeto de estudio las diferentes técnicas
-de análisis de datos. Este cambio de enfoque nos permite aprovechas las fortalezas del equipo y las
-fortalezas del resto de la organización. El resto de la organización nos asesora como expertos en
-ecología mientras que el equipo de Ciencia de Datos nos especializamos en dominio de las técnicas
+de análisis de datos. Este cambio de enfoque nos permite aprovechar tanto las fortalezas del equipo cómo las
+del resto de la organización. Mientras el resto de la organización nos asesora como expertos en
+ecología, en el equipo de Ciencia de Datos nos especializamos en dominio de las técnicas
 analíticas.
 
 El propósito de esta nota es contrastar la Ciencia de Datos y el Análisis de Datos basándome en la
