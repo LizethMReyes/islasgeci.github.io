@@ -22,7 +22,7 @@ de Datos que solíamos practicar.
 usábamos únicamente estadística descriptiva. Seguimos utilizando la estadística descriptiva en el
 análisis exploratorio de datos para determinar las propiedades de los datos y así elegir la técnica
 de análisis más apropiada. La estadística descriptiva es suficiente para sugerir hipótesis sobre las
-causas de los fenómenos observados, evaluar las supocisiones en las que se basará la inferencia
+causas de los fenómenos observados, evaluar las supocisiones en las que basaremos la inferencia
 estadística o apoyar la selección de herramientas y técnicas estadísticas adecuadas. Sin embargo,
 cuando necesitamos hacer predicciones o simular los efectos potenciales de nuestras acciones,
 utilizamos técnicas analíticas con mayor costo computacional, como aprendizaje automatizado,
@@ -32,7 +32,7 @@ estadística bayesiana y bootstraping.
 el Análisis de Datos podía ser una actividad individual. Antes, todas las y los integrantes del
 equipo éramos generalistas. Cada integrante del equipo tenía conocimientos básicos sobre
 programación, matemáticas y ecología. Ahora, cada integrante del equipo es experta o experto en su
-area de especilidad. Actualmente contamos con 5 roles diferenciados: Curadora de datos, Analista de
+área de especilidad. Actualmente contamos con 5 roles diferenciados: Curadora de datos, Analista de
 datos, Programador, Gestor de calidad (_QA_ por sus siglas en inglés) y Gestor del flujo de trabajo.
 Esta especialización implica que todo el equipo es interdependiente y que cada tarea requiere la
 intervención de más de una persona.
@@ -42,8 +42,8 @@ producido, mientras que en Análisis de Datos valorábamos el resultado por enci
 Abusando de la expresión de moda [_"lo que sea como
 código"_](https://hackernoon.com/everything-as-code-explained-0ibg32a3), podríamos decir que en
 Ciencia de Datos hacemos "análisis como código". Esta en una de las prácticas de DataOps que nos
-permite tratar los análisis y las herramientas con la misma mentalidad que se acostumbra tratar el
-código en el desarrollo de software.
+permite tratar los análisis y las herramientas con la misma mentalidad que los desarroladores de
+software acostumbran tratar el código.
 
 4\. En Ciencia de Datos consideramos que nuestros objetos de estudio son las diferentes técnicas de
 análisis de datos, mientras que en Análisis de Datos considerábamos que nuestros objetos de estudio
@@ -51,7 +51,7 @@ eran los ecosistemas que en GECI restauramos y conservamos. Según [David
 Donoho](https://doi.org/10.1080/10618600.2017.1384734), la Ciencia de Datos es un campo académico
 interdisciplinario, basado en evidencias, que tiene como objeto de estudio las diferentes técnicas
 de análisis de datos. Este cambio de enfoque nos permite aprovechar tanto las fortalezas del equipo
-cómo las del resto de la organización. Mientras el resto de la organización nos asesora como
+como las del resto de la organización. Mientras el resto de la organización nos asesora como
 expertos en ecología, en el equipo de Ciencia de Datos nos especializamos en el estudio de las
 técnicas analíticas.
 
