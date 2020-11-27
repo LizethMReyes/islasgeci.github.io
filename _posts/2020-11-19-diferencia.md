@@ -9,9 +9,12 @@ Ciencia de Datos es un concepto que recientemente ha ganado popularidad por lo q
 coexisten muchas definiciones. Incluso, en ocasiones es común encontrar equipos que utilizan los
 términos Ciencia de Datos y Análisis de Datos de manera intercambiable. En esta nota diferenciaré
 los conceptos de Ciencia de Datos y Análisis de Datos basándome en la historia de nuestro equipo. En
-GECI, creamos el equipo de Análisis de Datos en 2014. En este equipo usábamos las técnicas de procesamiento de datos y producción de resultados comúnmente practicadas en las ciencias naturales. Por nuestra formación, nosotros aprendimos esas técnicas de investigadores o técnicos que trabajan en universidades o centros de investigación. En 2018,
-cambiamos el nombre del equipo a Ciencia de Datos con el fin de significar el cambio en nuestra
-cultura y prácticas, las cuales adoptamos de las ciencias computacionales.
+GECI, creamos el equipo de Análisis de Datos en 2014. En este equipo usábamos las técnicas de
+procesamiento de datos y producción de resultados comúnmente practicadas en las ciencias naturales.
+Por nuestra formación, nosotros aprendimos esas técnicas de investigadores o técnicos que trabajan
+en universidades o centros de investigación. En 2018, cambiamos el nombre del equipo a Ciencia de
+Datos con el fin de significar el cambio en nuestra cultura y prácticas, las cuales adoptamos de las
+ciencias computacionales.
 
 Aquí describo cuatro diferencias entre la Ciencia de Datos que practicamos actualmente y el Análisis
 de Datos que solíamos practicar.
