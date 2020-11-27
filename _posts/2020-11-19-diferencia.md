@@ -5,13 +5,11 @@ author: Evaristo
 tags: equipo
 ---
 
-Ciencia de Datos es un concepto que recientemente ha ganado popularidad por lo que actualmente
+Ciencia de Datos es un concepto que recientemente ha ganado popularidad por lo que en la actualidad
 coexisten muchas definiciones. Incluso, en ocasiones es común encontrar equipos que utilizan los
 términos Ciencia de Datos y Análisis de Datos de manera intercambiable. En esta nota diferenciaré
 los conceptos de Ciencia de Datos y Análisis de Datos basándome en la historia de nuestro equipo. En
-GECI, creamos el equipo de Análisis de Datos en 2014. En este equipo usábamos las técnicas de
-procesamiento de datos y producción de resultados comúnmente practicadas en las ciencias naturales
-por los investigadores o técnicos que trabajan en universidades o centros de investigación. En 2018,
+GECI, creamos el equipo de Análisis de Datos en 2014. En este equipo usábamos las técnicas de procesamiento de datos y producción de resultados comúnmente practicadas en las ciencias naturales. Por nuestra formación, nosotros aprendimos esas técnicas de investigadores o técnicos que trabajan en universidades o centros de investigación. En 2018,
 cambiamos el nombre del equipo a Ciencia de Datos con el fin de significar el cambio en nuestra
 cultura y prácticas, las cuales adoptamos de las ciencias computacionales.
 
@@ -22,7 +20,7 @@ de Datos que solíamos practicar.
 usábamos únicamente estadística descriptiva. Seguimos utilizando la estadística descriptiva en el
 análisis exploratorio de datos para determinar las propiedades de los datos y así elegir la técnica
 de análisis más apropiada. La estadística descriptiva es suficiente para sugerir hipótesis sobre las
-causas de los fenómenos observados, evaluar las supocisiones en las que basaremos la inferencia
+causas de los fenómenos observados, evaluar las suposiciones en las que basaremos la inferencia
 estadística o apoyar la selección de herramientas y técnicas estadísticas adecuadas. Sin embargo,
 cuando necesitamos hacer predicciones o simular los efectos potenciales de nuestras acciones,
 utilizamos técnicas analíticas con mayor costo computacional, como aprendizaje automatizado,
@@ -40,7 +38,7 @@ intervención de más de una persona.
 3\. En Ciencia de Datos valoramos el código que produce el resultado por encima que el resultado
 producido, mientras que en Análisis de Datos valorábamos el resultado por encima que el código.
 Abusando de la expresión de moda [_"lo que sea como
-código"_](https://hackernoon.com/everything-as-code-explained-0ibg32a3), podríamos decir que en
+código"_](https://hackernoon.com/everything-as-code-explained-0ibg32a3), podemos decir que en
 Ciencia de Datos hacemos "análisis como código". Esta en una de las prácticas de DataOps que nos
 permite tratar los análisis y las herramientas con la misma mentalidad que los desarroladores de
 software acostumbran tratar el código.
