@@ -19,15 +19,15 @@ ciencias computacionales.
 Aquí describo cuatro diferencias entre la Ciencia de Datos que practicamos actualmente y el Análisis
 de Datos que solíamos practicar.
 
-1\. En Ciencia de Datos usamos modelos matemáticos predictivos, mientras que en Análisis de Datos
-usábamos únicamente estadística descriptiva. Seguimos utilizando la estadística descriptiva en el
-análisis exploratorio de datos para determinar las propiedades de los datos y así elegir la técnica
-de análisis más apropiada. La estadística descriptiva es suficiente para sugerir hipótesis sobre las
-causas de los fenómenos observados, evaluar las suposiciones en las que basaremos la inferencia
-estadística o apoyar la selección de herramientas y técnicas estadísticas adecuadas. Sin embargo,
-cuando necesitamos hacer predicciones o simular los efectos potenciales de nuestras acciones,
-utilizamos técnicas analíticas con mayor costo computacional, como aprendizaje automatizado,
-estadística bayesiana y bootstraping.
+1\. En Ciencia de Datos usamos algoritmos predictivos de aprendizaje automatizado, mientras que en
+Análisis de Datos usábamos únicamente estadística descriptiva. Seguimos utilizando la estadística
+descriptiva en el análisis exploratorio de datos para determinar las propiedades de los datos y así
+elegir la técnica de análisis más apropiada. La estadística descriptiva es suficiente para sugerir
+hipótesis sobre las causas de los fenómenos observados, evaluar las suposiciones en las que
+basaremos la inferencia estadística o apoyar la selección de herramientas y técnicas estadísticas
+adecuadas. Sin embargo, cuando necesitamos hacer predicciones o simular los efectos potenciales de
+nuestras acciones, utilizamos técnicas analíticas con mayor costo computacional, como aprendizaje
+automatizado, estadística bayesiana y bootstraping.
 
 2\. La Ciencia de Datos es una actividad interdisciplinaria que realizamos en equipo, mientras que
 el Análisis de Datos podía ser una actividad individual. Antes, todas las y los integrantes del
