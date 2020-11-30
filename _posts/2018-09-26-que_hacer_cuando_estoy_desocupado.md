@@ -6,16 +6,20 @@ author: Evaristo
 tags: equipo capacitacion
 ---
 
-La siguiente lista de referencias constituye el canon de las actividades a realizar por equipo de Ciencia de Datos durante períodos libres de tareas.
-Consideramos estas referencias un complemento de nuestro [manual de procedimientos](../README.md). Cuando terminamos un tarea o esperamos revisión es preferible tomar una tarea que ya se encuentra dentro del WIP en lugar de empezar una tarea nueva.
+Cuando terminamos un tarea o esperamos revisión es preferible tomar otra tarea que ya se encuentre
+activa en lugar de empezar una tarea nueva.
 
-1. Toma una tarea aprobada (dentro del WIP) y pásala a activa de la siguiente columna
 1. Revisa una tarea que se encuentre en espera de revisión
-1. Contribuye a una tarea activa mediante [programación en parejas](https://en.wikipedia.org/wiki/Pair_programming)
+1. Contribuye a una tarea activa mediante [programación en
+   parejas](https://en.wikipedia.org/wiki/Pair_programming)
 
-Debemos elegir la tarea que se encuentre más a la derecha (y de mayor clase para el desempate). Si ninguna de las opciones anteriores es viable, entonces sí puedes empezar una tarea nueva. Si el límite del WIP te impide empezar una tarea nueva, entonces:
+Si ninguna de las opciones anteriores es viable, entonces toma una tarea que se encuentre en la
+columna _Inactivo_ (o _Pendiente_) y pásala a la columna _Activo_. Debemos elegir la tarea que se
+encuentre más a la derecha. Si el límite del WIP te impide pasar una tarea a la columna _Activo_,
+entonces:
 
-1. Termina una de las tareas que se encuentran en el `todo.txt`
-1. Estudia las [Lecturas Matutinas](lecturas_matutinas.md)
-1. Termina un capítulo de algún curso en [DataCamp](https://www.datacamp.com/)
+1. Trabaja en algún [_issue_ pendiente](https://github.com/IslasGECI/pendientes/issues)
+1. Lee las [Lecturas matutinas](https://islasgeci.github.io/2018/09/03/lecturas_matutinas)
 1. Resuelve una Kata en [Codewars](https://www.codewars.com/)
+1. Termina un capítulo de algún curso en [DataCamp](https://www.datacamp.com/)
+1. Estudia en [O'Reilly](https://learning.oreilly.com/)
