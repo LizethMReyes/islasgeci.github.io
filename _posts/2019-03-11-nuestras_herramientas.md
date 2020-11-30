@@ -5,13 +5,13 @@ author: Evaristo
 tags: equipo
 ---
 
-Cada oficio tiene sus herramientas características. Las herramientas de las científicas y
-científicos de datos son programas de computadora y lenguajes de programación que nos permiten
-realizar análisis cuantitativos de forma colaborativa y reproducible.
+Cada oficio tiene sus herramientas características. Las herramientas de las y los practicantes de
+Ciencia de Datos son programas de computadora y lenguajes de programación que nos permiten realizar
+análisis cuantitativos de forma colaborativa y reproducible.
 
-En Conservación de Islas, toda acción de conservación implica la colecta de datos mediante
-actividades de monitoreo diseñadas para evaluar el impacto de nuestra intervención en la
-biodiversidad de la isla que pretendemos restaurar.
+En GECI, toda acción de conservación implica la colecta de datos mediante actividades de monitoreo
+diseñadas para evaluar cuentitativamente los beneficios de nuestra intervención en la biodiversidad
+de la isla que restauraramos.
 
 Antes de analizar un conjunto de datos, la curadora de datos verifica que los datos recibidos sean
 adecuados. Típicamente recibimos los datos en un archivo de Excel con miles de registros. Dado que
@@ -36,7 +36,7 @@ alguna característica que nos haya llamado la atención. Esta actividad un tant
 de forma interactiva, es decir, introducimos un comando en la computadora, la computadora nos
 responde con un resultado, y el resultado nos impulsa a introducir otro comando. En esta etapa, cada
 comando depende del resultado producido por el comando anterior. Esta interacción sucede en un
-intérprete de comandos como Bash o en el intérprete de **Python** o **R** o en un cuaderno
+intérprete de comandos como **Bash** o en el intérprete de **Python** o **R** o en un cuaderno
 interactivo (_notebook_) de Jupyter.
 
 Después del análisis exploratorio de datos tenemos algunas ideas sobre cuales metodologías nos
@@ -67,7 +67,7 @@ código Markdown y genera la versión en la que el lector puede ver el texto con
 
 Al concluir un análisis terminamos con varios guiones de comandos para producir los resultados y los
 reportes técnicos. Debemos ejecutar estos guiones en un orden particular cuando queremos producir
-los resultados nuevamente. El orden en el que ejecutamos los  los guiones lo describimos en un
+los resultados nuevamente. El orden en el que ejecutamos los los guiones lo describimos en un
 archivo llamado `Makefile`. En el `Makefile` también describimos las relaciones entre los datos,
 guiones y reportes, además de las dependencias que el análisis tiene en los módulos de los lenguajes
 de programación y en los paquetes del sistema operativo. El `Makefile` puede ser usado como guía por
@@ -98,25 +98,6 @@ contenedor junto con los datos de entrada y el código fuente del análisis aseg
 reproducibilidad.
 
 Esas son las principales herramientas que usamos en el equipo de Ciencia de Datos de Conservación de
-Islas. GoodTables, MySQL, SQLite, Python, R, LaTeX, Markdown, Make, Visual Studio Code, Mercurial,
-Git y Docker nos facilitan el trabajo colaborativo a la vez que nos garantizan la reproducibilidad
-de nuestros resultados.
-
-- **[Automatización](https://en.wikipedia.org/wiki/Build_automation)**. Automatizar la producción de
-  resultados asegura su reproducibilidad. La herramienta que usamos principalmente es
-  [Make](https://www.gnu.org/software/make/manual/make.html). Checa [Minimal
-  make](http://kbroman.org/minimal_make) y [este
-  ejemplo](https://islas.slack.com/files/evaristor/F0SBE91E3).
-- **[Control de versiones](https://en.wikipedia.org/wiki/Version_control)**. Se refiere a la gestión
-  de los cambios que se realizan sobre los archivos de un repositorio, permitiendo la recuperación
-  de versiones anteriores. Además, esta misma herramienta facilita el _trabajo colaborativo_. La
-  herramienta que usamos es [Git](https://git-scm.com/).
-- **[Documentos dinámicos](https://en.wikipedia.org/wiki/Living_document)**. Son documentos que se
-  encuentran en constante actualización para reflejar los cambios en el concepto al que se refiere.
-  Las herramientas que usamos principalmente son [LaTeX](https://latex-project.org/) y [R
-  Markdown](http://rmarkdown.rstudio.com/).
-- **[Contenedores](https://en.wikipedia.org/wiki/OS-level_virtualization)**. Los contenedores son
-  unidades de software que empaquetan el código y todas sus dependencias para lograr reproducir y
-  compartir el entorno computacional en el que se realiza el análisis de manera independiente del
-  sistema operativo. La herramienta que usamos para la gestión de contenedores es
-  [Docker](https://www.docker.com/).
+Islas. GoodTables, MySQL, SQLite, Python, R, LaTeX, Markdown, Make, Visual Studio Code, Git y Docker
+nos facilitan el trabajo colaborativo a la vez que nos garantizan la reproducibilidad de nuestros
+resultados.
