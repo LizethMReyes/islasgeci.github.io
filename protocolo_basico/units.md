@@ -5,8 +5,8 @@ description: Metadato `units`
 ---
 
 El metadato `units` es obligatorio para las variables físicas cuantitativas. Para otras variables
-cuantitativas como `Cantidad_de_individuos` o `Edad`, no es obligatorio. Los posibles
-valores para el metadato `units` se encuentran en
+cuantitativas como `Cantidad_de_individuos` o `Edad`, no es obligatorio. Los posibles valores para
+el metadato `units` se encuentran en
 [UDUNITS](https://www.unidata.ucar.edu/software/udunits/udunits-1.12.10/udunits.txt). En la
 siguiente tabla se muestran algunas de las unidades más usadas.
 
@@ -24,7 +24,8 @@ Unidad           | Variable
 `mN`             | Coordenada Norte
 `second`         | Tiempo
 
-El resto de las unidades reconocidas por este protocolo se encuentran [aquí](https://www.unidata.ucar.edu/software/udunits/udunits-1.12.10/udunits.txt).
+El resto de las unidades reconocidas por este protocolo se encuentran
+[aquí](https://www.unidata.ucar.edu/software/udunits/udunits-1.12.10/udunits.txt).
 
 ---
 
