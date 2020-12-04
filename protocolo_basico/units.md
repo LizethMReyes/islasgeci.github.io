@@ -4,7 +4,11 @@ title: Unidades
 description: Metadato `units`
 ---
 
-Los posibles valores para el metadato `units` se encuentran en [UDUNITS](https://www.unidata.ucar.edu/software/udunits/udunits-1.12.10/udunits.txt). En la siguiente tabla se muestran algunas de las unidades más usadas.
+El metadato `units` es obligatorio para las variables físicas cuantitativas. Para otras variables
+cuantitativas como `Cantidad_de_individuos` o `Edad`, no es obligatorio. Los posibles
+valores para el metadato `units` se encuentran en
+[UDUNITS](https://www.unidata.ucar.edu/software/udunits/udunits-1.12.10/udunits.txt). En la
+siguiente tabla se muestran algunas de las unidades más usadas.
 
 _Tabla: Ejemplo de unidades reconocidas por este protocolo._
 
