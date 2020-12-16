@@ -11,7 +11,7 @@ Los medios de comunicacíon que usamos en el equipo son los siguientes:
   encuentra en junta o en tomate. Chateamos mediante _Slack_.
 - **Correo electrónico**: Este es el medio oficial. Las comunicaciones que involucren entregas o
   solicitudes hacia afuera del equipo las hacemos mediante correo electrónico. Las comunicaciones
-  hacia afura de la dirección llevan copia para Evaristo; las comunicaciones hacia afura de la
+  hacia afuera de la dirección llevan copia para Evaristo y ciencia.datos@islas.org.mx ; las comunicaciones hacia afuera de la
   organización llevan copia para Fede. Esperamos respuesta el siguiente día hábil. Enviamos correos
   electrónicos mediante _Gmail_.
 - **Foros**: Los foros los usamos para comunicaciones de larga duración. Los foros constituyen una
