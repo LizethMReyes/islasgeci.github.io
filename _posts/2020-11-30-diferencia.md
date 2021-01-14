@@ -33,7 +33,7 @@ automatizado, estadística bayesiana y bootstraping.
 el Análisis de Datos podía ser una actividad individual. Antes, todas las y los integrantes del
 equipo éramos generalistas. Cada integrante del equipo tenía conocimientos básicos sobre
 programación, matemáticas y ecología. Ahora, cada integrante del equipo es experta o experto en su
-área de especilidad. Actualmente contamos con 5 roles diferenciados: Curadora de datos, Analista de
+área de especialidad. Actualmente contamos con 5 roles diferenciados: Curadora de datos, Analista de
 datos, Programador, Gestor de calidad (_QA_ por sus siglas en inglés) y Gestor del flujo de trabajo.
 Esta especialización implica que todo el equipo es interdependiente y que cada tarea requiere la
 intervención de más de una persona.
