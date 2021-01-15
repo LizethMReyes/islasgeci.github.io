@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Sistemas de Coordenadas
-description: Protocolo para guardar observaciones georeferenciadas en Excel
+description: Protocolo para guardar registros georeferenciados en Excel
 ---
 
-Para guardar observaciones georeferenciadas tienes dos opciones:
+Para guardar registros georeferenciados tienes dos opciones:
 
   - [Coordenadas Geográficas](geograficas.html)
   - [Coordenadas UTM](utm.html)
