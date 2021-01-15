@@ -16,21 +16,20 @@ Ejemplo:
 
 _Tabla: Hoja de datos_
 
-**lat**   | **lon**     | **conteo**
-----------|-------------|-----------
-31.857778 | -116.605833 | 63
-31.858147 | -116.601270 | 27
-31.859058 | -116.609134 | 54
+**Latitud** | **Longitud** | **Cantidad_de_madrigueras**
+------------|--------------|----------------------------
+31.857778   | -116.605833  | 63
+31.858147   | -116.601270  | 27
+31.859058   | -116.609134  | 54
 
 
-_Tabla: Hoja de metadatos_
+_Tabla: Hoja de metadatos de columnas_
 
-**name**   | **nombre_largo** | **long_name** | **standard_name** | **axis** | **units**     | **titulo**                                             | **title**
------------|------------------|---------------|-------------------|----------|---------------|--------------------------------------------------------|------------------------------------
-**TABLA**  | NA               | NA            | NA                | NA       | NA            | Muestreo por cuadrantes de madrigueras de aves marinas | Quadrat sampling of seabird burrows
-**lat**    | Latitud          | Latitude      | latitude          | Y        | degree_north  | NA                                                     | NA
-**lon**    | Longitud         | Longitude     | longitude         | X        | degree_west   | NA                                                     | NA
-**conteo** | Madrigueras      | Burrows       | NA                | NA       | NA            | NA                                                     | NA
+**name**                    | **nombre_largo**        | **long_name**       | **standard_name** | **axis** | **units**
+----------------------------|-------------------------|---------------------|-------------------|----------|--------------
+**Latitud**                 | Latitud                 | Latitude            | latitude          | Y        | degree_north
+**Longitud**                | Longitud                | Longitude           | longitude         | X        | degree_west
+**Cantidad_de_madrigueras** | Cantidad de madrigueras | Quantity of burrows | NA                | NA       | NA
 
 ---
 
