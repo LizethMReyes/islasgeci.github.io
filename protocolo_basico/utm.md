@@ -16,22 +16,21 @@ Ejemplo:
 
 _Tabla: Hoja de datos_
 
-**x**  | **y**   | **zona** | **conteo**
--------|---------|----------|-----------
-375774 | 3211856 | 11R      | 63
-375493 | 3212124 | 11R      | 27
-374958 | 3212535 | 11R      | 54
+**Coordenada_Este** | **Coordenada_Norte** | **Zona_UTM** | **Conteo**
+--------------------|----------------------|--------------|-----------
+375774              | 3211856              | 11R          | 63
+375493              | 3212124              | 11R          | 27
+374958              | 3212535              | 11R          | 54
 
 
 _Tabla: Hoja de metadatos_
 
-**name**   | **nombre_largo** | **long_name** | **standard_name**       | **axis** | **units** | **titulo**                                       | **title**
------------|------------------|---------------|-------------------------|----------|-----------|--------------------------------------------------|----------------------------------
-**TABLA**  | NA               | NA            | NA                      | NA       | NA        | Muestreo por cuadrantes de nidos de aves marinas | Quadrat sampling of seabird nests
-**x**      | Coordenada Este  | Easting       | projection_x_coordinate | X        | mE        | NA                                               | NA
-**y**      | Coordenada Norte | Northing      | projection_y_coordinate | Y        | mN        | NA                                               | NA
-**zona**   | Zona UTM         | UTM zone      | utm_zone                | NA       | NA        | NA                                               | NA
-**conteo** | Nidos            | Nests         | NA                      | NA       | NA        | NA                                               | NA
+**name**             | **nombre_largo** | **long_name** | **standard_name**       | **axis** | **units**
+---------------------|------------------|---------------|-------------------------|----------|----------
+**Coordenada_Este**  | Coordenada Este  | Easting       | projection_x_coordinate | X        | mE       
+**Coordenada_Norte** | Coordenada Norte | Northing      | projection_y_coordinate | Y        | mN       
+**Zona_UTM**         | Zona UTM         | UTM zone      | utm_zone                | NA       | NA       
+**Conteo**           | Conteo de nidos  | Nest count    | NA                      | NA       | NA       
 
 ---
 

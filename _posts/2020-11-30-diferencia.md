@@ -33,7 +33,7 @@ automatizado, estadística bayesiana y bootstraping.
 el Análisis de Datos podía ser una actividad individual. Antes, todas las y los integrantes del
 equipo éramos generalistas. Cada integrante del equipo tenía conocimientos básicos sobre
 programación, matemáticas y ecología. Ahora, cada integrante del equipo es experta o experto en su
-área de especilidad. Actualmente contamos con 5 roles diferenciados: Curadora de datos, Analista de
+área de especialidad. Actualmente contamos con 5 roles diferenciados: Curadora de datos, Analista de
 datos, Programador, Gestor de calidad (_QA_ por sus siglas en inglés) y Gestor del flujo de trabajo.
 Esta especialización implica que todo el equipo es interdependiente y que cada tarea requiere la
 intervención de más de una persona.
@@ -43,7 +43,7 @@ producido, mientras que en Análisis de Datos valorábamos el resultado por enci
 Abusando de la expresión de moda [_"lo que sea como
 código"_](https://hackernoon.com/everything-as-code-explained-0ibg32a3), podemos decir que en
 Ciencia de Datos hacemos "análisis como código". Esta en una de las prácticas de DataOps que nos
-permite tratar los análisis con la misma mentalidad que los desarroladores de software acostumbran
+permite tratar los análisis con la misma mentalidad que los desarrolladores de software acostumbran
 tratar el código.
 
 4\. En Ciencia de Datos consideramos que nuestros objetos de estudio son las diferentes técnicas de
