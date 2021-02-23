@@ -29,6 +29,10 @@ otros inspectores hagan.
 - El moderador debe de mandar las noticias el aviso de la reunión con los eventos, las fechas, los
 tiempos. Si el autor y el moderador asignan alguna respnsabilidad para los inspectores, el moderador
 deberá de comunicar esa información cuando distribuya el paquete de la inspección.
+- Los inspectores. Al resto de los participantes los llamamos inspecoes. Ellos revisarán el código
+  desde distintas perspectivas en la etapa de preparación y anotarás sus observaciones. La primera
+  intervención que hará cada inspector en la reunión de inspección será decir algo positivo del
+  producto en revisión. 
 
 ## ¿Cuáles son las etapas de una inspección?
 - La revisión general. Esta es un reunión la cual dirige el autor. El fin es juzgar si los
