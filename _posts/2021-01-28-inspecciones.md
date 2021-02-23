@@ -45,10 +45,16 @@ debemos agregarles prioridad, estatus y tipo.
 - La reunión de inspección. No utilicen más de un minuto decidiendo cómo resolver un problema, ya
   que el tiempo que utilices en el problema es tiempo que no utilizarán en encontrar más problemas.
   La descripción que haga el lector durante la reunión deberá ser como la de una profesora o
-  prefesor dirigiéndose a sus estudiantes.
+  profesor dirigiéndose a sus estudiantes. La tiempo estimado de la reunión de inspección es de 200
+  líneas de código por hora. El tiempo de preparación debería de ser similar al tiempo que tomará la
+  inspección, es decir 200 líneas por hora.
 
-La tiempo estimado de la reunión de inspección es de 200 líneas de código por hora. El tiempo de
-preparación debería de ser similar al tiempo que tomará la inspección, es decir 200 líneas por hora.
+- El seguimiento. En esta parte el moderador u otra persona asignada se reune con el autor para
+  verificar que ya resolvimos todos los problemas. 
+
+- El análisis causal. Aquí analizaremos los defectos y evaluaremos que tan bien pudimos detectar los
+  errores. Si ayudó a que el equipo mejorara la calidad en el desarrollo y en la revisión de código.
+  Esta parte es para poder obtener el mejor beneficio a partir de los datos de la inspección (CEP).
 
 ## ¿Cuáles son las herramientas para la inspección?
 - [Patrones en pruebas
