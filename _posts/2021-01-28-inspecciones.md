@@ -5,15 +5,31 @@ author: Nepo
 tags: revisiones
 ---
 
-¿Qué es una inspección?
+## ¿Qué es una inspección?
 
-¿Quiénes son los participantes y cuáles sus roles?
+## ¿Quiénes son los participantes y cuáles sus roles?
 
-¿Cuáles son las etapas de una inspección?
+El moderador debe de mandar las noticias el aviso de la reunión con los eventos, las fechas, los
+tiempos. Si el autor y el moderador asignan alguna respnsabilidad para los inspectores, el moderador
+deberá de comunicar esa información cuando distribuya el paquete de la inspección.
 
-La tiempo estimado de la reunión de inspección es de 200 líneas de código por hora.
+## ¿Cuáles son las etapas de una inspección?
+- La revisión general. Esta es un reunión la cual dirige el autor. El fin es juzgar si los
+  inspectores tienen la información necesaria para entender el código. Así si en la revisión ellos
+  detectan un _bug_ deberán esperan hasta la reunión de inspección para señalarlo. A más tardar, al
+  final de la revisión los inspectores deberán tener el paquete de inspección y los objetivos del 
+  autor.
 
-¿Cuáles son las herramientas para la inspección?
+- La preparación. El verdadero trabajo de encontrar problemas ocurrirá aquí. Los inspectores 
+examinan el código en busca de posibles errores, usando los _check list_ de defectos. Escriben las
+dudas y los problemas para presentarlos en la reunión de inspección.
+
+- La reunión de inspección. 
+
+La tiempo estimado de la reunión de inspección es de 200 líneas de código por hora. El tiempo de
+preparación debería de ser similar al tiempo que tomará la inspección, es decir 200 líneas por hora.
+
+## ¿Cuáles son las herramientas para la inspección?
 - [Patrones en pruebas
   unitarias](https://medium.com/swlh/3-patterns-for-reducing-duplication-in-your-unit-tests-7d693c6bfbd2)
 - [Código que apesta (_Clean code_)](https://learning.oreilly.com/library/view/clean-code-a/9780136083238/chapter17.html#ch17)
