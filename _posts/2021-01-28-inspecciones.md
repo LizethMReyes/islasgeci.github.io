@@ -27,9 +27,13 @@ deberá de comunicar esa información cuando distribuya el paquete de la inspecc
 
 - La preparación. El verdadero trabajo de encontrar problemas ocurrirá aquí. Los inspectores 
 examinan el código en busca de posibles errores, usando los _check list_ de defectos. Escriben las
-dudas y los problemas para presentarlos en la reunión de inspección.
+dudas y los problemas para presentarlos en la reunión de inspección. A los problemas encontrados 
+debemos agregarles prioridad, estatus y tipo.
 
-- La reunión de inspección. 
+- La reunión de inspección. No utilicen más de un minuto decidiendo cómo resolver un problema, ya
+  que el tiempo que utilices en el problema es tiempo que no utilizarán en encontrar más problemas.
+  La descripción que haga el lector durante la reunión deberá ser como la de una profesora o
+  prefesor dirigiéndose a sus estudiantes.
 
 La tiempo estimado de la reunión de inspección es de 200 líneas de código por hora. El tiempo de
 preparación debería de ser similar al tiempo que tomará la inspección, es decir 200 líneas por hora.
