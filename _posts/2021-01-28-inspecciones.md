@@ -8,8 +8,13 @@ tags: revisiones
 ## ¿Qué es una inspección?
 
 ## ¿Quiénes son los participantes y cuáles sus roles?
-
-El moderador debe de mandar las noticias el aviso de la reunión con los eventos, las fechas, los
+- El autor no está permitido ser moderador, lector o contador, ya que el está muy cerca al trabajo 
+como para ser objetivo. Además, esto podrá ayudarle a prestar más atención a los comentarios que los
+otros inspectores hagan. 
+- El lector será quien presenta pedazos de código. La idea es probar la claridad del código. La
+  interpretación a veces revela ambigüedad, suposiciones escondidas, documentación inadecuada o
+  problemas de estilo que entorpecen la comunicación.
+- El moderador debe de mandar las noticias el aviso de la reunión con los eventos, las fechas, los
 tiempos. Si el autor y el moderador asignan alguna respnsabilidad para los inspectores, el moderador
 deberá de comunicar esa información cuando distribuya el paquete de la inspección.
 
