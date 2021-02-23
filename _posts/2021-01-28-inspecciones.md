@@ -62,3 +62,5 @@ debemos agregarles prioridad, estatus y tipo.
 - [Código que apesta (_Clean
   code_)](https://learning.oreilly.com/library/view/clean-code-a/9780136083238/chapter17.html#ch17)
 - [Principios SOLID](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod?)
+- [Guías de estolo](https://islasgeci.github.io/guia_de_estilo/)
+- [_Checklists_ de la columna **Revisando**](https://github.com/IslasGECI/manual#checklists-del-kanban)
