@@ -6,6 +6,18 @@ tags: revisiones
 ---
 
 ## ¿Qué es una inspección?
+Karl Weigers enlista algunos ejemplos de revisiones por pares en su libro "Peer Reviews in
+Software". Las revisiones puedes ser acomodades dependiendo de la formalidad de la metodología. Así,
+la menos formal es "Ad hoc Review" que consiste en pedirle ayuda a un colega con algún problema que
+tienes. Los siguientes dos ejemplos son "Peer Deskcheck" y "Pair Programing", ambos los utilizamos
+en el trabajo diario del equipo. "Peer Desckcheck" es la manera estándar de definir las revisiones
+en nuestra columna de **Revisando**, una persona somete su trabajo para que otra revise que se
+cumplan todos los elementos de un _checklist_. Y "Pair Programming" es lo que hacemos en nuestros
+tomates. Para Karl la revisión más formal es la "Inspection".
+
+La inspección consiste en un par de reuniones y los participantes de la inspección cumplan con
+diferentes roles en las reuniones. El objetivo principal de la inspección deberá ser encontrar
+defectos graves en nuestro trabajo. 
 
 ## ¿Quiénes son los participantes y cuáles sus roles?
 - El autor no está permitido ser moderador, lector o contador, ya que el está muy cerca al trabajo 
