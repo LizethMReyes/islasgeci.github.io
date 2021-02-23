@@ -41,4 +41,6 @@ preparación debería de ser similar al tiempo que tomará la inspección, es de
 ## ¿Cuáles son las herramientas para la inspección?
 - [Patrones en pruebas
   unitarias](https://medium.com/swlh/3-patterns-for-reducing-duplication-in-your-unit-tests-7d693c6bfbd2)
-- [Código que apesta (_Clean code_)](https://learning.oreilly.com/library/view/clean-code-a/9780136083238/chapter17.html#ch17)
+- [Código que apesta (_Clean
+  code_)](https://learning.oreilly.com/library/view/clean-code-a/9780136083238/chapter17.html#ch17)
+- [Principios SOLID](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod?)
