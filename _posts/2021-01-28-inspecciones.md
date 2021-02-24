@@ -16,24 +16,25 @@ que se cumplan todos los elementos de un _checklist_. Y "_Pair Programming_" es 
 nuestros tomates. Los otros tres ejemplos de revisión por pares son "_Walkthrough_", "_Team Review_"
 e "_Ispection_". Para Karl, la revisión más formal es la inspección.
 
-La inspección consiste en un par de reuniones donde las y los participantes de la inspección cumplen con
-diferentes roles. El objetivo principal de la inspección deberá ser encontrar
-defectos graves en nuestro trabajo. 
+La inspección consiste en un par de reuniones donde las y los participantes de la inspección cumplen
+con diferentes roles. El objetivo principal de la inspección deberá ser encontrar defectos graves en
+nuestro trabajo.
 
 ## ¿Quiénes son los participantes y cuáles sus roles en una reunión de inspección?
-- Autor o autora.  No tiene permitido moderar, leer o contar, ya que el está muy cerca al trabajo 
-como para ser objetivo. Además, esto podrá ayudarle a prestar más atención a los comentarios que los
-otros inspectores hagan. 
-- Lector o lectora. Será quien presenta pedazos de código. La idea es probar la claridad del código. La
-  interpretación a veces revela ambigüedad, suposiciones escondidas, documentación inadecuada o
+- Autor o autora. No tiene permitido moderar, leer o contar, ya que el está muy cerca al trabajo
+  como para ser objetivo. Además, esto podrá ayudarle a prestar más atención a los comentarios que
+  los otros inspectores hagan. 
+- Lector o lectora. Será quien presenta pedazos de código. La idea es probar la claridad del código.
+  La interpretación a veces revela ambigüedad, suposiciones escondidas, documentación inadecuada o
   problemas de estilo que entorpecen la comunicación.
-- El moderador debe de mandar las noticias el aviso de la reunión con los eventos, las fechas, los
-tiempos. Si el autor y el moderador asignan alguna responsabilidad para los inspectores, el moderador
-deberá de comunicar esa información cuando distribuya el paquete de la inspección.
-- Las y los inspectores. Al resto de los participantes los llamamos inspectores. Ellos revisarán el código
-  desde distintas perspectivas en la etapa de preparación y anotarás sus observaciones. La primera
-  intervención que hará cada inspector en la reunión de inspección será decir algo positivo del
-  producto en revisión. 
+- Moderador o moderadora. Deberá de mandar las noticias el aviso de la reunión con los eventos, las
+  fechas y los tiempos. Si el autor y el moderador asignan alguna responsabilidad para los
+  inspectores, el moderador deberá de comunicar esa información cuando distribuya el paquete de la
+  inspección.
+- Las y los inspectores. Al resto de los participantes los llamamos inspectores. Ellos revisarán el
+  código desde distintas perspectivas en la etapa de preparación y anotarán sus observaciones. La
+  primera intervención que hará cada inspector en la reunión de inspección será decir algo positivo
+  del producto en revisión. 
 
 ## ¿Cuáles son las etapas de una inspección?
 - La revisión general. Esta es un reunión la cual dirige el o la autora. El fin es juzgar si las o los
@@ -42,10 +43,10 @@ deberá de comunicar esa información cuando distribuya el paquete de la inspecc
   final de la revisión los inspectores deberán tener el paquete de inspección y los objetivos del 
   autor.
 
-- La preparación. El verdadero trabajo de encontrar problemas ocurrirá aquí. Los inspectores 
-examinan el código en busca de posibles errores, usando los _check list_ de defectos. Escriben las
-dudas y los problemas para presentarlos en la reunión de inspección. A los problemas encontrados 
-debemos agregarles prioridad, estatus y tipo.
+- La preparación. El verdadero trabajo de encontrar problemas ocurrirá aquí. Los inspectores
+  examinan el código en busca de posibles errores, usando los _check list_ de defectos. Escriben las
+  dudas y los problemas para presentarlos en la reunión de inspección. A los problemas encontrados
+  debemos agregarles prioridad, estatus y tipo.
 
 - La reunión de inspección. No utilicen más de un minuto decidiendo cómo resolver un problema, ya
   que el tiempo que utilices en el problema es tiempo que no utilizarán en encontrar más problemas.
