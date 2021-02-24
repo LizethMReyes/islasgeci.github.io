@@ -10,15 +10,16 @@ Karl Weigers enlista algunos ejemplos de revisiones por pares en su libro "Peer 
 Software". Las revisiones puedes ser acomodades dependiendo de la formalidad de la metodología. Así,
 la menos formal es "Ad hoc Review" que consiste en pedirle ayuda a un colega con algún problema que
 tienes. Los siguientes dos ejemplos son "_Peer Deskcheck_" y "_Pair Programing_", ambos los
-utilizamos en el trabajo diario del equipo de Ciencia de Datos. "_Peer Deskcheck_" es la manera estándar de definir las
-revisiones en nuestra columna de **Revisando**, una persona somete su trabajo para que otra revise
-que se cumplan todos los elementos de un _checklist_. Y "_Pair Programming_" es lo que hacemos en
-nuestros tomates. Los otros tres ejemplos de revisión por pares son "_Walkthrough_", "_Team Review_"
-e "_Ispection_". Para Karl, la revisión más formal es la inspección.
+utilizamos en el trabajo diario del equipo de Ciencia de Datos. "_Peer Deskcheck_" es la manera
+estándar de definir las revisiones en nuestra columna de **Revisando**, una persona somete su
+trabajo para que otra revise que se cumplan todos los elementos de un _checklist_. Y "_Pair
+Programming_" es lo que hacemos en nuestros tomates. Los tres ejemplos más formales de revisión por
+pares son "_Walkthrough_", "_Team Review_" e "_Ispection_". Para Karl, la revisión más formal es la
+inspección.
 
 La inspección consiste en un par de reuniones donde las y los participantes de la inspección cumplen
 con diferentes roles. El objetivo principal de la inspección deberá ser encontrar defectos graves en
-nuestro trabajo.
+nuestro trabajo. A continuación habalremos brévemente de esta revisión por pares. 
 
 ## ¿Quiénes son los participantes y cuáles sus roles en una reunión de inspección?
 - Autor o autora. No tiene permitido moderar, leer o contar, ya que el está muy cerca al trabajo
