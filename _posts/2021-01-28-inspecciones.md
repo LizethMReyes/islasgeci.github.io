@@ -10,33 +10,33 @@ Karl Weigers enlista algunos ejemplos de revisiones por pares en su libro "Peer 
 Software". Las revisiones puedes ser acomodades dependiendo de la formalidad de la metodología. Así,
 la menos formal es "Ad hoc Review" que consiste en pedirle ayuda a un colega con algún problema que
 tienes. Los siguientes dos ejemplos son "_Peer Deskcheck_" y "_Pair Programing_", ambos los
-utilizamos en el trabajo diario del equipo. "_Peer Deskcheck_" es la manera estándar de definir las
+utilizamos en el trabajo diario del equipo de Ciencia de Datos. "_Peer Deskcheck_" es la manera estándar de definir las
 revisiones en nuestra columna de **Revisando**, una persona somete su trabajo para que otra revise
 que se cumplan todos los elementos de un _checklist_. Y "_Pair Programming_" es lo que hacemos en
 nuestros tomates. Los otros tres ejemplos de revisión por pares son "_Walkthrough_", "_Team Review_"
 e "_Ispection_". Para Karl, la revisión más formal es la inspección.
 
-La inspección consiste en un par de reuniones y los participantes de la inspección cumplan con
-diferentes roles en las reuniones. El objetivo principal de la inspección deberá ser encontrar
+La inspección consiste en un par de reuniones donde las y los participantes de la inspección cumplen con
+diferentes roles. El objetivo principal de la inspección deberá ser encontrar
 defectos graves en nuestro trabajo. 
 
-## ¿Quiénes son los participantes y cuáles sus roles?
-- El autor no está permitido ser moderador, lector o contador, ya que el está muy cerca al trabajo 
+## ¿Quiénes son los participantes y cuáles sus roles en una reunión de inspección?
+- Autor o autora.  No tiene permitido moderar, leer o contar, ya que el está muy cerca al trabajo 
 como para ser objetivo. Además, esto podrá ayudarle a prestar más atención a los comentarios que los
 otros inspectores hagan. 
-- El lector será quien presenta pedazos de código. La idea es probar la claridad del código. La
+- Lector o lectora. Será quien presenta pedazos de código. La idea es probar la claridad del código. La
   interpretación a veces revela ambigüedad, suposiciones escondidas, documentación inadecuada o
   problemas de estilo que entorpecen la comunicación.
 - El moderador debe de mandar las noticias el aviso de la reunión con los eventos, las fechas, los
-tiempos. Si el autor y el moderador asignan alguna respnsabilidad para los inspectores, el moderador
+tiempos. Si el autor y el moderador asignan alguna responsabilidad para los inspectores, el moderador
 deberá de comunicar esa información cuando distribuya el paquete de la inspección.
-- Los inspectores. Al resto de los participantes los llamamos inspecoes. Ellos revisarán el código
+- Las y los inspectores. Al resto de los participantes los llamamos inspectores. Ellos revisarán el código
   desde distintas perspectivas en la etapa de preparación y anotarás sus observaciones. La primera
   intervención que hará cada inspector en la reunión de inspección será decir algo positivo del
   producto en revisión. 
 
 ## ¿Cuáles son las etapas de una inspección?
-- La revisión general. Esta es un reunión la cual dirige el autor. El fin es juzgar si los
+- La revisión general. Esta es un reunión la cual dirige el o la autora. El fin es juzgar si las o los
   inspectores tienen la información necesaria para entender el código. Así si en la revisión ellos
   detectan un _bug_ deberán esperan hasta la reunión de inspección para señalarlo. A más tardar, al
   final de la revisión los inspectores deberán tener el paquete de inspección y los objetivos del 
@@ -49,12 +49,11 @@ debemos agregarles prioridad, estatus y tipo.
 
 - La reunión de inspección. No utilicen más de un minuto decidiendo cómo resolver un problema, ya
   que el tiempo que utilices en el problema es tiempo que no utilizarán en encontrar más problemas.
-  La descripción que haga el lector durante la reunión deberá ser como la de una profesora o
-  profesor dirigiéndose a sus estudiantes. La tiempo estimado de la reunión de inspección es de 200
+  La descripción que haga el lector durante la reunión deberá ser como la de un o una profesora dirigiéndose a sus estudiantes. La tiempo estimado de la reunión de inspección es de 200
   líneas de código por hora. El tiempo de preparación debería de ser similar al tiempo que tomará la
   inspección, es decir 200 líneas por hora.
 
-- El seguimiento. En esta parte el moderador u otra persona asignada se reune con el autor para
+- El seguimiento. En esta parte el moderador u otra persona asignada se reúne con el autor para
   verificar que ya resolvimos todos los problemas. 
 
 - El análisis causal. Aquí analizaremos los defectos y evaluaremos que tan bien pudimos detectar los
