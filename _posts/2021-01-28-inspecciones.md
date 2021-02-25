@@ -22,17 +22,17 @@ con diferentes roles. El objetivo principal de la inspección deberá ser encont
 nuestro trabajo. A continuación hablaremos brevemente de esta revisión por pares.
 
 ## ¿Quiénes son los participantes y cuáles sus roles en una reunión de inspección?
-- **Autor o autora**: No tiene permitido moderar, leer o contar, ya que el está muy cerca al trabajo
-  como para ser objetivo. Además, esto podrá ayudarle a prestar más atención a los comentarios que
+- **Autor o autora**: No tiene permitido moderar, leer o contar, ya que está muy cerca al trabajo
+  como para actuar con objetividad. Además, esto podrá ayudarle a prestar más atención a los comentarios que
   los otros inspectores hagan.
 - **Lector o lectora**: Será quien presenta pedazos de código. La idea es probar la claridad del
   código. La interpretación a veces revela ambigüedad, suposiciones escondidas, documentación
   inadecuada o problemas de estilo que entorpecen la comunicación.
 - **Moderador o moderadora**: Deberá de mandar las noticias del aviso de la reunión con los eventos,
-  las fechas y los tiempos. Si el autor y el moderador asignan alguna responsabilidad para los
-  inspectores, el moderador deberá de comunicar esa información junto con las listas de revisión
+  las fechas y los tiempos. Si el o la autora y el o la moderadora asignan alguna responsabilidad para las y los
+  inspectores, el o la moderadora deberá de comunicar esa información junto con las listas de revisión
   (_checklist_). A toda esa información le llamamos el paquete de la inspección.
-- **Las y los inspectores**: Al resto de los participantes los llamamos inspectores. Ellos revisarán
+- **Las y los inspectores**: Al resto de las y los participantes los llamamos inspectores. Ellas y ellos revisarán
   el código desde distintas perspectivas en la etapa de preparación y anotarán sus observaciones. La
   primera intervención que hará cada inspector en la reunión de inspección será decir algo positivo
   del producto en revisión.
@@ -56,7 +56,7 @@ nuestro trabajo. A continuación hablaremos brevemente de esta revisión por par
   líneas de código por hora. El tiempo de preparación debería de ser similar al tiempo que tomará la
   inspección, es decir 200 líneas por hora.
 
-- **El seguimiento**: En esta parte el moderador u otra persona asignada se reúne con el autor para
+- **El seguimiento**: En esta parte el o la moderadora u otra persona asignada se reúne con el o la autora para
   verificar que ya resolvimos todos los problemas.
 
 - **El análisis causal**: Aquí analizaremos los defectos y evaluaremos que tan bien pudimos detectar
