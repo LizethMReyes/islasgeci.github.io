@@ -45,7 +45,7 @@ nuestro trabajo. A continuación hablaremos brevemente de esta revisión por par
   objetivos del autor.
 
 - **La preparación**: El verdadero trabajo de encontrar problemas ocurrirá aquí. Los inspectores
-  examinan el código en busca de posibles errores, usando los _check list_ de defectos. Escriben las
+  examinan el código en busca de posibles errores, usando los _checklist_ de defectos. Escriben las
   dudas y los problemas para presentarlos en la reunión de inspección. A los problemas encontrados
   debemos agregarles prioridad, estatus y tipo.
 
@@ -54,7 +54,7 @@ nuestro trabajo. A continuación hablaremos brevemente de esta revisión por par
   problemas. La descripción que haga el lector durante la reunión deberá ser como la de un o una
   profesora dirigiéndose a sus estudiantes. La tiempo estimado de la reunión de inspección es de 200
   líneas de código por hora. El tiempo de preparación debería de ser similar al tiempo que tomará la
-  inspección, es decir 200 líneas por hora.
+  inspección, es decir una hora por cada 200 líneas.
 
 - **El seguimiento**: En esta parte el o la moderadora u otra persona asignada se reúne con el o la autora para
   verificar que ya resolvimos todos los problemas.
