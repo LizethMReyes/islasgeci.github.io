@@ -25,15 +25,15 @@ nuestro trabajo. A continuación hablaremos brevemente de esta revisión por par
 - **Autor o autora**: No tiene permitido moderar, leer o contar, ya que el está muy cerca al trabajo
   como para ser objetivo. Además, esto podrá ayudarle a prestar más atención a los comentarios que
   los otros inspectores hagan. 
-- **Lector o lectora**: Será quien presenta pedazos de código. La idea es probar la claridad del código.
-  La interpretación a veces revela ambigüedad, suposiciones escondidas, documentación inadecuada o
-  problemas de estilo que entorpecen la comunicación.
-- **Moderador o moderadora**: Deberá de mandar las noticias del aviso de la reunión con los eventos, las
-  fechas y los tiempos. Si el autor y el moderador asignan alguna responsabilidad para los
-  inspectores, el moderador deberá de comunicar esa información cuando distribuya el paquete de la
-  inspección.
-- **Las y los inspectores**: Al resto de los participantes los llamamos inspectores. Ellos revisarán el
-  código desde distintas perspectivas en la etapa de preparación y anotarán sus observaciones. La
+- **Lector o lectora**: Será quien presenta pedazos de código. La idea es probar la claridad del
+  código. La interpretación a veces revela ambigüedad, suposiciones escondidas, documentación
+  inadecuada o problemas de estilo que entorpecen la comunicación.
+- **Moderador o moderadora**: Deberá de mandar las noticias del aviso de la reunión con los eventos,
+  las fechas y los tiempos. Si el autor y el moderador asignan alguna responsabilidad para los
+  inspectores, el moderador deberá de comunicar esa información junto con las listas de revisión
+  (_checklist_). A toda esa información le llamamos el paquete de la inspección.
+- **Las y los inspectores**: Al resto de los participantes los llamamos inspectores. Ellos revisarán
+  el código desde distintas perspectivas en la etapa de preparación y anotarán sus observaciones. La
   primera intervención que hará cada inspector en la reunión de inspección será decir algo positivo
   del producto en revisión. 
 
