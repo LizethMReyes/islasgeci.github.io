@@ -47,17 +47,22 @@ nuestro trabajo. A continuación hablaremos brevemente de esta revisión por par
 - **La preparación**: El verdadero trabajo de encontrar problemas ocurrirá aquí. Los inspectores
   examinan el código en busca de posibles errores, usando los _checklist_ de defectos. Escriben las
   dudas y los problemas para presentarlos en la reunión de inspección. A los problemas encontrados
-  debemos agregarles prioridad, estatus y tipo.
+  debemos agregarles prioridad, estatus y tipo. Los errores de tipografía los agregaremos como
+  sugerencias. 
 
 - **La reunión de inspección**: No utilicen más de un minuto decidiendo cómo resolver un problema,
   ya que el tiempo que utilices en el problema es tiempo que no utilizarán en encontrar más
   problemas. La descripción que haga el lector durante la reunión deberá ser como la de un o una
   profesora dirigiéndose a sus estudiantes. La tiempo estimado de la reunión de inspección es de 200
   líneas de código por hora. El tiempo de preparación debería de ser similar al tiempo que tomará la
-  inspección, es decir una hora por cada 200 líneas.
+  inspección, es decir 200 líneas por hora.
 
-- **El seguimiento**: En esta parte el o la moderadora u otra persona asignada se reúne con el o la autora para
-  verificar que ya resolvimos todos los problemas.
+- **El seguimiento**: Al terminar la reunión de inspección determinaremos si necesitaremos hacer más
+  trabajo. Si eso es requerido asiganremos a alguien para que haga la verificación de que
+  acompletamos dicho trabajo. El tiempo que nos tomó atender las correcciones nos dará información
+  para hacer estimaciones del tiempo que toma nuestro flujo de trabajo. En esta parte el o la
+  moderadora u otra persona asignada se reúne con el o la autora para verificar que ya resolvimos
+  todos los problemas.
 
 - **El análisis causal**: Aquí analizaremos los defectos y evaluaremos que tan bien pudimos detectar
   los errores. Si ayudó a que el equipo mejorara la calidad en el desarrollo y en la revisión de
