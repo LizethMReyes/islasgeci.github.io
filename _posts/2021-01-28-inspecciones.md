@@ -32,6 +32,9 @@ nuestro trabajo. A continuación hablaremos brevemente de esta revisión por par
   las fechas y los tiempos. Si el o la autora y el o la moderadora asignan alguna responsabilidad
   para las y los inspectores, el o la moderadora deberá de comunicar esa información junto con las
   listas de revisión (_checklist_). A toda esa información le llamamos el paquete de la inspección.
+- **Contador o contadora**: Durante la reunión de inspección, estará a cargo de llenar la sección de
+  _**Issue log**_. Ahí irán los problemas presentados en la inspección que todos y todas las
+  participantes estén de acuerdo que deben ser corregidos.
 - **Las y los inspectores**: Al resto de las y los participantes los llamamos inspectores. Ellas y
   ellos revisarán el código desde distintas perspectivas en la etapa de preparación y anotarán sus
   observaciones. La primera intervención que hará cada inspector en la reunión de inspección será
@@ -74,5 +77,6 @@ nuestro trabajo. A continuación hablaremos brevemente de esta revisión por par
 - [Código que apesta (_Clean
   code_)](https://learning.oreilly.com/library/view/clean-code-a/9780136083238/chapter17.html#ch17)
 - [Principios SOLID](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod?)
+- [Patrones de diseño](https://learning.oreilly.com/videos/clean-code/9780134661742/9780134661742-CODE_E25)
 - [Guías de estilo](https://islasgeci.github.io/guia_de_estilo/)
 - [_Checklists_ de la columna **Revisando**](https://github.com/IslasGECI/manual#checklists-del-kanban)
