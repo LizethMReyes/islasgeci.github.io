@@ -21,21 +21,21 @@ La inspección consiste en un par de reuniones donde las y los participantes de 
 con diferentes roles. El objetivo principal de la inspección deberá ser encontrar defectos graves en
 nuestro trabajo. A continuación hablaremos brevemente de esta revisión por pares.
 
-## ¿Quiénes son los participantes y cuáles sus roles en una reunión de inspección?
+## ¿Quiénes son los participantes y cuáles sus roles en una inspección?
 - **Autor o autora**: No tiene permitido moderar, leer o contar, ya que está muy cerca al trabajo
-  como para actuar con objetividad. Además, esto podrá ayudarle a prestar más atención a los comentarios que
-  los otros inspectores hagan.
+  como para actuar con objetividad. Además, esto podrá ayudarle a prestar más atención a los
+  comentarios que los otros inspectores hagan.
 - **Lector o lectora**: Será quien presenta pedazos de código. La idea es probar la claridad del
   código. La interpretación a veces revela ambigüedad, suposiciones escondidas, documentación
   inadecuada o problemas de estilo que entorpecen la comunicación.
 - **Moderador o moderadora**: Deberá de mandar las noticias del aviso de la reunión con los eventos,
-  las fechas y los tiempos. Si el o la autora y el o la moderadora asignan alguna responsabilidad para las y los
-  inspectores, el o la moderadora deberá de comunicar esa información junto con las listas de revisión
-  (_checklist_). A toda esa información le llamamos el paquete de la inspección.
-- **Las y los inspectores**: Al resto de las y los participantes los llamamos inspectores. Ellas y ellos revisarán
-  el código desde distintas perspectivas en la etapa de preparación y anotarán sus observaciones. La
-  primera intervención que hará cada inspector en la reunión de inspección será decir algo positivo
-  del producto en revisión.
+  las fechas y los tiempos. Si el o la autora y el o la moderadora asignan alguna responsabilidad
+  para las y los inspectores, el o la moderadora deberá de comunicar esa información junto con las
+  listas de revisión (_checklist_). A toda esa información le llamamos el paquete de la inspección.
+- **Las y los inspectores**: Al resto de las y los participantes los llamamos inspectores. Ellas y
+  ellos revisarán el código desde distintas perspectivas en la etapa de preparación y anotarán sus
+  observaciones. La primera intervención que hará cada inspector en la reunión de inspección será
+  decir algo positivo del producto en revisión.
 
 ## ¿Cuáles son las etapas de una inspección?
 - **La revisión general**: Esta es un reunión la cual dirige el o la autora. El fin es juzgar si las
@@ -48,7 +48,7 @@ nuestro trabajo. A continuación hablaremos brevemente de esta revisión por par
   examinan el código en busca de posibles errores, usando los _checklist_ de defectos. Escriben las
   dudas y los problemas para presentarlos en la reunión de inspección. A los problemas encontrados
   debemos agregarles prioridad, estatus y tipo. Los errores de tipografía los agregaremos como
-  sugerencias. 
+  sugerencias.
 
 - **La reunión de inspección**: No utilicen más de un minuto decidiendo cómo resolver un problema,
   ya que el tiempo que utilices en el problema es tiempo que no utilizarán en encontrar más
