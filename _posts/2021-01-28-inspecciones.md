@@ -48,14 +48,13 @@ nuestro trabajo. A continuación hablaremos brevemente de esta revisión por par
   examinan el código en busca de posibles errores, usando los _checklist_ de defectos. Escriben las
   dudas y los problemas para presentarlos en la reunión de inspección. A los problemas encontrados
   debemos agregarles prioridad, estatus y tipo. Los errores de tipografía los agregaremos como
-  sugerencias.
+  sugerencias. El tiempo de preparación es de una hora por cada 200 líneas de código.
 
 - **La reunión de inspección**: No utilicen más de un minuto decidiendo cómo resolver un problema,
   ya que el tiempo que utilices en el problema es tiempo que no utilizarán en encontrar más
   problemas. La descripción que haga el lector durante la reunión deberá ser como la de un o una
-  profesora dirigiéndose a sus estudiantes. La tiempo estimado de la reunión de inspección es de 200
-  líneas de código por hora. El tiempo de preparación debería de ser similar al tiempo que tomará la
-  inspección, es decir 200 líneas por hora.
+  profesora dirigiéndose a sus estudiantes. El tiempo estimado de la reunión de inspección es de una
+  hora por cada 200 líneas de código, el mismo de la preparación.
 
 - **El seguimiento**: Al terminar la reunión de inspección determinaremos si necesitaremos hacer más
   trabajo. Si eso es requerido asiganremos a alguien para que haga la verificación de que
