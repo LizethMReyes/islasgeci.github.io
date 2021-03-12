@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cómo escribir un comentario en una revisión
+title: Cómo escribir comentarios en una revisión
 author: Evaristo
 tags: equipo
 ---
