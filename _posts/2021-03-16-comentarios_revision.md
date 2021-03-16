@@ -7,7 +7,7 @@ tags: equipo
 
 Una revisión es una comunicación entre pares enfocada en mejorar un producto de nuestro trabajo. La
 comunicación es un hilo de comentarios. Escribir un buen comentario es difícil. Esta guía ofrece
-sugerencias para escribir un comentario efectivos en una revisión
+algunas sugerencias para escribir comentarios efectivos en una revisión
 
 - **Se amable:** Siempre pide las cosas por favor.
 - **Usa lenguaje simple y claro:** Evita usar lenguaje rebuscado o abusar de las abreviaturas. Usa
