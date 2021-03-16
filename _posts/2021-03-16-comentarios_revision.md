@@ -28,11 +28,13 @@ sugerencias para escribir un comentario efectivos en una revisión
 - **Prefiere la forma interrogativa en lugar de la imperativa.** Con el propósito de fomentar el
   diálogo y facilitar la discusión, redacta tus solicitudes de cambio como sugerencias en forma
   interrogativa en lugar de instrucciones en forma imperativa. En lugar de "Mueve esta oración al
-  siguiente párrafo" podrías decir "¿Podríamos mover esta oración al siguiente párrafo?".
+  siguiente párrafo" podrías decir "¿Podríamos mover esta oración al siguiente párrafo, por favor?".
 - **Usa "_nosotros_" en lugar de _"tú"_.** Cuando sea posible, usa la primera persona del plural en
   lugar de la segunda persona del singular. Por ejemplo, en lugar de "Aquí _te_ equivocaste" o "Aquí
   se _te_ olvidó mencionar algo" podrías decir "Aquí _nos_ equivocamos" o "Aquí se _nos_ olvidó
   mencionar algo".
+- **Usa emojies.** Los emojies nos ayudan a complementar las ideas, emociones o sentimientos que
+  queremos expresar en un comentario.
 
 ## Referencias
 
