@@ -14,7 +14,7 @@ utilizamos en el trabajo diario del equipo de Ciencia de Datos. "_Peer Deskcheck
 estándar de definir las revisiones en nuestra columna de **Revisando**, una persona somete su
 trabajo para que otra revise que se cumplan todos los elementos de un _checklist_. Y "_Pair
 Programming_" es lo que hacemos en nuestros tomates. Los tres ejemplos más formales de revisión por
-pares son "_Walkthrough_", "_Team Review_" e "_Ispection_". Para Karl, la revisión más formal es la
+pares son "Recorrido", "Revisión en equipo" e "Inspección". Para Karl, la revisión más formal es la
 inspección.
 
 La inspección consiste en un par de reuniones donde las y los participantes de la inspección cumplen
