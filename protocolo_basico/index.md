@@ -26,7 +26,6 @@ Nota que este protocolo está pensado para procesar tus datos mediante algún le
     - [Coordenadas Geográfica](geograficas.html)
     - [Coordenadas UTM](utm.html)
 - [Fecha y hora](tiempo.html)
-- [Validar un archivo de Excel](validacion.html)
 - [Referencias](referencias.html)
 
 ---
