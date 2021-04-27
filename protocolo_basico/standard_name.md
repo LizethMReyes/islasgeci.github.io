@@ -15,7 +15,7 @@ _Tabla: Ejemplo de nombres estándares reconocidos por este protocolo._
 **`standard_name`**       | **long_name**   | Nombre Largo         | Descripción
 --------------------------|-----------------|----------------------|--------------------------------------------------------------------
 `altitude`                | Altitude        | Altitud              | Altitud sobre el geoide, la cual es la referencia de la superficie geopotencial
-`catches`                 | Catches         | Capturas             | Cantidad de individuos capturados en trampas
+`number_of_captures`                 | Catches         | Capturas             | Cantidad de individuos capturados en trampas
 `date`                    | Date            | Fecha                | La fecha de avistamiento, registro o captura del individuo
 `distance`                | Distance        | Distancia            | La distancia a la que se encontraba el individuo
 `effort`                  | Effort          | Esfuerzo             | Cantidad de recursos necesarios por dia para lograr una labor, por ejemplo: capturar un individuo
