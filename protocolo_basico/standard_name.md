@@ -7,7 +7,7 @@ description: Metadato `standard_name`
 Los posibles valores para el metadato `standard_name` se encuentran en [CF standard name
 table](http://cfconventions.org/Data/cf-standard-names/current/build/cf-standard-name-table.html).
 La convención CF está enfocada a variables climáticas. Para variables biológicas todavía hace falta
-implementar algunos nombres estándar. En la siguiente tabla se muestran los nombres estándares
+implementar algunos nombres estándar. En la siguiente tabla se muestran los nombres estándar
 reconocidos por este protocolo.
 
 _Tabla: Nombres estándares reconocidos por este protocolo._
