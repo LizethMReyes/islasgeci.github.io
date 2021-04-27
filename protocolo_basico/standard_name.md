@@ -12,7 +12,7 @@ estándares más usados.
 
 _Tabla: Ejemplo de nombres estándares reconocidos por este protocolo._
 
-**`standard_name`**       | **long_name**   | Nombre Largo         | Descripción
+Standard Name       | Long Name   | Nombre Largo         | Descripción
 --------------------------|-----------------|----------------------|--------------------------------------------------------------------
 `altitude`                | Altitude        | Altitud              | Altitud sobre el geoide, la cual es la referencia de la superficie geopotencial
 `number_of_captures`                 | Catches         | Capturas             | Cantidad de individuos capturados en trampas
