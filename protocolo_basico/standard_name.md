@@ -18,7 +18,7 @@ Standard Name       | Long Name   | Nombre Largo         | Descripción
 `number_of_captures`                 | Catches         | Capturas             | Cantidad de individuos capturados en trampas
 `date`                    | Date            | Fecha                | La fecha de avistamiento, registro o captura del individuo
 `distance`                | Distance        | Distancia            | La distancia a la que se encontraba el individuo
-`effort`                  | Effort          | Esfuerzo             | Cantidad de recursos necesarios por dia para lograr una labor, por ejemplo: capturar un individuo
+`effort`                  | Effort          | Esfuerzo             | Cantidad de recursos necesarios para lograr una labor, por ejemplo: capturar un individuo
 `height`                  | Height          | Elevación            | Distancia vertical sobre la superficie
 `latitude`                | Latitude        | Latitud              | La latitud es positiva hacia el norte
 `longitude`               | Longitude       | Longitud             | La longitud es positiva hacia el este
