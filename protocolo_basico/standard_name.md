@@ -29,7 +29,7 @@ Standard Name             | Long Name       | Nombre Largo         | Descripció
 `time`                    | Time            | Tiempo               | &nbsp;
 `utm_zone`                | UTM zone        | Zona UTM             | Una de las 60 zonas de proyección longitudinal
 
-Para incluir nuevos nombres estándares que no sean parte de la convención CF se debe utilizar la
+Para incluir nuevos nombres estándar que no sean parte de la convención CF se debe utilizar la
 [_guía de construccción de nombres
 estándares_](http://cfconventions.org/Data/cf-standard-names/docs/guidelines.html) de la convención
 CF y el equipo de Ciencia de Datos deberá agregarlos a `metadata_tools/metadatatools/_StandardName.py`.
