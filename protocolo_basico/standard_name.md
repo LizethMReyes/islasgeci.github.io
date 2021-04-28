@@ -10,7 +10,7 @@ La convención CF está enfocada a variables climáticas. Para variables biológ
 implementar algunos nombres estándar. En la siguiente tabla se muestran los nombres estándar
 reconocidos por este protocolo.
 
-_Tabla: Nombres estándares reconocidos por este protocolo._
+_Tabla: Nombres estándar reconocidos por este protocolo._
 
 Standard Name             | Long Name       | Nombre Largo         | Descripción
 --------------------------|-----------------|----------------------|--------------------------------------------------------------------
