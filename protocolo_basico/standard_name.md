@@ -31,7 +31,7 @@ Standard Name             | Long Name       | Nombre Largo         | Descripció
 
 Para incluir nuevos nombres estándar que no sean parte de la convención CF se debe utilizar la
 [_guía de construccción de nombres
-estándares_](http://cfconventions.org/Data/cf-standard-names/docs/guidelines.html) de la convención
+estándar_](http://cfconventions.org/Data/cf-standard-names/docs/guidelines.html) de la convención
 CF y el equipo de Ciencia de Datos deberá agregarlos a `metadata_tools/metadatatools/_StandardName.py`.
 
 ---
