@@ -5,6 +5,7 @@ author: Nepo
 tags: pruebas
 ---
 
+## Imitador genérico
 El código siguiente los podrán encontrar en el `pollos_petrel/tests/tests_petrel_age_predictor.py`.
 El objetivo es probar a la función `get_subset_morphometric_data`. Esta función tiene dos variables
 de entrada `Cleaner_Morphometric` y `Predictor`. Las dos variables dos objetos de clases que aun no
@@ -117,7 +118,9 @@ clase `Set_Morphometric`, pero con el comportamiento modificado en el método `t
 Habrá ocaciones en las que lo que nos interesa saber si hicimos llamados a funciones de terceros y
 no probar estas funciones. Si confiamos en que estas funciones están bien hechas y probadas por sus
 desarrolladores, a nosotros lo que nos podría interesar es saber si estamos haciendo el llamdo de
-ellas en la manera correcta. Para esos casos usamos espias.  
+ellas en la manera correcta. Para esos casos usamos espias. En las primeras líneas del siguiente
+_chunk_ de código podemos notar que tenemos un imitador, tema que atendimos en los tres ejemplos
+anteriores. Al final de la prueba definimos un espía para la función `makedir` del módulo `os`:
 
 ```python
 def test_Plotter_(mocker):
@@ -130,7 +133,19 @@ def test_Plotter_(mocker):
     Plotter_parameters.savefig("reports/figures/figura.png")
     makedirs.assert_called_once_with("reports/figures")
 ```
+El método `savefig` de la clase `Plotter`. Y lo que nos interesa preguntarle al espía `makedirs` es
+si fue llamado y si fue con el argumento `"reports/figures"`. El espía tiene su método para probar
+esa información.
 
+## Conclusión
+Vimos cuatro ejemplos de usos de la paquetería `pytest-mock`: tres ejemplos de imitadores y uno de
+espías. Los ejemplos son de cómo los usamos en la Dirección de Ciencias de Datos. Tratamos de seguir
+las recomendaciones de Stargirl en la manera de nombrarlo y presentamos un ejemplo en donde no
+agregar una interfaz no era _tan_ mala idea. Parchamos el comportamiendo de una clase y finalmente
+utilizamos espías para asegurarnos de que llamábamos a una función desarrollada por terceros de la
+manera esperada. 
 ## Referencias
 - [My Python testing style guide](https://blog.thea.codes/my-python-testing-style-guide/)
 - [pytest: How to mock in Python](https://changhsinlee.com/pytest-mock/)
+- [Understanding the Python Mock Object Library](https://realpython.com/python-mock-library/)
+- [pytest-mock](https://github.com/pytest-dev/pytest-mock/)
