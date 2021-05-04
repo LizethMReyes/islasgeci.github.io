@@ -29,7 +29,7 @@ def test_get_subset_morphometric_data(mocker):
 ```
 Lo que queremos es probar `get_subset_morphometric_data`) y no desviarnos con la
 implementación de las clases a la que pertenecen `Cleaner_Morphometric` y `Predictor`. Sandi Metz
-propone en [este video](https://youtu.be/v-2yFMzxqwU) utilizar imitadores. A continuación vermos
+propone en [este video](https://youtu.be/v-2yFMzxqwU) utilizar imitadores. A continuación veremos
 cómo los implementamos:
 ```python
     Cleaner_Morphometric = mocker.Mock()
@@ -41,9 +41,35 @@ similar con objeto `Predictor` y su propiedad `predictions`:
     Predictor = mocker.Mock()
     Predictor.predictions = predictions
 ```
-[Stargir](https://thea.codes/) sugiere que no usemos este tipo de imitadores. El motivo es que si al
+[Stargilr](https://thea.codes/) sugiere que no usemos este tipo de imitadores. El motivo es que si al
 implementar las clases cambiamos las interfaces la prueba no se enterará del cambio y por lo tanto
 no fallará.
+
+## Imitando objetos de clases particulares
+Para atender la sugerencia de Stargilr podemo heredar la interface de alguna clase. Con este cambio
+la interfaz cambia la prueba nos recordará que debemos actualizarla. En el primer ejemplo generamos
+un imitador de la clase `Predictions_and_Parameters`. Lo que nos interesa probar el funcionamineto
+de `Plotter` por lo que no debemos de distraernos con obtener el objeto `Parameters`: 
+
+```python
+def test_Plotter(mocker):
+    Parameters = mocker.Mock(spec=Predictions_and_Parameters)
+    Parameters.data_for_plot.return_value = [1, 2, 3], [1, 2, 3]
+    Plotter_parameters = Plotter(Parameters)
+    Plotter_parameters.plot()
+    return Plotter_parameters.savefig("reports/figures/figura.png")
+```
+La clase `Predictions_and_Parameters` tiene un método llamdo `data_for_plot`. El imitador no tiene
+ninguna de las funcinalidades de que tendría un objeto de la clase `Predictions_and_Parameters`,
+pero tiene misma interfaz, es decir puedes hacer un llamado al método `data_for_plot`. 
+```python
+    Parameters = mocker.Mock(spec=Predictions_and_Parameters)
+    Parameters.data_for_plot.return_value = [1, 2, 3], [1, 2, 3]
+```
+Este métod es la manera en la que la clase `Plotter` se comunica con `Parameters`. Así que le
+asignamos algún valor con el que sabemos que comportamiento esperamos de `Plotter`.
+
+
 
 ## Referencias
 - [My Python testing style guide](https://blog.thea.codes/my-python-testing-style-guide/)
