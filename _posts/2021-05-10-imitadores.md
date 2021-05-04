@@ -9,6 +9,7 @@ El objetivo es probar a la función `get_subset_morphometric_data`. Esta funció
 de entrada `Cleaner_Morphometric` y `Predictor`. Las dos variables dos objetos de clases que aun no
 implementamos, pero sabemos que nos gustaría que tuvieran las propiedades `data_subset` y
 `predictions` respectivamente.
+
 ```python
 def test_get_subset_morphometric_data(mocker):
     predictions = [1, 2, 3]
@@ -26,6 +27,22 @@ def test_get_subset_morphometric_data(mocker):
     obtained_data_subset = get_subset_morphometric_data(Cleaner_Morphometric, Predictor)
     assert_frame_equal(obtained_data_subset, expected_data_subset)
 ```
+Para seguir con el objetivo principal (probar `get_subset_morphometric_data`) y no desviarnos con la
+implementación de las clases a la que pertenecen `Cleaner_Morphometric` y `Predictor` haremos uso de
+los imitadores más generales utilizando `mocker.Mock()`:
+```python
+    Cleaner_Morphometric = mocker.Mock()
+    Cleaner_Morphometric.data_subset = data_subset.copy()
+```
+Definimos el objeto genérico `Cleaner_Morphometric` con propiedad `data_subset`. Hacemos algo
+similar con objeto `Predictor` y su propiedad `predictions`:
+```python
+    Predictor = mocker.Mock()
+    Predictor.predictions = predictions
+```
+[Stargir](https://thea.codes/) sugiere que no usemos este tipo de imitadores. El motivo es que si al
+implementar las clases cambiamos las interfaces la prueba no se enterará del cambio y por lo tanto
+no fallará.
 
 ## Referencias
 - [My Python testing style guide](https://blog.thea.codes/my-python-testing-style-guide/)
