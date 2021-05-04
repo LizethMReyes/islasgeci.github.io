@@ -27,9 +27,10 @@ def test_get_subset_morphometric_data(mocker):
     obtained_data_subset = get_subset_morphometric_data(Cleaner_Morphometric, Predictor)
     assert_frame_equal(obtained_data_subset, expected_data_subset)
 ```
-Para seguir con el objetivo principal (probar `get_subset_morphometric_data`) y no desviarnos con la
-implementación de las clases a la que pertenecen `Cleaner_Morphometric` y `Predictor` haremos uso de
-los imitadores más generales utilizando `mocker.Mock()`:
+Lo que queremos es probar `get_subset_morphometric_data`) y no desviarnos con la
+implementación de las clases a la que pertenecen `Cleaner_Morphometric` y `Predictor`. Sandi Metz
+propone en [este video](https://youtu.be/v-2yFMzxqwU) utilizar imitadores. A continuación vermos
+cómo los implementamos:
 ```python
     Cleaner_Morphometric = mocker.Mock()
     Cleaner_Morphometric.data_subset = data_subset.copy()
