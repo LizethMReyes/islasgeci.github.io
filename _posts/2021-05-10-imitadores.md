@@ -4,6 +4,7 @@ title: Imitadores y espías
 author: Nepo
 tags: pruebas
 ---
+
 El código siguiente los podrán encontrar en el `pollos_petrel/tests/tests_petrel_age_predictor.py`.
 El objetivo es probar a la función `get_subset_morphometric_data`. Esta función tiene dos variables
 de entrada `Cleaner_Morphometric` y `Predictor`. Las dos variables dos objetos de clases que aun no
@@ -69,7 +70,66 @@ pero tiene misma interfaz, es decir puedes hacer un llamado al método `data_for
 Este métod es la manera en la que la clase `Plotter` se comunica con `Parameters`. Así que le
 asignamos algún valor con el que sabemos que comportamiento esperamos de `Plotter`.
 
+El siguiente ejemplo es más restricitvo aun. Lo que haremos ahora es "parchar" el comportamiento de
+una clase, así el objeto parchado no tendrá el comportamiento original. 
+```python
+def test_Fitter(mocker):
+    def train_test_split(self):
+        return (
+            np.array([6, 4, 8]).reshape(-1, 1),
+            np.array([1, 2, 3]).reshape(-1, 1),
+            [3, 2, 4],
+            pd.DataFrame({"y_train": [4]}),
+        )
 
+    mocker.patch(
+        "pollos_petrel.petrel_age_predictor.Set_Morphometric.train_test_split", train_test_split
+    )
+    Morphometric_Data = Set_Morphometric(petrel_data)
+    Fitter_model = Fitter(Morphometric_Data)
+    assert Fitter_model.lineal_model.normalize
+```
+Como podemos inferir la clase `Set_Morphometric` tiene un método llamado `train_test_split`. Y el
+objeto `Morphometric_Data` pertenece a la clase `Set_Morphometric`. Pero lo que hicimos fue cambiar
+el comportamiento de la clase original. Sin importar cuál es el valor de `petrel_data`, el método
+`train_test_split` siempre tendrá el mismo comportamiento:
+```python
+    def train_test_split(self):
+        return (
+            np.array([6, 4, 8]).reshape(-1, 1),
+            np.array([1, 2, 3]).reshape(-1, 1),
+            [3, 2, 4],
+            pd.DataFrame({"y_train": [4]}),
+        )
+
+    mocker.patch(
+        "pollos_petrel.petrel_age_predictor.Set_Morphometric.train_test_split", train_test_split
+    )
+    Morphometric_Data = Set_Morphometric(petrel_data)
+```
+La clave aquí es definir primero el parche antes de inicializar el objeto `Morphometric_Data`.
+
+En los últimos dos ejemplos, los objetos imitadores siguien una interfaz determinada. A `Parameters`
+no lo construimos utilizando el contructor de su clase. `Morphometric_Data` es una instancia de la
+clase `Set_Morphometric`, pero con el comportamiento modificado en el método `train_test_split`.
+
+## Espias
+Habrá ocaciones en las que lo que nos interesa saber si hicimos llamados a funciones de terceros y
+no probar estas funciones. Si confiamos en que estas funciones están bien hechas y probadas por sus
+desarrolladores, a nosotros lo que nos podría interesar es saber si estamos haciendo el llamdo de
+ellas en la manera correcta. Para esos casos usamos espias.  
+
+```python
+def test_Plotter_(mocker):
+    delete_reports_figures()
+    Parameters = mocker.Mock(spec=Predictions_and_Parameters)
+    Parameters.data_for_plot.return_value = [1, 2, 3], [1, 2, 3]
+    Plotter_parameters = Plotter(Parameters)
+    Plotter_parameters.plot()
+    makedirs = mocker.spy(os, "makedirs")
+    Plotter_parameters.savefig("reports/figures/figura.png")
+    makedirs.assert_called_once_with("reports/figures")
+```
 
 ## Referencias
 - [My Python testing style guide](https://blog.thea.codes/my-python-testing-style-guide/)
