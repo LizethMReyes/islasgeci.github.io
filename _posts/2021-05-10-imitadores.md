@@ -12,7 +12,7 @@ En la sección referencias está la lista de material en la que nos inspiramos p
 nota.
 ## Imitador genérico
 El objetivo es probar la función `get_subset_morphometric_data`. Esta función tiene dos variables
-de entrada `Cleaner_Morphometric` y `Predictor`. Las dos variables dos objetos de clases que aun no
+de entrada `Cleaner_Morphometric` y `Predictor`. Las dos variables son objetos de clases que aun no
 implementamos, pero sabemos que nos gustaría que tuvieran las propiedades `data_subset` y
 `predictions` respectivamente.
 
@@ -33,7 +33,7 @@ def test_get_subset_morphometric_data(mocker):
     obtained_data_subset = get_subset_morphometric_data(Cleaner_Morphometric, Predictor)
     assert_frame_equal(obtained_data_subset, expected_data_subset)
 ```
-Lo que queremos es probar `get_subset_morphometric_data`) y no desviarnos con la
+Lo que queremos es probar `get_subset_morphometric_data` y no desviarnos con la
 implementación de las clases a la que pertenecen `Cleaner_Morphometric` y `Predictor`. Sandi Metz
 propone en [este video](https://youtu.be/v-2yFMzxqwU) utilizar imitadores. A continuación veremos
 cómo los implementamos:
