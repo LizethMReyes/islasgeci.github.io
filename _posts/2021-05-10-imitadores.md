@@ -47,12 +47,12 @@ similar con objeto `Predictor` y su propiedad `predictions`:
     Predictor = mocker.Mock()
     Predictor.predictions = predictions
 ```
-[Stargilr](https://thea.codes/) sugiere que no usemos este tipo de imitadores. El motivo es que si al
+[Stargirl](https://thea.codes/) sugiere que no usemos este tipo de imitadores. El motivo es que si al
 implementar las clases cambiamos las interfaces la prueba no se enterará del cambio y por lo tanto
 no fallará.
 
 ## Imitando objetos de clases particulares
-Para atender la sugerencia de Stargilr podemos heredar la interface de alguna clase. Con este cambio
+Para atender la sugerencia de Stargirl podemos heredar la interface de alguna clase. Con este cambio
 la interfaz cambia la prueba nos recordará que debemos actualizarla. En el primer ejemplo generamos
 un imitador de la clase `Predictions_and_Parameters`. Lo que nos interesa probar el funcionamiento
 de `Plotter` por lo que no debemos de distraernos con obtener el objeto `Parameters`: 
@@ -66,7 +66,7 @@ def test_Plotter(mocker):
     return Plotter_parameters.savefig("reports/figures/figura.png")
 ```
 La clase `Predictions_and_Parameters` tiene un método llamado `data_for_plot`. El imitador no tiene
-ninguna de las funcionalidades de que tendría un objeto de la clase `Predictions_and_Parameters`,
+ninguna de las funcionalidades que tendría un objeto de la clase `Predictions_and_Parameters`,
 pero tiene misma interfaz, es decir puedes hacer un llamado al método `data_for_plot`. 
 ```python
     Parameters = mocker.Mock(spec=Predictions_and_Parameters)
@@ -114,7 +114,7 @@ el comportamiento de la clase original. Sin importar cuál es el valor de `petre
 ```
 La clave aquí es definir primero el parche antes de inicializar el objeto `Morphometric_Data`.
 
-En los últimos dos ejemplos, los objetos imitadores siguen una interfaz determinada. A `Parameters`
+En los dos ejemplos anteriores, los objetos imitadores siguen una interfaz determinada. A `Parameters`
 no lo construimos utilizando el constructor de su clase. `Morphometric_Data` es una instancia de la
 clase `Set_Morphometric`, pero con el comportamiento modificado en el método `train_test_split`.
 
