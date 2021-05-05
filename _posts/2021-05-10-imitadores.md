@@ -7,7 +7,8 @@ tags: programacion
 
 En la presente nota mostraremos algunos ejemplos de los usos de la paquetería
 [`pytest-mock`](https://github.com/pytest-dev/pytest-mock/). El código que aquí presentamos lo
-podrás encontrar en `pollos_petrel/tests/tests_petrel_age_predictor.py`, en la consignación 66eb24.
+podrás encontrar en [`pollos_petrel/tests/tests_petrel_age_predictor.py`, en la consignación
+66eb24](https://bitbucket.org/IslasGECI/pollos_petrel/src/66eb24183f81df85350a715cc04ae120324a01df/tests/test_petrel_age_predictor.py).
 En la sección referencias está la lista de material en la que nos inspiramos para escribir esta
 nota.
 ## Imitador genérico
@@ -47,9 +48,9 @@ similar con objeto `Predictor` y su propiedad `predictions`:
     Predictor = mocker.Mock()
     Predictor.predictions = predictions
 ```
-[Stargirl](https://thea.codes/) sugiere que no usemos este tipo de imitadores. El motivo es que si al
-implementar las clases cambiamos las interfaces la prueba no se enterará del cambio y por lo tanto
-no fallará.
+[Stargirl](https://thea.codes/) sugiere que no usemos este tipo de imitadores. El motivo es que si
+al implementar las clases cambiamos las interfaces la prueba no se enterará del cambio y por lo
+tanto no fallará.
 
 ## Imitando objetos de clases particulares
 Para atender la sugerencia de Stargirl podemos heredar la interface de alguna clase. Con este cambio
@@ -114,15 +115,16 @@ el comportamiento de la clase original. Sin importar cuál es el valor de `petre
 ```
 La clave aquí es definir primero el parche antes de inicializar el objeto `Morphometric_Data`.
 
-En los dos ejemplos anteriores, los objetos imitadores siguen una interfaz determinada. A `Parameters`
-no lo construimos utilizando el constructor de su clase. `Morphometric_Data` es una instancia de la
-clase `Set_Morphometric`, pero con el comportamiento modificado en el método `train_test_split`.
+En los dos ejemplos anteriores, los objetos imitadores siguen una interfaz determinada. A
+`Parameters` no lo construimos utilizando el constructor de su clase. `Morphometric_Data` es una
+instancia de la clase `Set_Morphometric`, pero con el comportamiento modificado en el método
+`train_test_split`.
 
 ## Espías
-Habrá ocasiones en las que lo que nos interesa es saber si hicimos llamados a funciones de terceros y
-no probar estas funciones. Si confiamos en que estas funciones están bien hechas y probadas por sus
-desarrolladores, a nosotros lo que nos podría interesar es saber si estamos haciendo el llamado de
-ellas en la manera correcta. Para esos casos usamos espías. En las primeras líneas del siguiente
+Habrá ocasiones en las que lo que nos interesa es saber si hicimos llamados a funciones de terceros
+y no probar estas funciones. Si confiamos en que estas funciones están bien hechas y probadas por
+sus desarrolladores, a nosotros lo que nos podría interesar es saber si estamos haciendo el llamado
+de ellas en la manera correcta. Para esos casos usamos espías. En las primeras líneas del siguiente
 bloque de código podemos notar que tenemos un imitador, tema que atendimos en los tres ejemplos
 anteriores. Al final de la prueba definimos un espía para la función `makedir` del módulo `os`:
 
@@ -143,11 +145,11 @@ esa información.
 
 ## Conclusión
 Vimos cuatro ejemplos de usos de la paquetería `pytest-mock`: tres ejemplos de imitadores y uno de
-espías. Los ejemplos son de cómo los usamos en la Dirección de Ciencia de Datos de GECI. Tratamos de seguir
-las recomendaciones de Stargirl en la manera de nombrarlo y presentamos un ejemplo en donde no
-agregar una interfaz no era _tan_ mala idea. Parchamos el comportamiento de una clase y finalmente
-utilizamos espías para asegurarnos de que llamábamos a una función desarrollada por terceros de la
-manera esperada. 
+espías. Los ejemplos son de cómo los usamos en la Dirección de Ciencia de Datos de GECI. Tratamos de
+seguir las recomendaciones de Stargirl en la manera de nombrarlo y presentamos un ejemplo en donde
+no agregar una interfaz no era _tan_ mala idea. Parchamos el comportamiento de una clase y
+finalmente utilizamos espías para asegurarnos de que llamábamos a una función desarrollada por
+terceros de la manera esperada. 
 ## Referencias
 - [SOLID Object-Oriented Design](https://youtu.be/v-2yFMzxqwU)
 - [My Python testing style guide](https://blog.thea.codes/my-python-testing-style-guide/)
