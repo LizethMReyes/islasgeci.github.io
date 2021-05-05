@@ -2,7 +2,7 @@
 layout: post
 title: Las inspecciones, una revisión por pares
 author: Nepo
-tags: revisiones
+tags: equipo
 ---
 
 ## ¿Qué es una inspección?

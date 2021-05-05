@@ -2,7 +2,7 @@
 layout: post
 title: Imitadores y espías
 author: Nepo
-tags: pruebas
+tags: programacion
 ---
 
 ## Imitador genérico
