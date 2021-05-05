@@ -48,9 +48,9 @@ implementar las clases cambiamos las interfaces la prueba no se enterará del ca
 no fallará.
 
 ## Imitando objetos de clases particulares
-Para atender la sugerencia de Stargilr podemo heredar la interface de alguna clase. Con este cambio
+Para atender la sugerencia de Stargilr podemos heredar la interface de alguna clase. Con este cambio
 la interfaz cambia la prueba nos recordará que debemos actualizarla. En el primer ejemplo generamos
-un imitador de la clase `Predictions_and_Parameters`. Lo que nos interesa probar el funcionamineto
+un imitador de la clase `Predictions_and_Parameters`. Lo que nos interesa probar el funcionamiento
 de `Plotter` por lo que no debemos de distraernos con obtener el objeto `Parameters`: 
 
 ```python
@@ -61,17 +61,17 @@ def test_Plotter(mocker):
     Plotter_parameters.plot()
     return Plotter_parameters.savefig("reports/figures/figura.png")
 ```
-La clase `Predictions_and_Parameters` tiene un método llamdo `data_for_plot`. El imitador no tiene
-ninguna de las funcinalidades de que tendría un objeto de la clase `Predictions_and_Parameters`,
+La clase `Predictions_and_Parameters` tiene un método llamado `data_for_plot`. El imitador no tiene
+ninguna de las funcionalidades de que tendría un objeto de la clase `Predictions_and_Parameters`,
 pero tiene misma interfaz, es decir puedes hacer un llamado al método `data_for_plot`. 
 ```python
     Parameters = mocker.Mock(spec=Predictions_and_Parameters)
     Parameters.data_for_plot.return_value = [1, 2, 3], [1, 2, 3]
 ```
-Este métod es la manera en la que la clase `Plotter` se comunica con `Parameters`. Así que le
+Este método es la manera en la que la clase `Plotter` se comunica con `Parameters`. Así que le
 asignamos algún valor con el que sabemos que comportamiento esperamos de `Plotter`.
 
-El siguiente ejemplo es más restricitvo aun. Lo que haremos ahora es "parchar" el comportamiento de
+El siguiente ejemplo es más restrictivo aun. Lo que haremos ahora es "parchar" el comportamiento de
 una clase, así el objeto parchado no tendrá el comportamiento original. 
 ```python
 def test_Fitter(mocker):
@@ -110,15 +110,15 @@ el comportamiento de la clase original. Sin importar cuál es el valor de `petre
 ```
 La clave aquí es definir primero el parche antes de inicializar el objeto `Morphometric_Data`.
 
-En los últimos dos ejemplos, los objetos imitadores siguien una interfaz determinada. A `Parameters`
-no lo construimos utilizando el contructor de su clase. `Morphometric_Data` es una instancia de la
+En los últimos dos ejemplos, los objetos imitadores siguen una interfaz determinada. A `Parameters`
+no lo construimos utilizando el constructor de su clase. `Morphometric_Data` es una instancia de la
 clase `Set_Morphometric`, pero con el comportamiento modificado en el método `train_test_split`.
 
-## Espias
-Habrá ocaciones en las que lo que nos interesa saber si hicimos llamados a funciones de terceros y
+## Espías
+Habrá ocasiones en las que lo que nos interesa saber si hicimos llamados a funciones de terceros y
 no probar estas funciones. Si confiamos en que estas funciones están bien hechas y probadas por sus
-desarrolladores, a nosotros lo que nos podría interesar es saber si estamos haciendo el llamdo de
-ellas en la manera correcta. Para esos casos usamos espias. En las primeras líneas del siguiente
+desarrolladores, a nosotros lo que nos podría interesar es saber si estamos haciendo el llamado de
+ellas en la manera correcta. Para esos casos usamos espías. En las primeras líneas del siguiente
 _chunk_ de código podemos notar que tenemos un imitador, tema que atendimos en los tres ejemplos
 anteriores. Al final de la prueba definimos un espía para la función `makedir` del módulo `os`:
 
@@ -141,7 +141,7 @@ esa información.
 Vimos cuatro ejemplos de usos de la paquetería `pytest-mock`: tres ejemplos de imitadores y uno de
 espías. Los ejemplos son de cómo los usamos en la Dirección de Ciencias de Datos. Tratamos de seguir
 las recomendaciones de Stargirl en la manera de nombrarlo y presentamos un ejemplo en donde no
-agregar una interfaz no era _tan_ mala idea. Parchamos el comportamiendo de una clase y finalmente
+agregar una interfaz no era _tan_ mala idea. Parchamos el comportamiento de una clase y finalmente
 utilizamos espías para asegurarnos de que llamábamos a una función desarrollada por terceros de la
 manera esperada. 
 ## Referencias
