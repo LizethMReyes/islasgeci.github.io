@@ -119,11 +119,11 @@ no lo construimos utilizando el constructor de su clase. `Morphometric_Data` es 
 clase `Set_Morphometric`, pero con el comportamiento modificado en el método `train_test_split`.
 
 ## Espías
-Habrá ocasiones en las que lo que nos interesa saber si hicimos llamados a funciones de terceros y
+Habrá ocasiones en las que lo que nos interesa es saber si hicimos llamados a funciones de terceros y
 no probar estas funciones. Si confiamos en que estas funciones están bien hechas y probadas por sus
 desarrolladores, a nosotros lo que nos podría interesar es saber si estamos haciendo el llamado de
 ellas en la manera correcta. Para esos casos usamos espías. En las primeras líneas del siguiente
-_chunk_ de código podemos notar que tenemos un imitador, tema que atendimos en los tres ejemplos
+bloque de código podemos notar que tenemos un imitador, tema que atendimos en los tres ejemplos
 anteriores. Al final de la prueba definimos un espía para la función `makedir` del módulo `os`:
 
 ```python
@@ -143,7 +143,7 @@ esa información.
 
 ## Conclusión
 Vimos cuatro ejemplos de usos de la paquetería `pytest-mock`: tres ejemplos de imitadores y uno de
-espías. Los ejemplos son de cómo los usamos en la Dirección de Ciencias de Datos. Tratamos de seguir
+espías. Los ejemplos son de cómo los usamos en la Dirección de Ciencia de Datos de GECI. Tratamos de seguir
 las recomendaciones de Stargirl en la manera de nombrarlo y presentamos un ejemplo en donde no
 agregar una interfaz no era _tan_ mala idea. Parchamos el comportamiento de una clase y finalmente
 utilizamos espías para asegurarnos de que llamábamos a una función desarrollada por terceros de la
