@@ -126,7 +126,7 @@ y no probar estas funciones. Si confiamos en que estas funciones están bien hec
 sus desarrolladores, a nosotros lo que nos podría interesar es saber si estamos haciendo el llamado
 de ellas en la manera correcta. Para esos casos usamos espías. En las primeras líneas del siguiente
 bloque de código podemos notar que tenemos un imitador, tema que atendimos en los tres ejemplos
-anteriores. Al final de la prueba definimos un espía para la función `makedir` del módulo `os`:
+anteriores. Al final de la prueba definimos un espía para la función `makedirs` del módulo `os`:
 
 ```python
 def test_Plotter_(mocker):
@@ -139,9 +139,9 @@ def test_Plotter_(mocker):
     Plotter_parameters.savefig("reports/figures/figura.png")
     makedirs.assert_called_once_with("reports/figures")
 ```
-El método `savefig` de la clase `Plotter`. Y lo que nos interesa preguntarle al espía `makedirs` es
-si fue llamado y si fue con el argumento `"reports/figures"`. El espía tiene su método para probar
-esa información.
+El método `savefig` es de la clase `Plotter`. Y lo que nos interesa preguntarle al espía `makedirs`
+es si fue llamado y si fue con el argumento `"reports/figures"`. El espía tiene su método para
+probar esa información.
 
 ## Conclusión
 Vimos cuatro ejemplos de usos de la paquetería `pytest-mock`: tres ejemplos de imitadores y uno de
