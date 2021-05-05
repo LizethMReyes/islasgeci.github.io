@@ -5,8 +5,12 @@ author: Nepo
 tags: programacion
 ---
 
+En la presente nota mostraremos algunos ejemplos de los usos de la paquetería
+[`pytest-mock`](https://github.com/pytest-dev/pytest-mock/). El código que aquí presentamos lo
+podrás encontrar en `pollos_petrel/tests/tests_petrel_age_predictor.py`, en la consignación 66eb24.
+En la sección referenicas está la lista de material en la que nos inspiramos para escribir esta
+nota.
 ## Imitador genérico
-El código siguiente los podrán encontrar en el `pollos_petrel/tests/tests_petrel_age_predictor.py`.
 El objetivo es probar a la función `get_subset_morphometric_data`. Esta función tiene dos variables
 de entrada `Cleaner_Morphometric` y `Predictor`. Las dos variables dos objetos de clases que aun no
 implementamos, pero sabemos que nos gustaría que tuvieran las propiedades `data_subset` y
@@ -145,6 +149,7 @@ agregar una interfaz no era _tan_ mala idea. Parchamos el comportamiento de una 
 utilizamos espías para asegurarnos de que llamábamos a una función desarrollada por terceros de la
 manera esperada. 
 ## Referencias
+- [SOLID Object-Oriented Design](https://youtu.be/v-2yFMzxqwU)
 - [My Python testing style guide](https://blog.thea.codes/my-python-testing-style-guide/)
 - [pytest: How to mock in Python](https://changhsinlee.com/pytest-mock/)
 - [Understanding the Python Mock Object Library](https://realpython.com/python-mock-library/)
