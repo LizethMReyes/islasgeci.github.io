@@ -82,23 +82,7 @@ asignamos algún valor con el que sabemos que comportamiento esperamos de `Plott
 
 El siguiente ejemplo es más restrictivo aun. Lo que haremos ahora es "parchar" el comportamiento de
 una clase, así el objeto parchado no tendrá el comportamiento original. 
-```python
-def test_Fitter(mocker):
-    def train_test_split(self):
-        return (
-            np.array([6, 4, 8]).reshape(-1, 1),
-            np.array([1, 2, 3]).reshape(-1, 1),
-            [3, 2, 4],
-            pd.DataFrame({"y_train": [4]}),
-        )
-
-    mocker.patch(
-        "pollos_petrel.petrel_age_predictor.Set_Morphometric.train_test_split", train_test_split
-    )
-    Morphometric_Data = Set_Morphometric(petrel_data)
-    Fitter_model = Fitter(Morphometric_Data)
-    assert Fitter_model.lineal_model.normalize
-```
+![image](https://user-images.githubusercontent.com/35377740/117369179-6a24bb00-ae79-11eb-9f7a-325728d2e360.png)
 Como podemos inferir la clase `Set_Morphometric` tiene un método llamado `train_test_split`. Y el
 objeto `Morphometric_Data` pertenece a la clase `Set_Morphometric`. Pero lo que hicimos fue cambiar
 el comportamiento de la clase original. Sin importar cuál es el valor de `petrel_data`, el método
