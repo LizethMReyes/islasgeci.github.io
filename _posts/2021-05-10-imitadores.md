@@ -13,8 +13,8 @@ En la sección referencias está la lista de material en la que nos inspiramos p
 nota.
 ## Imitador genérico
 
-El objetivo es probar la función `get_subset_morphometric_data`. Esta función tiene dos variables
-de entrada `Cleaner_Morphometric` y `Predictor`. Las dos variables son objetos de clases que aun no
+El objetivo es probar la función `get_subset_morphometric_data`. Esta función tiene dos variables de
+entrada `Cleaner_Morphometric` y `Predictor`. Las dos variables son objetos de clases que aun no
 implementamos, pero sabemos que nos gustaría que tuvieran las propiedades `data_subset` y
 `predictions` respectivamente.
 
@@ -71,8 +71,8 @@ def test_Plotter(mocker):
     return Plotter_parameters.savefig("reports/figures/figura.png")
 ```
 La clase `Predictions_and_Parameters` tiene un método llamado `data_for_plot`. El imitador no tiene
-ninguna de las funcionalidades que tendría un objeto de la clase `Predictions_and_Parameters`,
-pero tiene misma interfaz, es decir puedes hacer un llamado al método `data_for_plot`. 
+ninguna de las funcionalidades que tendría un objeto de la clase `Predictions_and_Parameters`, pero
+tiene misma interfaz, es decir puedes hacer un llamado al método `data_for_plot`. 
 ```python
     Parameters = mocker.Mock(spec=Predictions_and_Parameters)
     Parameters.data_for_plot.return_value = [1, 2, 3], [1, 2, 3]
