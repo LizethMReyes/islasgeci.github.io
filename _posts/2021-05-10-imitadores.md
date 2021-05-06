@@ -18,7 +18,7 @@ entrada `Cleaner_Morphometric` y `Predictor`. Las dos variables son objetos de c
 implementamos, pero sabemos que nos gustaría que tuvieran las propiedades `data_subset` y
 `predictions` respectivamente.
 
-```python
+<pre><code>
 def test_get_subset_morphometric_data(mocker):
     predictions = [1, 2, 3]
     expected_data_subset_dictionary = {
@@ -28,13 +28,13 @@ def test_get_subset_morphometric_data(mocker):
     }
     expected_data_subset = pd.DataFrame(expected_data_subset_dictionary)
     data_subset = pd.DataFrame({"Fecha": ["01/Ene/2021", "02/Feb/2021", "03/Mar/2021"]})
-    Cleaner_Morphometric = mocker.Mock()
-    Cleaner_Morphometric.data_subset = data_subset.copy()
-    Predictor = mocker.Mock()
-    Predictor.predictions = predictions
+    <span style="background-color:#ffc">Cleaner_Morphometric = mocker.Mock()</span>
+    <span style="background-color:#ffc">Cleaner_Morphometric.data_subset = data_subset.copy()</span>
+    <span style="background-color:#bfd9bf">Predictor = mocker.Mock()</span>
+    <span style="background-color:#bfd9bf">Predictor.predictions = predictions</span>
     obtained_data_subset = get_subset_morphometric_data(Cleaner_Morphometric, Predictor)
     assert_frame_equal(obtained_data_subset, expected_data_subset)
-```
+</code></pre>
 Lo que queremos es probar `get_subset_morphometric_data` y no desviarnos con la implementación de
 las clases a la que pertenecen `Cleaner_Morphometric` y `Predictor`. Sandi Metz propone en [este
 video](https://youtu.be/v-2yFMzxqwU) utilizar imitadores. Los imitadores son objetos que imitan el
@@ -62,14 +62,15 @@ la interfaz cambia la prueba nos recordará que debemos actualizarla. En el prim
 un imitador de la clase `Predictions_and_Parameters`. Lo que nos interesa probar el funcionamiento
 de `Plotter` por lo que no debemos de distraernos con obtener el objeto `Parameters`: 
 
-```python
+<pre><code>
 def test_Plotter(mocker):
-    Parameters = mocker.Mock(spec=Predictions_and_Parameters)
-    Parameters.data_for_plot.return_value = [1, 2, 3], [1, 2, 3]
+    <span style="background-color:#ffc">Parameters = mocker.Mock(spec=Predictions_and_Parameters)</span>
+    <span style="background-color:#ffc">Parameters.data_for_plot.return_value = [1, 2, 3], [1, 2, 3]</span>
     Plotter_parameters = Plotter(Parameters)
     Plotter_parameters.plot()
     return Plotter_parameters.savefig("reports/figures/figura.png")
-```
+</code></pre>
+
 La clase `Predictions_and_Parameters` tiene un método llamado `data_for_plot`. El imitador no tiene
 ninguna de las funcionalidades que tendría un objeto de la clase `Predictions_and_Parameters`, pero
 tiene misma interfaz, es decir puedes hacer un llamado al método `data_for_plot`. 
@@ -96,7 +97,6 @@ método `train_test_split` siempre tendrá el mismo comportamiento:
             [3, 2, 4],
             pd.DataFrame({"y_train": [4]}),
         )
-
     mocker.patch(
         "pollos_petrel.petrel_age_predictor.Set_Morphometric.train_test_split", train_test_split
     )
@@ -117,17 +117,17 @@ de ellas en la manera correcta. Para esos casos usamos espías. En las primeras 
 bloque de código podemos notar que tenemos un imitador, tema que atendimos en los tres ejemplos
 anteriores. Al final de la prueba definimos un espía para la función `makedirs` del módulo `os`:
 
-```python
+<pre><code>
 def test_Plotter_(mocker):
     delete_reports_figures()
     Parameters = mocker.Mock(spec=Predictions_and_Parameters)
     Parameters.data_for_plot.return_value = [1, 2, 3], [1, 2, 3]
     Plotter_parameters = Plotter(Parameters)
     Plotter_parameters.plot()
-    makedirs = mocker.spy(os, "makedirs")
-    Plotter_parameters.savefig("reports/figures/figura.png")
-    makedirs.assert_called_once_with("reports/figures")
-```
+    <span style="background-color:#ffc">makedirs = mocker.spy(os, "makedirs")</span>
+    <span style="background-color:#ffc">Plotter_parameters.savefig("reports/figures/figura.png")</span>
+    <span style="background-color:#ffc">makedirs.assert_called_once_with("reports/figures")</span>
+</code></pre>
 El método `savefig` es de la clase `Plotter`. Y lo que nos interesa preguntarle al espía `makedirs`
 es si fue llamado y si fue con el argumento `"reports/figures"`. El espía tiene su método para
 probar esa información.
