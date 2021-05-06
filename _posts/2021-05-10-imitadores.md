@@ -12,6 +12,7 @@ podrás encontrar en [`pollos_petrel/tests/tests_petrel_age_predictor.py`, en la
 En la sección referencias está la lista de material en la que nos inspiramos para escribir esta
 nota.
 ## Imitador genérico
+
 El objetivo es probar la función `get_subset_morphometric_data`. Esta función tiene dos variables
 de entrada `Cleaner_Morphometric` y `Predictor`. Las dos variables son objetos de clases que aun no
 implementamos, pero sabemos que nos gustaría que tuvieran las propiedades `data_subset` y
@@ -34,10 +35,13 @@ def test_get_subset_morphometric_data(mocker):
     obtained_data_subset = get_subset_morphometric_data(Cleaner_Morphometric, Predictor)
     assert_frame_equal(obtained_data_subset, expected_data_subset)
 ```
-Lo que queremos es probar `get_subset_morphometric_data` y no desviarnos con la
-implementación de las clases a la que pertenecen `Cleaner_Morphometric` y `Predictor`. Sandi Metz
-propone en [este video](https://youtu.be/v-2yFMzxqwU) utilizar imitadores. A continuación veremos
-cómo los implementamos:
+Lo que queremos es probar `get_subset_morphometric_data` y no desviarnos con la implementación de
+las clases a la que pertenecen `Cleaner_Morphometric` y `Predictor`. Sandi Metz propone en [este
+video](https://youtu.be/v-2yFMzxqwU) utilizar imitadores. Los imitadores son objetos que imitan el
+comportamiento de objetos reales en formas controladas. Así, creamos imitadores para probar el
+comportamiento de otro objeto, en la misma manera que los diseñadores de carros usan un maniquí de
+prueba de choque para simular la dinámica de un humano en una colisión de autos. A continuación
+veremos cómo los implementamos:
 ```python
     Cleaner_Morphometric = mocker.Mock()
     Cleaner_Morphometric.data_subset = data_subset.copy()
