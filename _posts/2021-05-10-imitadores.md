@@ -80,13 +80,14 @@ tiene misma interfaz, es decir puedes hacer un llamado al método `data_for_plot
 Este método es la manera en la que la clase `Plotter` se comunica con `Parameters`. Así que le
 asignamos algún valor con el que sabemos que comportamiento esperamos de `Plotter`.
 
-El siguiente ejemplo es más restrictivo aun. Lo que haremos ahora es "parchar" el comportamiento de
-una clase, así el objeto parchado no tendrá el comportamiento original. 
+En la siguiente figura presentamos un ejemplo más restrictivo. Lo que haremos ahora es "parchar" el
+comportamiento de una clase, así el objeto parchado no tendrá el comportamiento original.
 ![image](https://user-images.githubusercontent.com/35377740/117369179-6a24bb00-ae79-11eb-9f7a-325728d2e360.png)
-Como podemos inferir la clase `Set_Morphometric` tiene un método llamado `train_test_split`. Y el
-objeto `Morphometric_Data` pertenece a la clase `Set_Morphometric`. Pero lo que hicimos fue cambiar
-el comportamiento de la clase original. Sin importar cuál es el valor de `petrel_data`, el método
-`train_test_split` siempre tendrá el mismo comportamiento:
+A continuación presentamos el código del recuadro rojo de la figura arriba. Como podemos inferir de
+la función `mocker.patch`, la clase `Set_Morphometric` tiene un método llamado `train_test_split`. Y
+el objeto `Morphometric_Data` pertenece a la clase `Set_Morphometric`. Pero lo que hicimos fue
+cambiar el comportamiento de la clase original. Sin importar cuál es el valor de `petrel_data`, el
+método `train_test_split` siempre tendrá el mismo comportamiento:
 ```python
     def train_test_split(self):
         return (
