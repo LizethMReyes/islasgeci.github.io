@@ -9,7 +9,7 @@ En la presente nota mostraremos algunos ejemplos de los usos de la paquetería
 [`pytest-mock`](https://github.com/pytest-dev/pytest-mock/). El código que aquí presentamos lo
 podrás encontrar en [`pollos_petrel/tests/tests_petrel_age_predictor.py`, en la consignación
 66eb24](https://bitbucket.org/IslasGECI/pollos_petrel/src/66eb24183f81df85350a715cc04ae120324a01df/tests/test_petrel_age_predictor.py).
-En la sección referencias está la lista de material en la que nos inspiramos para escribir esta
+En la sección de las referencias está la lista de material en la que nos inspiramos para escribir esta
 nota.
 ## Imitador genérico
 
