@@ -11,4 +11,5 @@ tags: capacitacion
 - [Por el bien de todos, primero las pruebas](https://www.youtube.com/playlist?list=PLj7Ainnd4Lf5ICVxT0TvJ9hT7EZVbIYI7)
 - [Reproducibilidad](https://www.youtube.com/playlist?list=PLj7Ainnd4Lf6Qrl6bSx1dBn6ofYq-PvS0)
 - [Tutoriales](https://www.youtube.com/playlist?list=PLj7Ainnd4Lf73ShuyyILHkzGUE_JOpSeK)
+- [Tutoriales de Desarrollo Web](https://www.youtube.com/playlist?list=PLj7Ainnd4Lf7WldvM8bzXYo56Dh1fyqWf)
 - [2018](https://www.youtube.com/playlist?list=PLj7Ainnd4Lf7hWFjb0b0VMRXYeBK0YKD2)
