@@ -109,7 +109,7 @@ def test_Fitter(mocker):
 
 Como podemos suponer de la sección verde, la clase `Set_Morphometric` tiene un método llamado
 `train_test_split`. En el subrayado amarillo definimos la función con la que parchamos al método
-`train_test_split`. El objeto `Morphometric_Data` es una estancia de la clase `Set_Morphometric`.
+`train_test_split`. El objeto `Morphometric_Data` es una instancia de la clase `Set_Morphometric`.
 Pero lo que hicimos fue cambiar el comportamiento de la clase original. Sin importar cuál es el
 valor de `petrel_data`, el método `train_test_split` siempre tendrá el mismo comportamiento. La
 clave aquí es definir el parche antes de inicializar el objeto `Morphometric_Data`.
