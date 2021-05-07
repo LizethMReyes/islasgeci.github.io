@@ -7,10 +7,11 @@ tags: programacion
 
 En la presente nota mostraremos algunos ejemplos de los usos de la paquetería
 [`pytest-mock`](https://github.com/pytest-dev/pytest-mock/). El código que aquí presentamos lo
-podrás encontrar en [`pollos_petrel/tests/tests_petrel_age_predictor.py`, en la consignación
-66eb24](https://bitbucket.org/IslasGECI/pollos_petrel/src/66eb24183f81df85350a715cc04ae120324a01df/tests/test_petrel_age_predictor.py).
-En la sección de las referencias está la lista de material en la que nos inspiramos para escribir esta
-nota.
+podrás encontrar en `pollos_petrel/tests/tests_petrel_age_predictor.py`, en la consignación
+[66eb24](https://bitbucket.org/IslasGECI/pollos_petrel/src/66eb24183f81df85350a715cc04ae120324a01df/tests/test_petrel_age_predictor.py).
+En la sección de las referencias está la lista de material en la que nos inspiramos para escribir
+esta nota.
+
 ## Imitador genérico
 
 El objetivo es probar la función `get_subset_morphometric_data`. Esta función tiene dos variables de
@@ -35,6 +36,7 @@ def test_get_subset_morphometric_data(mocker):
     obtained_data_subset = get_subset_morphometric_data(Cleaner_Morphometric, Predictor)
     assert_frame_equal(obtained_data_subset, expected_data_subset)
 </code></pre>
+
 Lo que queremos es probar `get_subset_morphometric_data` y no desviarnos con la implementación de
 las clases a la que pertenecen `Cleaner_Morphometric` y `Predictor`. Sandi Metz propone en [este
 video](https://youtu.be/v-2yFMzxqwU) utilizar imitadores. Los imitadores son objetos que imitan el
@@ -71,6 +73,7 @@ def test_Plotter(mocker):
     Plotter_parameters.plot()
     return Plotter_parameters.savefig("reports/figures/figura.png")
 </code></pre>
+
 En las líneas subrayadas definimos un imitador que tiene la misma interfaz que la clase
 `Predictions_and_Parameters`. La clase `Predictions_and_Parameters` tiene un método llamado
 `data_for_plot`. El imitador no tiene ninguna de las funcionalidades que tendría un objeto de la
@@ -86,6 +89,7 @@ asignamos algún valor con el que sabemos que comportamiento esperamos de `Plott
 
 En la siguiente código presentamos un ejemplo más restrictivo. Lo que haremos ahora es "parchar" el
 comportamiento de una clase, así el objeto parchado no tendrá el comportamiento original.
+
 <pre><code>
 def test_Fitter(mocker):
     <span style="background-color:#ffc">def train_test_split(self):</span>
@@ -102,6 +106,7 @@ def test_Fitter(mocker):
     Fitter_model = Fitter(Morphometric_Data)
     assert Fitter_model.lineal_model.normalize
 </code></pre>
+
 Como podemos suponer de la sección verde, la clase `Set_Morphometric` tiene un método llamado
 `train_test_split`. En el subrayado amarillo definimos la función con la que parchamos al método
 `train_test_split`. El objeto `Morphometric_Data` es una estancia de la clase `Set_Morphometric`.
@@ -133,6 +138,7 @@ def test_Plotter_(mocker):
     <span style="background-color:#ffc">Plotter_parameters.savefig("reports/figures/figura.png")</span>
     <span style="background-color:#ffc">makedirs.assert_called_once_with("reports/figures")</span>
 </code></pre>
+
 El método `savefig` es de la clase `Plotter`. Y lo que nos interesa preguntarle al espía `makedirs`
 es si fue llamado con el argumento `"reports/figures"`. El espía tiene su método para probar esa
 información. Si no es llamado (solo una vez) o si es llamdo con otro valor de entrada la prueba
@@ -145,6 +151,7 @@ Tratamos de seguir las recomendaciones de Stargirl en la manera de nombrarlon, p
 ejemplo en donde no agregar una interfaz no era _tan_ mala idea. Parchamos el comportamiento de una
 clase y finalmente utilizamos espías para asegurarnos de que llamábamos a una función desarrollada
 por terceros de la manera esperada.
+
 ## Referencias
 - [SOLID Object-Oriented Design](https://youtu.be/v-2yFMzxqwU)
 - [My Python testing style guide](https://blog.thea.codes/my-python-testing-style-guide/)
