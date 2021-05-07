@@ -57,9 +57,9 @@ al implementar las clases cambiamos las interfaces la prueba no se enterará del
 tanto no fallará.
 
 ## Imitando objetos de clases particulares
-En esta sección mostramos dos ejemplos para atender la sugerencia de Stargirl los imitadores heredan
-la interface de alguna clase. Con esta modificación si la interfaz cambia la prueba nos recordará
-que debemos actualizarla. En el primer ejemplo generamos un imitador de la clase
+En esta sección mostramos dos ejemplos en donde los imitadores heredan la interface de alguna clase,
+para atender así la sugerencia de Stargirl. Con esta modificación si la interfaz cambia la prueba
+nos recordará que debemos actualizarla. En el primer ejemplo generamos un imitador de la clase
 `Predictions_and_Parameters`. Lo que nos interesa probar el funcionamiento de `Plotter` por lo que
 no debemos de distraernos con obtener el objeto `Parameters`:
 
@@ -74,9 +74,9 @@ def test_Plotter(mocker):
 En las líneas subrayadas definimos un imitador que tiene la misma interfaz que la clase
 `Predictions_and_Parameters`. La clase `Predictions_and_Parameters` tiene un método llamado
 `data_for_plot`. El imitador no tiene ninguna de las funcionalidades que tendría un objeto de la
-clase `Predictions_and_Parameters`, pero tiene misma interfaz, es decir puedes hacer un llamado al
+clase `Predictions_and_Parameters`, pero tiene misma interfaz, es decir puedemos hacer un llamado al
 método `data_for_plot`. A continuación solo presentamos las lineas en las que definimos `Parameters`
-y le asignamos un valor que regresará el método `data_for_plot`:
+y le asignamos el valor que regresará el método `data_for_plot`:
 ```python
     Parameters = mocker.Mock(spec=Predictions_and_Parameters)
     Parameters.data_for_plot.return_value = [1, 2, 3], [1, 2, 3]
@@ -134,16 +134,17 @@ def test_Plotter_(mocker):
     <span style="background-color:#ffc">makedirs.assert_called_once_with("reports/figures")</span>
 </code></pre>
 El método `savefig` es de la clase `Plotter`. Y lo que nos interesa preguntarle al espía `makedirs`
-es si fue llamado y si fue con el argumento `"reports/figures"`. El espía tiene su método para
-probar esa información.
+es si fue llamado con el argumento `"reports/figures"`. El espía tiene su método para probar esa
+información. Si no es llamado (solo una vez) o si es llamdo con otro valor de entrada la prueba
+fallará.
 
 ## Conclusión
 Vimos cuatro ejemplos de usos de la paquetería `pytest-mock`: tres ejemplos de imitadores y uno de
-espías. Los ejemplos son de cómo los usamos en la Dirección de Ciencia de Datos de GECI. Tratamos de
-seguir las recomendaciones de Stargirl en la manera de nombrarlo y presentamos un ejemplo en donde
-no agregar una interfaz no era _tan_ mala idea. Parchamos el comportamiento de una clase y
-finalmente utilizamos espías para asegurarnos de que llamábamos a una función desarrollada por
-terceros de la manera esperada. 
+espías. Los ejemplos son de cómo los usamos imitadores en la Dirección de Ciencia de Datos de GECI.
+Tratamos de seguir las recomendaciones de Stargirl en la manera de nombrarlon, pero presentamos un
+ejemplo en donde no agregar una interfaz no era _tan_ mala idea. Parchamos el comportamiento de una
+clase y finalmente utilizamos espías para asegurarnos de que llamábamos a una función desarrollada
+por terceros de la manera esperada.
 ## Referencias
 - [SOLID Object-Oriented Design](https://youtu.be/v-2yFMzxqwU)
 - [My Python testing style guide](https://blog.thea.codes/my-python-testing-style-guide/)
