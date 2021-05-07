@@ -57,10 +57,11 @@ al implementar las clases cambiamos las interfaces la prueba no se enterará del
 tanto no fallará.
 
 ## Imitando objetos de clases particulares
-Para atender la sugerencia de Stargirl podemos heredar la interface de alguna clase. Con este cambio
-la interfaz cambia la prueba nos recordará que debemos actualizarla. En el primer ejemplo generamos
-un imitador de la clase `Predictions_and_Parameters`. Lo que nos interesa probar el funcionamiento
-de `Plotter` por lo que no debemos de distraernos con obtener el objeto `Parameters`: 
+En esta sección mostramos dos ejemplos para atender la sugerencia de Stargirl los imitadores heredan
+la interface de alguna clase. Con esta modificación si la interfaz cambia la prueba nos recordará
+que debemos actualizarla. En el primer ejemplo generamos un imitador de la clase
+`Predictions_and_Parameters`. Lo que nos interesa probar el funcionamiento de `Plotter` por lo que
+no debemos de distraernos con obtener el objeto `Parameters`:
 
 <pre><code>
 def test_Plotter(mocker):
@@ -70,10 +71,12 @@ def test_Plotter(mocker):
     Plotter_parameters.plot()
     return Plotter_parameters.savefig("reports/figures/figura.png")
 </code></pre>
-
-La clase `Predictions_and_Parameters` tiene un método llamado `data_for_plot`. El imitador no tiene
-ninguna de las funcionalidades que tendría un objeto de la clase `Predictions_and_Parameters`, pero
-tiene misma interfaz, es decir puedes hacer un llamado al método `data_for_plot`. 
+En las líneas subrayadas definimos un imitador que tiene la misma interfaz que la clase
+`Predictions_and_Parameters`. La clase `Predictions_and_Parameters` tiene un método llamado
+`data_for_plot`. El imitador no tiene ninguna de las funcionalidades que tendría un objeto de la
+clase `Predictions_and_Parameters`, pero tiene misma interfaz, es decir puedes hacer un llamado al
+método `data_for_plot`. A continuación solo presentamos las lineas en las que definimos `Parameters`
+y le asignamos un valor que regresará el método `data_for_plot`:
 ```python
     Parameters = mocker.Mock(spec=Predictions_and_Parameters)
     Parameters.data_for_plot.return_value = [1, 2, 3], [1, 2, 3]
@@ -81,28 +84,30 @@ tiene misma interfaz, es decir puedes hacer un llamado al método `data_for_plot
 Este método es la manera en la que la clase `Plotter` se comunica con `Parameters`. Así que le
 asignamos algún valor con el que sabemos que comportamiento esperamos de `Plotter`.
 
-En la siguiente figura presentamos un ejemplo más restrictivo. Lo que haremos ahora es "parchar" el
+En la siguiente código presentamos un ejemplo más restrictivo. Lo que haremos ahora es "parchar" el
 comportamiento de una clase, así el objeto parchado no tendrá el comportamiento original.
-![image](https://user-images.githubusercontent.com/35377740/117369179-6a24bb00-ae79-11eb-9f7a-325728d2e360.png)
-A continuación presentamos el código del recuadro rojo de la figura arriba. Como podemos inferir de
-la función `mocker.patch`, la clase `Set_Morphometric` tiene un método llamado `train_test_split`. Y
-el objeto `Morphometric_Data` pertenece a la clase `Set_Morphometric`. Pero lo que hicimos fue
-cambiar el comportamiento de la clase original. Sin importar cuál es el valor de `petrel_data`, el
-método `train_test_split` siempre tendrá el mismo comportamiento:
-```python
-    def train_test_split(self):
-        return (
-            np.array([6, 4, 8]).reshape(-1, 1),
-            np.array([1, 2, 3]).reshape(-1, 1),
-            [3, 2, 4],
-            pd.DataFrame({"y_train": [4]}),
-        )
-    mocker.patch(
-        "pollos_petrel.petrel_age_predictor.Set_Morphometric.train_test_split", train_test_split
-    )
+<pre><code>
+def test_Fitter(mocker):
+    <span style="background-color:#ffc">def train_test_split(self):</span>
+    <span style="background-color:#ffc">    return (</span>
+    <span style="background-color:#ffc">        np.array([6, 4, 8]).reshape(-1, 1),</span>
+    <span style="background-color:#ffc">        np.array([1, 2, 3]).reshape(-1, 1),</span>
+    <span style="background-color:#ffc">        [3, 2, 4],</span>
+    <span style="background-color:#ffc">        pd.DataFrame({"y_train": [4]}),</span>
+    <span style="background-color:#ffc">    )</span>
+    <span style="background-color:#bfd9bf">mocker.patch(</span>
+    <span style="background-color:#bfd9bf">    "pollos_petrel.petrel_age_predictor.Set_Morphometric.train_test_split", train_test_split</span>
+    <span style="background-color:#bfd9bf">)</span>
     Morphometric_Data = Set_Morphometric(petrel_data)
-```
-La clave aquí es definir primero el parche antes de inicializar el objeto `Morphometric_Data`.
+    Fitter_model = Fitter(Morphometric_Data)
+    assert Fitter_model.lineal_model.normalize
+</code></pre>
+Como podemos suponer de la sección verde, la clase `Set_Morphometric` tiene un método llamado
+`train_test_split`. En el subrayado amarillo definimos la función con la que parchamos al método
+`train_test_split`. El objeto `Morphometric_Data` es una estancia de la clase `Set_Morphometric`.
+Pero lo que hicimos fue cambiar el comportamiento de la clase original. Sin importar cuál es el
+valor de `petrel_data`, el método `train_test_split` siempre tendrá el mismo comportamiento. La
+clave aquí es definir el parche antes de inicializar el objeto `Morphometric_Data`.
 
 En los dos ejemplos anteriores, los objetos imitadores siguen una interfaz determinada. A
 `Parameters` no lo construimos utilizando el constructor de su clase. `Morphometric_Data` es una
