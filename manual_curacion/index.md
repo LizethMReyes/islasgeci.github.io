@@ -4,7 +4,6 @@ title: Manual de curación de datos
 tagline: Ciencia de Datos • GECI
 ---
 
-# Manual de Curación de Datos
 
 Este manual tiene como finalidad mostrar el proceso a seguir para una apropiada curación de datos y
 así facilitar y mejorar el análisis de estos. Una de las estrategias es asignar restricciones que
