@@ -4,8 +4,7 @@ title: Catalogo Voluntariados
 author: Martha Jimenez, Andrea Sanchez
 tags: equipo
 ---
-<ul>
-    <li>Andrea Sánchez Martínez
+## Andrea Sánchez Martínez
         
 <img src="https://www.gravatar.com/avatar/4ef11372a9af32065fd2893c32e93f1e?s=150">
 Me llamo Andrea Sánchez y soy egresada de la Licenciatura en Matemáticas Aplicadas. Por medio de la UABC realicé dos proyectos de vinculación con el equipo de Ciencia de Datos de GECI. El nombre de la investigación que desarrollé es: “Análisis estadístico para la conservación y protección de Albatros de Laysan en Isla Guadalupe”. Durante el proyecto no sólo enriquecí conocimientos bio-estadísticos, sino también, estudié y puse en práctica herramientas y técnicas computacionales avanzadas utilizadas dentro del equipo. Los resultados de mi proyecto se encuentran en GitHub.
