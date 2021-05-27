@@ -11,5 +11,3 @@ Me llamo Andrea Sánchez y soy egresada de la Licenciatura en Matemáticas Aplic
 ## Martha Paola Jiménez Martínez
       <img src="https://www.gravatar.com/avatar/c1c4f3ec6f19a0ee62ba529f5daaade0?s=150"> </img>
 <p> Mi nombre es Martha Paola Jiménez Martínez y soy estudiante de la licenciatura en Matemáticas aplicadas. Actualmente estoy colaborando con el equipo de Ciencias de Datos de GECI mediante un Proyecto de vinculación por parte de la UABC. El nombre del proyecto es:  “Análisis estadístico de la población de cormorán en las islas del Pacifico”. Durante mi voluntariado desarrollé mis habilidades en temas selectos de estadística y análisis de datos.</p>
-    </li>
-</ul>
