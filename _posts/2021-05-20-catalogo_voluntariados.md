@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Catalogo Voluntariados
-author: Martha Jimenez, Andrea Sanchez
+author: Martha Jiménez, Andrea Sánchez
 tags: equipo
 ---
 ## Andrea Sánchez Martínez
