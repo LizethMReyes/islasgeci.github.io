@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Catalogo Voluntariados
+title: Catálogo de voluntariados
 author: Martha Jiménez, Andrea Sánchez
 tags: equipo
 ---
