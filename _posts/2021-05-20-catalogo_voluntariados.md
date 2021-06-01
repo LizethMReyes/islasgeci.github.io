@@ -13,7 +13,7 @@ UABC realicé dos proyectos de vinculación con el equipo de Ciencia de Datos de
 investigación que desarrollé es: “Análisis estadístico para la conservación y protección de Albatros
 de Laysan en Isla Guadalupe”. Durante el proyecto no sólo enriquecí conocimientos bio-estadísticos,
 sino también, estudié y puse en práctica herramientas y técnicas computacionales avanzadas
-utilizadas dentro del equipo. Los resultados de mi proyecto se encuentran en GitHub.
+utilizadas dentro del equipo. Los resultados de este proyecto se encuentran el [repositorio de Dimorfismo en GitHub](https://github.com/IslasGECI/dimorfismo).
 
 ## Martha Paola Jiménez Martínez
 
