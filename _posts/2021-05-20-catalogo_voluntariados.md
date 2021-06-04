@@ -1,8 +1,5 @@
 ---
-layout: post
-title: Catálogo de voluntariados
-author: Martha Jiménez, Andrea Sánchez
-tags: equipo
+layout: post title: Catálogo de voluntariados author: Martha Jiménez, Andrea Sánchez tags: equipo
 ---
 ## Andrea Sánchez Martínez
 ![Imagen Andrea](https://www.gravatar.com/avatar/4ef11372a9af32065fd2893c32e93f1e?s=150)
@@ -16,10 +13,10 @@ avanzadas utilizadas dentro del equipo. Los resultados de este proyecto se encue
 [repositorio de Dimorfismo](https://github.com/IslasGECI/dimorfismo) en GitHub.
 
 ## Martha Paola Jiménez Martínez
-
 ![Imagen Martha](https://www.gravatar.com/avatar/c1c4f3ec6f19a0ee62ba529f5daaade0?s=150)
-Mi nombre es Martha Paola Jiménez Martínez y soy estudiante de la licenciatura en Matemáticas
-aplicadas. Colaboré con el equipo de Ciencias de Datos en GECI, mediante un
-Proyecto de vinculación por parte de la UABC. El nombre del proyecto es:  “Análisis estadístico de
-la población de cormorán en las islas del Pacífico”. Durante mi voluntariado desarrollé mis
-habilidades en temas selectos de estadística y análisis de datos.
+
+Mi nombre es Martha Paola Jiménez Martínez y soy estudiante de la Licenciatura en Matemáticas
+Aplicadas. Colaboré con el equipo de Ciencias de Datos en GECI, mediante un proyecto de vinculación
+por parte de la UABC. El nombre del proyecto es:  “Análisis estadístico de la población de cormorán
+en las islas del Pacífico”. Durante mi voluntariado desarrollé mis habilidades en temas selectos de
+estadística y análisis de datos.
