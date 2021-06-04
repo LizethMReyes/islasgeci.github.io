@@ -10,10 +10,10 @@ tags: equipo
 Me llamo Andrea Sánchez y soy egresada de la Licenciatura en Matemáticas Aplicadas. Por medio de la
 UABC realicé dos proyectos de vinculación con el equipo de Ciencia de Datos de GECI. El nombre de la
 investigación que desarrollé es: “Análisis estadístico para la conservación y protección de Albatros
-de Laysan en Isla Guadalupe”. Durante el proyecto no sólo enriquecí mis conocimientos en bio-estadística,
-sino también, estudié y puse en práctica herramientas y técnicas computacionales avanzadas
-utilizadas dentro del equipo. Los resultados de este proyecto se encuentran en el [repositorio de
-Dimorfismo](https://github.com/IslasGECI/dimorfismo) en GitHub.
+de Laysan en Isla Guadalupe”. Durante el proyecto no sólo enriquecí mis conocimientos en
+bio-estadística, sino también, estudié y puse en práctica herramientas y técnicas computacionales
+avanzadas utilizadas dentro del equipo. Los resultados de este proyecto se encuentran en el
+[repositorio de Dimorfismo](https://github.com/IslasGECI/dimorfismo) en GitHub.
 
 ## Martha Paola Jiménez Martínez
 
