@@ -5,7 +5,6 @@ author: Martha Jiménez, Andrea Sánchez
 tags: equipo
 ---
 ## Andrea Sánchez Martínez
-        
 ![Imagen Andrea](https://www.gravatar.com/avatar/4ef11372a9af32065fd2893c32e93f1e?s=150)
 
 Me llamo Andrea Sánchez y soy egresada de la Licenciatura en Matemáticas Aplicadas. Por medio de la
