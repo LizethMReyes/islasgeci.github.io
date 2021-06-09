@@ -2,7 +2,7 @@
 
 Este repositorio es la fuente de [la página](https://islas.dev/) del
 [equipo](https://github.com/orgs/IslasGECI/people) de [Ciencia de
-Datos](https://github.com/IslasGECI) de [GECI](https://islas.org.mx)
+Datos](https://github.com/IslasGECI) en [GECI](https://islas.org.mx).
 
 ## Comunidad de Código Abierto de GECI
 
