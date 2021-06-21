@@ -18,6 +18,9 @@ tags: equipo
    - Solo estás permitido a escribir el código suficiente para hacer pasar la prueba fallando
 
 1. El porcentaje de cobertura de las pruebas no tiene significado si las pruebas no las generamos
-   mediante TDD
+   mediante TDD. El porcentaje de cobertura es una medida de la proporción del código de
+   producción que es ejecutado en al correr las pruebas. Al seguir las reglas del TDD nos da
+   seguridad de que las pruebas aseguran el comportamiento deseado del código de producción.
+
 1. El propósito de que hagamos código que sea resistente a mutaciones es que podamos refactorizar
    sin miedo continuamente
