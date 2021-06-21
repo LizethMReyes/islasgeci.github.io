@@ -5,7 +5,11 @@ author: Evaristo
 tags: equipo
 ---
 
-1. En nuestro equipo, requerimos que el código sea resistente a mutaciones
+1. En nuestro equipo, requerimos que el código sea resistente a mutaciones. La resistencia a
+   mutaciones es una medida de la calidad de las pruebas. Las mutaciones son modificaciones al
+   código de producción y mimetiza los errores típicos en la programación. Su objetivo es
+   identificar debilidades en las pruebas.
+
 1. Puedes usar TDD para lograr lo anterior (o puedes usar otra disciplina)
 1. El porcentaje de cobertura de las pruebas no tiene significado si las pruebas no las generamos
    mediante TDD
