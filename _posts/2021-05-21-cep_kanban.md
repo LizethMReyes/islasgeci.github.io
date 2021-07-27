@@ -12,7 +12,8 @@ tags: mate
 # 📋 Criterios para identificar que estamos fuera de control
 Cuando un proceso no está en control decimos que está fuera de control (OOC, por sus siglas en
 inglés). Una manera para determinar si un proceso está OOC es mediante una carta de control. La
-carta de control la construimos a partir de la media y la medida de dispersión de los datos. 
+carta de control la construimos a partir de una medida de tendencia central y la medida de
+dispersión de los datos.
 - 8 valores consecutivos por arriba o por abajo de la media.
 - 4 valores consecutivos a 1 desviación típica por arriba o por abajo.
 - 2 valores consecutivos a 2 desviación típica por arriba o por abajo.
