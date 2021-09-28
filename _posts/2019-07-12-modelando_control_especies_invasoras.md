@@ -36,7 +36,7 @@ utilizando los datos de erradicación de gatos en Isla Socorro.
 
 Leo _et al._ (2018) caracterizaron la población de gato feral en Isla Rota usando la siguiente
 ecuación: 
-\[ N_{t+1} = N_t + rN_t \left(1- \frac{N_t}{K}) - R_t \]
+\[ N_{t+1} = N_t + rN_t \left(1 - \frac{N_t}{K} \right) - R_t \]
 Esta ecuación es una forma discreta del modelo de Schaefer donde $N_t$ es la población estimada 
 en el tiempo $t$, $r$ es la tasa de crecimiento poblacional (mensual), $K$ es la capacidad de carga
 de la isla y $R_t$ es la cantidad de gatos removidos en el intento $t$. Ellos encontraron adecuado  
