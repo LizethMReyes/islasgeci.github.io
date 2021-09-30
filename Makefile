@@ -1,3 +1,10 @@
+build:
+	docker run \
+		--rm \
+		--volume ${PWD}:/srv/jekyll \
+		-it jekyll/builder \
+		jekyll build
+
 serve:
 	docker run \
 		--detach \
