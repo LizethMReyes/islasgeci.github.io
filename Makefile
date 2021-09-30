@@ -1,3 +1,5 @@
+start: build serve
+
 build:
 	docker run \
 		--rm \
