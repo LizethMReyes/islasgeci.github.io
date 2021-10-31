@@ -1,4 +1,5 @@
 ---
+usemathjax: true
 layout: post
 title: "Modelando el control de especies invasoras"
 author: Nepo
@@ -35,7 +36,7 @@ utilizando los datos de erradicación de gatos en Isla Socorro.
 
 Leo _et al._ (2018) caracterizaron la población de gato feral en Isla Rota usando la siguiente
 ecuación: 
-$$N_{t+1} = N_t + rN_t\left(1-\frac{N_t}{K} - R_t.$$
+\[ N_{t+1} = N_t + rN_t \left(1 - \frac{N_t}{K} \right) - R_t \]
 Esta ecuación es una forma discreta del modelo de Schaefer donde $N_t$ es la población estimada 
 en el tiempo $t$, $r$ es la tasa de crecimiento poblacional (mensual), $K$ es la capacidad de carga
 de la isla y $R_t$ es la cantidad de gatos removidos en el intento $t$. Ellos encontraron adecuado  
@@ -43,10 +44,10 @@ considerar la capacidad de carga de la isla cercana al tamaño inicial de poblac
 erradación). Otro resultados de su trabajo es el intervalo para la tasa de crecimiento poblacional 
 de $0.032 \leq r \leq 0.126.$
 
-Nuestros resultados muestran que solo el 32\% de las ocasiones lograremos terminar con la erradicación. 
+Nuestros resultados muestran que solo el $32\%$ de las ocasiones lograremos terminar con la erradicación. 
 Simulamos 100,000 intentos de erradicación con los valores de probabilidad de captura (para 
 Socorro) y tasa de crecimiento poblacional (utilizada por Leo _et al._ (2018)) que mencionamos 
-arriba. La probabilidad aumenta a 37\% si consideramos el esfuerzo máximo que hicimos el último año
+arriba. La probabilidad aumenta a $37\%$ si consideramos el esfuerzo máximo que hicimos el último año
 en Isla Socorro.
 
 ## Conclusión
