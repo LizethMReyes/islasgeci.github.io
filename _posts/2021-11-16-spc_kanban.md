@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 📉 Control estadístico de procesos de nuestra productividad
+title: 📉 Control estadístico de procesos
 author: Equipo
 tags: mate
 ---
@@ -17,7 +17,8 @@ mediante una carta de control.
 # 📈 Carta de control
 
 La carta de control la construimos a partir de una medida de tendencia central y una medida de
-dispersión de los datos.
+dispersión de los datos. Por ejemplo, la carta de control de Shewhart la construimos con el promedio
+y la desviación estándar.
 
 # 📋 Criterios para identificar que estamos fuera de control
 
@@ -37,13 +38,5 @@ Otros criterios alternativos para definir un proceso OOC son:
 # 🙈 Ejemplo
 
 El SPC nos dice que nuestra productividad (tarea terminadas semanalmente) se encuentra fuera de
-control desde finales de octubre de 2020.
-
-# 💃🏿🕺🏿Cómo lo combatimos
-
-- Podemos hacer estimaciones grupales del tiempo de las tareas.
-- Podemos tener una mezcla de tareas chonchas y otra que no tarden tanto.
-- Constantemente nos preocupamos por la re-especificación de las tareas, buscamos que duren una
-  semana.
-
-# 👩🏿‍🎓 Conclusión
+control desde finales de octubre de 2020. Debemos buscar la _causa asignable_ de esta variabilidad y
+actuar en consecuencia para que nuestra producción se encuentre nuevamente bajo control estadístico.
