@@ -8,8 +8,8 @@ tags: mate
 # 👩🏿‍🏫 Qué es el control estadístico de procesos
 
 El control estadístico de procesos (SPC, por sus siglas en inglés) es una técnica estadística usada
-en el control de calidad.  Decimos que un proceso se encuentra en control estadístico si las
-variables que usamos para describir el proceso se encuentra dentro de los límites de la variabilidad
+en el control de calidad.  Decimos que un proceso está bajo control estadístico si las
+variables que usamos para describir el proceso están dentro de los límites de la variabilidad
 característica del proceso. Cuando un proceso no está en control decimos que está fuera de control
 (OOC, por sus siglas en inglés). Una manera para determinar si un proceso está en control es
 mediante una carta de control.
@@ -37,6 +37,6 @@ Otros criterios alternativos para definir un proceso OOC son:
 
 # 🙈 Ejemplo
 
-El SPC nos dice que nuestra productividad (tarea terminadas semanalmente) se encuentra fuera de
+El SPC nos dice que nuestra productividad (tareas terminadas semanalmente) se encuentra fuera de
 control desde finales de octubre de 2020. Debemos buscar la _causa asignable_ de esta variabilidad y
 actuar en consecuencia para que nuestra producción se encuentre nuevamente bajo control estadístico.
