@@ -22,7 +22,7 @@ y la desviación estándar.
 
 # 📋 Criterios para identificar que estamos fuera de control
 
-Consideramos que un proceso se encuentra OOC cuando un punto en su carta de control se encuentra a 3
+Un proceso está OOC cuando un punto en su carta de control se encuentra a 3
 desviaciones estándares (por arriba o por abajo) de la media. A este criterio le llamamos 3𝜎. Si la
 [distribución muestral](https://es.wikipedia.org/wiki/Distribuci%C3%B3n_muestral) de la media es
 normal, el criterio 3𝜎 tiene una probabilidad 𝛼 de una falsa alarma de 0.0027.
