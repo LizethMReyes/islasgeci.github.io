@@ -37,6 +37,6 @@ Otros criterios alternativos para definir un proceso OOC son:
 
 # 🙈 Ejemplo
 
-El SPC nos dice que nuestra productividad (tareas terminadas semanalmente) se encuentra fuera de
+El SPC nos dijo que nuestra productividad (tareas terminadas semanalmente) estaba fuera de
 control desde finales de octubre de 2020. Debemos buscar la _causa asignable_ de esta variabilidad y
 actuar en consecuencia para que nuestra producción se encuentre nuevamente bajo control estadístico.
