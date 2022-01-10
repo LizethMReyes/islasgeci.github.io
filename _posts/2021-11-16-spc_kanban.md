@@ -39,4 +39,4 @@ Otros criterios alternativos para definir un proceso OOC son:
 
 El SPC nos dijo que nuestra productividad (tareas terminadas semanalmente) estaba fuera de
 control desde finales de octubre de 2020. En ese momento, buscamos la _causa asignable_ de esta variabilidad y
-actuar en consecuencia para que nuestra producción se encuentre nuevamente bajo control estadístico.
+actuamos en consecuencia para modificar nuestra producción y para que estuviera bajo control estadístico.
