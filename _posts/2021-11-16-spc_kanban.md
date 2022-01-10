@@ -17,7 +17,7 @@ mediante una carta de control.
 # 📈 Carta de control
 
 Construimos la carta de control a partir de una medida de tendencia central y una medida de
-dispersión de los datos. Por ejemplo, la carta de control de Shewhart la construimos con el promedio
+dispersión de los datos. Por ejemplo, la carta de control de Shewhart utiliza el promedio
 y la desviación estándar.
 
 # 📋 Criterios para identificar que estamos fuera de control
