@@ -12,4 +12,5 @@ rápida y puntual cualquier error que pudiese ocurrir.
 
 ### Contenido
 
+- [Introducción](introduccion.html)
 - [Paso 1. Verificación estructural](verificacion_estructural.html)
