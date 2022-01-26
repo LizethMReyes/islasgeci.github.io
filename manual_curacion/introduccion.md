@@ -10,11 +10,12 @@ Introducción
 El volumen de datos recolectados crece a una tasa muy acelerada y con ello surge la necesidad de
 emplear estrategias interdisciplinarias para que este volumen no crezca de manera desordenada y
 caótica, convirtiéndose en tablas inmanejables. Por esa razón, la actualización y mantenimiento de
-las bases de datos se vuelve imprescindible. Con  actualización no solo nos referimos a la adición
-de nuevos datos, sino a la implementación de nuevas tecnologías y herramientas computacionales, que
-nos ayuden a evitar que nuestras bases se vuelvan obsoletas. Además de hacerlas más eficiente para
-la curación y mantenimiento con el objetivo de que esto se vuelva un proceso semi-automatizado (Lord
-et al., 2004).
+las bases de datos se vuelve imprescindible.
+
+Con actualización no solo nos referimos a la adición de nuevos datos, sino a la implementación de
+nuevas tecnologías y herramientas computacionales, que nos ayuden a evitar que nuestras bases de
+datos se vuelvan obsoletas. Además de hacerlas más eficiente para la curación y mantenimiento con el
+objetivo de que esto se vuelva un proceso semi-automatizado (Lord et al., 2004).
 
 En la curación de bases de datos, lo primero que se debe hacer es encontrar anomalías, errores o
 discrepancias, para decidir de qué manera abordarlas. Esto último es sumamente importante, ya que
