@@ -2,7 +2,6 @@
 layout: page
 title: Introducción
 description: Introducción a la curación de datos
-bibliography: references.bib
 ---
 
 Introducción
