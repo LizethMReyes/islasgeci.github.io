@@ -91,28 +91,7 @@ entiende que el adjetivo se refiere al repositorio.
 
 ## Variables
 
-- Deben ser nombres descriptivos y, en general, sin abreviaturas. Las excepciones serán
-  consensuadas. Actualmente, las únicas abreviaturas aceptadas son:
-    - `TSM`: Temperatura Superficial del Mar
-    - `ZEE`: Zona Económica Exclusiva
-    - `x`: Vector de coordenadas UTM zonales de un conjunto de puntos (e.g. vértices de un polígono).
-    - `y`: Vector de coordenadas UTM meridionales de un conjunto de puntos (e.g. vértices de un polígono).
-    - `xEje`: Vector de coordenadas UTM zonales (usualmete equiespeciadas) que definen el dominio o
-      eje.
-    - `yEje`: Vector de coordenadas UTM meridionales (usualmete equiespeciadas) que definen el
-      dominio o eje.
-    - `X`: Malla de coordenadas UTM zonales.
-    - `Y`: Malla de coordenadas UTM meridionales.
-    - `lon`: Vector de coordenadas geográficas zonales de un conjunto de puntos (e.g. vértices de un
-      polígono).
-    - `lat`: Vector de coordenadas geográficas meridionales de un conjunto de puntos (e.g. vértices de un
-      polígono).
-    - `Lon`: Vector de coordenadas geográficas zonales (usualmete equiespeciadas) que definen el
-      dominio o eje.
-    - `Lat`: Vector de coordenadas geográficas meridionales (usualmete equiespeciadas) que definen
-      el dominio o eje.
-    - `LON`: Malla de coordenadas geográficas zonales.
-    - `LAT`: Malla de coordenadas geográficas meridionales.
+- Deben ser nombres descriptivos y sin abreviaturas (ver excepciones abajo).
 - Si la variable representa el número total de elementos de un conjunto usamos el prefijo `n`.
   Ejemplos: `n_files`, `n_dogs`
 - Si la variable se usa para iterar usamos el prefijo `i`. Ejemplo: `for i_dog = 1:n_dogs, ... ,
@@ -122,3 +101,26 @@ entiende que el adjetivo se refiere al repositorio.
   find(is_dog)`
 - Indicamos la unidades de las variables con un sufijo separado del nombre de la variable por un
   guión bajo. Ejemplos: `distance_m`, `weight_kg`, `time_s`
+- Las únicas abreviaturas aceptadas son:
+    - `sst`: Temperatura Superficial del Mar
+    - `eez`: Zona Económica Exclusiva
+    - `x`: Vector de coordenadas UTM zonales de un conjunto de puntos (e.g. vértices de un
+      polígono).
+    - `y`: Vector de coordenadas UTM meridionales de un conjunto de puntos (e.g. vértices de un
+      polígono).
+    - `x_axis`: Vector de coordenadas UTM zonales (usualmete equiespeciadas) que definen el dominio
+      o eje.
+    - `y_axis`: Vector de coordenadas UTM meridionales (usualmete equiespeciadas) que definen el
+      dominio o eje.
+    - `X`: Malla de coordenadas UTM zonales.
+    - `Y`: Malla de coordenadas UTM meridionales.
+    - `lon`: Vector de coordenadas geográficas zonales de un conjunto de puntos (e.g. vértices de un
+      polígono).
+    - `lat`: Vector de coordenadas geográficas meridionales de un conjunto de puntos (e.g. vértices
+      de un polígono).
+    - `lon_axis`: Vector de coordenadas geográficas zonales (usualmete equiespeciadas) que definen
+      el dominio o eje.
+    - `lat_axis`: Vector de coordenadas geográficas meridionales (usualmete equiespeciadas) que
+      definen el dominio o eje.
+    - `LON`: Malla de coordenadas geográficas zonales.
+    - `LAT`: Malla de coordenadas geográficas meridionales.
