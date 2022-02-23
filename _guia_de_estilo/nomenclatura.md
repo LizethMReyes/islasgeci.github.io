@@ -122,9 +122,3 @@ entiende que el adjetivo se refiere al repositorio.
   find(is_dog)`
 - Indicamos la unidades de las variables con un sufijo separado del nombre de la variable por un
   guión bajo. Ejemplos: `distance_m`, `weight_kg`, `time_s`
-
----
-
-&#8811; Siguiente: [Control de versiones](control_de_versiones.html)
-
-&#8810; Anterior: [Documentación](documentacion.html)
