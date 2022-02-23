@@ -5,15 +5,19 @@ tagline: Guía de estilo
 description: Cómo nombramos las cosas
 ---
 
+## General
+
+- Los nombres son en inglés
+
 ## Archivos de datos
 
-Consulta nuestro protocolo para [nombrar un archivo de datos](../protocolo_basico/nomenclatura.html).
+Consulta nuestro protocolo para [nombrar un archivo de
+datos](../protocolo_basico/nomenclatura.html).
 
 ## Archivos de código (_scripts_)
 
-- Empiezan con un verbo
-- Nombres en inglés
-- Nombres pueden incluir únicamente letras (excepto eñe y vocales con acento) y números
+- El nombre empieza con un verbo
+- Puede incluir únicamente números y letras (excepto eñe y vocales con acento)
 
 El nombre de un programa que genera resultados debe coincidir con el nombre de la variable en el
 `Makefile` que define el conjunto de resultados que el programa genera (excepto tal vez por algunas
@@ -23,9 +27,8 @@ por la variable `png_density_maps_albatross_guadalupe` se debe llamar
 el mismo programa también genera los resultados en formato `SHP` definidos por la variable
 `shp_density_maps_albatross_guadalupe`.
 
-## Funciones
+## Funciones y métodos
 
-- Los nombres de las funciones se escriben en inglés
 - El nombre debe estar compuesto por un verbo seguido de un objeto. Ejemplos: `process_data()`,
   `pet_dog()`. Si la función realiza tantas tareas que no sabes cual verbo escoger entonces tu
   función es incorrecta; cada función debe realizar una única acción y la debe hacer bien.
@@ -41,16 +44,15 @@ Los nombres de los archivos que contienen pruebas deben seguir las reglas de nom
 _testing framework_ que se use. Si el _testing framework_ lo permite, se seguirán las siguiente
 reglas:
 
-- Se usa el prefijo `test_`, por ejemplo, `test_plot_island`
-- Nombres en inglés
-- Nombres pueden incluir únicamente letras (excepto eñe y vocales con acento) y números
+- El nombre empieza con el prefijo `test_`, por ejemplo, `test_plot_island`
+- Puede incluir únicamente números y letras (excepto eñe y vocales con acento)
 
 ## Makefile
 
 ### Variables dentro del Makefile
 
 Los nombres de las variables que dentro del `Makefile` definen un conjunto de archivos están formado
-por cinco elementos y son en inglés.
+por cinco elementos.
 
 Las variables que definen conjuntos de archivos de **datos** se nombran como:
 
@@ -77,64 +79,49 @@ repositorio
 
 ### Objetivos _phonies_
 
-Los nombres de los objetivos _phonies_ son sustantivos o adjetivos en inglés. Si el sustantivo se
-omite, se entiende que el adjetivo se refiere al repositorio. Los nombres son en
-[_snake_case_](https://en.wikipedia.org/wiki/Snake_case).
+Los nombres de los objetivos _phonies_ son sustantivos o adjetivos. Si el sustantivo se omite, se
+entiende que el adjetivo se refiere al repositorio.
 
 ## Otros archivos y directorios
 
-- Los nombres no incluyen espacios y serán en inglés
-- Sólo puedes usar guiones bajos (`_`) para separar palabras
-  ([_snake_case_](https://en.wikipedia.org/wiki/Snake_case))
-- Todo el nombre está escrito en minúsculas solamente (excepto cuando sea requiera lo contrario de
-  forma explícita)
-- Los nombres pueden incluir únicamente letras minúsculas (excepto eñe y vocales con acento),
-  números o guiones bajos (`_`)
+- Preferimos [_snake_case_](https://en.wikipedia.org/wiki/Snake_case)
+- Puede incluir únicamente números y letras (excepto eñe y vocales con acento)
 - Si el nombre del archivo incluye una fecha, usa el formato `YYYY-MM-DD` (año-mes-día) o `YYYYMMDD`
-  (añomesdía)
+  (añomesdía); si es posible, inicia el nombre con la fecha.
 
 ## Variables
 
-- Los nombres de las variables se escriben en inglés
 - Deben ser nombres descriptivos y, en general, sin abreviaturas. Las excepciones serán
   consensuadas. Actualmente, las únicas abreviaturas aceptadas son:
     - `TSM`: Temperatura Superficial del Mar
     - `ZEE`: Zona Económica Exclusiva
-    - `x`: Coordenadas UTM zonales de un conjunto de puntos (e.g. vértices de un polígono). Salida
-      del método `getPointX`
-    - `y`: Coordenadas UTM meridionales de un conjunto de puntos (e.g. vértices de un polígono).
-      Salida del método `getPointY`
+    - `x`: Vector de coordenadas UTM zonales de un conjunto de puntos (e.g. vértices de un polígono).
+    - `y`: Vector de coordenadas UTM meridionales de un conjunto de puntos (e.g. vértices de un polígono).
     - `xEje`: Vector de coordenadas UTM zonales (usualmete equiespeciadas) que definen el dominio o
-      eje. Salida del método `getAxisX`
+      eje.
     - `yEje`: Vector de coordenadas UTM meridionales (usualmete equiespeciadas) que definen el
-      dominio o eje. Salida del método `getAxisY`
-    - `X`: Malla de coordenadas UTM zonales. Salida del método `getGridX`
-    - `Y`: Malla de coordenadas UTM meridionales. Salida del método `getGridY`
-    - `lon`: Coordenadas geográficas zonales de un conjunto de puntos (e.g. vértices de un
-      polígono). Salida del método `getPointLon`
-    - `lat`: Coordenadas geográficas meridionales de un conjunto de puntos (e.g. vértices de un
-      polígono). Salida del método `getPointLat`
+      dominio o eje.
+    - `X`: Malla de coordenadas UTM zonales.
+    - `Y`: Malla de coordenadas UTM meridionales.
+    - `lon`: Vector de coordenadas geográficas zonales de un conjunto de puntos (e.g. vértices de un
+      polígono).
+    - `lat`: Vector de coordenadas geográficas meridionales de un conjunto de puntos (e.g. vértices de un
+      polígono).
     - `Lon`: Vector de coordenadas geográficas zonales (usualmete equiespeciadas) que definen el
-      dominio o eje. Salida del método `getAxisLon`
+      dominio o eje.
     - `Lat`: Vector de coordenadas geográficas meridionales (usualmete equiespeciadas) que definen
-      el dominio o eje. Salida del método `getAxisLat`
-    - `LON`: Malla de coordenadas geográficas zonales. Salida del método `getGridLON`
-    - `LAT`: Malla de coordenadas geográficas meridionales. Salida del método `getGridLAT`
-- Si la variable representa el número total de elementos de un conjunto se usa el prefijo `n`.
+      el dominio o eje.
+    - `LON`: Malla de coordenadas geográficas zonales.
+    - `LAT`: Malla de coordenadas geográficas meridionales.
+- Si la variable representa el número total de elementos de un conjunto usamos el prefijo `n`.
   Ejemplos: `n_files`, `n_dogs`
-- Si la variable se usa para iterar se utiliza el prefijo `i`. Ejemplo: `for i_dog = 1:n_dogs, ... ,
+- Si la variable se usa para iterar usamos el prefijo `i`. Ejemplo: `for i_dog = 1:n_dogs, ... ,
   end`
 - Para variables lógicas usamos el prefijo `is`. Ejemplos: `is_dog`, `is_cat`
-- Si la variable es el índice de un arreglo se usa el prefijo `ind`. Ejemplo: `ind_dog =
+- Si la variable es el índice de un arreglo usamos el prefijo `ind`. Ejemplo: `ind_dog =
   find(is_dog)`
 - Indicamos la unidades de las variables con un sufijo separado del nombre de la variable por un
   guión bajo. Ejemplos: `distance_m`, `weight_kg`, `time_s`
-
-## Programación Orientada a Objetos
-
-- Los nombres son en inglés
-- Los nombres de las clases son sustantivos
-- los nombres de los métodos inician con un verbo
 
 ---
 
