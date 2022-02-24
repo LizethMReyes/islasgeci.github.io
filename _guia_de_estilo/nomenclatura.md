@@ -108,9 +108,9 @@ entiende que el adjetivo se refiere al repositorio.
       polígono).
     - `y`: Vector de coordenadas UTM meridionales de un conjunto de puntos (e.g. vértices de un
       polígono).
-    - `x_axis`: Vector de coordenadas UTM zonales (usualmete equiespeciadas) que definen el dominio
+    - `x_axis`: Vector de coordenadas UTM zonales (usualmete equiespaciadas) que definen el dominio
       o eje.
-    - `y_axis`: Vector de coordenadas UTM meridionales (usualmete equiespeciadas) que definen el
+    - `y_axis`: Vector de coordenadas UTM meridionales (usualmete equiespaciadas) que definen el
       dominio o eje.
     - `X`: Malla de coordenadas UTM zonales.
     - `Y`: Malla de coordenadas UTM meridionales.
@@ -118,9 +118,9 @@ entiende que el adjetivo se refiere al repositorio.
       polígono).
     - `lat`: Vector de coordenadas geográficas meridionales de un conjunto de puntos (e.g. vértices
       de un polígono).
-    - `lon_axis`: Vector de coordenadas geográficas zonales (usualmete equiespeciadas) que definen
+    - `lon_axis`: Vector de coordenadas geográficas zonales (usualmete equiespaciadas) que definen
       el dominio o eje.
-    - `lat_axis`: Vector de coordenadas geográficas meridionales (usualmete equiespeciadas) que
+    - `lat_axis`: Vector de coordenadas geográficas meridionales (usualmete equiespaciadas) que
       definen el dominio o eje.
     - `LON`: Malla de coordenadas geográficas zonales.
     - `LAT`: Malla de coordenadas geográficas meridionales.
