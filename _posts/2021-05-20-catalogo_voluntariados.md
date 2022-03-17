@@ -29,10 +29,9 @@ estadística y análisis de datos.
 ![Imagen Alejandro](https://s.gravatar.com/avatar/4bac14a92ea7d870a9c568879448444d?s=150)
 
 Mi nombre es Francisco Alejandro Padilla Gomez y soy estudiante de la Licenciatura en Matemáticas
-Aplicadas. Colaboré con el equipo de Ciencias de Datos en GECI, donde realicé un proyecto de
-vinculación con el nombre de "Análisis morfométrico de Albatros en Isla Guadalupe". Durante el
-proyecto no solo puse en práctica mis conocimientos de estadística, si no que, igualmente aprendí
-sobre muchas herramientas computacionales así como lenguajes de programación. Los resultados del
-proyecto se encuentran en el [repositorio de Dimorfismo](https://github.com/IslasGECI/dimorfismo) en
-GitHub.
+Aplicadas. Colaboré con el equipo de Ciencias de Datos en GECI, donde por parte de la UABC realicé
+un proyecto de vinculación. Durante el proyecto no solo puse en práctica mis conocimientos de
+estadística, si no que, igualmente aprendí sobre muchas herramientas computacionales. Los resultados
+del proyecto se encuentran en el [repositorio de
+Dimorfismo](https://github.com/IslasGECI/dimorfismo) en GitHub.
 
