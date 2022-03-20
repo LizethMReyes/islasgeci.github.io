@@ -112,16 +112,16 @@ cambio como sugerencias en forma de preguntas en lugar de instrucciones en forma
 lugar de _"Mueve esta oración al siguiente párrafo"_ podríamos decir _"¿Crees que si movemos esta
 oración al siguiente párrafo conservaríamos el significado y ganaríamos legibilidad?"_.
 
-## Usemos "_nosotros_" en lugar de _"tú"_
+## Usemos _"nosotros"_ en lugar de _"tú"_
 
 Cuando sea posible, usemos la primera persona del plural en lugar de la segunda persona del
 singular. Por ejemplo, en lugar de: _"**usa** la primera persona del plural"_ podríamos decir _"¿Es
 posible que aquí **usemos** la primera persona del plural sin cambiar el significado?"_
 
-## Usa emojies:
+## Usa emojis y GIF
 
-Los emojies nos ayudan a complementar las ideas, emociones o sentimientos que queremos expresar en
-un comentario.
+Los emojis y GIF nos ayudan a complementar las ideas, emociones o sentimientos que queremos expresar
+en un comentario.
 
 ## Referencias
 
