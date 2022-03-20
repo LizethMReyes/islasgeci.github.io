@@ -7,7 +7,11 @@ description: Cómo logramos revisiones amables y efectivas
 
 ## Cómo escribimos comentarios en una revisión
 
-**Resumen:**
+Una revisión es una comunicación entre pares enfocada en mejorar un producto de nuestro trabajo. La
+comunicación es un hilo de comentarios. Escribir un buen comentario es difícil. Esta guía ofrece
+algunas sugerencias para escribir comentarios efectivos en una revisión.
+
+### Resumen
 
 - Seamos amables
 - Expliquemos por qué
@@ -51,7 +55,7 @@ técnica.
 ## Usemos lenguaje claro y simple
 
 Esforcémonos en comunicarnos con asertividad. Usemos lenguaje amable, claro, inclusivo, preciso y
-simple.
+simple. Evitemos usar lenguaje rebuscado o abusar de las abreviaturas.
 
 ## Señalemos con precisión
 
@@ -101,10 +105,27 @@ lectores del código. Son aceptables sólo en algunas circunstancias, como cuand
 algo en lo que no estamos muy familiarizados y quien solicita la revisión explica algo que las y los
 lectores usuales del código seguramente ya saben.
 
----
+## Usemos la forma interrogativa en lugar de la imperativa
 
-**Referencias:**
+Con el propósito de fomentar el diálogo y facilitar la discusión, redactemos nuestras solicitudes de
+cambio como sugerencias en forma de preguntas en lugar de instrucciones en forma imperativa. En
+lugar de _"Mueve esta oración al siguiente párrafo"_ podríamos decir _"¿Crees que si movemos esta
+oración al siguiente párrafo conservaríamos el significado y ganaríamos legibilidad?"_.
+
+## Usemos "_nosotros_" en lugar de _"tú"_
+
+Cuando sea posible, usemos la primera persona del plural en lugar de la segunda persona del
+singular. Por ejemplo, en lugar de: _"**usa** la primera persona del plural"_ podríamos decir _"¿Es
+posible que aquí **usemos** la primera persona del plural sin cambiar el significado?"_
+
+## Usa emojies:
+
+Los emojies nos ayudan a complementar las ideas, emociones o sentimientos que queremos expresar en
+un comentario.
+
+## Referencias
 
 - [How to write code review
-  comments](https://google.github.io/eng-practices/review/reviewer/comments.html). Google's
-  Engineering Practices documentation.
+  comments](https://google.github.io/eng-practices/review/reviewer/comments.html)
+- [How to Do Code Reviews Like a Human (Part One)](https://mtlynch.io/human-code-reviews-1/)
+- [How to Do Code Reviews Like a Human (Part Two)](https://mtlynch.io/human-code-reviews-2/)
