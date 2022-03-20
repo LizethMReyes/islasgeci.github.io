@@ -14,3 +14,4 @@ trabajo para acompañar tu primer café.
 1. [Clean Craftsmanship](https://learning.oreilly.com/library/view/clean-craftsmanship-disciplines/9780136915805/)
 1. [Continuous Delivery](https://learning.oreilly.com/library/view/continuous-delivery-reliable/9780321670250/)
 1. [Extreme Programming Explained](https://learning.oreilly.com/library/view/extreme-programming-explained/0201616416/)
+1. [Refactoring: Improving the Design of Existing Code](https://learning.oreilly.com/library/view/refactoring-improving-the/9780134757681/)
