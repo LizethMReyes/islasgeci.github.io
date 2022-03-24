@@ -31,7 +31,7 @@ estadística y análisis de datos.
 Mi nombre es Francisco Alejandro Padilla Gomez y soy estudiante de la Licenciatura en Matemáticas
 Aplicadas. Colaboré con el equipo de Ciencias de Datos en GECI, donde por parte de la UABC realicé
 un proyecto de vinculación. Durante el proyecto no solo puse en práctica mis conocimientos de
-estadística, si no que, igualmente aprendí sobre muchas herramientas computacionales. Los resultados
+estadística, sino que igualmente, aprendí sobre muchas herramientas computacionales. Los resultados
 del proyecto se encuentran en el [repositorio de
 Dimorfismo](https://github.com/IslasGECI/dimorfismo) en GitHub.
 
