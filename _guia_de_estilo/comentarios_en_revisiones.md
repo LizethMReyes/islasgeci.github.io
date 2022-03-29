@@ -36,12 +36,12 @@ Mal ejemplo:
 Buen ejemplo:
 
 > "Las técnicas bayesianas aquí están agregando complejidad al análisis sin beneficios obvios. Dadas
-> las características de la base de datos y del resultado esperado, _bootstraping_ nos provee de la
+> las características de la base de datos y del resultado esperado, _bootstrapping_ nos provee de la
 > precisión requerida sin incrementar la complejidad del análisis. ¿Por favor podríamos calcular el
-> intervalo de confianza mediante _bootstraping_ (en lugar de usar técnicas bayesianas)?"
+> intervalo de confianza mediante _bootstrapping_ (en lugar de usar técnicas bayesianas)?"
 
 Solicitemos los cambios _por favor_ y redactemos nuestros comentarios como si estuviéramos
-corrigiendo a una perona venerable. Recordemos seguir nuesto [Código de
+corrigiendo a una persona venerable. Recordemos seguir nuestro [Código de
 conducta](https://islasgeci.github.io/2019/11/06/code-of-conduct).
 
 ## Expliquemos por qué
@@ -90,7 +90,7 @@ gradualmente las habilidades de quien solicita la revisión.
 ## Proveamos referencias
 
 Quien solicita la revisión nos agradecerá si señalamos con vínculos (ligas) las referencias en las
-que basasamos nuestra revisión. Intentemos usar las mismas referencias que ya hemos usado en el
+que basamos nuestra revisión. Intentemos usar las mismas referencias que ya hemos usado en el
 pasado. Idealmente mostraremos ejemplos de nuestro propio código.
 
 ## Solicitemos cambios, no explicaciones
