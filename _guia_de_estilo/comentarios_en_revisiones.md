@@ -37,7 +37,7 @@ Buen ejemplo:
 
 > "Las técnicas bayesianas aquí están agregando complejidad al análisis sin beneficios obvios. Dadas
 > las características de la base de datos y del resultado esperado, _bootstraping_ nos provee de la
-> precisión requerida sin incrementar la complejidad del analisis. ¿Por favor podríamos calcular el
+> precisión requerida sin incrementar la complejidad del análisis. ¿Por favor podríamos calcular el
 > intervalo de confianza mediante _bootstraping_ (en lugar de usar técnicas bayesianas)?"
 
 Solicitemos los cambios _por favor_ y redactemos nuestros comentarios como si estuviéramos
