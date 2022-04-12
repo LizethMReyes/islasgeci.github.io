@@ -1,12 +1,23 @@
 ---
 layout: post
-title: Devcontainer and workdir
+title: "Iniciando con VS Code y error en Devcontainer"
 author: Francisco Alejandro Padilla Gomez
 tags: equipo
 ---
-Cuando tengamos errores del tipo _missing file_ es probable que nuestra carpeta de trabajo y nuestra
-carpeta local no estén vinculadas. Para vincularlas tendremos que modificar el archivo
-`.devcontainer/devcontainer.json`.
+
+Al querer configurar VS Code para trabajar, se necesita realizar instalación de una extencion
+previa. Se instalará `Remote - Containers`. Esta permite abrir cualquier repositorio dentro de un
+contenedor de Docker.
+
+Después de que se terminó de instalar, se le dará clic en un botón verde encontrado en la parte
+inferior izquierda. Se encontrarán varías opciones, entonces se seleccionará `open container`.
+
+Al estar dentro del contenedor, entonces ya podremos realizar cambios, correr scripts, etc. Al
+ejecutar recipes del Makefile pueden surgir errores al no tener bien definido el directorio de
+trabajo. 
+
+Cuando tengamos errores donde se tiene `[Makefile:45: data/processed/logistic_model_table.csv] Error 1` es probable que nuestra carpeta de trabajo y nuestra carpeta local no estén vinculadas. Para
+vincularlas tendremos que modificar el archivo `.devcontainer/devcontainer.json`.
 ```bash
 /workspaces/repositorio
 ```
