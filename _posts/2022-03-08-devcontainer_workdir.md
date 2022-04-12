@@ -5,16 +5,17 @@ author: Francisco Alejandro Padilla Gomez
 tags: equipo
 ---
 
-Cuando configuramos VS Code para trabajar, necesitamos realizar instalación de una extencion previa.
-Instalaremos _Remote Development_ `ms-vscode-remote.vscode-remote-extensionpack`. Esta permite abrir
-cualquier repositorio dentro de un contenedor de Docker.
+Cuando configuramos VS Code para trabajar, necesitamos instalar una extencion previa. Instalaremos
+_Remote Development_ `ms-vscode-remote.vscode-remote-extensionpack`. Esta extensión nos permite
+abrir cualquier repositorio dentro de un contenedor de Docker.
 
-Después de que terminamos de instalar, le damos clic en un botón verde encontrado en la parte
-inferior izquierda. Se encontrarán varías opciones, entonces seleccionamos `open container`.
+Después de que terminamos de instalar _Remote Development_, le damos clic en un botón verde
+encontrado en la parte inferior izquierda. Encontramos varías opciones, entonces seleccionamos `open
+container`.
 
 Al estar dentro del contenedor, entonces ya podremos realizar cambios, correr scripts, etc. Al
 ejecutar recipes del Makefile pueden surgir errores al no tener bien definido el directorio de
-trabajo. 
+trabajo.
 
 Cuando tengamos errores donde tenemos `[Makefile:45: data/processed/logistic_model_table.csv] Error
 1` es probable que nuestra carpeta de trabajo y nuestra carpeta local no estén vinculadas. Para
