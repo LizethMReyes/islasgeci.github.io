@@ -5,28 +5,25 @@ author: Francisco Alejandro Padilla Gomez
 tags: equipo
 ---
 
-Al querer configurar VS Code para trabajar, se necesita realizar instalación de una extencion
-previa. Se instalará `Remote - Containers`. Esta permite abrir cualquier repositorio dentro de un
-contenedor de Docker.
+Cuando configuramos VS Code para trabajar, necesitamos realizar instalación de una extencion previa.
+Instalaremos _Remote Development_ `ms-vscode-remote.vscode-remote-extensionpack`. Esta permite abrir
+cualquier repositorio dentro de un contenedor de Docker.
 
-Después de que se terminó de instalar, se le dará clic en un botón verde encontrado en la parte
-inferior izquierda. Se encontrarán varías opciones, entonces se seleccionará `open container`.
+Después de que terminamos de instalar, le damos clic en un botón verde encontrado en la parte
+inferior izquierda. Se encontrarán varías opciones, entonces seleccionamos `open container`.
 
 Al estar dentro del contenedor, entonces ya podremos realizar cambios, correr scripts, etc. Al
 ejecutar recipes del Makefile pueden surgir errores al no tener bien definido el directorio de
 trabajo. 
 
-Cuando tengamos errores donde se tiene `[Makefile:45: data/processed/logistic_model_table.csv] Error 1` es probable que nuestra carpeta de trabajo y nuestra carpeta local no estén vinculadas. Para
+Cuando tengamos errores donde tenemos `[Makefile:45: data/processed/logistic_model_table.csv] Error
+1` es probable que nuestra carpeta de trabajo y nuestra carpeta local no estén vinculadas. Para
 vincularlas tendremos que modificar el archivo `.devcontainer/devcontainer.json`.
-```bash
-/workspaces/repositorio
-```
 
 Dentro de `.devcontainer/devcontainer.json` agregaremos:
 
 ```json
 "workspaceMount": "source=${localWorkspaceFolder},target=/workdir,type=bind",
-
 "workspaceFolder": "/workdir"
 ```
 
@@ -34,8 +31,8 @@ Con la opción `workspaceMount` le decimos al VS Code que vincule nuestro direct
 carpeta `/workdir/`. Y con la opción `workspaceFolder` definimos la carpeta de trabajo.
 
 Ahora tenemos que borrar los contenedores porque puede ser que VS Code los vuelva a utilizar al
-reconstruir el contenedor. Así que borraremos dichos contenedores desde una terminal fuera de
-VS Code.
+reconstruir el contenedor. Así que borraremos dichos contenedores desde una terminal fuera de VS
+Code.
 
 Primero veremos los procesos con:
 
@@ -65,3 +62,4 @@ El subcomando `docker rm` remueve los contenedores.
 
 Ya habiendo realizado esto, podemos volver a abrir el contenedor en VS Code y estará resuelto el
 problema: nuestro directorio de trabajo será `/workdir/`
+
