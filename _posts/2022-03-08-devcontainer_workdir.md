@@ -62,5 +62,5 @@ docker rm $(docker ps --all --quiet)
 El subcomando `docker rm` remueve los contenedores.
 
 Ya habiendo realizado esto, podemos volver a abrir el contenedor en VS Code y estará resuelto el
-problema: nuestro directorio de trabajo será `/workdir/`
+problema: nuestro directorio de trabajo será `/workdir/`.
 
