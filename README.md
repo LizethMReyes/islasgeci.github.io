@@ -1,4 +1,6 @@
-## Grupo de Ecología y Conservación de Islas, A.C.
+<img src="https://www.islas.org.mx/img/logo.svg" align="right" width="256" />
+
+# Grupo de Ecología y Conservación de Islas, A.C.
 
 Este repositorio es la fuente de [la página](https://islas.dev/) del
 [equipo](https://github.com/orgs/IslasGECI/people) de [Ciencia de
