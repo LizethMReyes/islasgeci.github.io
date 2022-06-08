@@ -46,31 +46,31 @@ con Git.
 ### Desarrollo
 Para comenzar, fue necesario crear un **New Project >> Version Control desde RStudio.**
 
-> <img width="396" alt="Captura de Pantalla 2022-05-05 a la(s) 1 43 10" src="https://user-images.githubusercontent.com/87685163/166874527-297b24d6-40e2-485f-b3da-339d3e479090.png">
+<img width="396" alt="Captura de Pantalla 2022-05-05 a la(s) 1 43 10" src="https://user-images.githubusercontent.com/87685163/166874527-297b24d6-40e2-485f-b3da-339d3e479090.png">
 
 RStudio nos muestra los diferentes opciones de proyectos que podemos crear. Elegimos la 
 opción **Version Control.** 
 
-> <img width="543" alt="Captura de Pantalla 2022-05-05 a la(s) 1 43 21" src="https://user-images.githubusercontent.com/87685163/166874661-b3e9fdff-1dc3-4578-8293-d9c704fce387.png">
+<img width="543" alt="Captura de Pantalla 2022-05-05 a la(s) 1 43 21" src="https://user-images.githubusercontent.com/87685163/166874661-b3e9fdff-1dc3-4578-8293-d9c704fce387.png">
 
 Ahora tenemos que elegir nuestra Control de Version, que en este caso sería **Git**. 
 
-> <img width="548" alt="Captura de Pantalla 2022-05-05 a la(s) 1 43 30" src="https://user-images.githubusercontent.com/87685163/166874829-d429a2a5-c934-4539-9b6f-35cc35b4bc60.png">
+<img width="548" alt="Captura de Pantalla 2022-05-05 a la(s) 1 43 30" src="https://user-images.githubusercontent.com/87685163/166874829-d429a2a5-c934-4539-9b6f-35cc35b4bc60.png">
 
 Después configuramos el proyecto agregando el URL del repositorio. Para obtener este URL 
 tendremos que copiar el CODE de nuestro repositorio que vamos a clonar.  
 
-> <img width="384" alt="Captura de Pantalla 2022-05-05 a la(s) 1 53 04" src="https://user-images.githubusercontent.com/87685163/166875585-52220988-a643-418e-bdd7-159ff056eacc.png">
+<img width="384" alt="Captura de Pantalla 2022-05-05 a la(s) 1 53 04" src="https://user-images.githubusercontent.com/87685163/166875585-52220988-a643-418e-bdd7-159ff056eacc.png">
 
 Asignando un nombre de proyecto, y agregando una carpeta de destino. 
 
-> <img width="539" alt="Captura de Pantalla 2022-05-05 a la(s) 1 43 40" src="https://user-images.githubusercontent.com/87685163/166875662-1f986856-1a55-425b-91cc-d852cf036477.png">
+<img width="539" alt="Captura de Pantalla 2022-05-05 a la(s) 1 43 40" src="https://user-images.githubusercontent.com/87685163/166875662-1f986856-1a55-425b-91cc-d852cf036477.png">
 
 Una vez que se clono nuestro repositorio notaremos que RStudio agrego algunas 
 características a el entorno de trabajo, por lo que, ahora es posible entrar al 
 panel de cambios de tres formas posibles, como se muestra en la imagen. 
 
-> <img width="1280" alt="Captura de Pantalla 2022-05-05 a la(s) 2 11 29" src="https://user-images.githubusercontent.com/87685163/166877840-060484d3-5530-4142-806a-57fde27f2457.png">
+<img width="1280" alt="Captura de Pantalla 2022-05-05 a la(s) 2 11 29" src="https://user-images.githubusercontent.com/87685163/166877840-060484d3-5530-4142-806a-57fde27f2457.png">
 
 Si abrimos el panel de cambios notaremos que hay tres archivos con un signo de interrogación. 
 Esto significa que estos archivos no tienen seguimiento dentro de nuestro repositorio. 
@@ -79,24 +79,24 @@ los cambios. El **_mensaje de consignación_** deberá tener un **_título_** y 
 El titulo será escrito de forma **_imperativa_** y estará escrito en **_inglés_**, mientras que 
 la descripción explicará el **_porqué se realizaron esos cambios_**. 
 
-> <img width="996" alt="Captura de Pantalla 2022-05-05 a la(s) 2 30 35" src="https://user-images.githubusercontent.com/87685163/166879559-12f26800-0fb0-4cf1-a89e-80ed09104b49.png">
+<img width="996" alt="Captura de Pantalla 2022-05-05 a la(s) 2 30 35" src="https://user-images.githubusercontent.com/87685163/166879559-12f26800-0fb0-4cf1-a89e-80ed09104b49.png">
 
 Una vez que seleccionamos estos archivos su Status cambia a una A de color verde, esto significa 
 que serán agregados. Sin embargo, aún falta pasos para poder enviarlos a nuestro repositorio en 
 GitHub y poderlo compartir nuestros archivos. 
 
-> <img width="997" alt="Captura de Pantalla 2022-05-05 a la(s) 2 28 50" src="https://user-images.githubusercontent.com/87685163/166879402-524eca23-8ae5-47c0-ad05-6c9f46ab8230.png">
+<img width="997" alt="Captura de Pantalla 2022-05-05 a la(s) 2 28 50" src="https://user-images.githubusercontent.com/87685163/166879402-524eca23-8ae5-47c0-ad05-6c9f46ab8230.png">
 
 Ahora modificaremos uno de los archivos para diferenciar cuando agregamos o eliminamos líneas de 
 código. Notaremos que al agregar una línea de código esta se marca en color verde, en cambio, 
 si eliminamos está se marca en color rojo. 
 
-> <img width="999" alt="Captura de Pantalla 2022-05-05 a la(s) 2 34 17" src="https://user-images.githubusercontent.com/87685163/166880363-cd7db233-b204-4405-b21c-600fa7d972f8.png">
+<img width="999" alt="Captura de Pantalla 2022-05-05 a la(s) 2 34 17" src="https://user-images.githubusercontent.com/87685163/166880363-cd7db233-b204-4405-b21c-600fa7d972f8.png">
  
 Haremos nuestra primera consignación y RStudio nos dará un aviso de lo que esta pasando. El mensaje 
 significa que nuestro repositorio tiene cambios que aún no los tiene el repositorio remoto. 
 
-> <img width="592" alt="Captura de Pantalla 2022-05-05 a la(s) 2 34 29" src="https://user-images.githubusercontent.com/87685163/166880808-31194035-916b-407e-b5b9-3937591ba8a5.png">
+<img width="592" alt="Captura de Pantalla 2022-05-05 a la(s) 2 34 29" src="https://user-images.githubusercontent.com/87685163/166880808-31194035-916b-407e-b5b9-3937591ba8a5.png">
 
 
 
