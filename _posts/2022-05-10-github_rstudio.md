@@ -25,6 +25,7 @@ aplicaciones haciendo clic en el botón derecho en abrir. Así es como finalizo 
 Revisamos que Docker estuviera instalado con el comando `docker --version`. En donde se nos despliega 
 la siguiente información: **Docker version 20.10.14, build a224086**. Lo que indica que Docker se 
 instaló de forma correcta. 
+
 <img width="745" alt="Captura de Pantalla 2022-05-05 a la(s) 1 14 16" src="https://user-images.githubusercontent.com/87685163/166871596-3489f0f8-2b9b-4842-a2a1-09ee95ed19b9.png">
 
 
