@@ -45,33 +45,80 @@ con Git.
 - **_Aprender a usar Git en RStudio._** 
 
 ### Desarrollo
-Para comenzar, fue necesario crear un **New Project >> Version Control desde RStudio.**
+Antes de comnezar a crear la llave primero revisaremos que no hay ninguna llave generada 
+conectada a nuestro repositorio anteriormente. Para ello, vamos a correr el siguiente comando 
+como se muestra la imagen. Como se muestra en la imagen no se despliega ninguna lista de llaves 
+generadas.
 
-<img width="396" alt="Captura de Pantalla 2022-05-05 a la(s) 1 43 10" src="https://user-images.githubusercontent.com/87685163/166874527-297b24d6-40e2-485f-b3da-339d3e479090.png">
+<img width="1055" alt="001" src="https://user-images.githubusercontent.com/87685163/171294259-9afe7bbd-227e-4531-b98e-871f9aaa7c24.png">
 
-RStudio nos muestra los diferentes opciones de proyectos que podemos crear. Elegimos la 
-opción **Version Control.** 
+Después, vamos a crear nuestra llave ejecutando el siguiente comando `$ssh -keygen`. En seguida, 
+se indica la carpeta en donde se almacenará la llave y nos pedirá una contraseña. En el caso de 
+esta contraseña se puede asignar una si se prefiere o simplemente dejarlo en blanco con la tecla enter.
 
-<img width="543" alt="Captura de Pantalla 2022-05-05 a la(s) 1 43 21" src="https://user-images.githubusercontent.com/87685163/166874661-b3e9fdff-1dc3-4578-8293-d9c704fce387.png">
+<img width="894" alt="007" src="https://user-images.githubusercontent.com/87685163/172236182-aae9ba04-341d-46a0-86ca-0ec1df896030.png">
 
-Ahora tenemos que elegir nuestra Control de Version, que en este caso sería **Git**. 
+Al finalizar, se mostrará lo siguiente. 
 
-<img width="548" alt="Captura de Pantalla 2022-05-05 a la(s) 1 43 30" src="https://user-images.githubusercontent.com/87685163/166874829-d429a2a5-c934-4539-9b6f-35cc35b4bc60.png">
+<img width="862" alt="009" src="https://user-images.githubusercontent.com/87685163/172237387-e8013d08-b950-49f8-a3f3-f138240356d3.png">
 
-Después configuramos el proyecto agregando el URL del repositorio. Para obtener este URL 
-tendremos que copiar el CODE de nuestro repositorio que vamos a clonar.  
+Ahora vamos a acceder a nuestra llave para copiarla y asociarla a GitHub. Ejecutaremos el 
+siguiente comando `$cat ~/.ssh/id_rsa.pub`. Copiamos desde **'ssh...** hasta la terminación
+**.local'**
 
-<img width="384" alt="Captura de Pantalla 2022-05-05 a la(s) 1 53 04" src="https://user-images.githubusercontent.com/87685163/166875585-52220988-a643-418e-bdd7-159ff056eacc.png">
+<img width="860" alt="011" src="https://user-images.githubusercontent.com/87685163/172238142-22c0d7d0-27cc-4815-a5d7-e46afd325169.png">
 
-Asignando un nombre de proyecto, y agregando una carpeta de destino. 
+Una vez terminado esta parte en la terminal, nos dirigiremos a nuestro GitHub, una vez ahí, 
+buscaremos Settings.
 
-<img width="539" alt="Captura de Pantalla 2022-05-05 a la(s) 1 43 40" src="https://user-images.githubusercontent.com/87685163/166875662-1f986856-1a55-425b-91cc-d852cf036477.png">
+<img width="717" alt="003" src="https://user-images.githubusercontent.com/87685163/172238565-2af9e5d1-3079-41e5-88c5-822dc3dbeb1b.png">
 
-Una vez que se clono nuestro repositorio notaremos que RStudio agrego algunas 
-características a el entorno de trabajo, por lo que, ahora es posible entrar al 
-panel de cambios de tres formas posibles, como se muestra en la imagen. 
+En **Settings** encontraremos múltiples opciones para configurar, lo que a nosotros nos 
+interesa es el apartado de **Access**, específicamente en **SSH and GPG Keys**.
 
-<img width="1280" alt="Captura de Pantalla 2022-05-05 a la(s) 2 11 29" src="https://user-images.githubusercontent.com/87685163/166877840-060484d3-5530-4142-806a-57fde27f2457.png">
+<img width="663" alt="004" src="https://user-images.githubusercontent.com/87685163/172239163-fc6009b0-98da-4411-a6f7-d3be07bc3081.png">
+
+Damos click en la opción de **New SSH Key**.
+
+<img width="991" alt="005" src="https://user-images.githubusercontent.com/87685163/172239680-4bf91339-f8b7-4fde-aef8-c3abf40193dd.png">
+
+Agregamos in título, pegamos la llave que hemos copiado de la 
+terminal y finalmente la agregamos. 
+
+<img width="983" alt="008" src="https://user-images.githubusercontent.com/87685163/172239912-7d689b4b-a433-4762-84dc-db94ecee5bac.png">
+
+A continuación, buscaremos el repositorio que vamos a clonar. 
+
+<img width="961" alt="002" src="https://user-images.githubusercontent.com/87685163/172240353-eb3604cd-3db7-4068-8353-9b5072f77da3.png">
+
+Daremos click en la opción Code que se marca en verde, y después elegimos la 
+opción SSH y copiamos la dirección con el botón que se encuentra a lado.
+
+<img width="986" alt="010" src="https://user-images.githubusercontent.com/87685163/172240971-afc6d749-f818-4fc6-992f-0aeea0604b4e.png">
+
+Por últimos, abriremos la aplicación de **RStudio,** aquí es importante poner atención
+a la configuración por default y ver cómo este cambia cuando hemos asignado un proyecto,
+por ahora, nos daremos cuenta que no hay ningún proyecto asociado. En el apartado **File** 
+elegiremos la opción **New Project**.Se desplegará una ventana como la siguiente y seleccionamos 
+la opción **Version Control**  e inmediatamente **Git**.
+
+<img width="1280" alt="015" src="https://user-images.githubusercontent.com/87685163/172242418-fc0bcbd9-34b8-4d96-9982-21b74686d0e2.png">
+
+<img width="1002" alt="014" src="https://user-images.githubusercontent.com/87685163/172242028-e02a6b78-1288-4105-8217-9ccb295f4e2f.png">
+
+Pegamos la dirección que habíamos copiado de GitHub. Después de pegar la dirección el nombre y 
+la carpeta de origen se asignan por default, podemos cambiar esto sí lo preferimos. 
+Finalmente, daremos click en **Create Project**.
+
+<img width="1280" alt="012" src="https://user-images.githubusercontent.com/87685163/172243046-2cc8a26d-cfb4-4d98-84f0-cb9d127b3201.png">
+
+Por último, veremos que nuestro proyecto ya estará listo para trabajar con Git, debido a que 
+se encuentran el repositorio clonado y diferente botones nos permiten hacer PULL, PUSH y COMMIT, 
+entre otras cosas.
+
+<img width="996" alt="019" src="https://user-images.githubusercontent.com/87685163/172243832-0228c9c8-cda6-44f2-b780-27d5ce413152.png">
+
+<img width="992" alt="018" src="https://user-images.githubusercontent.com/87685163/172243851-d4b91e1e-9890-4606-8271-549b8ebd4844.png">
 
 Si abrimos el panel de cambios notaremos que hay tres archivos con un signo de interrogación. 
 Esto significa que estos archivos no tienen seguimiento dentro de nuestro repositorio. 
