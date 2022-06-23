@@ -7,24 +7,36 @@ tags: equipo
 
 ## Docker 🔨 📦️ 🚚
 ### Introducción
-Docker es una aplicación de software para crear, empaquetar y distribuir aplicaciones de forma 
-más rápida en contenedores dentro de su propio entorno de ejecución. 
-Un punto importante a destacar, permite empaquetar una aplicación con todas sus dependencias 
-para ser ejecutada en cualquier plataforma. 
-Durante este curso propedéutico es importante aprender sobre el uso de esta herramienta para poder
-colaborar con el equipo de Data Analysis GECI. 
+Docker es una aplicación que permite crear, empaquetar y distribuir aplicaciones en contenedores 
+de forma rápida.
+Nos permite empaquetar una aplicación con todas sus dependencias para ser ejecutada en cualquier
+plataforma dentro de un entorno específico. 
+En el equipo de Ciencia de Datos GECI usamos esta herramienta para trabajar. Es una herramienta 
+esencial que debemos aprender a utilizar. 
+
 ### Objetivo
 
 - **_Aprender a usar Docker._**
 
 
 ### Antecedentes
-Anteriormente se había hecho la instalación de Docker en Mac con la siguiente línea 
-`brew cask install docker`. Después, fue necesario abrir la app desde la lista de 
-aplicaciones haciendo clic en el botón derecho en abrir. Así es como finalizo dicha instalación. 
-Revisamos que Docker estuviera instalado con el comando `docker --version`. En donde se nos despliega 
-la siguiente información: **Docker version 20.10.14, build a224086**. Lo que indica que Docker se 
-instaló de forma correcta. 
+Anteriormente, instalamos Docker en Mac con la siguiente línea en la terminal:
+```
+$ brew cask install docker
+```
+En MacOs es necesario abrir la app desde la lista de aplicaciones haciendo clic 
+en el botón derecho en la opción _abrir_. Esto solo se hace una vez para finalizar 
+la instalación y que reconozca la aplicación en la terminal. 
+
+Revisamos la instalación de Docker con el siguiente comando: 
+```
+$ docker --version
+```
+Se nos despliega la siguiente información: 
+```
+Docker version 20.10.14, build a224086
+``` 
+Indicando que Docker se instaló de forma correcta. 
 
 <img width="745" alt="Captura de Pantalla 2022-05-05 a la(s) 1 14 16" src="https://user-images.githubusercontent.com/87685163/166871596-3489f0f8-2b9b-4842-a2a1-09ee95ed19b9.png">
 
@@ -45,7 +57,7 @@ con Git.
 - **_Aprender a usar Git en RStudio._** 
 
 ### Desarrollo
-Antes de comnezar a crear la llave primero revisaremos que no hay ninguna llave generada 
+Antes de comenzar a crear la llave primero revisaremos que no hay ninguna llave generada 
 conectada a nuestro repositorio anteriormente. Para ello, vamos a correr el siguiente comando 
 como se muestra la imagen. Como se muestra en la imagen no se despliega ninguna lista de llaves 
 generadas.
