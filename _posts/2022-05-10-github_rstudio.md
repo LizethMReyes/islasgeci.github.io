@@ -11,7 +11,7 @@ Docker es una aplicación que permite crear, empaquetar y distribuir aplicacione
 de forma rápida.
 Docker nos permite empaquetar una aplicación con todas sus dependencias para ser ejecutada en cualquier
 plataforma dentro de un entorno específico. 
-En el equipo de Ciencia de Datos GECI usamos esta herramienta para trabajar. Es una herramienta 
+En el equipo de Ciencia de Datos en GECI usamos esta herramienta para reproducir nuestros análisis. Es una herramienta 
 esencial que debemos aprender a utilizar. 
 
 ### Objetivo
