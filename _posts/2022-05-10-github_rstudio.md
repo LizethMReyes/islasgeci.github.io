@@ -158,6 +158,6 @@ significa que nuestro repositorio tiene cambios que aún no los tiene el reposit
  Entonces, el último paso es empujar los cambios con el botón **Push** que se encuentra en la parte superior derecha. 
 | Git en RStudio | Git en terminal |
 | :---:        |     :---:      |
-|  | git add        |
+| <img width="297" alt="Captura de Pantalla 2022-07-27 a la(s) 14 31 08" src="https://user-images.githubusercontent.com/87685163/181357653-f0e10de1-5b70-4993-acb9-90fe184592c9.png"> | git add        |
 |    | git commit -m "m e s s a g e" |
 |   | git commit push |
