@@ -153,11 +153,12 @@ si eliminamos está se marca en color rojo.
 Haremos nuestra primera consignación y RStudio nos dará un aviso de lo que esta pasando. El mensaje 
 significa que nuestro repositorio tiene cambios que aún no los tiene el repositorio remoto. 
 
-<img width="592" alt="Captura de Pantalla 2022-05-05 a la(s) 2 34 29" src="https://user-images.githubusercontent.com/87685163/166880808-31194035-916b-407e-b5b9-3937591ba8a5.png">
-
  Entonces, el último paso es empujar los cambios con el botón **Push** que se encuentra en la parte superior derecha. 
 | Git en RStudio | Git en terminal |
 | :---:        |     :---:      |
-| <img width="297" alt="Captura de Pantalla 2022-07-27 a la(s) 14 31 08" src="https://user-images.githubusercontent.com/87685163/181357653-f0e10de1-5b70-4993-acb9-90fe184592c9.png"> | git add        |
-|    | git commit -m "m e s s a g e" |
-|   | git commit push |
+|<img width="297" alt="Captura de Pantalla 2022-07-27 a la(s) 14 31 08" src="https://user-images.githubusercontent.com/87685163/181357653-f0e10de1-5b70-4993-acb9-90fe184592c9.png"> | git add        |
+| <img width="421" alt="Captura de Pantalla 2022-07-27 a la(s) 14 31 54" src="https://user-images.githubusercontent.com/87685163/181358860-a7581b75-42df-4013-a0dc-82b72ed779bc.png"> | git commit -m "m e s s a g e" |
+|  <img width="403" alt="Captura de Pantalla 2022-07-27 a la(s) 14 24 49" src="https://user-images.githubusercontent.com/87685163/181358933-46c79815-5c65-4b43-8b49-b09e5e4fbefd.png"> | git push |
+|  | git pull |
+
+
