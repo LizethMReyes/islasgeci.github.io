@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cómo utilizar Git y GitHub desde Rstudio"
+title: "Cómo utilizar Git y GitHub desde RStudio"
 author: Lizeth Reyes
 tags: equipo
 ---
@@ -56,17 +56,16 @@ con Git.
 
 - **_Aprender a usar Git en RStudio._** 
 
-### Desarrollo
-Antes de comenzar a crear la llave primero revisaremos que no hay ninguna llave generada 
-conectada a nuestro repositorio anteriormente. Para ello, vamos a correr el siguiente comando 
-como se muestra la imagen. Como se muestra en la imagen no se despliega ninguna lista de llaves 
-generadas.
+### Configurar la autenticación con una clave SSH
+Antes de comenzar a trabajar en RStudio deberemos configurar la autenticación con la clave SSH.
+Primero revisaremos que no hay ninguna llave generada. Para ello, vamos a correr el comando que se muestra 
+en la imagen. En la imagen podemos notar que no se despliega ninguna lista de llaves generadas.
 
 <img width="1055" alt="001" src="https://user-images.githubusercontent.com/87685163/171294259-9afe7bbd-227e-4531-b98e-871f9aaa7c24.png">
 
 Después, vamos a crear nuestra llave ejecutando el siguiente comando `ssh-keygen`. En seguida, 
-se indica la carpeta en donde se almacenará la llave y nos pedirá una contraseña. En el caso de 
-esta contraseña se puede asignar una si se prefiere o simplemente dejarlo en blanco con la tecla enter.
+se indica la carpeta en donde se almacenará la llave y nos pedirá una contraseña. Si lo prefieres 
+puedes añadir una contraseña o simplemente dejarlo en blanco con la tecla enter.
 
 <img width="894" alt="007" src="https://user-images.githubusercontent.com/87685163/172236182-aae9ba04-341d-46a0-86ca-0ec1df896030.png">
 
@@ -80,8 +79,7 @@ siguiente comando `$cat ~/.ssh/id_rsa.pub`. Copiamos desde **'ssh...** hasta la 
 
 <img width="860" alt="011" src="https://user-images.githubusercontent.com/87685163/172238142-22c0d7d0-27cc-4815-a5d7-e46afd325169.png">
 
-Una vez terminado esta parte en la terminal, nos dirigiremos a nuestro GitHub, una vez ahí, 
-buscaremos Settings.
+Ahora, nos dirigiremos a nuestro GitHub. Una vez ahí, buscaremos Settings.
 
 <img width="717" alt="003" src="https://user-images.githubusercontent.com/87685163/172238565-2af9e5d1-3079-41e5-88c5-822dc3dbeb1b.png">
 
@@ -94,24 +92,25 @@ Damos click en la opción de **New SSH Key**.
 
 <img width="991" alt="005" src="https://user-images.githubusercontent.com/87685163/172239680-4bf91339-f8b7-4fde-aef8-c3abf40193dd.png">
 
-Agregamos in título, pegamos la llave que hemos copiado de la 
+Agregamos un título, pegamos la llave que hemos copiado de la 
 terminal y finalmente la agregamos. 
 
 <img width="983" alt="008" src="https://user-images.githubusercontent.com/87685163/172239912-7d689b4b-a433-4762-84dc-db94ecee5bac.png">
 
+### Clonar nuestro repositorio en RStudio
 A continuación, buscaremos el repositorio que vamos a clonar. 
 
 <img width="961" alt="002" src="https://user-images.githubusercontent.com/87685163/172240353-eb3604cd-3db7-4068-8353-9b5072f77da3.png">
 
-Daremos click en la opción Code que se marca en verde, y después elegimos la 
-opción SSH y copiamos la dirección con el botón que se encuentra a lado.
+Daremos click en la opción **Code** que se marca en verde, y después elegimos la 
+opción **SSH** y copiamos la dirección con el botón que se encuentra a lado.
 
 <img width="986" alt="010" src="https://user-images.githubusercontent.com/87685163/172240971-afc6d749-f818-4fc6-992f-0aeea0604b4e.png">
 
-Por últimos, abriremos la aplicación de **RStudio,** aquí es importante poner atención
-a la configuración por _default_ y ver cómo este cambia cuando hemos asignado un proyecto,
-por ahora, nos daremos cuenta que no hay ningún proyecto asociado. En el apartado **File** 
-elegiremos la opción **New Project**.Se desplegará una ventana como la siguiente y seleccionamos 
+En seguida, abriremos la aplicación de **RStudio,**. Es importante poner atención
+a la configuración por _default_ y ver cómo este cambia cuando hemos asignado un proyecto, 
+como se muestra en la imagen no hay ningún proyecto asociado. En el apartado **File** 
+elegiremos la opción **New Project**. Se desplegará una ventana como la siguiente y seleccionamos 
 la opción **Version Control**  e inmediatamente **Git**.
 
 <img width="1280" alt="015" src="https://user-images.githubusercontent.com/87685163/172242418-fc0bcbd9-34b8-4d96-9982-21b74686d0e2.png">
@@ -125,25 +124,23 @@ Finalmente, daremos click en **Create Project**.
 <img width="1280" alt="012" src="https://user-images.githubusercontent.com/87685163/172243046-2cc8a26d-cfb4-4d98-84f0-cb9d127b3201.png">
 
 Por último, veremos que nuestro proyecto ya estará listo para trabajar con Git, debido a que 
-se encuentran el repositorio clonado y diferente botones nos permiten hacer PULL, PUSH y COMMIT, 
-entre otras cosas.
+se encuentran los archivos del repositorio clonado y diferente botones nos permiten hacer PULL, 
+PUSH y COMMIT, y la asignación del proyecto. 
 
 <img width="996" alt="019" src="https://user-images.githubusercontent.com/87685163/172243832-0228c9c8-cda6-44f2-b780-27d5ce413152.png">
 
 <img width="992" alt="018" src="https://user-images.githubusercontent.com/87685163/172243851-d4b91e1e-9890-4606-8271-549b8ebd4844.png">
 
-Si abrimos el panel de cambios notaremos que hay tres archivos con un signo de interrogación. 
-Esto significa que estos archivos no tienen seguimiento dentro de nuestro repositorio. 
-Tendremos que agregar estos archivos a nuestro repositorio. Para esto vamos a consignar 
-los cambios. El **_mensaje de consignación_** deberá tener un **_título_** y una **_descripción_**. 
+### Git _add_, git _commit_ y git _push_
+En el panel de cambios notaremos que hay tres archivos con un signo de interrogación. 
+Esto significa que estos archivos no tienen ningun seguimiento dentro de nuestro repositorio y
+tendrán que ser agregados. Para esto, hay que agregar los archivos seleccionando las casillas. 
+Esto hará que las casillas cambian a una A, lo que inidcan que los archivos están siendo agregados. 
+El **_mensaje de consignación_** deberá tener un **_título_** y una **_descripción_**. 
 El titulo será escrito de forma **_imperativa_** y estará escrito en **_inglés_**, mientras que 
 la descripción explicará el **_porqué se realizaron esos cambios_**. 
 
 <img width="996" alt="Captura de Pantalla 2022-05-05 a la(s) 2 30 35" src="https://user-images.githubusercontent.com/87685163/166879559-12f26800-0fb0-4cf1-a89e-80ed09104b49.png">
-
-Una vez que seleccionamos estos archivos su Status cambia a una A de color verde, esto significa 
-que serán agregados. Sin embargo, aún falta pasos para poder enviarlos a nuestro repositorio en 
-GitHub y poderlo compartir nuestros archivos. 
 
 <img width="997" alt="Captura de Pantalla 2022-05-05 a la(s) 2 28 50" src="https://user-images.githubusercontent.com/87685163/166879402-524eca23-8ae5-47c0-ad05-6c9f46ab8230.png">
 
@@ -158,5 +155,9 @@ significa que nuestro repositorio tiene cambios que aún no los tiene el reposit
 
 <img width="592" alt="Captura de Pantalla 2022-05-05 a la(s) 2 34 29" src="https://user-images.githubusercontent.com/87685163/166880808-31194035-916b-407e-b5b9-3937591ba8a5.png">
 
-
-
+ Entonces, el último paso es empujar los cambios con el botón **Push** que se encuentra en la parte superior derecha. 
+| Git en RStudio | Git en terminal |
+| :---:        |     :---:      |
+|  | git add        |
+|    | git commit -m "m e s s a g e" |
+|   | git commit push |
