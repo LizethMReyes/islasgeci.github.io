@@ -48,7 +48,7 @@ comparte esos cambios con otros, ya que permite que estos cambios se fusionen. E
 formas de usar Git. Desde la línea de comandos, utilizar RStudio o utilizar una app independiente 
 (GitKraken). Para esta primera etapa nos centraremos en el uso de Git en RStudio. 
 RStudio es un entorno de desarrollo integrado para el lenguaje de programación de R, 
-dedicado a la computación estadística y gráficos. Incluye una consola, herramientas para 
+dedicado a la computación estadística y gráficos. RStudio incluye una consola, herramientas para 
 el trazado, depuración y gestión del espacio de trabajo, la terminal, y la herramienta para trabajar 
 con Git. 
 
