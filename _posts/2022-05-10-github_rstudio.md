@@ -24,7 +24,7 @@ Anteriormente, instalamos Docker en macOS con la siguiente línea en la terminal
 ```
 $ brew cask install docker
 ```
-En MacOs es necesario abrir la app desde la lista de aplicaciones haciendo clic 
+En macOS es necesario abrir la app desde la lista de aplicaciones haciendo clic 
 en el botón derecho en la opción _abrir_. Esto solo se hace una vez para finalizar 
 la instalación y que reconozca la aplicación en la terminal. 
 
