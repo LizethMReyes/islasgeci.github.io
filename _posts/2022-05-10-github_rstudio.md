@@ -64,7 +64,7 @@ generadas.
 
 <img width="1055" alt="001" src="https://user-images.githubusercontent.com/87685163/171294259-9afe7bbd-227e-4531-b98e-871f9aaa7c24.png">
 
-Después, vamos a crear nuestra llave ejecutando el siguiente comando `$ssh -keygen`. En seguida, 
+Después, vamos a crear nuestra llave ejecutando el siguiente comando `ssh-keygen`. En seguida, 
 se indica la carpeta en donde se almacenará la llave y nos pedirá una contraseña. En el caso de 
 esta contraseña se puede asignar una si se prefiere o simplemente dejarlo en blanco con la tecla enter.
 
