@@ -43,7 +43,7 @@ Indicando que Docker se instaló de forma correcta.
 
 ## Git en RStudio 📸 🗃️
 ### Introducción
-Git es un sistema de control de versiones. Realiza seguimiento de los cambios de código y 
+Git es un sistema de control de versiones. Git realiza seguimiento de los cambios de código y 
 comparte esos cambios con otros, ya que permite que estos cambios se fusionen. Existen diferentes 
 formas de usar git. Desde la línea de comandos, utilizar RStudio o utilizar una app independiente 
 (GitKraken). Para esta primera etapa nos centraremos en el uso de Git en RStudio. 
