@@ -109,7 +109,7 @@ opción SSH y copiamos la dirección con el botón que se encuentra a lado.
 <img width="986" alt="010" src="https://user-images.githubusercontent.com/87685163/172240971-afc6d749-f818-4fc6-992f-0aeea0604b4e.png">
 
 Por últimos, abriremos la aplicación de **RStudio,** aquí es importante poner atención
-a la configuración por default y ver cómo este cambia cuando hemos asignado un proyecto,
+a la configuración por _default_ y ver cómo este cambia cuando hemos asignado un proyecto,
 por ahora, nos daremos cuenta que no hay ningún proyecto asociado. En el apartado **File** 
 elegiremos la opción **New Project**.Se desplegará una ventana como la siguiente y seleccionamos 
 la opción **Version Control**  e inmediatamente **Git**.
