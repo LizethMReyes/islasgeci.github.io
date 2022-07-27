@@ -9,7 +9,7 @@ tags: equipo
 ### Introducción
 Docker es una aplicación que permite crear, empaquetar y distribuir aplicaciones en contenedores 
 de forma rápida.
-Nos permite empaquetar una aplicación con todas sus dependencias para ser ejecutada en cualquier
+Docker nos permite empaquetar una aplicación con todas sus dependencias para ser ejecutada en cualquier
 plataforma dentro de un entorno específico. 
 En el equipo de Ciencia de Datos GECI usamos esta herramienta para trabajar. Es una herramienta 
 esencial que debemos aprender a utilizar. 
