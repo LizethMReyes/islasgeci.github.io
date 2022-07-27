@@ -45,7 +45,7 @@ Indicando que Docker se instaló de forma correcta.
 ### Introducción
 Git es un sistema de control de versiones. Git realiza seguimiento de los cambios de código y 
 comparte esos cambios con otros, ya que permite que estos cambios se fusionen. Existen diferentes 
-formas de usar git. Desde la línea de comandos, utilizar RStudio o utilizar una app independiente 
+formas de usar Git. Desde la línea de comandos, utilizar RStudio o utilizar una app independiente 
 (GitKraken). Para esta primera etapa nos centraremos en el uso de Git en RStudio. 
 RStudio es un entorno de desarrollo integrado para el lenguaje de programación de R, 
 dedicado a la computación estadística y gráficos. Incluye una consola, herramientas para 
