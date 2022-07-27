@@ -20,7 +20,7 @@ esencial que debemos aprender a utilizar.
 
 
 ### Antecedentes
-Anteriormente, instalamos Docker en Mac con la siguiente línea en la terminal:
+Anteriormente, instalamos Docker en macOS con la siguiente línea en la terminal:
 ```
 $ brew cask install docker
 ```
