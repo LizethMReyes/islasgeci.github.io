@@ -73,7 +73,7 @@ Al finalizar, se mostrará lo siguiente.
 <img width="800" alt="009" src="https://user-images.githubusercontent.com/87685163/172237387-e8013d08-b950-49f8-a3f3-f138240356d3.png">
 
 Ahora vamos a acceder a nuestra llave para copiarla y asociarla a GitHub. Ejecutaremos el 
-siguiente comando `$cat ~/.ssh/id_rsa.pub`. Copiamos desde **'ssh...** hasta la terminación
+siguiente comando `cat ~/.ssh/id_rsa.pub`. Copiamos desde **'ssh...** hasta la terminación
 **.local'**
 
 <img width="800" alt="011" src="https://user-images.githubusercontent.com/87685163/172238142-22c0d7d0-27cc-4815-a5d7-e46afd325169.png">
