@@ -131,7 +131,7 @@ cambiamos al directorio donde están los archivos del repositorio y diferentes b
 
 ### Git _add_, git _commit_ y git _push_
 En el panel de cambios notaremos que hay tres archivos con un signo de interrogación. 
-Esto significa que estos archivos no tienen ningun seguimiento dentro de nuestro repositorio y
+Esto significa que estos archivos no tienen ningún seguimiento dentro de nuestro repositorio y
 tendrán que ser agregados. Para esto, hay que agregar los archivos seleccionando las casillas. 
 Esto hará que las casillas cambien a una A, lo que inidcan que los archivos están siendo agregados. 
 El **_mensaje de consignación_** deberá tener un **_título_** y una **_descripción_**. 
