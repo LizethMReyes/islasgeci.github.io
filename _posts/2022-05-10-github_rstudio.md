@@ -125,7 +125,7 @@ significa que nuestro repositorio tiene cambios que aún no los tiene el reposit
 | :---:        |     :---:      |
 |<img width="297" alt="Captura de Pantalla 2022-07-27 a la(s) 14 31 08" src="https://user-images.githubusercontent.com/87685163/181357653-f0e10de1-5b70-4993-acb9-90fe184592c9.png"> | _$ git add <file_name>_      |
 | <img width="297" alt="Captura de Pantalla 2022-07-27 a la(s) 14 31 54" src="https://user-images.githubusercontent.com/87685163/181358860-a7581b75-42df-4013-a0dc-82b72ed779bc.png"> | _$ git commit -m "m e s s a g e"_ |
-|  <img width="297" alt="Captura de Pantalla 2022-07-27 a la(s) 14 24 49" src="https://user-images.githubusercontent.com/87685163/181358933-46c79815-5c65-4b43-8b49-b09e5e4fbefd.png"> | _$ git push_ |
-|<img width="297" alt="Captura de Pantalla 2022-07-27 a la(s) 14 46 47" src="https://user-images.githubusercontent.com/87685163/181359353-3656652b-e1ff-4d2c-937a-8a4a27f534a0.png">| _$ git pull_ |
+|  <img width="297" alt="Captura de Pantalla 2022-07-27 a la(s) 14 24 49" src="https://user-images.githubusercontent.com/87685163/181358933-46c79815-5c65-4b43-8b49-b09e5e4fbefd.png"> | `$ git push` |
+|<img width="297" alt="Captura de Pantalla 2022-07-27 a la(s) 14 46 47" src="https://user-images.githubusercontent.com/87685163/181359353-3656652b-e1ff-4d2c-937a-8a4a27f534a0.png">| `$ git pull` |
 
 
