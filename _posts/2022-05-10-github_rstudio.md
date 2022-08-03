@@ -5,47 +5,13 @@ author: Lizeth Reyes
 tags: equipo
 ---
 
-## Docker 🔨 📦️ 🚚
-### Introducción
-Docker es una aplicación que permite crear, empaquetar y distribuir aplicaciones en contenedores 
-de forma rápida.
-Docker nos permite empaquetar una aplicación con todas sus dependencias para ser ejecutada en cualquier
-plataforma dentro de un entorno específico. 
-En el equipo de Ciencia de Datos en GECI usamos esta herramienta para reproducir nuestros análisis. Es una herramienta 
-esencial que debemos aprender a utilizar. 
-
-### Objetivo
-
-- **_Aprender a usar Docker._**
-
-### Antecedentes
-Anteriormente, instalamos Docker en macOS con la siguiente línea en la terminal:
-```
-$ brew cask install docker
-```
-En macOS es necesario abrir la app desde la lista de aplicaciones haciendo clic 
-en el botón derecho en la opción _abrir_. Esto lo hacemos solo una vez para finalizar 
-la instalación y que macOS reconozca la aplicación en la terminal. 
-
-Revisamos la instalación de Docker con el siguiente comando: 
-```
-$ docker --version
-```
-Se nos despliega la siguiente información: 
-```
-Docker version 20.10.14, build a224086
-``` 
-Indicando que Docker se instaló de forma correcta. 
-
-<img width="800" alt="Captura de Pantalla 2022-05-05 a la(s) 1 14 16" src="https://user-images.githubusercontent.com/87685163/166871596-3489f0f8-2b9b-4842-a2a1-09ee95ed19b9.png"> 
-
-
 ## Git en RStudio 📸 🗃️
 ### Introducción
 Git es un sistema de control de versiones. Git realiza seguimiento de los cambios de código y 
 comparte esos cambios con otros, ya que nos permite fusionar estos cambios. Existen diferentes 
 formas de usar Git: desde la línea de comandos, utilizando RStudio o una app independiente 
 (GitKraken), etc. Para esta primera etapa nos centraremos en el uso de Git en RStudio. 
+
 RStudio es un entorno de desarrollo integrado para el lenguaje de programación de R, 
 dedicado a la computación estadística y gráficos. RStudio incluye una consola, herramientas para 
 el trazado, depuración y gestión del espacio de trabajo, la terminal, y la herramienta para trabajar 
@@ -57,8 +23,8 @@ con Git.
 
 ### Configurar la autenticación con una clave SSH
 Antes de comenzar a trabajar en RStudio debemos configurar la autenticación con la clave SSH.
-Primero revisaremos que no hay ninguna llave generada. Para ello, vamos a correr el comando que se muestra 
-en la imagen. En la imagen podemos notar que no se despliega ninguna lista de llaves generadas.
+Primero revisaremos que no hay ninguna llave generada. Para ello, vamos a correr el comando que mostramos
+en la imagen. En la imagen podemos notar que la terminal no despliega ninguna lista de llaves generadas.
 
 <img style="text-align: center;" width="800" alt="001" src="https://user-images.githubusercontent.com/87685163/171294259-9afe7bbd-227e-4531-b98e-871f9aaa7c24.png">
 
