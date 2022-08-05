@@ -121,6 +121,7 @@ significa que nuestro repositorio tiene cambios que aún no los tiene el reposit
  <img width="800" alt="Captura de Pantalla 2022-07-27 a la(s) 14 24 49" src="https://user-images.githubusercontent.com/87685163/181358933-46c79815-5c65-4b43-8b49-b09e5e4fbefd.png">
  
 ### Resúmen y comparación entre RStudio y la terminal
+
 <table>
   <tr>
     <th>RStudio</th>
@@ -143,5 +144,3 @@ significa que nuestro repositorio tiene cambios que aún no los tiene el reposit
   <td><center><em>$ git pull</em> </center> </td>
   </tr>
 </table>
-
-
