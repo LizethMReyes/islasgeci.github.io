@@ -41,4 +41,4 @@ Dimorfismo](https://github.com/IslasGECI/dimorfismo) en GitHub.
 Mi nombre es Lizeth Margarita Reyes García y soy pasante de Ingeniería de Recursos Naturales 
 Renovables por la Universidad Autónoma Chapingo. Colaboré con el equipo de Ciencias de Datos en 
 GECI, en la curación de las bases de datos del proyecto de restauración de Isla 
-Guadalupe. Durante el proyecto puse en práctica mis conocimientos de git y uso de Docker. 
+Guadalupe. Durante el proyecto puse en práctica mis conocimientos de Git y uso de Docker. 
